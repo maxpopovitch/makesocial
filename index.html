@@ -1,16 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title></title>
+        <title>Niche Social Network Development</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="template/css/nichesocio.css">
     </head>
     <body>
 
+        <nav class="navbar">
+            <div class="container tm-container-wide">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+                        <span class="glyphicon glyphicon-menu-hamburger"></span>
+                    </button>
+                    <a class="navbar-brand" href="http://www.nichesocio.com/">
+                        <img src="template/img/logo.svg" alt="Nichesocio" />
+                    </a>
+                </div>
 
+                <div class="collapse navbar-collapse" id="navbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Link</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="tm-video-container">
+            <video loop autoplay muted preload="auto" poster="template/img/video-bg.jpg">
+                <source src="template/vid/video-01.webm" type="video/webm">
+                <source src="template/vid/video-01.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="tm-overlay"></div>
 
-        <script src="template/js/nichecosio.js"></script>
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
 
     </body>
 </html>

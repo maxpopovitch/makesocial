@@ -1,0 +1,26 @@
+/*
+Write custom rules here ONLY!
+*/
+
+@import "variables.scss";
+@import "mixins.scss";
+
+.tm-container-wide {
+    @media (min-width: $screen-lg-min) {
+        width: 100%;
+        max-width: 2560px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+.tm-video-container {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url("img/video-bg.jpg");
+    background-size: cover;
+}
