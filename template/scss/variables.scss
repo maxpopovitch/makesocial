@@ -4,10 +4,15 @@ ONLY variables, no code here!
 
 /*Custom variables below*/
 $nav-primary-color: #FFF;
-$primary-background: #FFF;
+$primary-color: #FFF;
+$primary-background: #103E5B;
+$font-family-title:  Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$kern-1: "kern", 1;
+$title-padding-xs: 60px;
+$title-padding-sm: 260px;
 
 /*Bootstrap variables are below*/
-$grid-gutter-width: 36px;
+$grid-gutter-width: 30px;
 $navbar-padding-horizontal: floor(($grid-gutter-width / 2));
 $grid-float-breakpoint: 992px;
 
@@ -32,5 +37,3 @@ $screen-sm-max: ($screen-md-min - 1);
 $screen-md-max: ($screen-lg-min - 1);
 
 $icon-font-path: "../../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
-
-@import "../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";

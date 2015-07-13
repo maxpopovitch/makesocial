@@ -5,6 +5,20 @@ Write custom rules here ONLY!
 @import "variables.scss";
 @import "mixins.scss";
 
+h1, h2, h3, h4, h5, h6 {
+    @include prefix((font-feature-settings: $kern-1));
+    font-family: $font-family-title;
+    font-weight: 700;
+    font-kerning: normal;
+}
+
+h1 {font-size: 60px;}
+h2 {font-size: 46px;}
+h3 {font-size: 30px;}
+h4 {font-size: 26px;}
+h5 {font-size: 20px;}
+h6 {font-size: 1rem;}
+
 .tm-container-wide {
     @media (min-width: $screen-lg-min) {
         width: 100%;
@@ -14,13 +28,42 @@ Write custom rules here ONLY!
     }
 }
 
+.tm-wrapper {
+    position: relative;
+}
+
 .tm-video-container {
+    @include overlay;
     overflow: hidden;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: url("img/video-bg.jpg");
+    background: url("../img/video-bg.jpg");
     background-size: cover;
+    z-index: 1;
+
+    video {
+        min-width: 100%;
+        min-height: 100%;
+    }
+}
+
+.tm-overlay {
+    @include overlay;
+    background: rgba($primary-background, 0.75);
+    z-index: 2;
+}
+
+.tm-title {
+    color: $primary-color;
+    padding-top: $title-padding-xs;
+    padding-bottom: $title-padding-xs;
+    font-size: 40px;
+    line-height: normal;
+    position: relative;
+    z-index: 2;
+    margin: 0;
+
+    @media (min-width: $screen-sm-min) {
+        padding-top: $title-padding-sm;
+        padding-bottom: $title-padding-sm;
+        font-size: 60px;
+    }
 }
