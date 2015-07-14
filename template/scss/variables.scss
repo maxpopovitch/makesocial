@@ -11,11 +11,13 @@ $font-family-title:  Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 $kern-1: "kern", 1;
 $title-padding-xs: 40px;
 $title-padding-sm: 240px;
+$nav-transition: all .1s ease-in-out;
 
 /*Bootstrap variables are below*/
 $grid-gutter-width: 30px;
 $navbar-padding-horizontal: floor(($grid-gutter-width / 2));
 $grid-float-breakpoint: 992px;
+$nav-link-hover-bg: transparent;
 
 $screen-xs: 480px;
 $screen-xs-min: $screen-xs;

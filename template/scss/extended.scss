@@ -22,7 +22,7 @@ Override default rules of all frameworks and libraries here ONLY!
             background: transparent !important;
         }
     }
-    
+
     .navbar-brand {
         margin: 24px 0 0;
         padding: 0;
@@ -42,8 +42,9 @@ Override default rules of all frameworks and libraries here ONLY!
             }
         }
     }
-    
-    .navbar-nav {
-        margin: 38px 0 0;
+
+    .navbar-collapse {
+        border-top: 0;
+        box-shadow: none;
     }
 }

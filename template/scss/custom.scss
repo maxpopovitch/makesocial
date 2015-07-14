@@ -67,3 +67,122 @@ h6 {font-size: 1rem;}
         font-size: 60px;
     }
 }
+
+.navbar {
+    button.navbar-toggle {
+        .tm-menu {
+            font-family: 'Glyphicons Halflings';
+        }
+        &.collapsed {
+            .tm-menu {
+                &:before {
+                    content: "\e236";
+                }
+            }
+        }
+        &:not(.collapsed) {
+            .tm-menu {
+                &:before {
+                    content: "\e014";
+                }
+            }
+        }
+    }
+}
+
+#navbar {
+
+    @media (min-width: $screen-md-min) {
+        padding: 0;
+    }
+
+    .navbar-nav {
+        margin: 24px 0 0;
+
+        @media (min-width: $screen-md-min) {
+            margin: 0;
+        }
+
+        @media (min-width: $screen-lg-min) {
+            margin: 38px 0 0;
+            float: right;
+        }
+
+        > li {
+            @include prefix((transition: $nav-transition));
+            > a {
+                color: $primary-color;
+                font-size: 18px;
+                font-weight: 700;
+                padding: 12px 16px;
+
+                @media (min-width: $screen-md-min) {
+                    padding: 12px 10px;
+                }
+
+                @media (min-width: $screen-lg-min) {
+                    padding: 12px 7px;
+                }
+
+                @media (min-width: 1350px) {
+                    padding: 12px 16px;
+                }
+            }
+
+            &:not(:last-of-type) {
+                border-top: 1px solid $primary-color;
+
+                @media (min-width: $screen-md-min) {
+                    border-top: 0;
+                }
+
+                > a {
+                    &:after {
+                        content: "."
+                    }
+                }
+            }
+
+            &:last-of-type > a {
+                @include prefix((box-shadow: 0 0 0 3px $primary-color inset));
+                @include prefix((transition: $nav-transition));
+                padding: 12px 16px;
+                margin: 12px 0 0;
+
+                @media (min-width: $screen-md-min) {
+                    margin: 0 0 0 12px;
+                }
+
+                &:hover, &:focus {
+                    @include prefix((transition: $nav-transition));
+                    background: $primary-color;
+                    color: #3E3B3E;
+                }
+            }
+
+            &:hover {
+                @media (min-width: $screen-md-min) {
+                    opacity: 0.4;
+                }
+            }
+        }
+
+        &:hover > li {
+            @include prefix((transition: $nav-transition));
+
+            &:last-of-type {
+                opacity: 1;
+            }
+
+            &:not(:last-of-type) {
+                @media (min-width: $screen-md-min) {
+                    opacity: 0.4;
+                }
+
+                &:hover {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
