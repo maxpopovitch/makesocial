@@ -5,6 +5,27 @@ Override default rules of all frameworks and libraries here ONLY!
 @import "variables.scss";
 @import "mixins.scss";
 
+html {
+    color: $default-color;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+    font-family: $font-family-title;
+    font-kerning: normal;
+}
+
+h1, .h1 {font-size: 60px;}
+h2, .h2 {font-size: 46px;}
+h3, .h3 {font-size: 30px;}
+h4, .h4 {font-size: 26px;}
+h5, .h5 {font-size: 20px;}
+h6, .h6 {font-size: 1rem;}
+
 .navbar {
     min-height: initial;
     border: 0;
@@ -46,5 +67,9 @@ Override default rules of all frameworks and libraries here ONLY!
     .navbar-collapse {
         border-top: 0;
         box-shadow: none;
+
+        &.collapsing {
+            @include prefix((transition: $nav-transition));
+        }
     }
 }
