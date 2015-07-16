@@ -15,6 +15,7 @@ Write custom rules here ONLY!
 
 .tm-description {
     font-family: $font-family-description;
+    margin: 0;
 }
 
 .tm-container-wide {
@@ -33,7 +34,7 @@ Write custom rules here ONLY!
 .tm-video-container {
     @include overlay;
     overflow: hidden;
-    background: url("../img/video-bg.jpg");
+    background: url("../../img/video-bg.jpg");
     background-size: cover;
     z-index: 1;
 
@@ -69,7 +70,7 @@ Write custom rules here ONLY!
 .navbar {
     button.navbar-toggle {
         .tm-menu {
-            font-family: 'Glyphicons Halflings';
+            font-family: "Glyphicons Halflings";
         }
         &.collapsed {
             .tm-menu {
@@ -198,3 +199,80 @@ Write custom rules here ONLY!
     height: 4px;
     width: 100px;
 }
+
+.tm-whatwedo {
+    list-style: none;
+    padding: 0;
+
+    li {
+        background: #FFF;
+        width: 100%;
+        margin: 0 0 14px;
+
+        > a {
+            @include prefix((transition: $nav-transition));
+            padding: $padding-01;
+            color: $default-color;
+            display: inline-block;
+            height: inherit;
+            width: inherit;
+            text-decoration: none;
+            position: relative;
+
+            &:hover, &:focus {
+                @include prefix((transition: $nav-transition));
+                background: $info-color;
+                color: $title-color;
+                text-decoration: none;
+
+                .tm-icon {
+                    @include prefix((transition: $nav-transition));
+                    fill: $title-color;
+                }
+                
+                span {
+                    @include prefix((transition: $nav-transition));
+                    color: $title-color;
+                }
+            }
+
+            .tm-icon {
+                @include prefix((transition: $nav-transition));
+                fill: $default-color;
+                margin: 0 0 $padding-01;
+
+                &.tm-thumbs-up {
+                    width: 40px;
+                }
+            }
+            
+            h5 {
+                margin: 0 0 9px;
+            }
+            
+            p {
+                line-height: 1.4;
+                font-size: 15px;
+                margin: 0 0 45px;
+            }
+            
+            span {
+                @include prefix((transition: $nav-transition));
+                color: darken($info-color, 11.5);
+                font-family: $font-family-description;
+                font-size: 15px;
+                position: absolute;
+                bottom: $padding-01;
+                
+                &:after {
+                    font-family: "Glyphicons Halflings";
+                    content: "\e080";
+                    position: absolute;
+                    top: 1px;
+                    right: -20px;
+                }
+            }
+        }
+    }
+}
+
