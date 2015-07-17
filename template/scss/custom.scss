@@ -205,17 +205,26 @@ Write custom rules here ONLY!
     padding: 0;
 
     li {
-        background: #FFF;
         width: 100%;
-        margin: 0 0 14px;
+        margin: 0 0 $padding-02;
+
+        @media (min-width: $screen-sm-min) {
+            width: 50%;
+            float: left;
+        }
+
+        @media (min-width: $screen-md-min) {
+            width: 25%;
+            float: left;
+        }
 
         > a {
             @include prefix((transition: $nav-transition));
             padding: $padding-01;
             color: $default-color;
-            display: inline-block;
+            background: #FFF;
+            display: block;
             height: inherit;
-            width: inherit;
             text-decoration: none;
             position: relative;
 
@@ -229,7 +238,7 @@ Write custom rules here ONLY!
                     @include prefix((transition: $nav-transition));
                     fill: $title-color;
                 }
-                
+
                 span {
                     @include prefix((transition: $nav-transition));
                     color: $title-color;
@@ -239,23 +248,20 @@ Write custom rules here ONLY!
             .tm-icon {
                 @include prefix((transition: $nav-transition));
                 fill: $default-color;
-                margin: 0 0 $padding-01;
-
-                &.tm-thumbs-up {
-                    width: 40px;
-                }
+                margin: 0 0 $padding-02;
+                width: 40px;
             }
-            
+
             h5 {
                 margin: 0 0 9px;
             }
-            
+
             p {
                 line-height: 1.4;
                 font-size: 15px;
                 margin: 0 0 45px;
             }
-            
+
             span {
                 @include prefix((transition: $nav-transition));
                 color: darken($info-color, 11.5);
@@ -263,7 +269,7 @@ Write custom rules here ONLY!
                 font-size: 15px;
                 position: absolute;
                 bottom: $padding-01;
-                
+
                 &:after {
                     font-family: "Glyphicons Halflings";
                     content: "\e080";
@@ -271,6 +277,24 @@ Write custom rules here ONLY!
                     top: 1px;
                     right: -20px;
                 }
+            }
+        }
+
+        &:nth-of-type(odd) a {
+            @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+                margin: 0 ($padding-02 / 2) 0 0;
+            }
+        }
+
+        &:nth-of-type(even) a {
+            @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+                margin: 0 0 0 ($padding-02 / 2);
+            }
+        }
+
+        a {
+            @media (min-width: $screen-md-min) {
+                margin: 0 ($padding-02 / 2);
             }
         }
     }
