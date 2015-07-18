@@ -233,6 +233,10 @@ Write custom rules here ONLY!
     background-color: $tetriary-background;
 }
 
+.tm-sect-03 {
+    padding: 54px 0 0;
+}
+
 .tm-hr-01 {
     @include hr;
     margin: $padding-03 auto ($padding-03 - $padding-02);
@@ -437,5 +441,29 @@ Write custom rules here ONLY!
                 }
             }
         }
+    }
+}
+
+.tm-accent-01 {
+    background-color: $info-color;
+    padding: 36px 0;
+    background-image: url('../../img/bg-pattern.svg');
+    background-position: 50% 50%;
+}
+
+.tm-accent-02 {
+    background-color: $info-color;
+    padding: 54px 0;
+    background-image: url('../../img/bg-getaquote.jpg');
+    background-size: cover;
+
+    p {
+        font-family: $font-family-description;
+        margin: 18px 0 27px;
+        font-size: 17px;
+    }
+
+    .tm-cta {
+        width: 100%;
     }
 }
