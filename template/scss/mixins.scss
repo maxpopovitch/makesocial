@@ -57,3 +57,22 @@ Example: @include description;
     line-height: 1.4;
     font-size: 15px;
 }
+
+/*
+Mixin for default hr element
+Example: @include hr;
+*/
+@mixin hr {
+    background: $info-color;
+    height: 4px;
+    width: 100px;
+}
+
+/*
+Mixin for default ul element
+Example: @include ul;
+*/
+@mixin ul {
+    list-style: none;
+    padding: 0;
+}

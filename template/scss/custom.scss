@@ -13,6 +13,18 @@ Write custom rules here ONLY!
     padding: 0 !important;
 }
 
+.tm-text-line-normal {
+    line-height: normal;
+}
+
+.tm-subtitle {
+    font-size: 19px;
+}
+
+.tm-text-danger {
+    color: $danger-color;
+}
+
 .tm-description {
     font-family: $font-family-description;
     margin: 0;
@@ -72,7 +84,7 @@ Write custom rules here ONLY!
     font-size: 70px;
     line-height: 1;
     margin: 0 0 ($padding-01 * 2);
-    
+
     @media (min-width: $screen-sm-min) {
         font-size: 80px;
     }
@@ -85,7 +97,7 @@ Write custom rules here ONLY!
 .tm-iconholder {
     padding-top: $padding-01;
     height: 160px;
-    
+
     @media (min-width: $screen-md-min) {
         height: 170px;
     }
@@ -127,7 +139,7 @@ Write custom rules here ONLY!
     }
 
     .navbar-nav {
-        margin: 24px 0 0;
+        margin: $padding-03 0 0;
 
         @media (min-width: $screen-md-min) {
             margin: 0;
@@ -226,15 +238,21 @@ Write custom rules here ONLY!
 }
 
 .tm-hr-01 {
-    margin: 24px auto (24 - $padding-02);
-    background: $info-color;
-    height: 4px;
-    width: 100px;
+    @include hr;
+    margin: $padding-03 auto $padding-03;
+
+    @media (min-width: $screen-sm-min) {
+        margin: $padding-03 auto ($padding-03 - $padding-02);
+    }
+}
+
+.tm-hr-02 {
+    @include hr;
+    margin: $padding-03 auto;
 }
 
 .tm-whatwedo {
-    list-style: none;
-    padding: 0;
+    @include ul;
 
     li {
         width: 100%;
@@ -334,18 +352,90 @@ Write custom rules here ONLY!
 .tm-howwework {
     background-image: url("../../img/howwework.jpg");
     background-size: cover;
-    
+
     .tm-cta {
         font-size: 15px;
-        
+
         @media (min-width: $screen-sm-min) {
             font-size: 17px;
         }
     }
-    
+
     p {
         @include description;
         font-size: 16px;
         margin: 0 0 20px;
+    }
+}
+
+.tm-casestudies {
+    @include ul;
+    margin: ($padding-01 * 2) 0 0;
+
+    li {
+        background-size: cover;
+
+        a {
+            @include prefix((transition: $default-transition));
+            display: block;
+            padding: 20px 20px 0;
+
+            @media (min-width: $screen-lg-min) {
+                padding: 80px 70px 0;
+            }
+
+            &:hover, &:focus {
+                @include prefix((transition: $default-transition));
+                background-color: $secondary-background;
+                text-decoration: none;
+                
+                p, h3, span {
+                    @include prefix((transition: $default-transition));
+                }
+            }
+
+            p {
+                @include prefix((transition: $default-transition));
+                font-family: $font-family-title;
+                font-size: 13px;
+            }
+
+            h3 {
+                @include prefix((transition: $default-transition));
+                margin: 0 0 ($padding-01 / 2);
+                font-size: 40px;
+            }
+
+            span {
+                @include prefix((transition: $default-transition));
+                margin: 0 0 $padding-01;
+                font-family: $font-family-description;
+                display: block;
+            }
+        }
+
+        &.tm-light a {
+            color: $default-color;
+
+            &:hover {
+                color: $default-color;
+
+                p, h3, span {
+                    color: $default-color;
+                }
+            }
+        }
+
+        &.tm-dark a {
+            color: $title-color;
+
+            &:hover {
+                color: $title-color;
+
+                p, h3, span {
+                    color: $title-color;
+                }
+            }
+        }
     }
 }
