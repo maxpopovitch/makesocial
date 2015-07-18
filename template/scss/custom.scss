@@ -477,11 +477,16 @@ footer {
     p {
         font-family: $font-family-description;
         font-size: 13px;
+        margin: 0 0 10px;
+
+        @media (min-width: $screen-md-min) {
+            margin: 0;
+        }
     }
 
     .tm-social {
         @include ul;
-        margin: 0;
+        margin: 0 0 5px;
         display: inline-block;
 
         &:hover li {
@@ -506,6 +511,50 @@ footer {
         .tm-icon {
             fill: $title-color;
             height: 25px;
+        }
+    }
+
+    .tm-copyright {
+        color: $title-color;
+        display: inline-block;
+    }
+
+    .tm-footer-nav {
+        display: block;
+
+        @media (min-width: $screen-md-min) {
+            display: inline-block;
+        }
+
+        &:hover a {
+            @include prefix((transition: $nav-transition));
+
+            @media (min-width: $screen-md-min) {
+                opacity: $default-opacity;
+            }
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+
+        a {
+            @include prefix((transition: $nav-transition));
+            font-family: $font-family-description;
+            color: $title-color;
+            font-size: 13px;
+            display: block;
+            padding: 5px 0 0;
+
+            &:hover, &:focus {
+                color: $title-color;
+                text-decoration: none;
+            }
+
+            @media (min-width: $screen-md-min) {
+                display: initial;
+                padding: 0 0 0 10px;
+            }
         }
     }
 }
