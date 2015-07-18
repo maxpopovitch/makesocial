@@ -20,7 +20,7 @@ Example: @include prefix((transform: translateY(-50%)));
 }
 
 /*
-Miin for overlay positioning
+Mixin for overlay positioning
 Example: @include overlay;
 */
 @mixin overlay {
@@ -29,4 +29,21 @@ Example: @include overlay;
     right: 0;
     bottom: 0;
     left: 0;
+}
+
+/*
+Mixin for call to action element
+Example: @include cta;
+*/
+@mixin cta {
+    @include prefix((box-shadow: 0 0 0 3px $nav-primary-color inset));
+    @include prefix((transition: $nav-transition));
+    padding: 12px 16px;
+    
+    &:hover, &:focus {
+        @include prefix((transition: $nav-transition));
+        background: $nav-primary-color;
+        color: $default-color;
+        text-decoration: none;
+    }
 }

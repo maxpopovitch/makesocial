@@ -50,7 +50,7 @@ Write custom rules here ONLY!
     z-index: 2;
 }
 
-.tm-title {
+.tm-title-01 {
     color: $title-color;
     padding-top: $title-padding-xs;
     padding-bottom: $title-padding-xs;
@@ -65,6 +65,19 @@ Write custom rules here ONLY!
         padding-bottom: $title-padding-sm;
         font-size: 60px;
     }
+}
+
+.tm-title-02 {
+    color: $title-color;
+    font-size: 80px;
+    margin-bottom: 36px;
+}
+
+.tm-cta {
+    @include cta;
+    color: $nav-primary-color;
+    font-size: 17px;
+    font-weight: 700;
 }
 
 .navbar {
@@ -111,7 +124,7 @@ Write custom rules here ONLY!
             @include prefix((transition: $nav-transition));
             > a {
                 color: $nav-primary-color;
-                font-size: 18px;
+                font-size: 17px;
                 font-weight: 700;
                 padding: 12px 16px;
 
@@ -143,19 +156,11 @@ Write custom rules here ONLY!
             }
 
             &:last-of-type > a {
-                @include prefix((box-shadow: 0 0 0 3px $nav-primary-color inset));
-                @include prefix((transition: $nav-transition));
-                padding: 12px 16px;
+                @include cta;
                 margin: 12px 0 0;
 
                 @media (min-width: $screen-md-min) {
                     margin: 0 0 0 12px;
-                }
-
-                &:hover, &:focus {
-                    @include prefix((transition: $nav-transition));
-                    background: $nav-primary-color;
-                    color: $default-color;
                 }
             }
 
@@ -186,15 +191,24 @@ Write custom rules here ONLY!
     }
 }
 
-.tm-sect {
+.tm-sect-01 {
     padding: 54px 0;
 }
 
 .tm-bg-01 {
     background-color: $secondary-background;
 }
+
+.tm-sect-02 {
+    padding: 126px 0;
+}
+
+.tm-bg-02 {
+    background-color: $tetriary-background;
+}
+
 .tm-hr-01 {
-    margin: 24px auto;
+    margin: 24px auto (24 - $padding-02);
     background: $info-color;
     height: 4px;
     width: 100px;
@@ -206,7 +220,7 @@ Write custom rules here ONLY!
 
     li {
         width: 100%;
-        margin: 0 0 $padding-02;
+        margin: $padding-02 0 0;
 
         @media (min-width: $screen-sm-min) {
             width: 50%;
@@ -300,3 +314,6 @@ Write custom rules here ONLY!
     }
 }
 
+.tm-howwework {
+    background-image: url("../../img/howwework.jpg");
+}
