@@ -1,18 +1,18 @@
 var heightEqualizing = function () {
-    var element1 = $('.tm-whatwedo li p');
-    var element2 = $('.tm-casestudies li span');
+    var element1 = $('.tm-whatwedo li').find('p');
+    var element2 = $('.tm-casestudies li').find('span');
     var maxHeight1 = 0;
     var maxHeight2 = 0;
     element1.each(function () {
-        var height = $(this).css('height', 'auto').height();
-        if (height > maxHeight1) {
-            maxHeight1 = height;
+        var height1 = $(this).css('height', 'auto').height();
+        if (height1 > maxHeight1) {
+            maxHeight1 = height1;
         }
     });
     element2.each(function () {
-        var height = $(this).css('height', 'auto').height();
-        if (height > maxHeight2) {
-            maxHeight2 = height;
+        var height2 = $(this).css('height', 'auto').height();
+        if (height2 > maxHeight2) {
+            maxHeight2 = height2;
         }
     });
 

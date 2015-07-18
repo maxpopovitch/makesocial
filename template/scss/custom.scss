@@ -137,6 +137,24 @@ Write custom rules here ONLY!
     .navbar-nav {
         margin: $padding-03 0 0;
 
+        &:hover > li {
+            @include prefix((transition: $nav-transition));
+
+            &:last-of-type {
+                opacity: 1;
+            }
+
+            &:not(:last-of-type) {
+                @media (min-width: $screen-md-min) {
+                    opacity: $default-opacity;
+                }
+
+                &:hover {
+                    opacity: 1;
+                }
+            }
+        }
+
         @media (min-width: $screen-md-min) {
             margin: 0;
         }
@@ -148,6 +166,13 @@ Write custom rules here ONLY!
 
         > li {
             @include prefix((transition: $nav-transition));
+
+            &:hover {
+                @media (min-width: $screen-md-min) {
+                    opacity: $default-opacity;
+                }
+            }
+
             > a {
                 color: $nav-primary-color;
                 font-size: 17px;
@@ -187,30 +212,6 @@ Write custom rules here ONLY!
 
                 @media (min-width: $screen-md-min) {
                     margin: 0 0 0 12px;
-                }
-            }
-
-            &:hover {
-                @media (min-width: $screen-md-min) {
-                    opacity: 0.4;
-                }
-            }
-        }
-
-        &:hover > li {
-            @include prefix((transition: $nav-transition));
-
-            &:last-of-type {
-                opacity: 1;
-            }
-
-            &:not(:last-of-type) {
-                @media (min-width: $screen-md-min) {
-                    opacity: 0.4;
-                }
-
-                &:hover {
-                    opacity: 1;
                 }
             }
         }
@@ -465,5 +466,46 @@ Write custom rules here ONLY!
 
     .tm-cta {
         width: 100%;
+    }
+}
+
+footer {
+    padding: $padding-01 0;
+    background-color: $info-color;
+    background-image: url('../../img/bg-pattern.svg');
+
+    p {
+        font-family: $font-family-description;
+        font-size: 13px;
+    }
+
+    .tm-social {
+        @include ul;
+        margin: 0;
+        display: inline-block;
+
+        &:hover li {
+            @include prefix((transition: $nav-transition));
+            opacity: $default-opacity;
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+
+        li {
+            @include prefix((transition: $nav-transition));
+            display: inline-block;
+            margin: 0;
+
+            ~ li {
+                margin: 0 0 0 14px;
+            }
+        }
+
+        .tm-icon {
+            fill: $title-color;
+            height: 25px;
+        }
     }
 }
