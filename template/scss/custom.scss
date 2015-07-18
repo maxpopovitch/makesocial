@@ -21,10 +21,6 @@ Write custom rules here ONLY!
     font-size: 19px;
 }
 
-.tm-text-danger {
-    color: $danger-color;
-}
-
 .tm-description {
     font-family: $font-family-description;
     margin: 0;
@@ -239,23 +235,18 @@ Write custom rules here ONLY!
 
 .tm-hr-01 {
     @include hr;
-    margin: $padding-03 auto $padding-03;
-
-    @media (min-width: $screen-sm-min) {
-        margin: $padding-03 auto ($padding-03 - $padding-02);
-    }
+    margin: $padding-03 auto ($padding-03 - $padding-02);
 }
 
 .tm-hr-02 {
     @include hr;
-    margin: $padding-03 auto;
+    margin: $padding-03 auto $padding-03;
 }
 
 .tm-whatwedo {
     @include ul;
 
     li {
-        width: 100%;
         margin: $padding-02 0 0;
 
         @media (min-width: $screen-sm-min) {
@@ -373,7 +364,24 @@ Write custom rules here ONLY!
     margin: ($padding-01 * 2) 0 0;
 
     li {
+        @include prefix((transition: $default-transition));
         background-size: cover;
+
+        &:hover, &:focus {
+            @include prefix((transition: $default-transition));
+            a, p, h3, span {
+                @include prefix((transition: $default-transition));
+            }
+
+            a {
+                background-color: $secondary-background;
+            }
+        }
+
+        @media (min-width: $screen-md-min) {
+            width: 50%;
+            float: left;
+        }
 
         a {
             @include prefix((transition: $default-transition));
@@ -385,17 +393,10 @@ Write custom rules here ONLY!
             }
 
             &:hover, &:focus {
-                @include prefix((transition: $default-transition));
-                background-color: $secondary-background;
                 text-decoration: none;
-                
-                p, h3, span {
-                    @include prefix((transition: $default-transition));
-                }
             }
 
             p {
-                @include prefix((transition: $default-transition));
                 font-family: $font-family-title;
                 font-size: 13px;
             }
@@ -407,7 +408,6 @@ Write custom rules here ONLY!
             }
 
             span {
-                @include prefix((transition: $default-transition));
                 margin: 0 0 $padding-01;
                 font-family: $font-family-description;
                 display: block;
@@ -418,10 +418,10 @@ Write custom rules here ONLY!
             color: $default-color;
 
             &:hover {
-                color: $default-color;
+                color: $default-color !important;
 
                 p, h3, span {
-                    color: $default-color;
+                    color: $default-color !important;
                 }
             }
         }
@@ -430,10 +430,10 @@ Write custom rules here ONLY!
             color: $title-color;
 
             &:hover {
-                color: $title-color;
+                color: $default-color !important;
 
                 p, h3, span {
-                    color: $title-color;
+                    color: $default-color !important;
                 }
             }
         }
