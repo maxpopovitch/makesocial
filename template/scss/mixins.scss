@@ -38,6 +38,7 @@ Example: @include cta;
 @mixin cta {
     @include prefix((box-shadow: 0 0 0 3px $nav-primary-color inset));
     @include prefix((transition: $nav-transition));
+    display: inline-block;
     padding: 12px 16px;
     
     &:hover, &:focus {
@@ -46,4 +47,13 @@ Example: @include cta;
         color: $default-color;
         text-decoration: none;
     }
+}
+
+/*
+Mixin for description and subtitle
+Example: @include description;
+*/
+@mixin description {
+    line-height: 1.4;
+    font-size: 15px;
 }

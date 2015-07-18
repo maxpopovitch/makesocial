@@ -69,8 +69,26 @@ Write custom rules here ONLY!
 
 .tm-title-02 {
     color: $title-color;
-    font-size: 80px;
-    margin-bottom: 36px;
+    font-size: 70px;
+    line-height: 1;
+    margin: 0 0 ($padding-01 * 2);
+    
+    @media (min-width: $screen-sm-min) {
+        font-size: 80px;
+    }
+}
+
+.tm-titlecolor {
+    color: $title-color;
+}
+
+.tm-iconholder {
+    padding-top: $padding-01;
+    height: 160px;
+    
+    @media (min-width: $screen-md-min) {
+        height: 170px;
+    }
 }
 
 .tm-cta {
@@ -271,8 +289,7 @@ Write custom rules here ONLY!
             }
 
             p {
-                line-height: 1.4;
-                font-size: 15px;
+                @include description;
                 margin: 0 0 45px;
             }
 
@@ -316,4 +333,19 @@ Write custom rules here ONLY!
 
 .tm-howwework {
     background-image: url("../../img/howwework.jpg");
+    background-size: cover;
+    
+    .tm-cta {
+        font-size: 15px;
+        
+        @media (min-width: $screen-sm-min) {
+            font-size: 17px;
+        }
+    }
+    
+    p {
+        @include description;
+        font-size: 16px;
+        margin: 0 0 20px;
+    }
 }

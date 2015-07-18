@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="118px" height="134px" viewBox="0 0 118 134" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-deliver</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="icon-deliver" sketch:type="MSLayerGroup">
+            <path d="M59,0 L117.116254,33.5 L117.116254,100.5 L59,134 L0.883745613,100.5 L0.883745613,33.5 L59,0 Z M58.9914911,2.16962493 L115.29771,34.8114921 L115.29771,99.1885079 L58.9914911,131.830375 L2.68527233,99.1885079 L2.68527233,34.8114921 L58.9914911,2.16962493 Z" id="Polygon-1" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            <path d="M58.5496183,24.4482959 L95.0692131,45.4993157 L95.0692131,87.6013554 L58.5496183,108.652375 L22.0300236,87.6013554 L22.0300236,45.4993157 L58.5496183,24.4482959 Z M58.5496183,26.68162 L93.1320126,46.6159778 L93.1320126,86.4846934 L58.5496183,106.419051 L23.967224,86.4846934 L23.967224,46.6159778 L58.5496183,26.68162 Z" id="Polygon-3" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+            <path d="M58.5496183,107.020134 L58.5496183,66.1006711" id="Line" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" sketch:type="MSShapeGroup"></path>
+            <path d="M93.6793893,46.7651007 L58.5496183,66.1006711" id="Line-2" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" sketch:type="MSShapeGroup"></path>
+            <path d="M23.4198473,46.7651007 L58.5496183,66.1006711" id="Line-3" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" sketch:type="MSShapeGroup"></path>
+            <g id="Line-6-+-Line-9" transform="translate(41.435115, 35.073826)" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" sketch:type="MSShapeGroup">
+                <path d="M0.900763359,0.899328859 L11.7099237,6.74496644" id="Line-6"></path>
+                <path d="M19.8167939,11.6912752 L27.0229008,15.738255" id="Line-9"></path>
+            </g>
+            <g id="Line-7-+-Line-10" transform="translate(54.496183, 52.610738) rotate(-180.000000) translate(-54.496183, -52.610738) translate(40.534351, 44.067114)" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" sketch:type="MSShapeGroup">
+                <path d="M0.900763359,0.899328859 L11.7099237,6.74496644" id="Line-7"></path>
+                <path d="M19.8167939,11.6912752 L27.0229008,15.738255" id="Line-10"></path>
+            </g>
+            <g id="Line-7-+-Line-11" transform="translate(72.511450, 42.718121) rotate(-180.000000) translate(-72.511450, -42.718121) translate(58.549618, 34.174497)" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" sketch:type="MSShapeGroup">
+                <path d="M0.900763359,0.899328859 L11.7099237,6.74496644" id="Line-7"></path>
+                <path d="M19.8167939,11.6912752 L27.0229008,15.738255" id="Line-10"></path>
+            </g>
+            <g id="Line-7-+-Line-12" transform="translate(45.488550, 69.697987) rotate(-180.000000) translate(-45.488550, -69.697987) translate(31.526718, 61.154362)" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" sketch:type="MSShapeGroup">
+                <path d="M0.900763359,0.899328859 L11.7099237,6.74496644" id="Line-7"></path>
+                <path d="M19.8167939,11.6912752 L27.0229008,15.738255" id="Line-10"></path>
+            </g>
+            <g id="Line-7-+-Line-13" transform="translate(36.480916, 75.093960) rotate(-180.000000) translate(-36.480916, -75.093960) translate(22.519084, 66.550336)" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" sketch:type="MSShapeGroup">
+                <path d="M0.900763359,0.899328859 L11.7099237,6.74496644" id="Line-7"></path>
+                <path d="M19.8167939,11.6912752 L27.0229008,15.738255" id="Line-10"></path>
+            </g>
+            <g id="Line-7-+-Line-14" transform="translate(45.488550, 90.382550) rotate(-180.000000) translate(-45.488550, -90.382550) translate(31.526718, 81.838926)" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" sketch:type="MSShapeGroup">
+                <path d="M0.900763359,0.899328859 L11.7099237,6.74496644" id="Line-7"></path>
+                <path d="M19.8167939,11.6912752 L27.0229008,15.738255" id="Line-10"></path>
+            </g>
+            <g id="Line-7-+-Line-15" transform="translate(72.511450, 79.590604) scale(-1, 1) rotate(-180.000000) translate(-72.511450, -79.590604) translate(58.549618, 71.046980)" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" sketch:type="MSShapeGroup">
+                <path d="M0.900763359,0.899328859 L11.7099237,6.74496644" id="Line-7"></path>
+                <path d="M19.8167939,11.6912752 L27.0229008,15.738255" id="Line-10"></path>
+            </g>
+            <g id="Line-7-+-Line-16" transform="translate(80.618321, 64.302013) scale(-1, 1) rotate(-180.000000) translate(-80.618321, -64.302013) translate(66.656489, 55.758389)" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" sketch:type="MSShapeGroup">
+                <path d="M0.900763359,0.899328859 L11.7099237,6.74496644" id="Line-7"></path>
+                <path d="M19.8167939,11.6912752 L27.0229008,15.738255" id="Line-10"></path>
+            </g>
+            <g id="Line-7-+-Line-17" transform="translate(80.618321, 84.986577) scale(-1, 1) rotate(-180.000000) translate(-80.618321, -84.986577) translate(66.656489, 76.442953)" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" sketch:type="MSShapeGroup">
+                <path d="M0.900763359,0.899328859 L11.7099237,6.74496644" id="Line-7"></path>
+                <path d="M19.8167939,11.6912752 L27.0229008,15.738255" id="Line-10"></path>
+            </g>
+        </g>
+    </g>
+</svg>
