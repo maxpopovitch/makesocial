@@ -231,7 +231,7 @@ Write custom rules here ONLY!
 }
 
 .tm-bg-02 {
-    background-color: rgba($primary-background, 0.75);
+    background-color: rgba(lighten($primary-background, 15), 0.75);
 }
 
 .tm-sect-03 {
