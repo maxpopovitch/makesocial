@@ -492,7 +492,10 @@ footer {
 
         &:hover li {
             @include prefix((transition: $nav-transition));
-            opacity: $default-opacity;
+
+            @media (min-width: $screen-md-min) {
+                opacity: $default-opacity;
+            }
 
             &:hover {
                 opacity: 1;
