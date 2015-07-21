@@ -40,7 +40,7 @@ Example: @include cta;
     @include prefix((transition: $nav-transition));
     display: inline-block;
     padding: 12px 16px;
-    
+
     &:hover, &:focus {
         @include prefix((transition: $nav-transition));
         background: $nav-primary-color;
@@ -66,13 +66,4 @@ Example: @include hr;
     background: $info-color;
     height: 4px;
     width: 100px;
-}
-
-/*
-Mixin for default ul element
-Example: @include ul;
-*/
-@mixin ul {
-    list-style: none;
-    padding: 0;
 }

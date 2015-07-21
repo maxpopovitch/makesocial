@@ -21,6 +21,7 @@ $title-padding-sm-2: 180px;
 $padding-01: 18px;
 $padding-02: 14px;
 $padding-03: 24px;
+$padding-04: 40px;
 $default-opacity: 0.4;
 
 /*Bootstrap variables are below*/
@@ -28,6 +29,7 @@ $grid-gutter-width: 30px;
 $navbar-padding-horizontal: floor(($grid-gutter-width / 2));
 $grid-float-breakpoint: 992px;
 $nav-link-hover-bg: transparent;
+$text-color: $default-color;
 
 $screen-xs: 480px;
 $screen-xs-min: $screen-xs;

@@ -19,7 +19,7 @@
             <h2 class="text-center text-uppercase tm-nomargin tm-text-line-normal"><strong>What we do.</strong></h2>
             <p class="h5 text-center tm-description tm-subtitle">Services tailored to your needs.</p>
             <hr class="tm-hr-01" />
-            <ul class="tm-whatwedo clearfix">
+            <ul class="tm-whatwedo list-unstyled clearfix">
                 <li>
                     <a href="#">
                         <svg class="tm-icon tm-thumbs-up" preserveAspectRatio= "xMinYMin meet" viewBox="0 0 1024 1024">
@@ -147,7 +147,7 @@
             <p class="h5 text-center tm-description tm-subtitle">We are proud of our projects. Take a look at what we’ve done so far. And how.</p>
         </div>
         <div class="tm-container-wide tm-nomargin tm-nopadding">
-            <ul class="tm-casestudies clearfix">
+            <ul class="tm-casestudies list-unstyled clearfix">
                 <li class="tm-light" style="background-image: url('img/nissan-bg.jpg')">
                     <a href="#">
                         <p class="tm-nomargin text-uppercase">#Corporate Website &nbsp; #Drupal &nbsp; #Responsive &nbsp; #RIA</p>

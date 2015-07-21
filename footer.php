@@ -33,7 +33,7 @@
                 </p>
             </div>
             <div class="col-md-5 text-md-right">
-                <ul class="tm-social clearfix">
+                <ul class="tm-social list-unstyled clearfix">
                     <li>
                         <a href="#">
                             <svg class="tm-icon tm-facebook" preserveAspectRatio="xMinYMin meet" viewBox="0 0 20 20">

@@ -9,70 +9,35 @@
 </header>
 </div>
 <main>
-    <section class="tm-why-us-sect-01 tm-bg-01">
-        <div class="container-fluid">
+    <section class="tm-why-us-sect-01">
+        <div class="container-fluid tm-bg-01">
             <div class="row">
-                <div class="col-md-7 col-lg-6 col-lg-offset-1 tm-sect-04 tm-why-us-text-01">
+                <div class="col-md-6 col-lg-5 col-lg-offset-1 tm-sect-04 tm-why-us-text-01">
                     <h3><strong>The EtonDigital approach</strong></h3>
                     <p>Our approach is to combine our understanding of user behavior with a commitment to meeting the business goals of our clients. We are proactive in our aftercare service and will alert our customers of any malicious behavior that we find. Our staff is diverse and talented in all aspects of website technology and marketing, including content creation. We love what we do and it shows in the solutions we produce.</p>
                 </div>
-                <div class="col-md-5 col-lg-5 hidden-xs hidden-sm tm-why-us-img-01"></div>
+                <div class="col-md-6 hidden-xs hidden-sm tm-why-us-img-01"></div>
             </div>
         </div>
-        <div class="tm-wrapper">
-            <div class="tm-overlay-03 tm-why-us-img-02"></div>
-            <div class="container-fluid">
-                <div class="row tm-sect-01 tm-relative-index">
-                    <div class="col-md-offset-1 col-md-4">
-                        <h1 class="tm-titlecolor tm-text-line-1"><strong>We give back to the community</strong></h1>
-                    </div>
-                    <div class="col-md-offset-2 col-md-4 tm-titlecolor">
-                        <p class="h5 tm-description">We love Open Source technologies and we use them to create really cool and functional products. The reason we like Drupal, Symfony, AngularJS and Open Source is that we get to learn from each other and share our knowledge with the community.</p>
-                        <p class="h5 tm-description">out giving back so we sponsored global Drupal, Symfony and IT events in London, Munich, San Francisco and Serbia, aspiring new inventions such as “The Thing” and we won’t stop there.</p>
-                    </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 hidden-xs hidden-sm tm-why-us-img-02"></div>
+                <div class="col-md-6 col-lg-5 tm-sect-04 tm-why-us-text-02">
+                    <h3><strong>Social responsibility</strong></h3>
+                    <p>We are very much aware that this world isn't ideal and that by helping others we can make a difference. We regularly attend humanitarian tournaments, provide gifts for various occasions to the less privileged and donate our knowledge. It is our goal to make a difference in this world by creating bespoke products and giving back. By becoming a part of EtonDigital, you will contribute too.</p>
                 </div>
             </div>
         </div>
     </section>
-    <section class="tm-sect-03">
+    <section class="tm-sect-03 tm-bg-01">
         <div class="container">
-            <h3 class="text-center text-uppercase tm-nomargin tm-text-line-normal"><strong>Our case studies</strong></h3>
+            <h2 class="text-center text-uppercase tm-nomargin tm-text-line-normal"><strong>Our values</strong></h2>
             <hr class="tm-hr-02" />
-            <p class="h5 text-center tm-description tm-subtitle">We are proud of our projects. Take a look at what we’ve done so far. And how.</p>
-        </div>
-        <div class="tm-container-wide tm-nomargin tm-nopadding">
-            <ul class="tm-casestudies clearfix">
+            <ul class="tm-values list-unstyled clearfix">
                 <li class="tm-light" style="background-image: url('img/nissan-bg.jpg')">
-                    <a href="#">
-                        <p class="tm-nomargin text-uppercase">#Corporate Website &nbsp; #Drupal &nbsp; #Responsive &nbsp; #RIA</p>
-                        <h3 class="tm-text-line-normal" style="color: #C81344">Nissan Ireland</h3>
-                        <span>Official website of Nissan Ireland</span>
-                        <img class="img-responsive" src="img/nissan-screen.jpg" alt="Nissan Ireland" />
-                    </a>
-                </li>
-                <li class="tm-dark" style="background-image: url('img/procurious-bg.jpg')">
-                    <a href="#">
-                        <p class="tm-nomargin text-uppercase">#Social Network &nbsp; #Symfony &nbsp; #Responsive &nbsp; #eLearning &nbsp;</p>
-                        <h3 class="tm-text-line-normal" style="color: #9EE034">Procurious</h3>
-                        <span>Social network and eLearning platform for procurement professionals</span>
-                        <img class="img-responsive" src="img/procurious-screen.jpg" alt="Procurious" />
-                    </a>
-                </li>
-                <li class="tm-dark" style="background-image: url('img/supercoucou-bg.jpg')">
-                    <a href="#">
-                        <p class="tm-nomargin text-uppercase">#Corporate Website &nbsp; #Drupal &nbsp; #Responsive &nbsp; #RIA</p>
-                        <h3 class="tm-text-line-normal" style="color: #FDC200">Super Coucou</h3>
-                        <span>Fully automated travel platform made to simplify the booking process for both users and suppliers.  It provides all from booking to sharing content and collaborating with friends.</span>
-                        <img class="img-responsive" src="img/supercoucou-screen.jpg" alt="Super Coucou" />
-                    </a>
-                </li>
-                <li class="tm-light" style="background-image: url('img/jumbletrail-bg.jpg')">
-                    <a href="#">
-                        <p class="tm-nomargin text-uppercase">#Social Network &nbsp; #Symfony &nbsp; #RIA</p>
-                        <h3 class="tm-text-line-normal" style="color: #C81344">Jumble Trail</h3>
-                        <span>Online platform for organizing and finding jumble sales in your neighboorhood.</span>
-                        <img class="img-responsive" src="img/jumbletrail-screen.jpg" alt="Jumble Trail" />
-                    </a>
+                    <div class="tm-wrapper">
+                        
+                    </div>
                 </li>
             </ul>
         </div>
