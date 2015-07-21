@@ -12,11 +12,25 @@
     <section class="tm-why-us-sect-01 tm-bg-01">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-7 col-lg-6 col-lg-offset-1 tm-sect-02 tm-why-us-text-01">
+                <div class="col-md-7 col-lg-6 col-lg-offset-1 tm-sect-04 tm-why-us-text-01">
                     <h3><strong>The EtonDigital approach</strong></h3>
                     <p>Our approach is to combine our understanding of user behavior with a commitment to meeting the business goals of our clients. We are proactive in our aftercare service and will alert our customers of any malicious behavior that we find. Our staff is diverse and talented in all aspects of website technology and marketing, including content creation. We love what we do and it shows in the solutions we produce.</p>
                 </div>
                 <div class="col-md-5 col-lg-5 hidden-xs hidden-sm tm-why-us-img-01"></div>
+            </div>
+        </div>
+        <div class="tm-wrapper">
+            <div class="tm-overlay-03 tm-why-us-img-02"></div>
+            <div class="container-fluid">
+                <div class="row tm-sect-01 tm-relative-index">
+                    <div class="col-md-offset-1 col-md-4">
+                        <h1 class="tm-titlecolor tm-text-line-1"><strong>We give back to the community</strong></h1>
+                    </div>
+                    <div class="col-md-offset-2 col-md-4 tm-titlecolor">
+                        <p class="h5 tm-description">We love Open Source technologies and we use them to create really cool and functional products. The reason we like Drupal, Symfony, AngularJS and Open Source is that we get to learn from each other and share our knowledge with the community.</p>
+                        <p class="h5 tm-description">out giving back so we sponsored global Drupal, Symfony and IT events in London, Munich, San Francisco and Serbia, aspiring new inventions such as “The Thing” and we won’t stop there.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

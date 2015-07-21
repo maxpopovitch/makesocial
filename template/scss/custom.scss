@@ -17,6 +17,10 @@ Write custom rules here ONLY!
     line-height: normal;
 }
 
+.tm-text-line-1 {
+    line-height: 1;
+}
+
 .tm-subtitle {
     font-size: 19px;
 }
@@ -70,6 +74,17 @@ Write custom rules here ONLY!
     @include overlay;
     background-color: rgba(lighten($primary-background, 15), 0.75);
     z-index: 2;
+}
+
+.tm-overlay-03 {
+    @include overlay;
+    @include prefix((filter: brightness(0.5) grayscale(1)));
+    z-index: 1;
+}
+
+.tm-relative-index {
+    position: relative;
+    z-index: 5;
 }
 
 .tm-title-01 {
@@ -233,7 +248,14 @@ Write custom rules here ONLY!
                 }
 
                 &.tm-active {
-                    border-bottom: 3px solid $title-color;
+                    color: $default-color;
+                    background-color: $nav-primary-color;
+
+                    @media (min-width: $screen-md-min) {
+                        color: $nav-primary-color;
+                        border-bottom: 3px solid $nav-primary-color;
+                        background-color: transparent;
+                    }
                 }
             }
 
@@ -282,6 +304,24 @@ Write custom rules here ONLY!
 
 .tm-sect-03 {
     padding: 54px 0 0;
+}
+
+.tm-sect-04 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    @media (min-width: $screen-md-min) {
+        padding-top: 126px;
+        padding-bottom: 126px;
+    }
+}
+
+.tm-sect-05 {
+    padding-top: 40px;
+
+    @media (min-width: $screen-md-min) {
+        padding-top: 90px;
+    }
 }
 
 .tm-hr-01 {
@@ -528,6 +568,10 @@ Write custom rules here ONLY!
 
     .tm-why-us-img-01 {
         background-image: url('../../img/why-us-img-01.jpg');
+    }
+
+    .tm-why-us-img-02 {
+        background-image: url('../../img/why-us-img-02.jpg');
     }
 }
 
