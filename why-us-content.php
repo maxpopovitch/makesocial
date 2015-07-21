@@ -9,15 +9,14 @@
 </header>
 </div>
 <main>
-    <section class="tm-howwework text-center text-md-left">
-        <div class="container">
+    <section class="tm-why-us-sect-01 tm-bg-01">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-md-7">
-                    1
+                <div class="col-md-7 col-lg-6 col-lg-offset-1 tm-sect-02 tm-why-us-text-01">
+                    <h3><strong>The EtonDigital approach</strong></h3>
+                    <p>Our approach is to combine our understanding of user behavior with a commitment to meeting the business goals of our clients. We are proactive in our aftercare service and will alert our customers of any malicious behavior that we find. Our staff is diverse and talented in all aspects of website technology and marketing, including content creation. We love what we do and it shows in the solutions we produce.</p>
                 </div>
-                <div class="col-md-5">
-                    2
-                </div>
+                <div class="col-md-5 col-lg-5 hidden-xs hidden-sm tm-why-us-img-01"></div>
             </div>
         </div>
     </section>

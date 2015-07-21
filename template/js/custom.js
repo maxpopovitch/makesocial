@@ -18,6 +18,9 @@ var heightEqualizing = function () {
 
     element1.css('height', maxHeight1);
     element2.css('height', maxHeight2);
+    
+    var why1height = $('.tm-why-us-text-01').outerHeight();
+    $('.tm-why-us-img-01').css('height', why1height);
 };
 
 $(window).resize(heightEqualizing);
