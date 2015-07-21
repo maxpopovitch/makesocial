@@ -24,7 +24,7 @@
 
                     <div class="collapse navbar-collapse" id="navbar">
                         <ul class="nav navbar-nav">
-                            <li><a href="#">why us</a></li>
+                            <li><a href="why-us">why us</a></li>
                             <li><a href="#">meet us</a></li>
                             <li><a href="#">services</a></li>
                             <li><a href="#">our process</a></li>

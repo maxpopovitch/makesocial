@@ -1,11 +1,11 @@
 <?php ?>
-<div class="tm-video-container">
+<div id="home-content" class="tm-video-container">
     <video loop autoplay muted preload="auto" poster="img/video-bg.jpg">
         <source src="vid/video-01.webm" type="video/webm">
         <source src="vid/video-01.mp4" type="video/mp4">
     </video>
 </div>
-<div class="tm-overlay"></div>
+<div class="tm-overlay-01"></div>
 <header class="container">
     <h1 class="tm-title-01">
         <strong>We design and develop<br/>
@@ -104,7 +104,7 @@
         </div>
     </section>
     <section class="tm-howwework text-center text-md-left">
-        <div class="tm-overlay-wrapper tm-sect-02 tm-bg-02">
+        <div class="tm-sect-02 tm-bg-02">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4">

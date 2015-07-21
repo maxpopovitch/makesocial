@@ -1,5 +1,5 @@
 var heightEqualizing = function () {
-    var element1 = $('.tm-whatwedo li').find('p');
+    var element1 = $('.tm-whatwedo li');
     var element2 = $('.tm-casestudies li').find('span');
     var maxHeight1 = 0;
     var maxHeight2 = 0;
@@ -22,3 +22,7 @@ var heightEqualizing = function () {
 
 $(window).resize(heightEqualizing);
 $(document).ready(heightEqualizing);
+
+$(document).ready(function () {
+    $('#why-us-content').closest('body').find('a[href*="why-us"]').addClass('tm-active');
+});
