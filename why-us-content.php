@@ -9,20 +9,38 @@
 </header>
 </div>
 <main>
-    <section class="tm-why-us-sect-01">
-        <div class="container-fluid tm-bg-01">
-            <div class="row">
-                <div class="col-md-6 col-lg-5 col-lg-offset-1 tm-sect-04 tm-padding-right-01 tm-why-us-text-01">
-                    <h3><strong>The EtonDigital approach</strong></h3>
-                    <p>Our approach is to combine our understanding of user behavior with a commitment to meeting the business goals of our clients. We are proactive in our aftercare service and will alert our customers of any malicious behavior that we find. Our staff is diverse and talented in all aspects of website technology and marketing, including content creation. We love what we do and it shows in the solutions we produce.</p>
+    <section class="tm-why-us-sect-01 tm-overflow-hidden">
+        <div class="tm-bg-01">
+            <div class="container tm-bg-01">
+                <div class="row">
+                    <div class="col-md-7 tm-sect-04 tm-why-us-text-01">
+                        <h3><strong>The EtonDigital approach</strong></h3>
+                        <p>Our approach is to combine our understanding of user behavior with a commitment to meeting the business goals of our clients. We are proactive in our aftercare service and will alert our customers of any malicious behavior that we find. Our staff is diverse and talented in all aspects of website technology and marketing, including content creation. We love what we do and it shows in the solutions we produce.</p>
+                    </div>
+                    <div class="col-md-5 hidden-xs hidden-sm">
+                        <div class="tm-why-us-img-01 tm-offset-right"></div>
+                    </div>
                 </div>
-                <div class="col-md-6 hidden-xs hidden-sm tm-why-us-img-01"></div>
             </div>
         </div>
-        <div class="container-fluid">
+        <div class="tm-wrapper">
+            <div class="tm-overlay-03 tm-why-us-img-07"></div>
+            <div class="container tm-zindex100">
+                <div class="col-md-4 tm-sect-05">
+                    <h1 class="tm-titlecolor tm-nomargin"><strong>We give back to the community</strong></h1>
+                </div>
+                <div class="col-md-6 col-md-push-2 tm-sect-05">
+                    <p class="tm-titlecolor">We love Open Source technologies and we use them to create really cool and functional products. The reason we like Drupal, Symfony, AngularJS and Open Source is that we get to learn from each other and share our knowledge with the community.</p>
+                    <p class="tm-titlecolor">We feel strongly about giving back so we sponsored global Drupal, Symfony and IT events in London, Munich, San Francisco and Serbia, aspiring new inventions such as “The Thing” and we won’t stop there.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
             <div class="row">
-                <div class="col-md-6 hidden-xs hidden-sm tm-why-us-img-02"></div>
-                <div class="col-md-6 col-lg-5 tm-sect-04 tm-padding-left-01 tm-why-us-text-02">
+                <div class="col-md-5 hidden-xs hidden-sm">
+                    <div class="tm-why-us-img-02 tm-offset-left"></div>
+                </div>
+                <div class="col-md-7 tm-sect-04 tm-why-us-text-02">
                     <h3><strong>Social responsibility</strong></h3>
                     <p>We are very much aware that this world isn't ideal and that by helping others we can make a difference. We regularly attend humanitarian tournaments, provide gifts for various occasions to the less privileged and donate our knowledge. It is our goal to make a difference in this world by creating bespoke products and giving back. By becoming a part of EtonDigital, you will contribute too.</p>
                 </div>
@@ -115,55 +133,71 @@
             </ul>
         </div>
     </section>
-    <section class="tm-why-us-sect-02">
-        <div class="container-fluid">
+    <section class="tm-why-us-sect-02 tm-overflow-hidden">
+        <div class="container">
             <div class="row">
-                <div class="col-md-7 col-lg-5 col-lg-offset-2 tm-sect-01 tm-padding-right-01 tm-why-us-text-03">
-                    <h2 class="text-uppercase tm-nomargin"><strong>Life at<br/>EtonDigital</strong></h2>
+                <div class="col-md-6 tm-sect-01 tm-why-us-text-03">
+                    <h2 class="text-uppercase tm-text-line-normal tm-nomargin"><strong>Life at<br/>EtonDigital</strong></h2>
                     <hr class="tm-hr-03" />
-                    <p>Our employees are friends, and our work environment is relaxed, creative and supportive. We share both opinions and jokes, and we are unbeatable at table tennis.</p>
+                    <p class="tm-text-line-normal">Our employees are friends, and our work environment is relaxed, creative and supportive. We share both opinions and jokes, and we are unbeatable at table tennis.</p>
                     <p><strong>Here’s how we are different:</strong></p>
                 </div>
-                <div class="col-md-5 col-lg-5 hidden-xs hidden-sm tm-why-us-img-03"></div>
-            </div>
-        </div>
-        <div class="container-fluid tm-bg-01">
-            <div class="row">
-                <div class="col-md-7 col-lg-5 col-lg-offset-2 tm-sect-01 tm-padding-right-01 tm-why-us-text-04">
-                    <h3 class="tm-infocolor"><strong>We invest in our employees.</strong></h3>
-                    <p>We regularly send our employees to events from the industry: DrupalCon, Symphony Live and Google Code Day, to name a few. We have hosted Symphony workshops with leading experts from the industry such as Symphony creators, SensioLabs, scrum trainings and various other workshops. This has resulted in our employees being recognised as experts in the field, giving lectures at conferences and events, and being able to provide exceptional service to our clients.</p>
+                <div class="col-md-5 col-md-push-1 hidden-xs hidden-sm">
+                    <div class="tm-why-us-img-03 tm-offset-right"></div>
                 </div>
-                <div class="col-md-5 col-lg-5 hidden-xs hidden-sm tm-why-us-img-04"></div>
             </div>
         </div>
-        <div class="container-fluid">
+        <div class="tm-bg-01">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 tm-sect-01 tm-why-us-text-04">
+                        <h3 class="tm-infocolor"><strong>We invest in our employees.</strong></h3>
+                        <p>We regularly send our employees to events from the industry: DrupalCon, Symphony Live and Google Code Day, to name a few. We have hosted Symphony workshops with leading experts from the industry such as Symphony creators, SensioLabs, scrum trainings and various other workshops. This has resulted in our employees being recognised as experts in the field, giving lectures at conferences and events, and being able to provide exceptional service to our clients.</p>
+                    </div>
+                    <div class="col-md-5 col-md-push-1 hidden-xs hidden-sm">
+                        <div class="tm-why-us-img-04 tm-offset-right"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
             <div class="row">
-                <div class="col-md-7 col-lg-5 col-lg-offset-2 tm-sect-01 tm-padding-right-01 tm-why-us-text-05">
+                <div class="col-md-6 tm-sect-01 tm-why-us-text-05">
                     <h3 class="tm-infocolor"><strong>We encourage a healthy lifestyle.</strong></h3>
                     <p>We believe that to be creative and productive, you need to be healthy and we support our employees in staying healthy by organising team building activities they will enjoy: football tournaments, table tennis matches - whatever they want. For those not into team sports, we offer full gym memberships on our dime. Our kitchen is always filled with fruit and fresh water and our working space is aerated and warm.</p>
                 </div>
-                <div class="col-md-5 col-lg-5 hidden-xs hidden-sm tm-why-us-img-05"></div>
-            </div>
-        </div>
-        <div class="container-fluid tm-bg-01">
-            <div class="row">
-                <div class="col-md-7 col-lg-5 col-lg-offset-2 tm-sect-01 tm-padding-right-01 tm-why-us-text-06">
-                    <h3 class="tm-infocolor"><strong>We enjoy team building activities.</strong></h3>
-                    <p>A fully functional team can be achieved only in a healthy corporate culture, and team building activities are a valuable part of that culture, whether it's a football match, a bowling competition, a travel or a play-day for our employees' children. Members of our team have become friends and even though we have offices in different cities, we make sure they spend enough time together to get to know each other, share ideas and solutions, and have fun.</p>
+                <div class="col-md-5 col-md-push-1 hidden-xs hidden-sm">
+                    <div class="tm-why-us-img-05 tm-offset-right"></div>
                 </div>
-                <div class="col-md-5 col-lg-5 hidden-xs hidden-sm tm-why-us-img-06"></div>
             </div>
         </div>
-        <div class="container-fluid">
+        <div class="tm-bg-01">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 tm-sect-01 tm-why-us-text-06">
+                        <h3 class="tm-infocolor"><strong>We enjoy team building activities.</strong></h3>
+                        <p>A fully functional team can be achieved only in a healthy corporate culture, and team building activities are a valuable part of that culture, whether it's a football match, a bowling competition, a travel or a play-day for our employees' children. Members of our team have become friends and even though we have offices in different cities, we make sure they spend enough time together to get to know each other, share ideas and solutions, and have fun.</p>
+                    </div>
+                    <div class="col-md-5 col-md-push-1 hidden-xs hidden-sm">
+                        <div class="tm-why-us-img-06 tm-offset-right"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
             <div class="row">
-                <div class="col-sm-3 col-lg-4 hidden-xs tm-join-us-img-01"></div>
-                <div class="col-sm-4 col-lg-3 tm-join-us-text">
+                <div class="col-sm-3 hidden-xs">
+                    <div class="tm-join-us-img-01 tm-offset-left"></div>
+                </div>
+                <div class="col-sm-4 tm-join-us-text">
                     <a href="#" class="tm-sect-01">
                         <h3 class="text-uppercase tm-nomargin"><strong>Join us</strong></h3>
                         <p class=" tm-nomargin">We're always hiring</p>
                     </a>
                 </div>
-                <div class="col-sm-5 hidden-xs tm-join-us-img-02"></div>
+                <div class="col-sm-5 hidden-xs">
+                    <div class="tm-join-us-img-02 tm-offset-right"></div>
+                </div>
             </div>
         </div>
     </section>

@@ -13,6 +13,10 @@ Write custom rules here ONLY!
     padding: 0 !important;
 }
 
+.tm-overflow-hidden {
+    overflow: hidden;
+}
+
 .tm-text-line-normal {
     line-height: normal;
 }
@@ -78,6 +82,17 @@ Write custom rules here ONLY!
     @include overlay;
     background-color: rgba(lighten($primary-background, 15), 0.75);
     z-index: 2;
+}
+
+.tm-overlay-03 {
+    @include overlay;
+    @include prefix((filter: brightness(0.5) grayscale(1)));
+    z-index: 2;
+}
+
+.tm-zindex100 {
+    position: relative;
+    z-index: 100;
 }
 
 .tm-title-01 {
@@ -316,9 +331,11 @@ Write custom rules here ONLY!
 
 .tm-sect-05 {
     padding-top: 40px;
+    padding-bottom: 40px;
 
     @media (min-width: $screen-md-min) {
         padding-top: 90px;
+        padding-bottom: 90px;
     }
 }
 
@@ -659,6 +676,14 @@ Write custom rules here ONLY!
 
 [class*="tm-why-us-sect-"] {
 
+    h1 {
+        font-size: 32px;
+
+        @media (min-width: $screen-xs-min) {
+            font-size: 60px;
+        }
+    }
+
     h2 {
         font-size: 32px;
 
@@ -703,6 +728,10 @@ Write custom rules here ONLY!
 
     .tm-why-us-img-06 {
         background-image: url('../../img/why-us-img-06.jpg');
+    }
+
+    .tm-why-us-img-07 {
+        background-image: url('../../img/why-us-img-07.jpg');
     }
 
     .tm-join-us-img-01 {
@@ -756,6 +785,14 @@ Write custom rules here ONLY!
             }
         }
     }
+
+    .tm-offset-right {
+        margin-right: -400px;
+    }
+
+    .tm-offset-left {
+        margin-left: -400px;
+    }
 }
 
 [class*="tm-why-us-text"] {
@@ -769,14 +806,6 @@ Write custom rules here ONLY!
     h3 {
         margin: 0 0 18px;
     }
-}
-
-.tm-padding-right-01 {
-    padding-right: $padding-04;
-}
-
-.tm-padding-left-01 {
-    padding-left: $padding-04;
 }
 
 footer {
