@@ -1,24 +1,31 @@
 var heightEqualizing = function () {
-    var element1 = $('.tm-whatwedo li');
-    var element2 = $('.tm-casestudies li').find('span');
-    var maxHeight1 = 0;
-    var maxHeight2 = 0;
-    element1.each(function () {
-        var height1 = $(this).css('height', 'auto').height();
-        if (height1 > maxHeight1) {
-            maxHeight1 = height1;
-        }
-    });
-    element2.each(function () {
-        var height2 = $(this).css('height', 'auto').height();
-        if (height2 > maxHeight2) {
-            maxHeight2 = height2;
-        }
-    });
+    var element1 = $('.tm-whatwedo li'),
+        element2 = $('.tm-casestudies li').find('span'),
+        element3 = $('.tm-values li>div'),
+        i,
+        elements = [element1, element2, element3];
 
-    element1.css('height', maxHeight1);
-    element2.css('height', maxHeight2);
-    
+    var maxHeight;
+
+    (function () {
+        for (i = 0; i < elements.length; i++) {
+            maxHeight = 0;
+            elements[i].each(function () {
+                switch (i) {
+                    case 2:
+                        height = $(this).css('height', 'auto').outerHeight();
+                        break;
+                    default:
+                        height = $(this).css('height', 'auto').height();
+                }
+                if (height > maxHeight) {
+                    maxHeight = height;
+                }
+                elements[i].css('height', maxHeight);
+            });
+        }
+    })();
+
     var why1height = $('.tm-why-us-text-01').outerHeight();
     var why2height = $('.tm-why-us-text-02').outerHeight();
     $('.tm-why-us-img-01').css('height', why1height);
