@@ -1,5 +1,5 @@
 var heightEqualizing = function () {
-    var element1 = $('.tm-whatwedo li'),
+    var element1 = $('.tm-whatwedo li p'),
             element2 = $('.tm-casestudies li').find('span'),
             element3 = $('.tm-values li>div'),
             i,
@@ -26,13 +26,13 @@ var heightEqualizing = function () {
         }
     })();
 
-    var why1height = $('.tm-why-us-text-01').closest('[class*="container"]').outerHeight();
-    var why2height = $('.tm-why-us-text-02').closest('[class*="container"]').outerHeight();
-    var why3height = $('.tm-why-us-text-03').closest('[class*="container"]').outerHeight();
-    var why4height = $('.tm-why-us-text-04').closest('[class*="container"]').outerHeight();
-    var why5height = $('.tm-why-us-text-05').closest('[class*="container"]').outerHeight();
-    var why6height = $('.tm-why-us-text-06').closest('[class*="container"]').outerHeight();
-    var joinheight = $('.tm-join-us-text').closest('[class*="container"]').outerHeight();
+    var why1height = $('.tm-why-us-text-01').outerHeight();
+    var why2height = $('.tm-why-us-text-02').outerHeight();
+    var why3height = $('.tm-why-us-text-03').outerHeight();
+    var why4height = $('.tm-why-us-text-04').outerHeight();
+    var why5height = $('.tm-why-us-text-05').outerHeight();
+    var why6height = $('.tm-why-us-text-06').outerHeight();
+    var joinheight = $('.tm-join-us-text').outerHeight();
     $('.tm-why-us-img-01').css('height', why1height);
     $('.tm-why-us-img-02').css('height', why2height);
     $('.tm-why-us-img-03').css('height', why3height);
@@ -42,15 +42,9 @@ var heightEqualizing = function () {
     $('[class*="tm-join-us-img"]').css('height', joinheight);
 };
 
+$(window).load(heightEqualizing);
+$(window).resize(heightEqualizing);
 
 $(document).ready(function () {
     $('#why-us-content').closest('body').find('a[href*="why-us"]').addClass('tm-active');
-    setTimeout(function () {
-        heightEqualizing();
-    }, 1000);
-    $(window).resize(function () {
-        setTimeout(function () {
-            heightEqualizing();
-        }, 1000);
-    });
 });
