@@ -139,6 +139,10 @@ Write custom rules here ONLY!
     color: $title-color;
 }
 
+.tm-infocolor {
+    color: $info-color;
+}
+
 .tm-iconholder {
     padding-top: $padding-01;
     height: 160px;
@@ -279,7 +283,8 @@ Write custom rules here ONLY!
 }
 
 .tm-sect-01 {
-    padding: 54px 0;
+    padding-top: $padding-05;
+    padding-bottom: $padding-05;
 }
 
 .tm-bg-01 {
@@ -296,7 +301,7 @@ Write custom rules here ONLY!
 }
 
 .tm-sect-03 {
-    padding: 54px 0 0;
+    padding: $padding-05 0 0;
 }
 
 .tm-sect-04 {
@@ -637,7 +642,7 @@ Write custom rules here ONLY!
 
 .tm-accent-02 {
     background-color: $info-color;
-    padding: 54px 0;
+    padding: $padding-05 0;
     background-image: url('../../img/bg-getaquote.jpg');
     background-size: cover;
 
@@ -652,7 +657,16 @@ Write custom rules here ONLY!
     }
 }
 
-.tm-why-us-sect-01 {
+[class*="tm-why-us-sect-"] {
+
+    h2 {
+        font-size: 32px;
+
+        @media (min-width: $screen-xs-min) {
+            font-size: 46px;
+        }
+    }
+
     h3 {
         margin-bottom: 36px;
     }
@@ -663,12 +677,84 @@ Write custom rules here ONLY!
         margin-bottom: 18px;
     }
 
+    [class*="tm-why-us-img"], [class*="tm-join-us-img"] {
+        background-size: cover;
+    }
+
     .tm-why-us-img-01 {
         background-image: url('../../img/why-us-img-01.jpg');
     }
 
     .tm-why-us-img-02 {
         background-image: url('../../img/why-us-img-02.jpg');
+    }
+
+    .tm-why-us-img-03 {
+        background-image: url('../../img/why-us-img-03.jpg');
+    }
+
+    .tm-why-us-img-04 {
+        background-image: url('../../img/why-us-img-04.jpg');
+    }
+
+    .tm-why-us-img-05 {
+        background-image: url('../../img/why-us-img-05.jpg');
+    }
+
+    .tm-why-us-img-06 {
+        background-image: url('../../img/why-us-img-06.jpg');
+    }
+
+    .tm-join-us-img-01 {
+        background-image: url('../../img/join-us-img-01.jpg');
+        background-position: 100% 0;
+    }
+
+    .tm-join-us-img-02 {
+        background-image: url('../../img/join-us-img-02.jpg');
+    }
+
+    .tm-join-us-text {
+        a {
+            @include prefix((transition: $nav-transition));
+            color: $default-color;
+            display: block;
+            position: relative;
+
+            h3 {
+                font-size: 37px;
+                line-height: normal;
+            }
+
+            p {
+                font-size: 17px;
+                line-height: normal;
+
+                &:after {
+                    @include prefix((transition: $nav-transition));
+                    color: $info-color;
+                    top: $padding-05;
+                    right: 0;
+                    position: absolute;
+                    font-family: "Glyphicons Halflings";
+                    content: "\e080";
+                    font-size: 58px;
+                }
+            }
+
+            &:hover, &:focus {
+                @include prefix((transition: $nav-transition));
+                color: #000;
+                text-decoration: none;
+
+                p {
+                    &:after {
+                        @include prefix((transition: $nav-transition));
+                        color: #000;
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -679,13 +765,17 @@ Write custom rules here ONLY!
         width: 750px;
         margin: 0 auto;
     }
+
+    h3 {
+        margin: 0 0 18px;
+    }
 }
 
-.tm-why-us-text-01 {
+.tm-padding-right-01 {
     padding-right: $padding-04;
 }
 
-.tm-why-us-text-02 {
+.tm-padding-left-01 {
     padding-left: $padding-04;
 }
 
