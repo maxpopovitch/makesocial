@@ -47,4 +47,5 @@ $(window).resize(heightEqualizing);
 
 $(document).ready(function () {
     $('#why-us-content').closest('body').find('a[href*="why-us"]').addClass('tm-active');
+    $('#meet-us-content').closest('body').find('a[href*="meet-us"]').addClass('tm-active');
 });

@@ -67,7 +67,15 @@ Write custom rules here ONLY!
 .tm-why-us-container {
     @include overlay;
     overflow: hidden;
-    background-image: url("../../img/why-us-bg.jpg");
+    background-image: url("../../img/why-us/why-us-bg.jpg");
+    background-size: cover;
+    z-index: 1;
+}
+
+.tm-meet-us-container {
+    @include overlay;
+    overflow: hidden;
+    background-image: url("../../img/meet-us/meet-us-bg.jpg");
     background-size: cover;
     z-index: 1;
 }
@@ -650,6 +658,30 @@ Write custom rules here ONLY!
     }
 }
 
+.tm-team {
+    margin: 36px 0 0;
+    
+    > li {
+        padding-top: 18px;
+        
+        .tm-front-block {
+            > div {
+                &:nth-of-type(1) {
+                    padding-right: 9px;
+                }
+            }
+        }
+        
+        .tm-overlay-block {
+            
+        }
+        
+        .tm-back-block {
+            
+        }
+    }
+}
+
 .tm-accent-01 {
     background-color: $info-color;
     padding: 36px 0;
@@ -707,40 +739,40 @@ Write custom rules here ONLY!
     }
 
     .tm-why-us-img-01 {
-        background-image: url('../../img/why-us-img-01.jpg');
+        background-image: url('../../img/why-us/why-us-img-01.jpg');
     }
 
     .tm-why-us-img-02 {
-        background-image: url('../../img/why-us-img-02.jpg');
+        background-image: url('../../img/why-us/why-us-img-02.jpg');
     }
 
     .tm-why-us-img-03 {
-        background-image: url('../../img/why-us-img-03.jpg');
+        background-image: url('../../img/why-us/why-us-img-03.jpg');
     }
 
     .tm-why-us-img-04 {
-        background-image: url('../../img/why-us-img-04.jpg');
+        background-image: url('../../img/why-us/why-us-img-04.jpg');
     }
 
     .tm-why-us-img-05 {
-        background-image: url('../../img/why-us-img-05.jpg');
+        background-image: url('../../img/why-us/why-us-img-05.jpg');
     }
 
     .tm-why-us-img-06 {
-        background-image: url('../../img/why-us-img-06.jpg');
+        background-image: url('../../img/why-us/why-us-img-06.jpg');
     }
 
     .tm-why-us-img-07 {
-        background-image: url('../../img/why-us-img-07.jpg');
+        background-image: url('../../img/why-us/why-us-img-07.jpg');
     }
 
     .tm-join-us-img-01 {
-        background-image: url('../../img/join-us-img-01.jpg');
+        background-image: url('../../img/why-us/join-us-img-01.jpg');
         background-position: 100% 0;
     }
 
     .tm-join-us-img-02 {
-        background-image: url('../../img/join-us-img-02.jpg');
+        background-image: url('../../img/why-us/join-us-img-02.jpg');
     }
 
     .tm-join-us-text {

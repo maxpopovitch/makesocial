@@ -148,36 +148,36 @@
         </div>
         <div class="tm-container-wide tm-nomargin tm-nopadding">
             <ul class="tm-casestudies list-unstyled clearfix">
-                <li class="tm-light" style="background-image: url('img/nissan-bg.jpg')">
+                <li class="tm-light" style="background-image: url('img/portfolio/nissan-bg.jpg')">
                     <a href="#">
                         <p class="tm-nomargin text-uppercase">#Corporate Website &nbsp; #Drupal &nbsp; #Responsive &nbsp; #RIA</p>
                         <h3 class="tm-text-line-normal" style="color: #C81344">Nissan Ireland</h3>
                         <span>Official website of Nissan Ireland</span>
-                        <img class="img-responsive" src="img/nissan-screen.jpg" alt="Nissan Ireland" />
+                        <img class="img-responsive" src="img/portfolio/nissan-screen.jpg" alt="Nissan Ireland" />
                     </a>
                 </li>
-                <li class="tm-dark" style="background-image: url('img/procurious-bg.jpg')">
+                <li class="tm-dark" style="background-image: url('img/portfolio/procurious-bg.jpg')">
                     <a href="#">
                         <p class="tm-nomargin text-uppercase">#Social Network &nbsp; #Symfony &nbsp; #Responsive &nbsp; #eLearning &nbsp;</p>
                         <h3 class="tm-text-line-normal" style="color: #9EE034">Procurious</h3>
                         <span>Social network and eLearning platform for procurement professionals</span>
-                        <img class="img-responsive" src="img/procurious-screen.jpg" alt="Procurious" />
+                        <img class="img-responsive" src="img/portfolio/procurious-screen.jpg" alt="Procurious" />
                     </a>
                 </li>
-                <li class="tm-dark" style="background-image: url('img/supercoucou-bg.jpg')">
+                <li class="tm-dark" style="background-image: url('img/portfolio/supercoucou-bg.jpg')">
                     <a href="#">
                         <p class="tm-nomargin text-uppercase">#Corporate Website &nbsp; #Drupal &nbsp; #Responsive &nbsp; #RIA</p>
                         <h3 class="tm-text-line-normal" style="color: #FDC200">Super Coucou</h3>
                         <span>Fully automated travel platform made to simplify the booking process for both users and suppliers.  It provides all from booking to sharing content and collaborating with friends.</span>
-                        <img class="img-responsive" src="img/supercoucou-screen.jpg" alt="Super Coucou" />
+                        <img class="img-responsive" src="img/portfolio/supercoucou-screen.jpg" alt="Super Coucou" />
                     </a>
                 </li>
-                <li class="tm-light" style="background-image: url('img/jumbletrail-bg.jpg')">
+                <li class="tm-light" style="background-image: url('img/portfolio/jumbletrail-bg.jpg')">
                     <a href="#">
                         <p class="tm-nomargin text-uppercase">#Social Network &nbsp; #Symfony &nbsp; #RIA</p>
                         <h3 class="tm-text-line-normal" style="color: #C81344">Jumble Trail</h3>
                         <span>Online platform for organizing and finding jumble sales in your neighboorhood.</span>
-                        <img class="img-responsive" src="img/jumbletrail-screen.jpg" alt="Jumble Trail" />
+                        <img class="img-responsive" src="img/portfolio/jumbletrail-screen.jpg" alt="Jumble Trail" />
                     </a>
                 </li>
             </ul>
