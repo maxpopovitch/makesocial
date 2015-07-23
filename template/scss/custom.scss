@@ -1002,6 +1002,110 @@ Write custom rules here ONLY!
     }
 }
 
+.subnav {
+    box-shadow: $subnav-box-shadow;
+
+    .container {
+        @media (max-width: $screen-sm-max) {
+            width: 100%;
+        }
+    }
+
+    li {
+        &:not(:last-of-type) {
+            @media (max-width: $screen-sm-max) {
+                border-bottom: $subnav-border;
+            }
+        }
+
+        @media (min-width: $screen-md-min) {
+            border-left: $subnav-border;
+            border-right: $subnav-border;
+            margin: 10px -5px 10px 0;
+            border-bottom: 0;
+            display: inline-block;
+        }
+
+        a {
+            @include prefix((transition: $nav-transition));
+            font-family: $font-family-title;
+            color: $default-color;
+            position: relative;
+            padding: 0 0 8px;
+            display: block;
+            text-transform: uppercase;
+            font-size: 14px;
+            font-weight: 700;
+
+            &:hover, &:focus, &.tm-active {
+                color: $info-color;
+                text-decoration: none;
+
+                .tm-icon {
+                    fill: $info-color;
+                }
+            }
+
+            @media (min-width: $screen-md-min) {
+                display: table-cell;
+                text-align: center;
+                padding: 14px 18px;
+            }
+
+            @media (min-width: $screen-lg-min) {
+                padding: 14px 30px;
+            }
+
+            &.tm-active:after {
+                @media (min-width: $screen-md-min) {
+                    @include prefix((transform: translateX(-50%)));
+                    @include prefix((filter: drop-shadow($subnav-box-shadow)));
+                    content: "";
+                    position: absolute;
+                    width: 0px;
+                    height: 0px;
+                    border-left: 17px solid transparent;
+                    border-right: 17px solid transparent;
+                    border-top: 17px solid #FFF;
+                    left: 50%;
+                    bottom: -32px;
+                }
+            }
+
+            &[href="strategic-planning-services"] {
+                .tm-icon {
+                    width: 25px;
+                }
+
+                div {
+                    padding: 5px 0 0;
+
+                    br {
+                        @media (max-width: $screen-sm-max) {
+                            display: none;
+                        }
+                    }
+                }
+            }
+
+            .tm-icon {
+                @include prefix((transition: $nav-transition));
+                fill: $default-color;
+                width: 35px;
+                display: none;
+
+                @media (min-width: $screen-md-min) {
+                    display: initial;
+                }
+            }
+
+            div {
+                padding: 15px 0 0;
+            }
+        }
+    }
+}
+
 footer {
     padding: $padding-01 0;
     background-color: $info-color;
