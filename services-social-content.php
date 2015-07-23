@@ -1,13 +1,4 @@
 <?php ?>
-<div id="meet-us-content" class="tm-meet-us-container"></div>
-<div class="tm-overlay-02"></div>
-<header class="container">
-    <div class="tm-title-03">
-        <h1><strong>Let us introduce ourselves</strong></h1>
-        <h4>This is our dedicated team who works together day­-in and day­-out to create amazing projects for a digitally connected world.</h4>
-        </h1>
-</header>
-</div>
 <main>
     <div class="tm-overflow-hidden">
         <div class="tm-container-wide tm-nopadding">

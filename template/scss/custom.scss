@@ -44,6 +44,8 @@ Write custom rules here ONLY!
         max-width: 2560px;
         padding-left: 30px;
         padding-right: 30px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -80,6 +82,11 @@ Write custom rules here ONLY!
     z-index: 1;
 }
 
+.tm-services-bg {
+    background-image: url("../../img/services/services-bg.jpg");
+    background-size: cover;
+}
+
 .tm-overlay-01 {
     @include overlay;
     background-color: rgba($primary-background, 0.75);
@@ -95,6 +102,12 @@ Write custom rules here ONLY!
 .tm-overlay-03 {
     @include overlay;
     @include prefix((filter: brightness(0.5) grayscale(1)));
+    z-index: 2;
+}
+
+.tm-overlay-04 {
+    @include overlay;
+    @include prefix((filter: brightness(0.15) grayscale(1)));
     z-index: 2;
 }
 
@@ -344,6 +357,27 @@ Write custom rules here ONLY!
     @media (min-width: $screen-md-min) {
         padding-top: 90px;
         padding-bottom: 90px;
+    }
+}
+
+.tm-sect-06 {
+    color: $title-color;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+    z-index: 5;
+
+    @media (min-width: $screen-md-min) {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    h1 {
+        font-size: 40px;
+
+        @media (min-width: $screen-sm-min) {
+            font-size: 60px;
+        }
     }
 }
 

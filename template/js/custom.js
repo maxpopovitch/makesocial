@@ -48,4 +48,6 @@ $(window).resize(heightEqualizing);
 $(document).ready(function () {
     $('#why-us-content').closest('body').find('a[href*="why-us"]').addClass('tm-active');
     $('#meet-us-content').closest('body').find('a[href*="meet-us"]').addClass('tm-active');
+    $('[id*="services"]').closest('body').find('a[href*="services"]').addClass('tm-active');
+    $('a[href="services"]').click().attr('href', 'social-networking-design-development');
 });
