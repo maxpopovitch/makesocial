@@ -1005,8 +1005,8 @@ Write custom rules here ONLY!
 .subnav {
     box-shadow: $subnav-box-shadow;
 
-    .container {
-        @media (max-width: $screen-sm-max) {
+    [class*="container"] {
+        @media (max-width: $screen-md-max) {
             width: 100%;
         }
     }
@@ -1031,7 +1031,7 @@ Write custom rules here ONLY!
             font-family: $font-family-title;
             color: $default-color;
             position: relative;
-            padding: 0 0 8px;
+            padding: 8px 0;
             display: block;
             text-transform: uppercase;
             font-size: 14px;
@@ -1047,13 +1047,15 @@ Write custom rules here ONLY!
             }
 
             @media (min-width: $screen-md-min) {
+                height: 100px;
                 display: table-cell;
+                vertical-align: bottom;
                 text-align: center;
-                padding: 14px 18px;
+                padding: 10px 22px;
             }
 
             @media (min-width: $screen-lg-min) {
-                padding: 14px 30px;
+                padding: 10px 33px;
             }
 
             &.tm-active:after {
@@ -1074,33 +1076,29 @@ Write custom rules here ONLY!
 
             &[href="strategic-planning-services"] {
                 .tm-icon {
-                    width: 25px;
+                    width: 32px;
                 }
 
-                div {
-                    padding: 5px 0 0;
-
-                    br {
-                        @media (max-width: $screen-sm-max) {
-                            display: none;
-                        }
+                br {
+                    @media (max-width: $screen-sm-max) {
+                        display: none;
                     }
                 }
             }
 
             .tm-icon {
                 @include prefix((transition: $nav-transition));
+                @include prefix((transform: translateX(-50%)));
                 fill: $default-color;
-                width: 35px;
+                position: absolute;
+                left: 50%;
+                top: 12px;
+                width: 40px;
                 display: none;
 
                 @media (min-width: $screen-md-min) {
                     display: initial;
                 }
-            }
-
-            div {
-                padding: 15px 0 0;
             }
         }
     }
