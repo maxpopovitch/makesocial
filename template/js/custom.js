@@ -62,5 +62,8 @@ $(document).ready(function () {
     $('#services-copywriting-content').closest('body').find('a[href="copywriting"]').addClass('tm-active');
 
     //rearranging default hrefs with search engine optimized
-    $('a[href="services"]').click().attr('href', 'social-networking-design-development');
+    $('a[href="services"]').click(function () {
+        window.location.href = "social-networking-design-development";
+        return false;
+    });
 });
