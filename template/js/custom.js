@@ -59,6 +59,7 @@ $(document).ready(function () {
     $('#services-branding-content').closest('body').find('a[href="corporate-identity-and-brand-design"]').addClass('tm-active');
     $('#services-strategy-and-planning-content').closest('body').find('a[href="strategic-planning-services"]').addClass('tm-active');
     $('#services-seo-content').closest('body').find('a[href="search-engine-optimization"]').addClass('tm-active');
+    $('#services-copywriting-content').closest('body').find('a[href="copywriting"]').addClass('tm-active');
 
     //rearranging default hrefs with search engine optimized
     $('a[href="services"]').click().attr('href', 'social-networking-design-development');
