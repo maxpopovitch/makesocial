@@ -4,7 +4,7 @@
         <div class="col-md-5">
             <h1 class="h2 text-uppercase tm-text-line-normal tm-nomargin"><strong>Social Network Sites and Platforms</strong></h1>
             <hr class="tm-hr-04"/>
-            <img src="img/services/social-networking-design-development.svg" alt="Social Networking Design Development" />
+            <img class="img-responsive" src="img/services/social-networking-design-development.svg" alt="Social Networking Design Development" />
         </div>
         <div class="col-md-7">
             <p>If you are searching for a proven social networking website design and development company, you've found it.</p>

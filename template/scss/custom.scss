@@ -1113,6 +1113,14 @@ Write custom rules here ONLY!
 }
 
 [id^="services-"][id$="-content"] {
+    h1 {
+        font-size: 32px;
+
+        @media (min-width: $screen-xs-min) {
+            font-size: 46px;
+        }
+    }
+
     img {
         margin: 0 0 36px;
     }
@@ -1139,7 +1147,7 @@ Write custom rules here ONLY!
 
 footer {
     padding: $padding-01 0;
-    background-color: $info-color;
+    background-color: darken($info-color, 5);
     background-image: url('../../img/bg-pattern.svg');
     background-position: 50% 50%;
 
