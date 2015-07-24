@@ -54,6 +54,7 @@ $(document).ready(function () {
     //adding classes for navigation submenu
     $('#services-social-content').closest('body').find('a[href="social-networking-design-development"]').addClass('tm-active');
     $('#services-web-content').closest('body').find('a[href="web-design-and-development"]').addClass('tm-active');
+    $('#services-mobile-content').closest('body').find('a[href="mobile-application-development"]').addClass('tm-active');
 
     //rearranging default hrefs with search engine optimized
     $('a[href="services"]').click().attr('href', 'social-networking-design-development');
