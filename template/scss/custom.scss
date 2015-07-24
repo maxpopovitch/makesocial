@@ -29,6 +29,14 @@ Write custom rules here ONLY!
     line-height: 1.3;
 }
 
+.tm-text-line-15 {
+    line-height: 1.5;
+}
+
+.tm-margin-01 {
+    margin: 0 0 18px;
+}
+
 .tm-subtitle {
     font-size: 19px;
 }
@@ -36,6 +44,11 @@ Write custom rules here ONLY!
 .tm-description {
     font-family: $font-family-description;
     margin: 0;
+}
+
+.tm-default-p {
+    font-family: $font-family-description;
+    font-size: 17px;
 }
 
 .tm-container-wide {
@@ -87,6 +100,14 @@ Write custom rules here ONLY!
     background-size: cover;
 }
 
+.tm-our-process-bg {
+    @include overlay;
+    overflow: hidden;
+    background-image: url("../../img/our-process/our-process-bg.jpg");
+    background-size: cover;
+    z-index: 1;
+}
+
 .tm-overlay-01 {
     @include overlay;
     background-color: rgba($primary-background, 0.75);
@@ -108,6 +129,12 @@ Write custom rules here ONLY!
 .tm-overlay-04 {
     @include overlay;
     @include prefix((filter: brightness(0.15) grayscale(1)));
+    z-index: 2;
+}
+
+.tm-overlay-05 {
+    @include overlay;
+    @include prefix((filter: brightness(0.75) grayscale(1)));
     z-index: 2;
 }
 
@@ -1005,6 +1032,61 @@ Write custom rules here ONLY!
 
     h3 {
         margin: 0 0 18px;
+    }
+}
+
+.tm-our-process-img-01 {
+    background-image: url('../../img/our-process/our-process-img-01.jpg');
+}
+
+.tm-our-process-img-02 {
+    background-image: url('../../img/our-process/our-process-img-02.svg');
+}
+
+.tm-cell-block-01 {
+    margin: 0 0 72px;
+
+    @media (min-width: $screen-sm-min) {
+        display: table;
+    }
+
+    .tm-cell {
+
+        @media (min-width: $screen-sm-min) {
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+        &:nth-of-type(1) {
+            padding-right: 36px;
+
+            img {
+                max-width: 100%;
+
+                @media (min-width: $screen-sm-min) {
+                    max-width: initial;
+                }
+            }
+        }
+    }
+}
+
+.tm-cell-block-02 {
+    width: 100%;
+    display: table;
+
+    .tm-cell {
+        display: table-cell;
+
+        img {
+            max-width: 100%;
+        }
+
+        div {
+            font-family: $font-family-description;
+            font-size: 15px;
+            opacity: 0.5;
+        }
     }
 }
 

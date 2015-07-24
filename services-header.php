@@ -5,7 +5,7 @@
     <div class="tm-sect-06">
         <h1><strong>What we do</strong></h1>
         <h4>Services tailored to your needs</h4>
-        </h1>
+    </div>
 </header>
 </div>
 <div class="subnav" id="services-menu">

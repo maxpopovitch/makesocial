@@ -5,7 +5,7 @@
     <div class="tm-title-03">
         <h1 class="text-capitalize"><strong>How can we help you</strong></h1>
         <h4>to make your business grow on the web?</h4>
-        </h1>
+    </div>
 </header>
 </div>
 <main>

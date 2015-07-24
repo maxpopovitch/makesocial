@@ -4,8 +4,8 @@
 <header class="container">
     <div class="tm-title-03">
         <h1><strong>Let us introduce ourselves</strong></h1>
-        <h4>This is our dedicated team who works together day­-in and day­-out to create amazing projects for a digitally connected world.</h4>
-        </h1>
+        <h4>This is our dedicated team who works together day-in and day-out to create amazing projects for a digitally connected world.</h4>
+    </div>
 </header>
 </div>
 <main>

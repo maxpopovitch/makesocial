@@ -49,6 +49,7 @@ $(document).ready(function () {
     //adding classes for main navigation menu
     $('#why-us-content').closest('body').find('a[href="why-us"]').addClass('tm-active');
     $('#meet-us-content').closest('body').find('a[href="meet-us"]').addClass('tm-active');
+    $('#our-process-content').closest('body').find('a[href="our-process"]').addClass('tm-active');
     $('[id*="services"]').closest('body').find('a[href="services"]').addClass('tm-active');
 
     //adding classes for navigation submenu
