@@ -396,6 +396,12 @@ Write custom rules here ONLY!
     margin: $padding-03 0 $padding-03;
 }
 
+.tm-hr-04 {
+    @include hr;
+    margin: $padding-03 0 $padding-05;
+    width: 150px;
+}
+
 .tm-whatwedo {
 
     li {
@@ -1004,6 +1010,8 @@ Write custom rules here ONLY!
 
 .subnav {
     box-shadow: $subnav-box-shadow;
+    position: relative;
+    z-index: 1;
 
     [class*="container"] {
         @media (max-width: $screen-md-max) {
@@ -1100,6 +1108,31 @@ Write custom rules here ONLY!
                     display: initial;
                 }
             }
+        }
+    }
+}
+
+[id^="services-"][id$="-content"] {
+    img {
+        margin: 0 0 36px;
+    }
+
+    p {
+        font-family: $font-family-description;
+        font-size: 17px;
+        line-height: 1.5;
+        margin: 0 0 18px;
+
+        &.tm-increased {
+            font-size: 18px;
+        }
+
+        &.tm-colored {
+            color: darken($info-color, 13);
+        }
+
+        &.tm-margin-less {
+            margin: 0 0 9px;
         }
     }
 }
