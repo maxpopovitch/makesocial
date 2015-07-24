@@ -2,6 +2,6 @@
 
 require_once 'header.php';
 require_once 'services-header.php';
-require_once 'services-branding-content.php';
+require_once 'services-strategy-and-planning-content.php';
 require_once 'footer.php';
 ?>

@@ -56,6 +56,8 @@ $(document).ready(function () {
     $('#services-web-content').closest('body').find('a[href="web-design-and-development"]').addClass('tm-active');
     $('#services-mobile-content').closest('body').find('a[href="mobile-application-development"]').addClass('tm-active');
     $('#services-prototyping-content').closest('body').find('a[href="prototyping"]').addClass('tm-active');
+    $('#services-branding-content').closest('body').find('a[href="corporate-identity-and-brand-design"]').addClass('tm-active');
+    $('#services-strategy-and-planning-content').closest('body').find('a[href="strategic-planning-services"]').addClass('tm-active');
 
     //rearranging default hrefs with search engine optimized
     $('a[href="services"]').click().attr('href', 'social-networking-design-development');

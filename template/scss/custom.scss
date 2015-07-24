@@ -1143,6 +1143,11 @@ Write custom rules here ONLY!
             margin: 0 0 9px;
         }
     }
+
+    ul, ol {
+        @extend p;
+        padding: 0 0 0 20px;
+    }
 }
 
 footer {
