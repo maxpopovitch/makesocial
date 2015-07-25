@@ -350,17 +350,9 @@ Write custom rules here ONLY!
     padding-bottom: $padding-05;
 }
 
-.tm-bg-01 {
-    background: $secondary-background;
-}
-
 .tm-sect-02 {
     padding-top: 126px;
     padding-bottom: 126px;
-}
-
-.tm-bg-02 {
-    background: rgba(lighten($primary-background, 15), 0.75);
 }
 
 .tm-sect-03 {
@@ -406,6 +398,20 @@ Write custom rules here ONLY!
             font-size: 60px;
         }
     }
+}
+
+.tm-sect-07 {
+    padding-top: $padding-06;
+    padding-bottom: $padding-06;
+}
+
+.tm-bg-01 {
+    background: $secondary-background;
+}
+
+
+.tm-bg-02 {
+    background: rgba(lighten($primary-background, 15), 0.75);
 }
 
 .tm-hr-01 {
@@ -1035,61 +1041,6 @@ Write custom rules here ONLY!
     }
 }
 
-.tm-our-process-img-01 {
-    background-image: url('../../img/our-process/our-process-img-01.jpg');
-}
-
-.tm-our-process-img-02 {
-    background-image: url('../../img/our-process/our-process-img-02.svg');
-}
-
-.tm-cell-block-01 {
-    margin: 0 0 72px;
-
-    @media (min-width: $screen-sm-min) {
-        display: table;
-    }
-
-    .tm-cell {
-
-        @media (min-width: $screen-sm-min) {
-            display: table-cell;
-            vertical-align: middle;
-        }
-
-        &:nth-of-type(1) {
-            padding-right: 36px;
-
-            img {
-                max-width: 100%;
-
-                @media (min-width: $screen-sm-min) {
-                    max-width: initial;
-                }
-            }
-        }
-    }
-}
-
-.tm-cell-block-02 {
-    width: 100%;
-    display: table;
-
-    .tm-cell {
-        display: table-cell;
-
-        img {
-            max-width: 100%;
-        }
-
-        div {
-            font-family: $font-family-description;
-            font-size: 15px;
-            opacity: 0.5;
-        }
-    }
-}
-
 .subnav {
     box-shadow: $subnav-box-shadow;
     position: relative;
@@ -1229,6 +1180,110 @@ Write custom rules here ONLY!
     ul, ol {
         @extend p;
         padding: 0 0 0 20px;
+    }
+}
+
+.tm-our-process-img-01 {
+    background-image: url('../../img/our-process/our-process-img-01.jpg');
+}
+
+.tm-our-process-img-02 {
+    background-image: url('../../img/our-process/our-process-img-02.svg');
+}
+
+.tm-cell-block-01 {
+    margin: 0 0 72px;
+
+    @media (min-width: $screen-sm-min) {
+        display: table;
+    }
+
+    .tm-cell {
+
+        @media (min-width: $screen-sm-min) {
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+        &:nth-of-type(1) {
+            padding-right: 36px;
+
+            img {
+                max-width: 100%;
+
+                @media (min-width: $screen-sm-min) {
+                    max-width: initial;
+                }
+            }
+        }
+    }
+}
+
+.tm-cell-block-02 {
+    width: 100%;
+    display: table;
+
+    .tm-cell {
+        display: table-cell;
+
+        img {
+            max-width: 100%;
+        }
+
+        div {
+            font-family: $font-family-description;
+            font-size: 15px;
+            opacity: 0.5;
+        }
+    }
+}
+
+.tm-block-01 {
+    position: relative;
+
+    h3 {
+        text-align: center;
+
+        @media (min-width: $screen-md-min) {
+            text-align: left;
+        }
+    }
+
+    span {
+        @include horline;
+
+
+    }
+
+    p:after {
+        @media (min-width: $screen-md-min) {
+            @include midline-icon;
+            background-image: url("../../img/our-process/icon-writing.svg");
+        }
+    }
+}
+
+.tm-block-02 {
+    @media (min-width: $screen-md-min) {
+        padding-left: 80px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+}
+
+.tm-midline-01 {
+    @include midline;
+    &:after {
+        background-color: $default-color;
+    }
+}
+
+.tm-midline-02 {
+    @include midline;
+    &:after {
+        background-color: $title-color;
     }
 }
 

@@ -26,7 +26,7 @@
             <div class="tm-overlay-02"></div>
         </div>
     </section>
-    <section class="tm-bg-01 tm-sect-01 tm-our-process-img-02">
+    <section class="tm-sect-01 tm-bg-01 tm-our-process-img-02">
         <div class="container">
             <div class="tm-cell-block-01">
                 <div class="tm-cell">
@@ -54,6 +54,32 @@
                         <div class="tm-cell">
                             <img src="img/our-process/our-process-wireframes.svg" alt="Wireframes" />
                             <div><em>competitor analysis</em></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="tm-sect-07 tm-midline-01">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 tm-block-01">
+                    <h3 class="text-uppercase tm-text-line-normal tm-margin-01 tm-overflow-hidden">
+                        <strong><span>Writing user stories</span></strong>
+                    </h3>
+                    <p class="tm-default-p tm-text-line-15 tm-nomargin">In order to ensure that all functionalities are clearly described and captured, we create detailed User Stories and store them in the Product Backlog.</p>
+                    <hr class="tm-hr-02 hidden-md hidden-lg"/>
+                </div>
+                <div class="col-md-6 tm-block-02">
+                    <div class="tm-cell-block-01">
+                        <div class="tm-cell tm-margin-01">
+                            <img src="img/our-process/our-process-user-stories.svg" alt="User stories" />
+                        </div>
+                        <div class="tm-cell">
+                            <p class="tm-default-p tm-infocolor tm-nomargin tm-text-line-13"><strong>User Story format:</strong></p>
+                            <p class="tm-default-p tm-margin-01 tm-text-line-13">As a [role] I want to [task] so that [goal].</p>
+                            <p class="tm-default-p tm-infocolor tm-nomargin tm-text-line-13"><strong>User Story Example:</strong></p>
+                            <p class="tm-default-p tm-margin-01 tm-text-line-13">As a user I want to be able to follow other users so I can see their posts in the News Feed.</p>
                         </div>
                     </div>
                 </div>
