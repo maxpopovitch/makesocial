@@ -39,7 +39,7 @@
             </div>
             <div class="row">
                 <div class="col-md-5">
-                    <p class="tm-default-p tm-text-line-15">Based on these initial discussions and style guidelines we will establish a creative approach that is most beneficial to the project, populate backlog and create wireframes for the new website.</p>
+                    <p class="tm-default-p tm-margin-01 tm-text-line-15">Based on these initial discussions and style guidelines we will establish a creative approach that is most beneficial to the project, populate backlog and create wireframes for the new website.</p>
                 </div>
                 <div class="col-md-7 hidden-xs">
                     <div class="tm-cell-block-02 text-center">
@@ -48,11 +48,11 @@
                             <div><em>competitor analysis</em></div>
                         </div>
                         <div class="tm-cell">
-                            <img src="img/our-process/our-process-competitor-analysis.svg" alt="Competitor analysis" />
-                            <div><em>competitor analysis</em></div>
+                            <img src="img/our-process/our-process-sitemap.svg" alt="Sitemap and user journeys" />
+                            <div><em>sitemap and user journeys</em></div>
                         </div>
                         <div class="tm-cell">
-                            <img src="img/our-process/our-process-competitor-analysis.svg" alt="Competitor analysis" />
+                            <img src="img/our-process/our-process-wireframes.svg" alt="Wireframes" />
                             <div><em>competitor analysis</em></div>
                         </div>
                     </div>
