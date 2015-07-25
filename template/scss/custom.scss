@@ -1250,26 +1250,93 @@ Write custom rules here ONLY!
     }
 
     span {
-        @include horline;
-
-
+        @include horline-right;
     }
 
-    p:after {
+    .tm-cell {
+        vertical-align: top;
+    }
+}
+
+.tm-block-02 {
+    position: relative;
+
+    @media (min-width: $screen-md-min) {
+        padding-left: 80px;
+    }
+
+    h3 {
+        text-align: center;
+
         @media (min-width: $screen-md-min) {
-            @include midline-icon;
+            text-align: left;
+        }
+    }
+
+    p {
+        font-size: 15px;
+    }
+}
+
+.tm-icon-writing {
+    &:after {
+        @media (min-width: $screen-md-min) {
+            @include midline-icon-right;
             background-image: url("../../img/our-process/icon-writing.svg");
         }
     }
 }
 
-.tm-block-02 {
-    @media (min-width: $screen-md-min) {
-        padding-left: 80px;
+.tm-icon-refinement {
+    &:after {
+        @media (min-width: $screen-md-min) {
+            @include midline-icon-right;
+            background-image: url("../../img/our-process/icon-refinement.svg");
+        }
     }
 
-    p {
-        font-size: 15px;
+    .tm-cell-block-01 {
+        margin: 0 0 18px;
+
+        &:nth-of-type(2) {
+            .tm-cell:nth-of-type(2) p {
+                font-size: 15px;
+            }
+        }
+
+        .tm-cell {
+            &:nth-of-type(1) {
+                width: 136px;
+            }
+
+            p {
+                padding-right: 50px;
+            }
+        }
+    }
+}
+.tm-icon-planning {
+    @media (min-width: $screen-md-min) {
+        margin-top: 170px;
+    }
+
+    &:after {
+        @media (min-width: $screen-md-min) {
+            @include midline-icon-left;
+            top: 103px;
+            background-image: url("../../img/our-process/icon-planning.svg");
+        }
+    }
+
+    h3 {
+        @media (min-width: $screen-md-min) {
+            padding-left: 150px;
+            margin-left: -150px;
+        }
+    }
+
+    span {
+        @include horline-left;
     }
 }
 

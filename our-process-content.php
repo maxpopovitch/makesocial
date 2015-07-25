@@ -63,7 +63,7 @@
     <section class="tm-sect-07 tm-midline-01">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 tm-block-01">
+                <div class="col-md-6 tm-block-01 tm-icon-writing">
                     <h3 class="text-uppercase tm-text-line-normal tm-margin-01 tm-overflow-hidden">
                         <strong><span>Writing user stories</span></strong>
                     </h3>
@@ -79,9 +79,40 @@
                             <p class="tm-default-p tm-infocolor tm-nomargin tm-text-line-13"><strong>User Story format:</strong></p>
                             <p class="tm-default-p tm-margin-01 tm-text-line-13">As a [role] I want to [task] so that [goal].</p>
                             <p class="tm-default-p tm-infocolor tm-nomargin tm-text-line-13"><strong>User Story Example:</strong></p>
-                            <p class="tm-default-p tm-margin-01 tm-text-line-13">As a user I want to be able to follow other users so I can see their posts in the News Feed.</p>
+                            <p class="tm-default-p tm-nomargin tm-text-line-13">As a user I want to be able to follow other users so I can see their posts in the News Feed.</p>
+                            <hr class="tm-hr-02 hidden-md hidden-lg"/>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 tm-block-01 tm-icon-refinement">
+                    <div class="tm-cell-block-01">
+                        <div class="tm-cell tm-margin-01">
+                            <img src="img/our-process/our-process-backlog-clipboard.svg" alt="Backlog refinement" />
+                        </div>
+                        <div class="tm-cell">
+                            <h3 class="text-uppercase tm-text-line-normal tm-margin-01 tm-overflow-hidden"><strong><span>Backlog refinement</span></strong></h3>
+                            <p class="tm-default-p tm-margin-01 tm-text-line-15">Every 2 weeks, the team estimates the complexity of each user story in the Product Backlog during Backlog Refinement meeting. During this meeting, the Product Owner and the Team define User Story details: goal, process, expectations, description, acceptance criteria etc.</p>
+                        </div>
+                    </div>
+                    <div class="tm-cell-block-01">
+                        <div class="tm-cell tm-margin-01">
+                            <img src="img/our-process/our-process-backlog-estimation.svg" alt="Backlog refinement" />
+                        </div>
+                        <div class="tm-cell">
+                            <p class="tm-default-p tm-infocolor tm-nomargin tm-text-line-13"><strong>User Story Estimation</strong></p>
+                            <p class="tm-default-p tm-nomargin tm-text-line-15">The whole team focuses its collective effort per Product Backlog Item, giving each member a deck of cards that represent the estimate of how difficult a user story is. The estimates are then discussed until consensus is achieved. This particular method, called scrum Poker, helps Product Owner to evaluate ROI, effectively prioritize items in the Product Backlog, and predict which items will be ready on time.</p>
+                            <hr class="tm-hr-02 hidden-md hidden-lg"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 tm-block-02 tm-icon-planning">
+                    <img class="img-responsive tm-margin-01" src="img/our-process/our-process-sprint-planning.svg" alt="Sprint planning" />
+                    <h3 class="text-uppercase tm-text-line-normal tm-margin-01 tm-overflow-hidden">
+                        <strong><span>Sprint planning</span></strong>
+                    </h3>
+                    <p class="tm-default-p tm-text-line-15 tm-nomargin">Before every sprint, a Sprint Planning meeting is held. Here, the Product Owner prioritizes by importance User Stories, previously defined and estimated on the Backlog Refinement meeting, in the Product Backlog. Based on their previous experience and estimated effort for each user story, the team agrees on the number of user stories that they can commit to completing in each sprint.</p>
                 </div>
             </div>
         </div>

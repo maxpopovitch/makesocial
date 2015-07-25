@@ -90,10 +90,10 @@ Example: @include midline;
 }
 
 /*
-Mixin for horizontal line near middle of the screen
-Example: @include horline;
+Mixin for right horizontal line near middle of the screen
+Example: @include horline-right;
 */
-@mixin horline {
+@mixin horline-right {
     position: relative;
     display: inline-block;
 
@@ -107,7 +107,7 @@ Example: @include horline;
 
     &:before {
         background-color: $default-color;
-        margin-right: 6%;
+        margin-right: 4%;
 
         @media (min-width: $screen-md-min) {
             display: none;
@@ -116,7 +116,7 @@ Example: @include horline;
 
     &:after {
         background-color: $default-color;
-        margin-left: 6%;
+        margin-left: 4%;
     }
 
     &:before, &:after {
@@ -134,18 +134,80 @@ Example: @include horline;
 }
 
 /*
-Mixin for icon over the midline
-Example: @include midline-icon;
+Mixin for left horizontal line near middle of the screen
+Example: @include horline-left;
 */
-@mixin midline-icon {
+@mixin horline-left {
+    position: relative;
+    display: inline-block;
+
+    &:before {
+        right: 100%;
+    }
+
+    &:after {
+        left: 100%;
+
+        @media (min-width: $screen-md-min) {
+            display: none;
+        }
+    }
+
+    &:before {
+        background-color: $default-color;
+        margin-right: 4%;
+    }
+
+    &:after {
+        background-color: $default-color;
+        margin-left: 4%;
+    }
+
+    &:before, &:after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        height: 1px;
+
+        @media (min-width: $screen-md-min) {
+            width: 24%;
+            margin-top: -1px;
+            height: 2px;
+        }
+    }
+}
+
+/*
+Mixin for right icon over the midline
+Example: @include midline-icon-right;
+*/
+@mixin midline-icon-right {
     content: "";
     display: inline-block;
     position: absolute;
     right: -28px;
     top: -10px;
     z-index: 2;
-    width: 56px;
-    height: 56px;
+    width: 57px;
+    height: 57px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+/*
+Mixin for left icon over the midline
+Example: @include midline-icon-left;
+*/
+@mixin midline-icon-left {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: -28px;
+    top: -10px;
+    z-index: 2;
+    width: 57px;
+    height: 57px;
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
