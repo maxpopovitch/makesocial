@@ -116,7 +116,7 @@ Write custom rules here ONLY!
 
 .tm-overlay-02 {
     @include overlay;
-    background-color: rgba(lighten($primary-background, 15), 0.75);
+    background-color: rgba(lighten($primary-background, 15), 0.85);
     z-index: 2;
 }
 
