@@ -133,7 +133,7 @@
                             <img src="img/our-process/our-process-daily-meeting.svg" alt="Daily meeting" />
                         </div>
                         <div class="tm-cell">
-                            <h3 class="text-uppercase tm-text-line-normal tm-margin-01 tm-overflow-hidden"><strong><span>Daily stand-up meeting</span></strong></h3>
+                            <h3 class="h5 text-uppercase tm-text-line-normal tm-margin-01 tm-overflow-hidden"><strong><span>Daily stand-up meeting</span></strong></h3>
                             <p class="tm-default-p tm-margin-01 tm-text-line-13">Each day, an internal stand-up meeting is held to assess the progress. The meetings take no longer than 15 minutes, all members come prepared with the updates and every member is asked these questions:</p>
                             <ul class="tm-margin-01 tm-text-line-13">
                                 <li>What did you do yesterday to achieve the goal?</li>
@@ -141,6 +141,56 @@
                                 <li>Are there any stumbling blocks that could jeopardise the time schedule and goal achievement?</li>
                             </ul>
                             <p class="tm-default-p tm-margin-01 tm-text-line-13">If a problem is identified it is solved without disturbing the process.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="tm-sect-07 tm-midline-01">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 tm-block-01 tm-icon-review">
+                    <div class="tm-cell-block-01">
+                        <div class="tm-cell tm-margin-01">
+                            <img src="img/our-process/our-process-sprint-review.svg" alt="Sprint review" />
+                        </div>
+                        <div class="tm-cell">
+                            <h3 class="text-uppercase tm-text-line-normal tm-margin-01 tm-overflow-hidden"><strong><span>Sprint review / demo</span></strong></h3>
+                            <p class="tm-default-p tm-margin-01 tm-text-line-15">Inspect and adapt <strong class="text-uppercase">the product.</strong></p>
+                            <p class="tm-default-p tm-margin-01 tm-text-line-15">This is the time for the team to demonstrate the work finished within the iteration, get immediate feedback from project stakeholders, e.g. the Product Owner and celebrate their accomplishments.</p>
+                        </div>
+                    </div>
+                    <hr class="tm-hr-02 hidden-md hidden-lg"/>
+                </div>
+                <div class="col-md-6 tm-block-02 tm-icon-retrospective">
+                    <img class="img-responsive tm-margin-01" src="img/our-process/our-process-sprint-retrospective.svg" alt="Sprint retrospective" />
+                    <h3 class="text-uppercase tm-text-line-normal tm-margin-01 tm-overflow-hidden">
+                        <strong><span>Sprint retrospective</span></strong>
+                    </h3>
+                    <p class="tm-default-p tm-margin-01 tm-text-line-15">Inspect and adapt <strong class="text-uppercase">the process.</strong></p>
+                    <p class="tm-default-p tm-text-line-15 tm-nomargin">The team has an opportunity to openly express their thoughts on the sprint cycle. What went well and what can be improved in the following sprint. The things learnt from the Sprint Retrospective meeting provide valuable information for growth and increased optimisation as issues are addressed and solutions are put in place.</p>
+                </div>
+            </div>
+            <div class="row tm-sect-03">
+                <div class="col-md-6 tm-block-01 tm-icon-product">
+                    <p class="h5 text-uppercase tm-infocolor tm-margin-less"><strong>Final result:</strong></p>
+                    <h3 class="text-uppercase tm-text-line-normal tm-margin-01 tm-overflow-hidden">
+                        <strong><span>Potentially shippable product increment</span></strong>
+                    </h3>
+                    <p class="tm-default-p tm-text-line-15 tm-nomargin">In order to ensure that all functionalities are clearly described and captured, we create detailed User Stories and store them in the Product Backlog.</p>
+                    <hr class="tm-hr-02 hidden-md hidden-lg"/>
+                </div>
+                <div class="col-md-6 tm-block-02 tm-responsive">
+                    <div class="tm-cell-block-01 tm-nomargin">
+                        <div class="tm-cell tm-margin-01">
+                            <img src="img/our-process/our-process-responsive-screens.svg" alt="Responsive screens" />
+                        </div>
+                        <div class="tm-cell">
+                            <h3 class="h5 text-uppercase tm-text-line-normal tm-margin-01 tm-overflow-hidden">
+                                <strong><span>Adapted for different sizes and devices</span></strong>
+                            </h3>
+                            <p class="tm-default-p tm-nomargin tm-text-line-15">Screen sizes are always changing, so it is important that your product adapts to any screen size, today or in the future. We make sure that happens by testing it across phones, tablets, desktops, game consoles, TVs, etc.</p>
                         </div>
                     </div>
                 </div>

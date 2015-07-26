@@ -955,7 +955,17 @@ Write custom rules here ONLY!
                     width: 65px;
 
                     @media (min-width: $screen-md-min) {
-                        padding-top: 86px;
+                        padding-top: 36px;
+                    }
+                }
+
+                h3 {
+                    text-align: left;
+                }
+
+                span {
+                    &:before, &:after {
+                        display: none;
                     }
                 }
 
@@ -1404,7 +1414,9 @@ Write custom rules here ONLY!
 
         .tm-cell {
             &:nth-of-type(1) {
-                width: 136px;
+                @media (min-width: $screen-md-min) {
+                    width: 136px;
+                }
             }
 
             p {
@@ -1413,6 +1425,16 @@ Write custom rules here ONLY!
         }
     }
 }
+
+.tm-icon-review {
+    @extend .tm-icon-refinement;
+    &:after {
+        @media (min-width: $screen-md-min) {
+            background-image: url("../../img/our-process/icon-review.svg");
+        }
+    }
+}
+
 .tm-icon-planning {
     @media (min-width: $screen-md-min) {
         margin-top: 170px;
@@ -1435,6 +1457,66 @@ Write custom rules here ONLY!
 
     span {
         @include horline-left;
+    }
+}
+
+.tm-icon-retrospective {
+    @extend .tm-icon-planning;
+
+    @media (min-width: $screen-md-min) {
+        margin-top: 60px;
+    }
+
+    &:after {
+        @media (min-width: $screen-md-min) {
+            @include midline-icon-left;
+            top: 197px;
+            background-image: url("../../img/our-process/icon-retrospective.svg");
+        }
+    }
+
+    p {
+        font-size: 17px;
+    }
+}
+
+
+.tm-icon-product {
+    @media (min-width: $screen-md-min) {
+        padding-right: 88px;
+    }
+
+    &:after {
+        @media (min-width: $screen-md-min) {
+            @include midline-icon-right;
+            width: 147px;
+            height: 169px;
+            right: -72px;
+            top: -30px;
+            background-image: url("../../img/our-process/icon-product.svg");
+        }
+    }
+
+    h3 {
+        text-align: left;
+    }
+}
+
+.tm-responsive {
+    @media (min-width: $screen-md-min) {
+        padding-left: 100px;
+    }
+
+    h3 {
+        text-align: left;
+    }
+
+    p {
+        font-size: 17px;
+    }
+
+    .tm-cell {
+        vertical-align: top;
     }
 }
 
