@@ -435,6 +435,12 @@ Write custom rules here ONLY!
     width: 150px;
 }
 
+.tm-hr-05 {
+    @include hr;
+    margin: $padding-03 auto $padding-03;
+    background: $title-color;
+}
+
 .tm-whatwedo {
 
     li {
@@ -885,8 +891,8 @@ Write custom rules here ONLY!
 .tm-accent-01 {
     background-color: $info-color;
     padding: 36px 0;
-    background-image: url('../../img/bg-pattern.svg');
     background-position: 50% 50%;
+    background-image: url('../../img/bg-pattern.svg');
 }
 
 .tm-accent-02 {
@@ -904,6 +910,62 @@ Write custom rules here ONLY!
 
     .tm-cta {
         width: 100%;
+    }
+}
+
+.tm-accent-03 {
+    background-color: $info-color;
+    padding-top: 108px;
+    padding-bottom: 36px;
+    background-position: 50% 50%;
+    background-image: url('../../img/our-process/our-process-circles-bg.svg');
+
+    [class*="col-"]:nth-of-type(1) {
+        @media (min-width: $screen-md-min) {
+            padding-right: 175px;
+
+            &:after {
+                content: "";
+                position: absolute;
+                right: -154px;
+                top: -60px;
+                z-index: 2;
+                width: 328px;
+                height: 484px;
+                display: inline-block;
+                background-position: 50% 50%;
+                background-repeat: no-repeat;
+                background-image: url('../../img/our-process/our-process-sprint-bg.svg');
+            }
+        }
+    }
+
+    [class*="col-"]:nth-of-type(2) {
+        @media (min-width: $screen-md-min) {
+            padding-left: 175px;
+        }
+
+        &.tm-block-03 {
+            .tm-cell {
+                display: table-cell;
+                vertical-align: top;
+
+                &:nth-of-type(1) {
+                    padding-right: 0;
+                    width: 65px;
+
+                    @media (min-width: $screen-md-min) {
+                        padding-top: 86px;
+                    }
+                }
+
+                ul {
+                    font-family: $font-family-description;
+                    font-size: 17px;
+                    padding-left: 20px;
+                }
+            }
+        }
     }
 }
 
@@ -1192,7 +1254,9 @@ Write custom rules here ONLY!
 }
 
 .tm-cell-block-01 {
-    margin: 0 0 72px;
+    @media (min-width: $screen-md-min) {
+        margin: 0 0 72px;
+    }
 
     @media (min-width: $screen-sm-min) {
         display: table;
@@ -1275,6 +1339,40 @@ Write custom rules here ONLY!
 
     p {
         font-size: 15px;
+    }
+}
+
+.tm-block-03 {
+    position: relative;
+
+    h3 {
+        text-align: center;
+
+        @media (min-width: $screen-md-min) {
+            text-align: left;
+        }
+
+        br {
+            display: none;
+
+            @media (min-width: $screen-md-min) {
+                display: initial;
+            }
+        }
+    }
+
+    span {
+        @include horline-right;
+
+        &:before, &:after {
+            background-color: $title-color;
+        }
+
+        &:after {
+            @media (min-width: $screen-md-min) {
+                display: none;
+            }
+        }
     }
 }
 

@@ -34,7 +34,7 @@
                 </div>
                 <div class="tm-cell">
                     <h3 class="text-uppercase tm-text-line-13"><strong>Discovery and request analysis</strong></h3>
-                    <p class="tm-default-p tm-nomargin tm-text-line-15">An intensive, one to two full-day discovery workshop is organised to help our team better grasp the core components of the business and gain knowledge. Usually the UX designer, project manager and the lead developer attend discovery workshops, but all team members can be included as well. This workshop can be held in our offices in Serbia, in your office, or via Skype call. The goal is to go through individual requirements, discussing and finalising the details. This process will capture user stories and journeys, user data and interactions and is essential to ensure a fool-proof implementation.</p>
+                    <p class="tm-default-p tm-margin-01 tm-text-line-15">An intensive, one to two full-day discovery workshop is organised to help our team better grasp the core components of the business and gain knowledge. Usually the UX designer, project manager and the lead developer attend discovery workshops, but all team members can be included as well. This workshop can be held in our offices in Serbia, in your office, or via Skype call. The goal is to go through individual requirements, discussing and finalising the details. This process will capture user stories and journeys, user data and interactions and is essential to ensure a fool-proof implementation.</p>
                 </div>
             </div>
             <div class="row">
@@ -80,9 +80,9 @@
                             <p class="tm-default-p tm-margin-01 tm-text-line-13">As a [role] I want to [task] so that [goal].</p>
                             <p class="tm-default-p tm-infocolor tm-nomargin tm-text-line-13"><strong>User Story Example:</strong></p>
                             <p class="tm-default-p tm-nomargin tm-text-line-13">As a user I want to be able to follow other users so I can see their posts in the News Feed.</p>
-                            <hr class="tm-hr-02 hidden-md hidden-lg"/>
                         </div>
                     </div>
+                    <hr class="tm-hr-02 hidden-md hidden-lg"/>
                 </div>
             </div>
             <div class="row">
@@ -98,14 +98,14 @@
                     </div>
                     <div class="tm-cell-block-01">
                         <div class="tm-cell tm-margin-01">
-                            <img src="img/our-process/our-process-backlog-estimation.svg" alt="Backlog refinement" />
+                            <img src="img/our-process/our-process-backlog-estimation.svg" alt="Backlog estimation" />
                         </div>
                         <div class="tm-cell">
                             <p class="tm-default-p tm-infocolor tm-nomargin tm-text-line-13"><strong>User Story Estimation</strong></p>
                             <p class="tm-default-p tm-nomargin tm-text-line-15">The whole team focuses its collective effort per Product Backlog Item, giving each member a deck of cards that represent the estimate of how difficult a user story is. The estimates are then discussed until consensus is achieved. This particular method, called scrum Poker, helps Product Owner to evaluate ROI, effectively prioritize items in the Product Backlog, and predict which items will be ready on time.</p>
-                            <hr class="tm-hr-02 hidden-md hidden-lg"/>
                         </div>
                     </div>
+                    <hr class="tm-hr-02 hidden-md hidden-lg"/>
                 </div>
                 <div class="col-md-6 tm-block-02 tm-icon-planning">
                     <img class="img-responsive tm-margin-01" src="img/our-process/our-process-sprint-planning.svg" alt="Sprint planning" />
@@ -113,6 +113,36 @@
                         <strong><span>Sprint planning</span></strong>
                     </h3>
                     <p class="tm-default-p tm-text-line-15 tm-nomargin">Before every sprint, a Sprint Planning meeting is held. Here, the Product Owner prioritizes by importance User Stories, previously defined and estimated on the Backlog Refinement meeting, in the Product Backlog. Based on their previous experience and estimated effort for each user story, the team agrees on the number of user stories that they can commit to completing in each sprint.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="tm-accent-03 tm-midline-02">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 tm-block-03 tm-titlecolor">
+                    <h3 class="text-uppercase tm-text-line-normal tm-margin-01 tm-overflow-hidden">
+                        <strong><span>Sprint: <br/>repeat X times</span></strong>
+                    </h3>
+                    <p class="tm-default-p tm-text-line-15 tm-nomargin">The Scrum process is executed in series of iterations called Sprints. Each sprint is started by a planning meeting in order to determine a sprint backlog - a list of the tasks to be performed during the sprint, and a goal that should be attained by the end of the sprint.</p>
+                    <hr class="tm-hr-05 hidden-md hidden-lg"/>
+                </div>
+                <div class="col-md-6 tm-block-03 tm-titlecolor">
+                    <div class="tm-cell-block-01">
+                        <div class="tm-cell tm-margin-01">
+                            <img src="img/our-process/our-process-daily-meeting.svg" alt="Daily meeting" />
+                        </div>
+                        <div class="tm-cell">
+                            <h3 class="text-uppercase tm-text-line-normal tm-margin-01 tm-overflow-hidden"><strong><span>Daily stand-up meeting</span></strong></h3>
+                            <p class="tm-default-p tm-margin-01 tm-text-line-13">Each day, an internal stand-up meeting is held to assess the progress. The meetings take no longer than 15 minutes, all members come prepared with the updates and every member is asked these questions:</p>
+                            <ul class="tm-margin-01 tm-text-line-13">
+                                <li>What did you do yesterday to achieve the goal?</li>
+                                <li>What is your plan for today?</li>
+                                <li>Are there any stumbling blocks that could jeopardise the time schedule and goal achievement?</li>
+                            </ul>
+                            <p class="tm-default-p tm-margin-01 tm-text-line-13">If a problem is identified it is solved without disturbing the process.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
