@@ -9,6 +9,6 @@
 </header>
 </div>
 <main>
-    <div class="tm-container-wide tm-nopadding">
+    <div class="tm-container-wide tm-margin-auto tm-nopadding">
         123
     </div>

@@ -146,7 +146,7 @@
             <hr class="tm-hr-02" />
             <p class="h5 text-center tm-description tm-subtitle">We are proud of our projects. Take a look at what we’ve done so far. And how.</p>
         </div>
-        <div class="tm-container-wide tm-nomargin tm-nopadding">
+        <div class="tm-container-wide tm-margin-auto tm-nopadding">
             <ul class="tm-casestudies list-unstyled clearfix">
                 <li class="tm-light" style="background-image: url('img/portfolio/nissan-bg.jpg')">
                     <a href="#">
