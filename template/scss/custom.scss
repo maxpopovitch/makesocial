@@ -108,6 +108,14 @@ Write custom rules here ONLY!
     z-index: 1;
 }
 
+.tm-our-work-bg {
+    @include overlay;
+    overflow: hidden;
+    background-image: url("../../img/our-work/our-work-bg.jpg");
+    background-size: cover;
+    z-index: 1;
+}
+
 .tm-overlay-01 {
     @include overlay;
     background-color: rgba($primary-background, 0.75);

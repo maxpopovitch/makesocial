@@ -51,6 +51,7 @@ $(document).ready(function () {
     $('#meet-us-content').closest('body').find('a[href="meet-us"]').addClass('tm-active');
     $('#our-process-content').closest('body').find('a[href="our-process"]').addClass('tm-active');
     $('[id*="services"]').closest('body').find('a[href="services"]').addClass('tm-active');
+    $('#our-work-content').closest('body').find('a[href="our-work"]').addClass('tm-active');
 
     //adding classes for navigation submenu
     $('#services-social-content').closest('body').find('a[href="social-networking-design-development"]').addClass('tm-active');
