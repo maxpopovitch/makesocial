@@ -648,6 +648,11 @@ Write custom rules here ONLY!
     }
 }
 
+.tm-our-work {
+    @extend .tm-casestudies;
+    margin: 0;
+}
+
 .tm-values {
 
     li {

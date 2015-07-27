@@ -1,9 +1,10 @@
 var heightEqualizing = function () {
     var element1 = $('.tm-whatwedo li p'),
-            element2 = $('.tm-casestudies li').find('span'),
-            element3 = $('.tm-values li>div'),
+            element2 = $('.tm-casestudies li a span'),
+            element3 = $('.tm-our-work li a span'),
+            element4 = $('.tm-values li>div'),
             i,
-            elements = [element1, element2, element3];
+            elements = [element1, element2, element3, element4];
 
     var maxHeight;
 
@@ -12,7 +13,7 @@ var heightEqualizing = function () {
             maxHeight = 0;
             elements[i].each(function () {
                 switch (i) {
-                    case 2:
+                    case 3:
                         height = $(this).css('height', 'auto').outerHeight();
                         break;
                     default:
