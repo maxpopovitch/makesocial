@@ -594,6 +594,7 @@ Write custom rules here ONLY!
         a {
             @include prefix((transition: $default-transition));
             display: block;
+            height: 100%;
             padding: 20px 20px 0;
 
             @media (min-width: $screen-lg-min) {

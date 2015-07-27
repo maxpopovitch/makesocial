@@ -43,5 +43,29 @@
                     <img class="img-responsive" src="img/our-work/portfolio/jumbletrail-screen.jpg" alt="Jumble Trail" />
                 </a>
             </li>
+            <li class="tm-dark" style="background-image: url('img/our-work/portfolio/sportlobster-bg.jpg')">
+                <a href="#">
+                    <p class="tm-nomargin text-uppercase">#Social Network &nbsp; #Symfony &nbsp; #Responsive</p>
+                    <h3 class="tm-text-line-normal" style="color: #4198CA">Sportlobster</h3>
+                    <span>Social network that provides everything a Sports fan needs, all in one place.</span>
+                    <img class="img-responsive" src="img/our-work/portfolio/sportlobster-screen.jpg" alt="Sportlobster" />
+                </a>
+            </li>
+            <li class="tm-dark" style="background-image: url('img/our-work/portfolio/coinaphoto-bg.jpg')">
+                <a href="#">
+                    <p class="tm-nomargin text-uppercase">#Social Network &nbsp; #Symfony &nbsp; #Mobile &nbsp; #iOS</p>
+                    <h3 class="tm-text-line-normal" style="color: #FEBC11">Coinaphoto</h3>
+                    <span>Platform that connects people passionate about photography and allows them to earn some cash while uploading their photos.</span>
+                    <img class="img-responsive" src="img/our-work/portfolio/coinaphoto-screen.png" alt="Sportlobster" />
+                </a>
+            </li>
         </ul>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class="text-uppercase"><strong>Want to see more?</strong></h2>
+            </div>
+            <div class="col-md-6">2</div>
+        </div>
     </div>
