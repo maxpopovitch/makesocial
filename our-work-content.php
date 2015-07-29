@@ -16,7 +16,9 @@
                     <p class="tm-nomargin text-uppercase">#Corporate Website &nbsp; #Drupal &nbsp; #Responsive &nbsp; #RIA</p>
                     <h3 class="tm-text-line-normal" style="color: #C81344">Nissan Ireland</h3>
                     <span>Official website of Nissan Ireland</span>
-                    <img class="img-responsive" src="img/our-work/portfolio/nissan-screen.jpg" alt="Nissan Ireland" />
+                    <div class="text-center">
+                        <img class="img-responsive" src="img/our-work/portfolio/nissan-screen.jpg" alt="Nissan Ireland" />
+                    </div>
                 </a>
             </li>
             <li class="tm-dark" style="background-image: url('img/our-work/portfolio/procurious-bg.jpg')">
@@ -24,7 +26,9 @@
                     <p class="tm-nomargin text-uppercase">#Social Network &nbsp; #Symfony &nbsp; #Responsive &nbsp; #eLearning &nbsp;</p>
                     <h3 class="tm-text-line-normal" style="color: #9EE034">Procurious</h3>
                     <span>Social network and eLearning platform for procurement professionals</span>
-                    <img class="img-responsive" src="img/our-work/portfolio/procurious-screen.jpg" alt="Procurious" />
+                    <div class="text-center">
+                        <img class="img-responsive" src="img/our-work/portfolio/procurious-screen.jpg" alt="Procurious" />
+                    </div>
                 </a>
             </li>
             <li class="tm-dark" style="background-image: url('img/our-work/portfolio/supercoucou-bg.jpg')">
@@ -32,7 +36,9 @@
                     <p class="tm-nomargin text-uppercase">#Corporate Website &nbsp; #Drupal &nbsp; #Responsive &nbsp; #RIA</p>
                     <h3 class="tm-text-line-normal" style="color: #FDC200">Super Coucou</h3>
                     <span>Fully automated travel platform made to simplify the booking process for both users and suppliers.  It provides all from booking to sharing content and collaborating with friends.</span>
-                    <img class="img-responsive" src="img/our-work/portfolio/supercoucou-screen.jpg" alt="Super Coucou" />
+                    <div class="text-center">
+                        <img class="img-responsive" src="img/our-work/portfolio/supercoucou-screen.jpg" alt="Super Coucou" />
+                    </div>
                 </a>
             </li>
             <li class="tm-light" style="background-image: url('img/our-work/portfolio/jumbletrail-bg.jpg')">
@@ -40,7 +46,9 @@
                     <p class="tm-nomargin text-uppercase">#Social Network &nbsp; #Symfony &nbsp; #RIA</p>
                     <h3 class="tm-text-line-normal" style="color: #C81344">Jumble Trail</h3>
                     <span>Online platform for organizing and finding jumble sales in your neighboorhood.</span>
-                    <img class="img-responsive" src="img/our-work/portfolio/jumbletrail-screen.jpg" alt="Jumble Trail" />
+                    <div class="text-center">
+                        <img class="img-responsive" src="img/our-work/portfolio/jumbletrail-screen.jpg" alt="Jumble Trail" />
+                    </div>
                 </a>
             </li>
             <li class="tm-dark" style="background-image: url('img/our-work/portfolio/sportlobster-bg.jpg')">
@@ -48,7 +56,9 @@
                     <p class="tm-nomargin text-uppercase">#Social Network &nbsp; #Symfony &nbsp; #Responsive</p>
                     <h3 class="tm-text-line-normal" style="color: #4198CA">Sportlobster</h3>
                     <span>Social network that provides everything a Sports fan needs, all in one place.</span>
-                    <img class="img-responsive" src="img/our-work/portfolio/sportlobster-screen.jpg" alt="Sportlobster" />
+                    <div class="text-center">
+                        <img class="img-responsive" src="img/our-work/portfolio/sportlobster-screen.jpg" alt="Sportlobster" />
+                    </div>
                 </a>
             </li>
             <li class="tm-dark" style="background-image: url('img/our-work/portfolio/coinaphoto-bg.jpg')">
@@ -56,7 +66,9 @@
                     <p class="tm-nomargin text-uppercase">#Social Network &nbsp; #Symfony &nbsp; #Mobile &nbsp; #iOS</p>
                     <h3 class="tm-text-line-normal" style="color: #FEBC11">Coinaphoto</h3>
                     <span>Platform that connects people passionate about photography and allows them to earn some cash while uploading their photos.</span>
-                    <img class="img-responsive" src="img/our-work/portfolio/coinaphoto-screen.png" alt="Sportlobster" />
+                    <div class="text-center">
+                        <img class="img-responsive" src="img/our-work/portfolio/coinaphoto-screen.png" alt="Sportlobster" />
+                    </div>
                 </a>
             </li>
         </ul>

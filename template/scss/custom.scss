@@ -621,6 +621,10 @@ Write custom rules here ONLY!
                 font-family: $font-family-description;
                 display: block;
             }
+
+            img {
+                display: inline-block;
+            }
         }
 
         &.tm-light a {
