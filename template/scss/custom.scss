@@ -1582,6 +1582,11 @@ Write custom rules here ONLY!
         &:nth-of-type(1) {
             height: auto !important;
 
+            @media (max-width: $screen-sm-max) {
+                padding-top: $grid-gutter-width * 2;
+                padding-bottom: $grid-gutter-width * 2;
+            }
+
             @media (min-width: $screen-md-min) {
                 height: 100% !important;
             }
