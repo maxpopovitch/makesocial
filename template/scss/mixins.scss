@@ -211,3 +211,16 @@ Example: @include midline-icon-left;
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
+
+/*
+Default Bootstrap's mixin for transition-transform.
+In this project it used for overriding default transition-transform speed of
+#tm-casestudies-carousel
+Example: @include transition-transform(.3s ease-in-out);
+*/
+@mixin transition-transform($transition...) {
+    -webkit-transition: -webkit-transform $transition;
+    -moz-transition: -moz-transform $transition;
+    -o-transition: -o-transform $transition;
+    transition: transform $transition;
+}

@@ -1608,6 +1608,10 @@ Write custom rules here ONLY!
         border-top: 0;
     }
 
+    .carousel-inner > .item {
+        @include transition-transform(.3s ease-in-out);
+    }
+
     .carousel-control {
         @include prefix((transform: translateY(-50%)));
         color: $default-color;

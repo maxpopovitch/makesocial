@@ -127,12 +127,108 @@
                         <div class="item">
                             <div class="tm-cell-block-01">
                                 <div class="tm-cell">
+                                    <img src="img/our-work/logotypes/synapse.png" alt="NHS Synapse">
+                                </div>
+                                <div class="tm-cell">
+                                    <h5 class="tm-text-line-13"><strong>Synapse</strong></h5>
+                                    <p class="tm-default-p tm-margin-less tm-text-line-15">A professional, invitation only, social network for postgraduate medical education that covers all London Specialty Schools.</p>
+                                    <a href="http://www.synapse.nhs.com/" target="_blank">www.synapse.nhs.com</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="tm-cell-block-01">
+                                <div class="tm-cell">
+                                    <img src="img/our-work/logotypes/topmotors.png" alt="Top Motors">
+                                </div>
+                                <div class="tm-cell">
+                                    <h5 class="tm-text-line-13"><strong>Top Motors</strong></h5>
+                                    <p class="tm-default-p tm-margin-less tm-text-line-15">Social networking for motor enthusiasts. Browse, chat, buy, sell and compete with motor enthusiasts around the world.</p>
+                                    <a href="http://topmotors.com/" target="_blank">topmotors.com</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="tm-cell-block-01">
+                                <div class="tm-cell">
+                                    <img src="img/our-work/logotypes/runonbeat.png" alt="RunOnBeat">
+                                </div>
+                                <div class="tm-cell">
+                                    <h5 class="tm-text-line-13"><strong>RunOnBeat</strong></h5>
+                                    <p class="tm-default-p tm-margin-less tm-text-line-15">Social network for sharing how you are feeling about certain topics in a graphic way. Create your eMote to generatee a unique color and watch how the world reacts.</p>
+                                    <a href="http://www.runonbeat.com/" target="_blank">www.runonbeat.com</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="tm-cell-block-01">
+                                <div class="tm-cell">
+                                    <img src="img/our-work/logotypes/mooditood.png" alt="Mooditood">
+                                </div>
+                                <div class="tm-cell">
+                                    <h5 class="tm-text-line-13"><strong>Mooditood</strong></h5>
+                                    <p class="tm-default-p tm-margin-less tm-text-line-15">Mobile app that compiles the perfect soundtrack to your run - syncing your footsteps with the beat of your favourite songs.</p>
+                                    <a href="http://mooditood.com/" target="_blank">mooditood.com</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="tm-cell-block-01">
+                                <div class="tm-cell">
                                     <img src="img/our-work/logotypes/ecco.png" alt="Ecco">
                                 </div>
                                 <div class="tm-cell">
                                     <h5 class="tm-text-line-13"><strong>Ecco e-Guide</strong></h5>
                                     <p class="tm-default-p tm-margin-less tm-text-line-15">The ECCO e-Guide is an online collection of interactive algorithms for treatment of specific diseases. Furthermore, it features additional details about interventions and diseases. In case you need any help there is a lot of resources and helpful answers.</p>
                                     <a href="http://www.e-guide.ecco-ibd.eu/" target="_blank">www.e-guide.ecco-ibd.eu</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="tm-cell-block-01">
+                                <div class="tm-cell">
+                                    <img src="img/our-work/logotypes/letsloop.png" alt="Let's Loop">
+                                </div>
+                                <div class="tm-cell">
+                                    <h5 class="tm-text-line-13"><strong>Let's Loop</strong></h5>
+                                    <p class="tm-default-p tm-margin-less tm-text-line-15">Social network for music fans where everyone can discover, share & listen to music together.</p>
+                                    <a href="http://www.letsloop.com/" target="_blank">www.letsloop.com</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="tm-cell-block-01">
+                                <div class="tm-cell">
+                                    <img src="img/our-work/logotypes/themarque.png" alt="The Marque">
+                                </div>
+                                <div class="tm-cell">
+                                    <h5 class="tm-text-line-13"><strong>The Marque</strong></h5>
+                                    <p class="tm-default-p tm-margin-less tm-text-line-15">The Marque is a subscription-based business network for leading business people that allows them to manage their online profile, build powerful connections and gain access to personalised business news.</p>
+                                    <a href="http://www.themarque.com/" target="_blank">www.themarque.com</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="tm-cell-block-01">
+                                <div class="tm-cell">
+                                    <img src="img/our-work/logotypes/storyvault.png" alt="Story Vault">
+                                </div>
+                                <div class="tm-cell">
+                                    <h5 class="tm-text-line-13"><strong>Story Vault</strong></h5>
+                                    <p class="tm-default-p tm-margin-less tm-text-line-15">StoryVault is a video sharing website where you can record precious memories and stories and share them with your friends, family and the wider world.</p>
+                                    <a href="http://www.storyvault.com/" target="_blank">www.storyvault.com</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="tm-cell-block-01">
+                                <div class="tm-cell">
+                                    <img src="img/our-work/logotypes/mediapaedia.png" alt="MediaPaedia">
+                                </div>
+                                <div class="tm-cell">
+                                    <h5 class="tm-text-line-13"><strong>MediaPaedia</strong></h5>
+                                    <p class="tm-default-p tm-margin-less tm-text-line-15">Corporate website for a digital media technology and consultancy company.</p>
+                                    <a href="http://mediapaedia.com/" target="_blank">mediapaedia.com</a>
                                 </div>
                             </div>
                         </div>
