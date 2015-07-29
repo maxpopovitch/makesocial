@@ -75,7 +75,6 @@
             </ul>
         </div>
     </div>
-
     <div class="container-fluid tm-container-wide tm-nopadding tm-want-to-see-more">
         <div class="row tm-nomargin">
             <div class="col-md-6">
@@ -145,6 +144,18 @@
                         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                     </a>
                 </div>
+            </div>
+        </div>
+    </div>
+    <div class="tm-bg-01">
+        <div class="tm-container-wide tm-nopadding our-clients">
+            <div class="row tm-sect-01 tm-nomargin">
+                <div class="col-md-4">
+                    <h3 class="text-uppercase"><strong>Our clients</strong></h3>
+                    <p class="h5 tm-description tm-text-line-15">These brands trusted us and together we moved boundaries with every project.</p>
+                    <hr class="tm-hr-03" />
+                </div>
+                <div class="col-md-8">2</div>
             </div>
         </div>
     </div>

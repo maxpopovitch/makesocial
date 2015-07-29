@@ -1594,7 +1594,7 @@ Write custom rules here ONLY!
     }
 
     p {
-        font-size: 19px;
+        font-size: 18px;
     }
 }
 
@@ -1645,6 +1645,17 @@ Write custom rules here ONLY!
             color: $default-color;
             text-decoration: none;
         }
+    }
+}
+
+.our-clients {
+    [class*="col-"] {
+        padding-left: $grid-gutter-width;
+        padding-right: $grid-gutter-width;
+    }
+
+    p {
+        font-size: 18px;
     }
 }
 
