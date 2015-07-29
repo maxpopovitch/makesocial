@@ -1556,6 +1556,93 @@ Write custom rules here ONLY!
     }
 }
 
+.tm-want-to-see-more {
+    [class*="col-"] {
+        &:nth-of-type(1) {
+            padding-left: $grid-gutter-width;
+            padding-right: $grid-gutter-width;
+
+            @media (max-width: $screen-sm-max) {
+                height: auto !important;
+            }
+        }
+
+        &:nth-of-type(2) {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+
+    .tm-cell-block-01 {
+        padding-top: $grid-gutter-width;
+        padding-bottom: $grid-gutter-width;
+        display: table;
+        margin: 0;
+
+        &:nth-of-type(1) {
+            height: auto !important;
+
+            @media (min-width: $screen-md-min) {
+                height: 100% !important;
+            }
+        }
+    }
+
+    p {
+        font-size: 19px;
+    }
+}
+
+#tm-casestudies-carousel {
+    border-top: 1px solid rgba(black, 0.1);
+    padding-left: $grid-gutter-width * 2;
+    padding-right: $grid-gutter-width * 2;
+
+    @media (min-width: $screen-md-min) {
+        border-left: 1px solid rgba(black, 0.1);
+        border-top: 0;
+    }
+
+    .carousel-control {
+        @include prefix((transform: translateY(-50%)));
+        color: $default-color;
+        background: transparent;
+        height: 60px;
+        top: 50%;
+        text-shadow: none;
+
+        &:hover, &:focus {
+
+        }
+
+        &.left {
+            left: floor(($grid-gutter-width / 2));
+        }
+
+        &.right {
+            right: floor(($grid-gutter-width / 2));
+        }
+    }
+
+    p {
+        font-size: 17px;
+    }
+
+    .tm-cell a {
+        @include prefix((transition: $nav-transition));
+        color: darken($info-color, 14);
+        font-family: $font-family-description;
+        font-weight: bold;
+        font-size: 15px;
+
+        &:hover, &:focus {
+            @include prefix((transition: $nav-transition));
+            color: $default-color;
+            text-decoration: none;
+        }
+    }
+}
+
 footer {
     padding: $padding-01 0;
     background-color: darken($info-color, 5);
