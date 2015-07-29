@@ -4,10 +4,11 @@ var heightEqualizing = function () {
             element3 = $('.tm-our-work li a span'),
             element4 = $('.tm-want-to-see-more .item'),
             element5 = $('.tm-want-to-see-more .tm-cell-block-01'),
-            element6 = $('.tm-values li>div'),
+            element6 = $('.our-clients ul li div span'),
+            element7 = $('.tm-values li>div'),
             i,
             item,
-            elements = [element1, element2, element3, element4, element5, element6];
+            elements = [element1, element2, element3, element4, element5, element6, element7];
 
     var maxHeight;
 
@@ -26,7 +27,7 @@ var heightEqualizing = function () {
                     maxHeight = height;
                 }
                 elements[i].css('height', maxHeight);
-                item = element4.height();
+                item = $('.tm-want-to-see-more .item').height();
                 $('.tm-want-to-see-more [class^="col-"]').css('height', item);
             });
         }

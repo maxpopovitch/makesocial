@@ -1661,6 +1661,38 @@ Write custom rules here ONLY!
     p {
         font-size: 18px;
     }
+
+    ul {
+        li {
+            display: block;
+            text-align: center;
+            padding: $padding-02 $padding-02 0 0;
+
+            @media (min-width: $screen-sm-min) {
+                float: left;
+                width: 50%;
+            }
+
+            @media (min-width: $screen-md-min) {
+                width: 25%;
+            }
+
+            img {
+                max-width: 100%;
+            }
+
+            div {
+                display: table;
+                width: 100%;
+                margin: 10px 0;
+
+                span {
+                    display: table-cell;
+                    vertical-align: middle;
+                }
+            }
+        }
+    }
 }
 
 footer {

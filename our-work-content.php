@@ -103,7 +103,7 @@
                         <div class="item">
                             <div class="tm-cell-block-01">
                                 <div class="tm-cell">
-                                    <img src="img/our-work/logotypes/hyundai.png" alt="Hyundai">
+                                    <img src="img/our-work/logotypes/hyundaichallenge.png" alt="Hyundai">
                                 </div>
                                 <div class="tm-cell">
                                     <h5 class="tm-text-line-13"><strong>Hyundai Challenge</strong></h5>
@@ -251,7 +251,94 @@
                     <p class="h5 tm-description tm-text-line-15">These brands trusted us and together we moved boundaries with every project.</p>
                     <hr class="tm-hr-03" />
                 </div>
-                <div class="col-md-8">2</div>
+                <div class="col-md-8">
+                    <ul class="list-unstyled clearfix">
+                        <li>
+                            <div>
+                                <span>
+                                    <img src="img/our-work/logotypes/sociablepharma.png" alt="Sociable Pharma" />
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <span>
+                                    <img src="img/our-work/logotypes/tallyfox.png" alt="Tally Fox" />
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <span>
+                                    <img src="img/our-work/logotypes/hyundai.png" alt="Hyundai" />
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <span>
+                                    <img src="img/our-work/logotypes/sportlobster.png" alt="Sportlobster" />
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <span>
+                                    <img src="img/our-work/logotypes/coinaphoto.png" alt="Coinaphoto" />
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <span>
+                                    <img src="img/our-work/logotypes/anaivanovic.png" alt="Ana Ivanovic" />
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <span>
+                                    <img src="img/our-work/logotypes/katebush.png" alt="Kate Bush" />
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <span>
+                                    <img src="img/our-work/logotypes/kweekweek.png" alt="KweekWeek" />
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <span>
+                                    <img src="img/our-work/logotypes/nhs.png" alt="NHS" />
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <span>
+                                    <img src="img/our-work/logotypes/progressivemedia.png" alt="ProgressiveMedia" />
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <span>
+                                    <img src="img/our-work/logotypes/ricoh.png" alt="Ricoh" />
+                                </span>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <span>
+                                    <img src="img/our-work/logotypes/nissan.png" alt="Nissan" />
+                                </span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
