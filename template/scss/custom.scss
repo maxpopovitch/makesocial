@@ -440,6 +440,10 @@ Write custom rules here ONLY!
     background: rgba(lighten($primary-background, 15), 0.75);
 }
 
+.tm-bg-03 {
+    background: $default-color;
+}
+
 .tm-hr-01 {
     @include hr;
     margin: $padding-03 auto ($padding-03 - $padding-02);
@@ -1732,7 +1736,7 @@ Write custom rules here ONLY!
     margin: 0;
 
     li {
-        height: 270px;
+        height: 320px;
         position: relative;
         background-size: cover;
 
@@ -1746,18 +1750,10 @@ Write custom rules here ONLY!
         }
 
         &:hover {
-            .tm-offices-description {
-                @include prefix((transition: $nav-transition));
-                padding: 60px 20px 180px;
-                position: relative;
-                z-index: 3;
-                height: 100%;
-            }
-
             .tm-centering {
                 @include prefix((transform: none));
                 @include prefix((transition: $nav-transition));
-                top: 30px;
+                top: 50px;
             }
 
             .tm-overlay {
@@ -1777,7 +1773,7 @@ Write custom rules here ONLY!
 
             p {
                 @include prefix((transition: $nav-transition));
-                top: 110px;
+                top: 130px;
             }
         }
 
@@ -1824,6 +1820,68 @@ Write custom rules here ONLY!
             width: 100%;
             top: 100%;
             left: 0;
+        }
+    }
+}
+
+.tm-social-buzz {
+    color: $title-color;
+    margin: 0;
+    display: table;
+    width: 100%;
+
+    li {
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+        width: 20%;
+
+        @media (min-width: $screen-md-min) {
+            width: 16.66666%;
+        }
+
+        &:nth-of-type(1) {
+            display: none;
+            font-size: 18px;
+            text-transform: uppercase;
+
+            @media (min-width: $screen-md-min) {
+                display: table-cell;
+            }
+        }
+
+        &:not(:nth-of-type(1)) {
+            border-left: 1px solid rgba($title-color, 0.1);
+        }
+
+
+        a {
+            @include prefix((transition: $nav-transition));
+            display: block;
+            padding: 4px;
+
+            @media (min-width: $screen-sm-min) {
+                padding: 18px;
+            }
+
+            &:hover, &:focus {
+                @include prefix((transition: $nav-transition));
+            }
+
+            &.tm-facebook:hover {background: #3B5998}
+            &.tm-twitter:hover {background: #55ACEE}
+            &.tm-linkedin:hover {background: #1F89BE}
+            &.tm-google:hover {background: #DD4B39}
+            &.tm-instagram:hover {background: #3F729B}
+
+            svg {
+                height: 25px;
+                fill: $title-color;
+
+                @media (min-width: $screen-md-min) {
+                    height: 35px;
+                }
+            }
         }
     }
 }
