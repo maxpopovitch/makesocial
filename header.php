@@ -29,7 +29,7 @@
                             <li><a href="services">services</a></li>
                             <li><a href="our-process">our process</a></li>
                             <li><a href="our-work">our work</a></li>
-                            <li><a href="#">contact us</a></li>
+                            <li><a href="contact-us">contact us</a></li>
                             <li><a href="#">free quote</a></li>
                         </ul>
                     </div>

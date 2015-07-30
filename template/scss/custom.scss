@@ -120,6 +120,14 @@ Write custom rules here ONLY!
     z-index: 1;
 }
 
+.tm-contact-us-bg {
+    @include overlay;
+    overflow: hidden;
+    background-image: url("../../img/contact-us/contact-us-bg.jpg");
+    background-size: cover;
+    z-index: 1;
+}
+
 .tm-overlay-01 {
     @include overlay;
     background-color: rgba($primary-background, 0.75);
@@ -147,6 +155,12 @@ Write custom rules here ONLY!
 .tm-overlay-05 {
     @include overlay;
     @include prefix((filter: brightness(0.75) grayscale(1)));
+    z-index: 2;
+}
+
+.tm-overlay-06 {
+    @include overlay;
+    @include prefix((filter: brightness(0.25) grayscale(1)));
     z-index: 2;
 }
 
@@ -1696,6 +1710,16 @@ Write custom rules here ONLY!
             }
         }
     }
+}
+
+.tm-offices-chevron {
+    color: $info-color;
+    margin: 18px 0 -30px;
+    font-size: 30px;
+}
+
+.tm-our-offices {
+    margin: 0;
 }
 
 footer {
