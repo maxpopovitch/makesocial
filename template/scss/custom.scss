@@ -1681,9 +1681,9 @@ Write custom rules here ONLY!
 
     ul {
         li {
+            padding: $padding-02 $padding-02 0 0;
             display: block;
             text-align: center;
-            padding: $padding-02 $padding-02 0 0;
 
             @media (min-width: $screen-sm-min) {
                 float: left;
@@ -1712,6 +1712,16 @@ Write custom rules here ONLY!
     }
 }
 
+.tm-our-offices-info {
+    h2 {
+        font-size: 30px;
+
+        @media (min-width: $screen-sm-min) {
+            font-size: 46px;
+        }
+    }
+}
+
 .tm-offices-chevron {
     color: $info-color;
     margin: 18px 0 -30px;
@@ -1720,6 +1730,102 @@ Write custom rules here ONLY!
 
 .tm-our-offices {
     margin: 0;
+
+    li {
+        height: 270px;
+        position: relative;
+        background-size: cover;
+
+        @media (min-width: $screen-sm-min) {
+            width: 50%;
+            float: left;
+        }
+
+        @media (min-width: $screen-md-min) {
+            width: 33.33333%;
+        }
+
+        &:hover {
+            .tm-offices-description {
+                @include prefix((transition: $nav-transition));
+                padding: 60px 20px 180px;
+                position: relative;
+                z-index: 3;
+                height: 100%;
+            }
+
+            .tm-centering {
+                @include prefix((transform: none));
+                @include prefix((transition: $nav-transition));
+                top: 30px;
+            }
+
+            .tm-overlay {
+                @include prefix((transition: $nav-transition));
+                background-color: rgba($info-color, 0.85);
+            }
+
+            h3 {
+                @include prefix((transition: $nav-transition));
+                font-size: 26px;
+            }
+
+            hr {
+                @include prefix((transition: $nav-transition));
+                background: #FFF;
+            }
+
+            p {
+                @include prefix((transition: $nav-transition));
+                top: 110px;
+            }
+        }
+
+        .tm-overlay {
+            @include overlay;
+            @include prefix((transition: $nav-transition));
+            background-color: rgba($default-color, 0.35);
+            z-index: 2;
+        }
+
+        .tm-offices-description {
+            @include prefix((transition: $nav-transition));
+            position: relative;
+            z-index: 3;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .tm-centering {
+            @include prefix((transform: translateY(-50%)));
+            @include prefix((transition: $nav-transition));
+            position: absolute;
+            width: 100%;
+            top: 50%;
+            left: 0;
+        }
+
+        h3 {
+            @include prefix((transition: $nav-transition));
+            font-size: 35px;
+        }
+
+        hr {
+            @include prefix((transition: $nav-transition));
+            width: 50px;
+            margin-bottom: 0;
+        }
+
+        p {
+            @include prefix((transition: $nav-transition));
+            font-family: $font-family-description;
+            font-size: 17px;
+            position: absolute;
+            width: 100%;
+            top: 100%;
+            left: 0;
+        }
+    }
 }
 
 footer {
