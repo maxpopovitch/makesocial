@@ -7,7 +7,9 @@ var heightEqualizing = function () {
             element6 = $('.our-clients ul li div span'),
             element7 = $('.tm-values li>div'),
             i,
+            j,
             item,
+            p, h4, ph4, paddingTop, paddingBottom,
             elements = [element1, element2, element3, element4, element5, element6, element7];
 
     var maxHeight;
@@ -17,8 +19,20 @@ var heightEqualizing = function () {
             maxHeight = 0;
             elements[i].each(function () {
                 switch (i) {
-                    case 5:
+                    case 6:
                         height = $(this).css('height', 'auto').outerHeight();
+                        p = $(this).find('p').css('height', 'auto').height();
+                        h4 = $(this).find('h4').css('height', 'auto').outerHeight();
+                        paddingTop = $(this).css('padding-top');
+                        paddingBottom = $(this).css('padding-bottom');
+                        ph4 = p + h4;
+                        if (height < ph4) {
+                            height = ph4 + parseInt(paddingTop) + parseInt(paddingBottom);
+                        }
+
+                        if (height > maxHeight) {
+                            maxHeight = height;
+                        }
                         break;
                     default:
                         height = $(this).css('height', 'auto').height();

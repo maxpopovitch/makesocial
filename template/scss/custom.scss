@@ -686,6 +686,8 @@ Write custom rules here ONLY!
             h3 {
                 margin: ($padding-01 / 2) 0;
                 font-size: 36px;
+                position: relative;
+                z-index: 1;
             }
 
             .tm-descr {
@@ -693,6 +695,7 @@ Write custom rules here ONLY!
                 padding: $padding-01;
                 background-color: $info-color;
                 position: absolute;
+                z-index: 2;
                 top: 0;
                 right: 0;
                 bottom: 0;
