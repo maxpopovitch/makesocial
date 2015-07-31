@@ -2024,6 +2024,23 @@ Write custom rules here ONLY!
     }
 }
 
+#form-quote {
+    h3 {
+        position: relative;
+        padding-left: 22px;
+
+        &:before {
+            background-color: $info-color;
+            content: "";
+            width: 12px;
+            height: 12px;
+            position: absolute;
+            top: 12px;
+            left: 0;
+        }
+    }
+}
+
 footer {
     padding: $padding-01 0;
     background-color: darken($info-color, 5);
