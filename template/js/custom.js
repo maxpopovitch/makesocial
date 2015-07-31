@@ -5,12 +5,13 @@ var heightEqualizing = function () {
             element4 = $('.tm-want-to-see-more .item'),
             element5 = $('.tm-want-to-see-more .tm-cell-block-01'),
             element6 = $('.our-clients ul li div span'),
-            element7 = $('.tm-values li>div'),
+            element7 = $('#quote-message a'),
+            element8 = $('.tm-values li>div'),
             i,
             j,
             item,
             p, h4, ph4, paddingTop, paddingBottom,
-            elements = [element1, element2, element3, element4, element5, element6, element7];
+            elements = [element1, element2, element3, element4, element5, element6, element7, element8];
 
     var maxHeight;
 
@@ -20,6 +21,7 @@ var heightEqualizing = function () {
             elements[i].each(function () {
                 switch (i) {
                     case 6:
+                    case 7:
                         height = $(this).css('height', 'auto').outerHeight();
                         p = $(this).find('p').css('height', 'auto').height();
                         h4 = $(this).find('h4').css('height', 'auto').outerHeight();
@@ -47,20 +49,23 @@ var heightEqualizing = function () {
         }
     })();
 
-    var why1height = $('.tm-why-us-text-01').outerHeight();
-    var why2height = $('.tm-why-us-text-02').outerHeight();
-    var why3height = $('.tm-why-us-text-03').outerHeight();
-    var why4height = $('.tm-why-us-text-04').outerHeight();
-    var why5height = $('.tm-why-us-text-05').outerHeight();
-    var why6height = $('.tm-why-us-text-06').outerHeight();
+    for (var position = 1; position <= 6; position++) {
+        whyUsImgHeight(position);
+    }
+
     var joinheight = $('.tm-join-us-text').outerHeight();
-    $('.tm-why-us-img-01').css('height', why1height);
-    $('.tm-why-us-img-02').css('height', why2height);
-    $('.tm-why-us-img-03').css('height', why3height);
-    $('.tm-why-us-img-04').css('height', why4height);
-    $('.tm-why-us-img-05').css('height', why5height);
-    $('.tm-why-us-img-06').css('height', why6height);
     $('[class*="tm-join-us-img"]').css('height', joinheight);
+
+    function whyUsImgHeight(position) {
+        var whyTextSelector = '.tm-why-us-text-' + appendZero(position);
+        var whyImgSelector = '.tm-why-us-img-' + appendZero(position);
+        var outerHeight = $(whyTextSelector).outerHeight();
+        $(whyImgSelector).css('height', outerHeight);
+    }
+
+    function appendZero(number) {
+        return number > 10 ? number : '0' + number;
+    }
 };
 
 $(window).load(heightEqualizing);

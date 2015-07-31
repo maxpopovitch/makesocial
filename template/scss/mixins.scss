@@ -4,7 +4,8 @@ ONLY mixins, no code here!
 
 @import "variables.scss";
 
-/*mixin for vendor-prefixes
+/*
+Mixin for vendor-prefixes.
 Example: @include prefix((transform: translateY(-50%)));
 */
 @mixin prefix($scope, $vendors: webkit moz ms o) {
@@ -20,7 +21,7 @@ Example: @include prefix((transform: translateY(-50%)));
 }
 
 /*
-Mixin for overlay positioning
+Mixin for overlay positioning.
 Example: @include overlay;
 */
 @mixin overlay {
@@ -32,7 +33,7 @@ Example: @include overlay;
 }
 
 /*
-Mixin for call to action element
+Mixin for call to action element.
 Example: @include cta;
 */
 @mixin cta {
@@ -50,7 +51,7 @@ Example: @include cta;
 }
 
 /*
-Mixin for description and subtitle
+Mixin for description and subtitle.
 Example: @include description;
 */
 @mixin description {
@@ -59,7 +60,7 @@ Example: @include description;
 }
 
 /*
-Mixin for default hr element
+Mixin for default hr element.
 Example: @include hr;
 */
 @mixin hr {
@@ -91,7 +92,7 @@ Example: @include midline;
 }
 
 /*
-Mixin for right horizontal line near middle of the screen
+Mixin for right horizontal line near middle of the screen.
 Example: @include horline-right;
 */
 @mixin horline-right {
@@ -135,7 +136,7 @@ Example: @include horline-right;
 }
 
 /*
-Mixin for left horizontal line near middle of the screen
+Mixin for left horizontal line near middle of the screen.
 Example: @include horline-left;
 */
 @mixin horline-left {
@@ -180,7 +181,7 @@ Example: @include horline-left;
 }
 
 /*
-Mixin for right icon over the midline
+Mixin for right icon over the midline.
 Example: @include midline-icon-right;
 */
 @mixin midline-icon-right {
@@ -197,7 +198,7 @@ Example: @include midline-icon-right;
 }
 
 /*
-Mixin for left icon over the midline
+Mixin for left icon over the midline.
 Example: @include midline-icon-left;
 */
 @mixin midline-icon-left {
@@ -211,6 +212,29 @@ Example: @include midline-icon-left;
     height: 57px;
     background-position: 50% 50%;
     background-repeat: no-repeat;
+}
+
+/*
+Mixin for .nav-tabs a elements.
+Example: @include nav-tabs-a;
+*/
+@mixin nav-tabs-a {
+    border: 0;
+    margin: 0;
+}
+
+/*
+Mixin for triangle after active menu item.
+Example: @include triangle;
+*/
+@mixin triangle {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-left: $triangle-height solid transparent;
+    border-right: $triangle-height solid transparent;
+    border-top: $triangle-height solid #FFF;
 }
 
 /*

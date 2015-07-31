@@ -1218,13 +1218,7 @@ Write custom rules here ONLY!
                 @media (min-width: $screen-md-min) {
                     @include prefix((transform: translateX(-50%)));
                     @include prefix((filter: drop-shadow($subnav-box-shadow)));
-                    content: "";
-                    position: absolute;
-                    width: 0px;
-                    height: 0px;
-                    border-left: 17px solid transparent;
-                    border-right: 17px solid transparent;
-                    border-top: 17px solid #FFF;
+                    @include triangle;
                     left: 50%;
                     bottom: -32px;
                 }
@@ -1749,6 +1743,10 @@ Write custom rules here ONLY!
             width: 33.33333%;
         }
 
+        @media (min-width: $screen-lg-min) {
+            height: 340px;
+        }
+
         &:hover {
             .tm-centering {
                 @include prefix((transform: none));
@@ -1883,6 +1881,146 @@ Write custom rules here ONLY!
                 }
             }
         }
+    }
+}
+
+#quote-message {
+    &.nav-tabs {
+        border-bottom: 0;
+
+        > li {
+            margin: 0;
+            width: 50%;
+
+            &.active {
+                &:after {
+                    @include triangle;
+                    bottom: (-$triangle-height);
+                }
+
+                a {
+                    @include nav-tabs-a;
+                    color: $default-color;
+                    background-color: #FFF;
+
+                    &:hover, &:focus {
+                        @include nav-tabs-a;
+                        color: $default-color;
+                        background-color: #FFF;
+                    }
+
+                    svg {
+                        fill: $default-color;
+                    }
+                }
+            }
+
+            a {
+                @include nav-tabs-a;
+                border-radius: 0;
+                background-color: $info-color;
+                color: $nav-primary-color;
+                padding: 5px 10px;
+
+                @media (min-width: $screen-sm-min) {
+                    padding: 30px;
+                }
+
+                &:hover, &:focus {
+                    @include nav-tabs-a;
+                    background-color: darken($info-color, 5);
+                    color: $nav-primary-color;
+                }
+
+                svg {
+                    fill: $nav-primary-color;
+                }
+
+                > div {
+                    &:nth-of-type(1) {
+                        margin: 0 18px 5px 0;
+                        width: 100%;
+
+                        @media (min-width: $screen-md-min) {
+                            margin: 0 18px 18px 0;
+                            width: auto;
+                        }
+                    }
+                }
+            }
+
+            &:nth-of-type(1) {
+                &.active {
+                    &:after {
+                        right: 12%;
+                    }
+                }
+
+                a {
+                    @media (min-width: $screen-lg-min) {
+                        padding: 60px 60px 60px 100px;
+                    }
+
+                    @media (min-width: $screen-xl-min) {
+                        padding: 60px 60px 60px 200px;
+                    }
+
+                    @media (min-width: $screen-xxl-min) {
+                        padding: 60px 60px 60px 380px;
+                    }
+                }
+            }
+
+            &:nth-of-type(2) {
+                &.active {
+                    &:after {
+                        left: 12%;
+                    }
+                }
+
+                a {
+                    @media (min-width: $screen-lg-min) {
+                        padding: 60px 100px 60px 60px;
+                    }
+
+                    @media (min-width: $screen-xl-min) {
+                        padding: 60px 200px 60px 60px;
+                    }
+
+                    @media (min-width: $screen-xxl-min) {
+                        padding: 60px 380px 60px 60px;
+                    }
+                }
+            }
+        }
+    }
+
+    h2 {
+        margin: 0 0 10px;
+        font-size: 20px;
+
+        @media (min-width: $screen-sm-min) {
+            font-size: 25px;
+        }
+
+        @media (min-width: $screen-md-min) {
+            font-size: 36px;
+        }
+    }
+
+    p {
+        font-family: $font-family-description;
+        margin: 0 0 5px;
+        font-size: 14px;
+
+        @media (min-width: $screen-sm-min) {
+            font-size: 17px;
+        }
+    }
+
+    .tm-envelope {
+        width: 50px;
+        margin-top: -5px;
     }
 }
 

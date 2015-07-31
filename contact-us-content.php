@@ -110,4 +110,49 @@
                 </li>
             </ul>
         </div>
+        <div class="tm-container-wide tm-margin-auto tm-nopadding">
+            <!-- Nav tabs -->
+            <ul id="quote-message" class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active">
+                    <a class="clearfix" href="#quote" aria-controls="quote" role="tab" data-toggle="tab">
+                        <div class="pull-left">
+                            <svg class="tm-envelope" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1024 1024">
+                            <path d="M896 307.2h-819.2c-42.347 0-76.8 34.453-76.8 76.8v460.8c0 42.349 34.453 76.8 76.8 76.8h819.2c42.349 0 76.8-34.451 76.8-76.8v-460.8c0-42.347-34.451-76.8-76.8-76.8zM896 358.4c1.514 0 2.99 0.158 4.434 0.411l-385.632 257.090c-14.862 9.907-41.938 9.907-56.802 0l-385.634-257.090c1.443-0.253 2.92-0.411 4.434-0.411h819.2zM896 870.4h-819.2c-14.115 0-25.6-11.485-25.6-25.6v-438.566l378.4 252.267c15.925 10.618 36.363 15.925 56.8 15.925s40.877-5.307 56.802-15.925l378.398-252.267v438.566c0 14.115-11.485 25.6-25.6 25.6z"></path>
+                            </svg>
+                        </div>
+                        <div class="pull-left">
+                            <h2><strong>Get a quote</strong></h2>
+                            <p>Tell us more about your project</p>
+                        </div>
+                    </a>
+                </li>
+                <li role="presentation">
+                    <a class="clearfix" href="#message" aria-controls="message" role="tab" data-toggle="tab">
+                        <div class="pull-left">
+                            <svg class="tm-envelope" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1024 1024">
+                            <path d="M896 307.2h-819.2c-42.347 0-76.8 34.453-76.8 76.8v460.8c0 42.349 34.453 76.8 76.8 76.8h819.2c42.349 0 76.8-34.451 76.8-76.8v-460.8c0-42.347-34.451-76.8-76.8-76.8zM896 358.4c1.514 0 2.99 0.158 4.434 0.411l-385.632 257.090c-14.862 9.907-41.938 9.907-56.802 0l-385.634-257.090c1.443-0.253 2.92-0.411 4.434-0.411h819.2zM896 870.4h-819.2c-14.115 0-25.6-11.485-25.6-25.6v-438.566l378.4 252.267c15.925 10.618 36.363 15.925 56.8 15.925s40.877-5.307 56.802-15.925l378.398-252.267v438.566c0 14.115-11.485 25.6-25.6 25.6z"></path>
+                            </svg>
+                        </div>
+                        <div class="pull-left">
+                            <h2><strong>Send us a message</strong></h2>
+                            <p>We would be delighted to hear from you</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane fade in active" id="quote">
+                    <div class="container tm-sect-01">
+                        1
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="message">
+                    <div class="container tm-sect-01">
+                        2
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
