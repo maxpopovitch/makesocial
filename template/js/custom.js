@@ -95,4 +95,11 @@ $(document).ready(function () {
         window.location.href = "social-networking-design-development";
         return false;
     });
+
+    $('a[href*="contact-us#quote"]').click(function () {
+        $('#quote-message a[href="#quote"]').tab('show');
+        $('#quote-message a[href="#quote"]').on('shown.bs.tab', function () {
+            window.location = "#quote";
+        });
+    });
 });
