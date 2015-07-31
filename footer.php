@@ -84,6 +84,7 @@
 </footer>
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
+<script src="bower_components/bootstrap-validator/dist/validator.min.js"></script>
 <script src="template/js/custom.js"></script>
 </body>
 </html>
