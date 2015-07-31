@@ -183,6 +183,29 @@
                                             <option value="Strategy development and planning">Strategy development and planning</option>
                                         </select>
                                     </div>
+                                    <div class="form-group">
+                                        <label for="quote-budget" class="control-label">Budget</label>
+                                        <select class="form-control" id="quote-budget">
+                                            <option value="Choose">Choose</option>
+                                            <option value="Under $10k">Under $10k</option>
+                                            <option value="£10k - $50k">$10k &ndash; $50k</option>
+                                            <option value="£50k - £100k">£50k &ndash; $100k</option>
+                                            <option value="Above $100k">Above $100k</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="quote-files" class="control-label">Attach files ( project brief, references etc.)</label>
+                                        <span class="tm-file-wrapper">
+                                            <input type="file" class="form-control" id="quote-files" placeholder="Enter your phone number" />
+                                        </span>
+                                        <div>browse</div>
+                                        <span>No file chosen</span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="quote-description" class="control-label">Description</label><span>*</span>
+                                        <textarea name="quote-description" cols="40" rows="5" class="form-control" data-error="Please fill in the required field." placeholder="Tell us about your project idea. Will there be any special sections or functionalities? Do you have a reference, e.g. a website, an app that you like?" required></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="row">
