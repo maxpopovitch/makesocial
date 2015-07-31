@@ -103,4 +103,14 @@ $(document).ready(function () {
             window.location = "#quote";
         });
     });
+    
+    $('#quote-file').change(function () {
+        var filename = $('#quote-file').val();
+        if (filename) {
+            filename = filename.replace(/^.*[\\\/]/, '');
+            $('#quote-file-value').html(filename);
+        } else {
+            $('#quote-file-value').html('No file chosen');
+        }
+    });
 });

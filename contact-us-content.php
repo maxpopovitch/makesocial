@@ -194,12 +194,12 @@
                                         </select>
                                     </div>
                                     <div class="form-group">
-                                        <label for="quote-files" class="control-label">Attach files ( project brief, references etc.)</label>
+                                        <label for="quote-file" class="control-label">Attach file ( project brief, references etc.)</label>
                                         <span class="tm-file-wrapper">
-                                            <input type="file" class="form-control" id="quote-files" placeholder="Enter your phone number" />
+                                            <input type="file" class="form-control" id="quote-file" placeholder="Enter your phone number" />
                                         </span>
                                         <div>browse</div>
-                                        <span>No file chosen</span>
+                                        <span id="quote-file-value">No file chosen</span>
                                     </div>
                                     <div class="form-group">
                                         <label for="quote-description" class="control-label">Description</label><span>*</span>
