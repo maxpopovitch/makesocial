@@ -2043,6 +2043,10 @@ Write custom rules here ONLY!
     }
 }
 
+#form-message {
+    @include elements-style;
+}
+
 footer {
     padding: $padding-01 0;
     background-color: darken($info-color, 5);

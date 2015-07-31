@@ -144,7 +144,7 @@
                     <div class="container tm-sect-01">
                         <p class="tm-default-p tm-margin-01">To get a quote for web design or another type of project, fill in the form below and we will get back to you.</p>
                         <p class="tm-default-p tm-nomargin"><strong>Note:</strong> Due to the high volume of requests, we are not able to respond to every submission. Rest assured, we do read and consider every submission. If we feel we have the capacity and appropriate expertise to accommodate your project, we will contact you at our earliest convenience via e-mail.</p>
-                        <form id="form-quote" data-toggle="validator" role="form">
+                        <form id="form-quote" data-toggle="validator">
                             <div class="row">
                                 <div class="col-md-6">
                                     <h3><strong>Your info</strong></h3>
@@ -196,14 +196,14 @@
                                     <div class="form-group">
                                         <label for="quote-file" class="control-label">Attach file ( project brief, references etc.)</label>
                                         <span class="tm-file-wrapper">
-                                            <input type="file" class="form-control" id="quote-file" placeholder="Enter your phone number" />
+                                            <input type="file" class="form-control" id="quote-file" />
                                         </span>
                                         <div>browse</div>
                                         <span id="quote-file-value">No file chosen</span>
                                     </div>
                                     <div class="form-group">
                                         <label for="quote-description" class="control-label">Description</label><span>*</span>
-                                        <textarea name="quote-description" cols="40" rows="5" class="form-control" data-error="Please fill in the required field." placeholder="Tell us about your project idea. Will there be any special sections or functionalities? Do you have a reference, e.g. a website, an app that you like?" required></textarea>
+                                        <textarea id="quote-description" cols="40" rows="5" class="form-control" data-error="Please fill in the required field." placeholder="Tell us about your project idea. Will there be any special sections or functionalities? Do you have a reference, e.g. a website, an app that you like?" required></textarea>
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
@@ -220,10 +220,50 @@
                 </div>
                 <div role="tabpanel" class="tab-pane fade" id="message">
                     <div class="container tm-sect-01">
-                        2
+                        <form id="form-message" data-toggle="validator">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="message-name" class="control-label">Name</label><span>*</span>
+                                        <input type="text" class="form-control" id="message-name" placeholder="Enter your full name" data-error="Please fill in the required field." required />
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="message-phone" class="control-label">Phone number</label>
+                                        <input type="tel" class="form-control" id="message-phone" placeholder="Enter your phone number" />
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="message-email" class="control-label">Email</label><span>*</span>
+                                        <input type="email" class="form-control" id="message-email" placeholder="Enter your email" data-error="Email address seems invalid." required />
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="message-website" class="control-label">Website</label>
+                                        <input type="url" class="form-control" id="message-website" placeholder="Enter your website" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="form-group">
+                                        <label for="message-message" class="control-label">Message</label><span>*</span>
+                                        <textarea id="message-message" cols="40" rows="5" class="form-control" data-error="Please fill in the required field." placeholder="What would you like to talk to us about?" required></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-primary text-uppercase"><strong>Send</strong></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
-
         </div>
     </div>

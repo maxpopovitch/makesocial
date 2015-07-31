@@ -72,23 +72,25 @@ $(window).load(heightEqualizing);
 $(window).resize(heightEqualizing);
 
 $(document).ready(function () {
+    var active = 'tm-active';
+
     //adding classes for main navigation menu
-    $('#why-us-content').closest('body').find('a[href="why-us"]').addClass('tm-active');
-    $('#meet-us-content').closest('body').find('a[href="meet-us"]').addClass('tm-active');
-    $('#our-process-content').closest('body').find('a[href="our-process"]').addClass('tm-active');
-    $('[id*="services"]').closest('body').find('a[href="services"]').addClass('tm-active');
-    $('#our-work-content').closest('body').find('a[href="our-work"]').addClass('tm-active');
-    $('#contact-us-content').closest('body').find('a[href="contact-us"]').addClass('tm-active');
+    $('#why-us-content').closest('body').find('a[href="why-us"]').addClass(active);
+    $('#meet-us-content').closest('body').find('a[href="meet-us"]').addClass(active);
+    $('#our-process-content').closest('body').find('a[href="our-process"]').addClass(active);
+    $('[id*="services"]').closest('body').find('a[href="services"]').addClass(active);
+    $('#our-work-content').closest('body').find('a[href="our-work"]').addClass(active);
+    $('#contact-us-content').closest('body').find('a[href="contact-us"]').addClass(active);
 
     //adding classes for navigation submenu
-    $('#services-social-content').closest('body').find('a[href="social-networking-design-development"]').addClass('tm-active');
-    $('#services-web-content').closest('body').find('a[href="web-design-and-development"]').addClass('tm-active');
-    $('#services-mobile-content').closest('body').find('a[href="mobile-application-development"]').addClass('tm-active');
-    $('#services-prototyping-content').closest('body').find('a[href="prototyping"]').addClass('tm-active');
-    $('#services-branding-content').closest('body').find('a[href="corporate-identity-and-brand-design"]').addClass('tm-active');
-    $('#services-strategy-and-planning-content').closest('body').find('a[href="strategic-planning-services"]').addClass('tm-active');
-    $('#services-seo-content').closest('body').find('a[href="search-engine-optimization"]').addClass('tm-active');
-    $('#services-copywriting-content').closest('body').find('a[href="copywriting"]').addClass('tm-active');
+    $('#services-social-content').closest('body').find('a[href="social-networking-design-development"]').addClass(active);
+    $('#services-web-content').closest('body').find('a[href="web-design-and-development"]').addClass(active);
+    $('#services-mobile-content').closest('body').find('a[href="mobile-application-development"]').addClass(active);
+    $('#services-prototyping-content').closest('body').find('a[href="prototyping"]').addClass(active);
+    $('#services-branding-content').closest('body').find('a[href="corporate-identity-and-brand-design"]').addClass(active);
+    $('#services-strategy-and-planning-content').closest('body').find('a[href="strategic-planning-services"]').addClass(active);
+    $('#services-seo-content').closest('body').find('a[href="search-engine-optimization"]').addClass(active);
+    $('#services-copywriting-content').closest('body').find('a[href="copywriting"]').addClass(active);
 
     //rearranging default hrefs with search engine optimized
     $('a[href="services"]').click(function () {
@@ -96,14 +98,20 @@ $(document).ready(function () {
         return false;
     });
 
-    //goto contact-us#quote and show #quote tab anyway
+    //going to contact-us#quote and show #quote tab anyway
     $('a[href*="contact-us#quote"]').click(function () {
         $('#quote-message a[href="#quote"]').tab('show');
         $('#quote-message a[href="#quote"]').on('shown.bs.tab', function () {
             window.location = "#quote";
         });
     });
-    
+
+    //disabling disabled attribute for submit before this submit is pressed
+    $('#form-quote, #form-message').validator({
+        disable: false
+    });
+
+    //checking if input file value was changed
     $('#quote-file').change(function () {
         var filename = $('#quote-file').val();
         if (filename) {
