@@ -69,3 +69,17 @@ h6, .h6 {font-size: 1rem;}
         }
     }
 }
+
+.form-group {
+    font-family: $font-family-description;
+
+    [type="submit"] {
+        height: $input-height-base;
+        width: 100%;
+    }
+}
+
+.form-control {
+    border-width: 2px;
+    font-size: 17px;
+}

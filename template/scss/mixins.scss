@@ -238,6 +238,50 @@ Example: @include triangle;
 }
 
 /*
+Mixin for basic styles of contact-form elements.
+Example: @include elements-style;
+*/
+@mixin elements-style {
+    label {
+        font-family: $font-family-description;
+        font-weight: 400;
+        text-transform: uppercase;
+
+        + span {
+            color: darken($info-color, 12);
+            font-weight: bold;
+            font-size: 12px;
+            padding-left: 3px;
+            vertical-align: top;
+        }
+    }
+
+    .has-error {
+        label + span {
+            color: $state-danger-text;
+        }
+    }
+
+    select {
+        -webkit-appearance: none;
+        padding-right: 32px !important;
+        background: #FFF url("../../../img/arrow-down.svg") 100% 50% no-repeat;
+    }
+
+    [type="submit"] {
+        font-family: $font-family-description;
+        background-color: $info-color;
+        font-size: 17px;
+        border: 0;
+        margin-top: 10px;
+
+        &:hover, &:focus {
+            background-color: darken($info-color, 5);
+        }
+    }
+}
+
+/*
 Default Bootstrap's mixin for transition-transform.
 In this project it used for overriding default transition-transform speed of
 #tm-casestudies-carousel

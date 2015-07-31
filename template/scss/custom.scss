@@ -2025,6 +2025,8 @@ Write custom rules here ONLY!
 }
 
 #form-quote {
+    @include elements-style;
+
     h3 {
         position: relative;
         padding-left: 22px;

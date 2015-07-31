@@ -45,6 +45,12 @@ $grid-float-breakpoint: 992px;
 $nav-link-hover-bg: transparent;
 $text-color: $default-color;
 $carousel-control-width: 35px;
+$input-height-base: 50px;
+$input-border-radius: 0;
+$input-border: transparent;
+$input-border-focus: darken($info-color, 12);
+$btn-border-radius-base: 0;
+$state-danger-text: #A94442;
 
 $screen-xs: 480px;
 $screen-xs-min: $screen-xs;

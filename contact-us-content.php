@@ -144,13 +144,52 @@
                     <div class="container tm-sect-01">
                         <p class="tm-default-p tm-margin-01">To get a quote for web design or another type of project, fill in the form below and we will get back to you.</p>
                         <p class="tm-default-p tm-nomargin"><strong>Note:</strong> Due to the high volume of requests, we are not able to respond to every submission. Rest assured, we do read and consider every submission. If we feel we have the capacity and appropriate expertise to accommodate your project, we will contact you at our earliest convenience via e-mail.</p>
-                        <form id="form-quote">
+                        <form id="form-quote" data-toggle="validator" role="form">
                             <div class="row">
                                 <div class="col-md-6">
                                     <h3><strong>Your info</strong></h3>
+                                    <div class="form-group">
+                                        <label for="quote-name" class="control-label">Name</label><span>*</span>
+                                        <input type="text" class="form-control" id="quote-name" placeholder="Enter your full name" data-error="Please fill in the required field." required />
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="quote-email" class="control-label">Email</label><span>*</span>
+                                        <input type="email" class="form-control" id="quote-email" placeholder="Enter your email" data-error="Email address seems invalid." required />
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="quote-location" class="control-label">Location</label>
+                                        <input type="text" class="form-control" id="quote-location" placeholder="Where are you from?" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="quote-phone" class="control-label">Phone number</label>
+                                        <input type="tel" class="form-control" id="quote-phone" placeholder="Enter your phone number" />
+                                    </div>
                                 </div>
                                 <div class="col-md-6">
                                     <h3><strong>Tell us about your project</strong></h3>
+                                    <div class="form-group">
+                                        <label for="quote-project-type" class="control-label">Type of the project</label>
+                                        <select class="form-control" id="quote-project-type">
+                                            <option value="Choose">Choose</option>
+                                            <option value="Website">Website</option>
+                                            <option value="iOS App">iOS App</option>
+                                            <option value="Android App">Android App</option>
+                                            <option value="SEO Services">SEO Services</option>
+                                            <option value="Prototyping">Prototyping</option>
+                                            <option value="Branding">Branding</option>
+                                            <option value="Copywriting">Copywriting</option>
+                                            <option value="Strategy development and planning">Strategy development and planning</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-primary text-uppercase"><strong>Send</strong></button>
+                                    </div>
                                 </div>
                             </div>
                         </form>

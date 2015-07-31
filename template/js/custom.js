@@ -96,6 +96,7 @@ $(document).ready(function () {
         return false;
     });
 
+    //goto contact-us#quote and show #quote tab anyway
     $('a[href*="contact-us#quote"]').click(function () {
         $('#quote-message a[href="#quote"]').tab('show');
         $('#quote-message a[href="#quote"]').on('shown.bs.tab', function () {
