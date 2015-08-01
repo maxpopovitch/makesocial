@@ -164,6 +164,51 @@
                         </p>
                     </div>
                 </li>
+                <li style="background-image: url('img/contact-us/offices/przemysl.jpg')">
+                    <div class="tm-overlay"></div>
+                    <div class="tm-offices-description">
+                        <div class="tm-centering">
+                            <h3 class="text-uppercase text-center tm-titlecolor tm-nomargin"><strong>Przemysl</strong></h3>
+                            <hr class="tm-hr-02" />
+                        </div>
+                        <p class="text-center tm-text-line-13 tm-titlecolor tm-nomargin">
+                            279a, Skhidna str.,<br />
+                            Sambir, 00000, Ukraine<br />
+                            Tel: +38 062 343 43 3<br />
+                            contact@etondigital.com
+                        </p>
+                    </div>
+                </li>
+                <li style="background-image: url('img/contact-us/offices/manila.jpg')">
+                    <div class="tm-overlay"></div>
+                    <div class="tm-offices-description">
+                        <div class="tm-centering">
+                            <h3 class="text-uppercase text-center tm-titlecolor tm-nomargin"><strong>Manila</strong></h3>
+                            <hr class="tm-hr-02" />
+                        </div>
+                        <p class="text-center tm-text-line-13 tm-titlecolor tm-nomargin">
+                            279a, Skhidna str.,<br />
+                            Sambir, 00000, Ukraine<br />
+                            Tel: +38 062 343 43 3<br />
+                            contact@etondigital.com
+                        </p>
+                    </div>
+                </li>
+                <li style="background-image: url('img/contact-us/offices/cebu.jpg')">
+                    <div class="tm-overlay"></div>
+                    <div class="tm-offices-description">
+                        <div class="tm-centering">
+                            <h3 class="text-uppercase text-center tm-titlecolor tm-nomargin"><strong>Cebu</strong></h3>
+                            <hr class="tm-hr-02" />
+                        </div>
+                        <p class="text-center tm-text-line-13 tm-titlecolor tm-nomargin">
+                            279a, Skhidna str.,<br />
+                            Sambir, 00000, Ukraine<br />
+                            Tel: +38 062 343 43 3<br />
+                            contact@etondigital.com
+                        </p>
+                    </div>
+                </li>
             </ul>
         </div>
         <div class="tm-container-wide tm-margin-auto tm-nopadding tm-bg-03">
