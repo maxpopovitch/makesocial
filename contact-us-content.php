@@ -17,27 +17,11 @@
     <div class="tm-bg-01">
         <div class="tm-container-wide tm-margin-auto tm-nopadding">
             <ul class="tm-our-offices list-unstyled clearfix">
-                <li style="background-image: url('img/contact-us/offices/sambir-01.jpg')">
+                <li style="background-image: url('img/contact-us/offices/san-francisco.jpg')">
                     <div class="tm-overlay"></div>
                     <div class="tm-offices-description">
                         <div class="tm-centering">
-                            <h3 class="text-uppercase text-center tm-titlecolor tm-nomargin"><strong>Sambir</strong></h3>
-                            <hr class="tm-hr-02" />
-                        </div>
-                        <p class="text-center tm-text-line-13 tm-titlecolor tm-nomargin">
-                            Lesya<br />
-                            279a, Skhidna str.,<br />
-                            Sambir, 00000, Ukraine<br />
-                            Tel: +38 062 343 43 3<br />
-                            contact@etondigital.com
-                        </p>
-                    </div>
-                </li>
-                <li style="background-image: url('img/contact-us/offices/donetsk-01.jpg')">
-                    <div class="tm-overlay"></div>
-                    <div class="tm-offices-description">
-                        <div class="tm-centering">
-                            <h3 class="text-uppercase text-center tm-titlecolor tm-nomargin"><strong>Donetsk</strong></h3>
+                            <h3 class="text-uppercase text-center tm-titlecolor tm-nomargin"><strong>San Francisco</strong></h3>
                             <hr class="tm-hr-02" />
                         </div>
                         <p class="text-center tm-text-line-13 tm-titlecolor tm-nomargin">
@@ -49,7 +33,23 @@
                         </p>
                     </div>
                 </li>
-                <li style="background-image: url('img/contact-us/offices/new-york-01.jpg')">
+                <li style="background-image: url('img/contact-us/offices/chicago.jpg')">
+                    <div class="tm-overlay"></div>
+                    <div class="tm-offices-description">
+                        <div class="tm-centering">
+                            <h3 class="text-uppercase text-center tm-titlecolor tm-nomargin"><strong>Chicago</strong></h3>
+                            <hr class="tm-hr-02" />
+                        </div>
+                        <p class="text-center tm-text-line-13 tm-titlecolor tm-nomargin">
+                            Donbass Palace<br />
+                            80, Artyoma Street<br />
+                            Donetsk, 83001, Ukraine<br />
+                            Tel: +38 062 343 43 3<br />
+                            contact@etondigital.com
+                        </p>
+                    </div>
+                </li>
+                <li style="background-image: url('img/contact-us/offices/new-york.jpg')">
                     <div class="tm-overlay"></div>
                     <div class="tm-offices-description">
                         <div class="tm-centering">
@@ -61,6 +61,104 @@
                             W 39th St,<br />
                             NY 10018,
                             United States<br />
+                            Tel: +38 062 343 43 3<br />
+                            contact@etondigital.com
+                        </p>
+                    </div>
+                </li>
+                <li style="background-image: url('img/contact-us/offices/toronto.jpg')">
+                    <div class="tm-overlay"></div>
+                    <div class="tm-offices-description">
+                        <div class="tm-centering">
+                            <h3 class="text-uppercase text-center tm-titlecolor tm-nomargin"><strong>Toronto</strong></h3>
+                            <hr class="tm-hr-02" />
+                        </div>
+                        <p class="text-center tm-text-line-13 tm-titlecolor tm-nomargin">
+                            Donbass Palace<br />
+                            W 39th St,<br />
+                            NY 10018,
+                            United States<br />
+                            Tel: +38 062 343 43 3<br />
+                            contact@etondigital.com
+                        </p>
+                    </div>
+                </li>
+                <li style="background-image: url('img/contact-us/offices/sidney.jpg')">
+                    <div class="tm-overlay"></div>
+                    <div class="tm-offices-description">
+                        <div class="tm-centering">
+                            <h3 class="text-uppercase text-center tm-titlecolor tm-nomargin"><strong>Syndey</strong></h3>
+                            <hr class="tm-hr-02" />
+                        </div>
+                        <p class="text-center tm-text-line-13 tm-titlecolor tm-nomargin">
+                            Donbass Palace<br />
+                            W 39th St,<br />
+                            NY 10018,
+                            United States<br />
+                            Tel: +38 062 343 43 3<br />
+                            contact@etondigital.com
+                        </p>
+                    </div>
+                </li>
+                <li style="background-image: url('img/contact-us/offices/london.jpg')">
+                    <div class="tm-overlay"></div>
+                    <div class="tm-offices-description">
+                        <div class="tm-centering">
+                            <h3 class="text-uppercase text-center tm-titlecolor tm-nomargin"><strong>London</strong></h3>
+                            <hr class="tm-hr-02" />
+                        </div>
+                        <p class="text-center tm-text-line-13 tm-titlecolor tm-nomargin">
+                            Donbass Palace<br />
+                            W 39th St,<br />
+                            NY 10018,
+                            United States<br />
+                            Tel: +38 062 343 43 3<br />
+                            contact@etondigital.com
+                        </p>
+                    </div>
+                </li>
+                <li style="background-image: url('img/contact-us/offices/lviv.jpg')">
+                    <div class="tm-overlay"></div>
+                    <div class="tm-offices-description">
+                        <div class="tm-centering">
+                            <h3 class="text-uppercase text-center tm-titlecolor tm-nomargin"><strong>Lviv</strong></h3>
+                            <hr class="tm-hr-02" />
+                        </div>
+                        <p class="text-center tm-text-line-13 tm-titlecolor tm-nomargin">
+                            Donbass Palace<br />
+                            W 39th St,<br />
+                            NY 10018,
+                            United States<br />
+                            Tel: +38 062 343 43 3<br />
+                            contact@etondigital.com
+                        </p>
+                    </div>
+                </li>
+                <li style="background-image: url('img/contact-us/offices/sambir.jpg')">
+                    <div class="tm-overlay"></div>
+                    <div class="tm-offices-description">
+                        <div class="tm-centering">
+                            <h3 class="text-uppercase text-center tm-titlecolor tm-nomargin"><strong>Sambir</strong></h3>
+                            <hr class="tm-hr-02" />
+                        </div>
+                        <p class="text-center tm-text-line-13 tm-titlecolor tm-nomargin">
+                            279a, Skhidna str.,<br />
+                            Sambir, 00000, Ukraine<br />
+                            Tel: +38 062 343 43 3<br />
+                            contact@etondigital.com
+                        </p>
+                    </div>
+                </li>
+                <li style="background-image: url('img/contact-us/offices/mariupol.jpg')">
+                    <div class="tm-overlay"></div>
+                    <div class="tm-offices-description">
+                        <div class="tm-centering">
+                            <h3 class="text-uppercase text-center tm-titlecolor tm-nomargin"><strong>Mariupol</strong></h3>
+                            <hr class="tm-hr-02" />
+                        </div>
+                        <p class="text-center tm-text-line-13 tm-titlecolor tm-nomargin">
+                            279a, Skhidna str.,<br />
+                            Sambir, 00000, Ukraine<br />
                             Tel: +38 062 343 43 3<br />
                             contact@etondigital.com
                         </p>
