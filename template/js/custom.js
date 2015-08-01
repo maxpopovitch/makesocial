@@ -98,12 +98,20 @@ $(document).ready(function () {
         return false;
     });
 
+    var quoteFlag = false;
+
     //going to contact-us#quote and show #quote tab anyway
     $('a[href*="contact-us#quote"]').click(function () {
-        $('#quote-message a[href="#quote"]').tab('show');
-        $('#quote-message a[href="#quote"]').on('shown.bs.tab', function () {
-            window.location = "#quote";
+        quoteFlag = true;
+        $('#quote-message a[href="#quote"]').tab('show').on('shown.bs.tab', function () {
+            if (quoteFlag) {
+                window.location = "#quote";
+            }
         });
+    });
+
+    $('#quote-message a').click(function () {
+        quoteFlag = false;
     });
 
     //disabling disabled attribute for submit before this submit is pressed
