@@ -79,6 +79,8 @@ Write custom rules here ONLY!
     z-index: 1;
 
     video {
+        @include background-size-cover;
+        background-position: 50%;
         min-width: 100%;
         min-height: 100%;
     }
