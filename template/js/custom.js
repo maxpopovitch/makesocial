@@ -95,6 +95,7 @@ $(document).ready(function () {
     //adding classes for our work portfolio links
     $('#nissan-ireland-content').closest('body').find('a[href="our-work"]').addClass(active);
     $('#procurious-content').closest('body').find('a[href="our-work"]').addClass(active);
+    $('#supercoucou-content').closest('body').find('a[href="our-work"]').addClass(active);
 
     //rearranging default hrefs with search engine optimized
     $('a[href="services"]').click(function () {

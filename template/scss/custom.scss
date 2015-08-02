@@ -129,16 +129,18 @@ Write custom rules here ONLY!
 }
 
 .tm-nissan-ireland-container {
-    @include overlay;
-    overflow: hidden;
+    @include portfolio;
     background-image: url("../../img/our-work/portfolio/nissan-title-bg.jpg");
-    background-size: cover;
-    z-index: 1;
 }
 
 .tm-procurious-container {
-    @extend .tm-nissan-ireland-container;
+    @include portfolio;
     background-image: url("../../img/our-work/portfolio/procurious-title-bg.jpg");
+}
+
+.tm-supercoucou-container {
+    @include portfolio;
+    background-image: url("../../img/our-work/portfolio/supercoucou-title-bg.jpg");
 }
 
 .tm-overlay-01 {
@@ -2070,37 +2072,31 @@ Write custom rules here ONLY!
 }
 
 #nissan-ireland-content {
+    @include portfolio-content;
+
     + header {
-        img {
-            margin: 0 auto 36px;
-        }
-
-        p {
-            font-family: $font-family-title;
-            font-size: 18px;
-            margin: 0 0 18px;
-        }
-
         a {
-            @extend p;
-            @include prefix((transition: $nav-transition));
             color: #C81344;
-
-            &:hover, &:focus {
-                @include prefix((transition: $nav-transition));
-                color: #FFF;
-                text-decoration: none;
-            }
         }
     }
 }
 
 #procurious-content {
-    @extend #nissan-ireland-content;
+    @include portfolio-content;
 
     + header {
         a {
             color: #9EE034;
+        }
+    }
+}
+
+#supercoucou-content {
+    @include portfolio-content;
+
+    + header {
+        a {
+            color: #FDC200;
         }
     }
 }

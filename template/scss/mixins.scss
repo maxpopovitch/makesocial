@@ -33,6 +33,46 @@ Example: @include overlay;
 }
 
 /*
+Mixin for portfolio title container.
+Example: @include portfolio;
+*/
+@mixin portfolio {
+    @include overlay;
+    overflow: hidden;
+    background-size: cover;
+    z-index: 1;
+}
+
+/*
+Mixin for portfolio content.
+Example: @include portfolio-content;
+*/
+@mixin portfolio-content {
+    + header {
+        img {
+            margin: 0 auto 36px;
+        }
+
+        p {
+            font-family: $font-family-title;
+            font-size: 18px;
+            margin: 0 0 18px;
+        }
+
+        a {
+            @extend p;
+            @include prefix((transition: $nav-transition));
+
+            &:hover, &:focus {
+                @include prefix((transition: $nav-transition));
+                color: #FFF;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+/*
 Mixin for call to action element.
 Example: @include cta;
 */
