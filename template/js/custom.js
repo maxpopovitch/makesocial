@@ -79,7 +79,7 @@ $(document).ready(function () {
     $('#why-us-content').closest('body').find('a[href="why-us"]').addClass(active);
     $('#meet-us-content').closest('body').find('a[href="meet-us"]').addClass(active);
     $('#our-process-content').closest('body').find('a[href="our-process"]').addClass(active);
-    $('[id*="services"]').closest('body').find('a[href="services"]').addClass(active);
+    $('[id*="services"]').closest('body').find('ul.nav.navbar-nav').find('a[href="social-networking-design-development"]').addClass(active);
     $('#our-work-content').closest('body').find('a[href="our-work"]').addClass(active);
     $('#contact-us-content').closest('body').find('a[href="contact-us"]').addClass(active);
 
