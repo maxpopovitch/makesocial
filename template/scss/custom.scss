@@ -128,6 +128,14 @@ Write custom rules here ONLY!
     z-index: 1;
 }
 
+.tm-nissan-ireland-container {
+    @include overlay;
+    overflow: hidden;
+    background-image: url("../../img/our-work/portfolio/nissan-title-bg.jpg");
+    background-size: cover;
+    z-index: 1;
+}
+
 .tm-overlay-01 {
     @include overlay;
     background-color: rgba($primary-background, 0.75);
@@ -222,6 +230,15 @@ Write custom rules here ONLY!
     h4 {
         line-height: 1.3;
     }
+}
+
+.tm-title-04 {
+    color: $title-color;
+    padding-top: $padding-03;
+    padding-bottom: $padding-03;
+    line-height: normal;
+    position: relative;
+    z-index: 2;
 }
 
 .tm-titlecolor {
@@ -1614,12 +1631,12 @@ Write custom rules here ONLY!
 }
 
 #tm-casestudies-carousel {
-    border-top: 1px solid rgba(black, 0.1);
+    border-top: $default-divider;
     padding-left: $grid-gutter-width * 2;
     padding-right: $grid-gutter-width * 2;
 
     @media (min-width: $screen-md-min) {
-        border-left: 1px solid rgba(black, 0.1);
+        border-left: $default-divider;
         border-top: 0;
     }
 
@@ -2045,6 +2062,52 @@ Write custom rules here ONLY!
 
 #form-message {
     @include elements-style;
+}
+
+#nissan-ireland-content {
+    + header {
+        img {
+            margin: 0 auto 36px;
+        }
+
+        p {
+            font-family: $font-family-title;
+            font-size: 18px;
+            margin: 0 0 18px;
+        }
+
+        a {
+            @extend p;
+            @include prefix((transition: $nav-transition));
+            color: #C81344;
+
+            &:hover, &:focus {
+                @include prefix((transition: $nav-transition));
+                color: #FFF;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.tm-screenshot {
+    border: $subnav-border;
+    box-shadow: $subnav-box-shadow;
+    border-radius: 4px;
+}
+
+.tm-technologies {
+    border-top: $default-divider;
+    background: url('../../img/our-work/technologies/poly-bg.svg') 50% 0 no-repeat;
+
+    .tm-text-accent {
+        color: #6191AE;
+    }
+
+    img {
+        margin: ($padding-01 / 2) $padding-01;
+        display: inline-block;
+    }
 }
 
 footer {

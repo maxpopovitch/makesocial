@@ -92,6 +92,9 @@ $(document).ready(function () {
     $('#services-seo-content').closest('body').find('a[href="search-engine-optimization"]').addClass(active);
     $('#services-copywriting-content').closest('body').find('a[href="copywriting"]').addClass(active);
 
+    //adding classes for our work portfolio links
+    $('#nissan-ireland-content').closest('body').find('a[href="our-work"]').addClass(active);
+
     //rearranging default hrefs with search engine optimized
     $('a[href="services"]').click(function () {
         window.location.href = "social-networking-design-development";
