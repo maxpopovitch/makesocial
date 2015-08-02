@@ -160,7 +160,7 @@
                         </a>
                     </li>
                     <li class="tm-dark" style="background-image: url('img/our-work/portfolio/procurious-bg.jpg')">
-                        <a href="#">
+                        <a href="procurious">
                             <p class="tm-nomargin text-uppercase">#Social Network &nbsp; #Symfony &nbsp; #Responsive &nbsp; #eLearning &nbsp;</p>
                             <h3 class="tm-text-line-normal" style="color: #9EE034">Procurious</h3>
                             <span>Social network and eLearning platform for procurement professionals</span>
@@ -170,7 +170,7 @@
                         </a>
                     </li>
                     <li class="tm-dark" style="background-image: url('img/our-work/portfolio/supercoucou-bg.jpg')">
-                        <a href="#">
+                        <a href="supercoucou">
                             <p class="tm-nomargin text-uppercase">#Corporate Website &nbsp; #Drupal &nbsp; #Responsive &nbsp; #RIA</p>
                             <h3 class="tm-text-line-normal" style="color: #FDC200">Super Coucou</h3>
                             <span>Fully automated travel platform made to simplify the booking process for both users and suppliers.  It provides all from booking to sharing content and collaborating with friends.</span>
@@ -180,7 +180,7 @@
                         </a>
                     </li>
                     <li class="tm-light" style="background-image: url('img/our-work/portfolio/jumbletrail-bg.jpg')">
-                        <a href="#">
+                        <a href="jumbletrail">
                             <p class="tm-nomargin text-uppercase">#Social Network &nbsp; #Symfony &nbsp; #RIA</p>
                             <h3 class="tm-text-line-normal" style="color: #C81344">Jumble Trail</h3>
                             <span>Online platform for organizing and finding jumble sales in your neighboorhood.</span>
