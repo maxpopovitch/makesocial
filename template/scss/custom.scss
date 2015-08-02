@@ -148,6 +148,11 @@ Write custom rules here ONLY!
     background-image: url("../../img/our-work/portfolio/jumbletrail-title-bg.jpg");
 }
 
+.tm-sportlobster-container {
+    @include portfolio;
+    background-image: url("../../img/our-work/portfolio/sportlobster-title-bg.jpg");
+}
+
 .tm-overlay-01 {
     @include overlay;
     background-color: rgba($primary-background, 0.75);
@@ -2112,6 +2117,16 @@ Write custom rules here ONLY!
     + header {
         a {
             color: #DA2D51;
+        }
+    }
+}
+
+#sportlobster-content {
+    @include portfolio-content;
+
+    + header {
+        a {
+            color: #4198CA;
         }
     }
 }
