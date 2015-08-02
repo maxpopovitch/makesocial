@@ -75,6 +75,7 @@ Write custom rules here ONLY!
     @include background-size-cover;
     overflow: hidden;
     background: url("../../img/video-bg.jpg");
+    background-position: 50%;
     z-index: 1;
 
     video {
