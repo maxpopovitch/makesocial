@@ -31,7 +31,7 @@
                     <h3 class="text-uppercase tm-margin-01"><strong>Technology</strong></h3>
                     <p class="tm-default-p tm-text-line-15 tm-margin-01">
                         <strong class="tm-text-accent">Programming languages:</strong><br />
-                        PHP, JavaScript<br />
+                        PHP, JavaScript (jQuery)<br />
                         <strong class="tm-text-accent">Databases:</strong><br />
                         MySQL<br />
                     </p>

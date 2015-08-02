@@ -143,6 +143,11 @@ Write custom rules here ONLY!
     background-image: url("../../img/our-work/portfolio/supercoucou-title-bg.jpg");
 }
 
+.tm-jumbletrail-container {
+    @include portfolio;
+    background-image: url("../../img/our-work/portfolio/jumbletrail-title-bg.jpg");
+}
+
 .tm-overlay-01 {
     @include overlay;
     background-color: rgba($primary-background, 0.75);
@@ -2097,6 +2102,16 @@ Write custom rules here ONLY!
     + header {
         a {
             color: #FDC200;
+        }
+    }
+}
+
+#jumbletrail-content {
+    @include portfolio-content;
+
+    + header {
+        a {
+            color: #DA2D51;
         }
     }
 }
