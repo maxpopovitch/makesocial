@@ -98,6 +98,7 @@ $(document).ready(function () {
     $('#supercoucou-content').closest('body').find('a[href="our-work"]').addClass(active);
     $('#jumbletrail-content').closest('body').find('a[href="our-work"]').addClass(active);
     $('#sportlobster-content').closest('body').find('a[href="our-work"]').addClass(active);
+    $('#coinaphoto-content').closest('body').find('a[href="our-work"]').addClass(active);
 
     //rearranging default hrefs with search engine optimized
     $('a[href="services"]').click(function () {
