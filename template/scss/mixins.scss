@@ -21,6 +21,21 @@ Example: @include prefix((transform: translateY(-50%)));
 }
 
 /*
+Mixin for background-size cover.
+Example: @include background-size-cover;
+*/
+@mixin background-size-cover {
+    -webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover;
+}
+
+/*
 Mixin for overlay positioning.
 Example: @include overlay;
 */

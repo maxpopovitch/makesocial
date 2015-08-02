@@ -72,9 +72,9 @@ Write custom rules here ONLY!
 
 .tm-video-container {
     @include overlay;
+    @include background-size-cover;
     overflow: hidden;
     background: url("../../img/video-bg.jpg");
-    background-size: cover;
     z-index: 1;
 
     video {
@@ -85,76 +85,82 @@ Write custom rules here ONLY!
 
 .tm-why-us-container {
     @include overlay;
+    @include background-size-cover;
     overflow: hidden;
     background-image: url("../../img/why-us/why-us-bg.jpg");
-    background-size: cover;
     z-index: 1;
 }
 
 .tm-meet-us-container {
     @include overlay;
+    @include background-size-cover;
     overflow: hidden;
     background-image: url("../../img/meet-us/meet-us-bg.jpg");
-    background-size: cover;
     z-index: 1;
 }
 
 .tm-services-bg {
+    @include background-size-cover;
     background-image: url("../../img/services/services-bg.jpg");
-    background-size: cover;
 }
 
 .tm-our-process-bg {
     @include overlay;
+    @include background-size-cover;
     overflow: hidden;
     background-image: url("../../img/our-process/our-process-bg.jpg");
-    background-size: cover;
     z-index: 1;
 }
 
 .tm-our-work-bg {
     @include overlay;
+    @include background-size-cover;
     overflow: hidden;
     background-image: url("../../img/our-work/our-work-bg.jpg");
-    background-size: cover;
     z-index: 1;
 }
 
 .tm-contact-us-bg {
     @include overlay;
+    @include background-size-cover;
     overflow: hidden;
     background-image: url("../../img/contact-us/contact-us-bg.jpg");
-    background-size: cover;
     z-index: 1;
 }
 
 .tm-nissan-ireland-container {
     @include portfolio;
+    @include background-size-cover;
     background-image: url("../../img/our-work/portfolio/nissan-title-bg.jpg");
 }
 
 .tm-procurious-container {
     @include portfolio;
+    @include background-size-cover;
     background-image: url("../../img/our-work/portfolio/procurious-title-bg.jpg");
 }
 
 .tm-supercoucou-container {
     @include portfolio;
+    @include background-size-cover;
     background-image: url("../../img/our-work/portfolio/supercoucou-title-bg.jpg");
 }
 
 .tm-jumbletrail-container {
     @include portfolio;
+    @include background-size-cover;
     background-image: url("../../img/our-work/portfolio/jumbletrail-title-bg.jpg");
 }
 
 .tm-sportlobster-container {
     @include portfolio;
+    @include background-size-cover;
     background-image: url("../../img/our-work/portfolio/sportlobster-title-bg.jpg");
 }
 
 .tm-coinaphoto-container {
     @include portfolio;
+    @include background-size-cover;
     background-image: url("../../img/our-work/portfolio/coinaphoto-title-bg.jpg");
 }
 
@@ -604,8 +610,8 @@ Write custom rules here ONLY!
 }
 
 .tm-howwework {
+    @include background-size-cover;
     background-image: url("../../img/howwework.jpg");
-    background-size: cover;
 
     .tm-cta {
         font-size: 15px;
@@ -627,7 +633,7 @@ Write custom rules here ONLY!
 
     li {
         @include prefix((transition: $default-transition));
-        background-size: cover;
+        @include background-size-cover;
 
         &:hover, &:focus {
             @include prefix((transition: $default-transition));
@@ -979,11 +985,11 @@ Write custom rules here ONLY!
 }
 
 .tm-accent-02 {
+    @include background-size-cover;
     padding: $padding-05 0;
     background-image: url('../../img/bg-getaquote.jpg');
     overflow: hidden;
     background-color: #333;
-    background-size: cover;
 
     p {
         font-family: $font-family-description;
@@ -1091,7 +1097,7 @@ Write custom rules here ONLY!
     }
 
     [class*="tm-why-us-img"], [class*="tm-meet-us-img"] {
-        background-size: cover;
+        @include background-size-cover;
     }
 
     .tm-why-us-img-01 {
@@ -1771,9 +1777,9 @@ Write custom rules here ONLY!
     margin: 0;
 
     li {
+        @include background-size-cover;
         height: 320px;
         position: relative;
-        background-size: cover;
 
         @media (min-width: $screen-sm-min) {
             width: 50%;
