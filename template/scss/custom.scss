@@ -553,6 +553,7 @@ Write custom rules here ONLY!
                 fill: $default-color;
                 margin: 0 0 $padding-02;
                 width: 40px;
+                height: 40px;
             }
 
             h5 {
@@ -780,6 +781,7 @@ Write custom rules here ONLY!
         .tm-icon {
             fill: $secondary-background;
             width: 120px;
+            height: 120px;
             position: absolute;
 
             &.tm-trophy {
@@ -948,12 +950,15 @@ Write custom rules here ONLY!
             a {
                 display: inline-block;
                 margin: 0 5px 0 0;
+                width: 25px;
+                height: 25px;
 
                 .tm-icon {
                     @include prefix((transition: $nav-transition));
                     fill: $title-color;
-                    height: 25px;
                     opacity: 1;
+                    width: inherit;
+                    height: inherit;
                 }
 
                 &:hover {
@@ -1278,6 +1283,7 @@ Write custom rules here ONLY!
                 position: absolute;
                 left: 50%;
                 top: 12px;
+                width: 40px;
                 width: 40px;
                 display: none;
 
@@ -1908,10 +1914,12 @@ Write custom rules here ONLY!
             &.tm-instagram:hover {background: #3F729B}
 
             svg {
+                width: 25px;
                 height: 25px;
                 fill: $title-color;
 
                 @media (min-width: $screen-md-min) {
+                    width: 35px;
                     height: 35px;
                 }
             }
@@ -2055,6 +2063,7 @@ Write custom rules here ONLY!
 
     .tm-envelope {
         width: 50px;
+        height: 50px;
         margin-top: -5px;
     }
 }
