@@ -18,7 +18,7 @@
                             <span class="tm-menu"></span>
                         </button>
                         <a class="navbar-brand" href="http://www.nichesocio.com/">
-                            <img src="img/logo.svg" alt="Nichesocio" />
+                            <img src="img/logo.png" alt="Pytex" />
                         </a>
                     </div>
 

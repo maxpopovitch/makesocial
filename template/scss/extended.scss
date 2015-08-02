@@ -41,22 +41,18 @@ h6, .h6 {font-size: 1rem;}
     }
 
     .navbar-brand {
-        margin: 24px 0 0;
+        margin: 16px 0 0;
         padding: 0;
         line-height: normal;
         height: auto;
 
         @media (min-width: $screen-md-min) {
-            margin: 24px 0;
+            margin: 19px 0;
         }
 
         > img {
             margin-left: ($navbar-padding-horizontal + 3);
-            width: 180px;
-
-            @media (min-width: $screen-md-min) {
-                width: 232px;
-            }
+            max-width: 180px;
         }
     }
 

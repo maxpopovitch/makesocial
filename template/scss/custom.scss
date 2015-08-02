@@ -337,10 +337,6 @@ Write custom rules here ONLY!
         }
 
         @media (min-width: $screen-md-min) {
-            margin: 0;
-        }
-
-        @media (min-width: $screen-lg-min) {
             margin: 38px 0 0;
             float: right;
         }

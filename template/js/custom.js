@@ -1,17 +1,18 @@
 var heightEqualizing = function () {
     var element1 = $('.tm-whatwedo li p'),
-            element2 = $('.tm-casestudies li a span'),
-            element3 = $('.tm-our-work li a span'),
-            element4 = $('.tm-want-to-see-more .item'),
-            element5 = $('.tm-want-to-see-more .tm-cell-block-01'),
-            element6 = $('.our-clients ul li div span'),
-            element7 = $('#quote-message a'),
-            element8 = $('.tm-values li>div'),
+            element2 = $('.tm-whatwedo li h5'),
+            element3 = $('.tm-casestudies li a span'),
+            element4 = $('.tm-our-work li a span'),
+            element5 = $('.tm-want-to-see-more .item'),
+            element6 = $('.tm-want-to-see-more .tm-cell-block-01'),
+            element7 = $('.our-clients ul li div span'),
+            element8 = $('#quote-message a'),
+            element9 = $('.tm-values li>div'),
             i,
             j,
             item,
             p, h4, ph4, paddingTop, paddingBottom,
-            elements = [element1, element2, element3, element4, element5, element6, element7, element8];
+            elements = [element1, element2, element3, element4, element5, element6, element7, element8, element9];
 
     var maxHeight;
 
@@ -20,8 +21,8 @@ var heightEqualizing = function () {
             maxHeight = 0;
             elements[i].each(function () {
                 switch (i) {
-                    case 6:
                     case 7:
+                    case 8:
                         height = $(this).css('height', 'auto').outerHeight();
                         p = $(this).find('p').css('height', 'auto').height();
                         h4 = $(this).find('h4').css('height', 'auto').outerHeight();
