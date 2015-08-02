@@ -187,16 +187,16 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-3 hidden-xs">
-                    <div class="tm-join-us-img-01 tm-offset-left"></div>
+                    <div class="tm-meet-us-img-01 tm-offset-left"></div>
                 </div>
-                <div class="col-sm-4 tm-join-us-text">
-                    <a href="#" class="tm-sect-01">
-                        <h3 class="text-uppercase tm-nomargin"><strong>Join us</strong></h3>
-                        <p class=" tm-nomargin">We're always hiring</p>
+                <div class="col-sm-4 tm-meet-us-text">
+                    <a href="meet-us" class="tm-sect-01">
+                        <h3 class="text-uppercase tm-nomargin"><strong>Meet us</strong></h3>
+                        <p class=" tm-nomargin">We are awesome!</p>
                     </a>
                 </div>
                 <div class="col-sm-5 hidden-xs">
-                    <div class="tm-join-us-img-02 tm-offset-right"></div>
+                    <div class="tm-meet-us-img-02 tm-offset-right"></div>
                 </div>
             </div>
         </div>

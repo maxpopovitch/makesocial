@@ -1050,7 +1050,7 @@ Write custom rules here ONLY!
         margin-bottom: 18px;
     }
 
-    [class*="tm-why-us-img"], [class*="tm-join-us-img"] {
+    [class*="tm-why-us-img"], [class*="tm-meet-us-img"] {
         background-size: cover;
     }
 
@@ -1082,16 +1082,16 @@ Write custom rules here ONLY!
         background-image: url('../../img/why-us/why-us-img-07.jpg');
     }
 
-    .tm-join-us-img-01 {
-        background-image: url('../../img/why-us/join-us-img-01.jpg');
+    .tm-meet-us-img-01 {
+        background-image: url('../../img/why-us/meet-us-img-01.jpg');
         background-position: 100% 0;
     }
 
-    .tm-join-us-img-02 {
-        background-image: url('../../img/why-us/join-us-img-02.jpg');
+    .tm-meet-us-img-02 {
+        background-image: url('../../img/why-us/meet-us-img-02.jpg');
     }
 
-    .tm-join-us-text {
+    .tm-meet-us-text {
         a {
             @include prefix((transition: $nav-transition));
             color: $default-color;

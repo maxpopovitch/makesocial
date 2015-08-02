@@ -53,8 +53,8 @@ var heightEqualizing = function () {
         whyUsImgHeight(position);
     }
 
-    var joinheight = $('.tm-join-us-text').outerHeight();
-    $('[class*="tm-join-us-img"]').css('height', joinheight);
+    var meetHeight = $('.tm-meet-us-text').outerHeight();
+    $('[class*="tm-meet-us-img"]').css('height', meetHeight);
 
     function whyUsImgHeight(position) {
         var whyTextSelector = '.tm-why-us-text-' + appendZero(position);

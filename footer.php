@@ -5,7 +5,7 @@
             <div class="col-md-4 col-md-push-4">
                 <h3 class="tm-titlecolor tm-text-line-normal tm-nomargin text-uppercase"><strong>Tell us your idea</strong></h3>
                 <p class="tm-titlecolor tm-text-line-normal">and we can give birth to it together!</p>
-                <a href="#" class="tm-cta">Fill out a questionnaire</a>
+                <a href="contact-us#quote" class="tm-cta">Fill out a questionnaire</a>
             </div>
         </div>
     </div>
