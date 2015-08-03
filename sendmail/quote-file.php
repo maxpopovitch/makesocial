@@ -19,7 +19,7 @@ if (isset($_GET['file'])) {
     foreach ($_FILES as $file) {
         if (move_uploaded_file($file['quote-name']['tmp_name'], $uploaddir . basename($file['quote-name']['name']))) {
             $files = realpath($uploaddir . $file['quote-name']['name']);
-            echo $files;
+            echo basename($file['quote-name']['name']);
         } else {
             $error = true;
         }
