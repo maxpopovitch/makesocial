@@ -148,8 +148,9 @@ $(document).ready(function () {
     if (isMobile) {
         $('#home-content video').remove();
     }
-    
-    $('form#form-quote').on('submit', function(e){
+
+    $('form#form-quote').on('submit', function (e) {
+        e.stopPropagation();
         e.preventDefault();
         var name = $('#quote-name').val();
         var email = $('#quote-email').val();
@@ -157,18 +158,57 @@ $(document).ready(function () {
         var phone = $('#quote-phone').val();
         var projectType = $('#quote-project-type').val();
         var budget = $('#quote-budget').val();
-        var file = $('#quote-file').val();
         var description = $('#quote-description').val();
-        if (name !='' && email !='' && description !='') {
-            $.ajax ({
+
+        data = new FormData();
+        $('#quote-file').change(function (key, value) {
+            data.append(key, value);
+        });
+        
+        $.ajax({
+            url: '/pytex/sendmail/quote-file.php?files',
+            type: 'POST',
+            data: data,
+            cache: false,
+            dataType: 'json',
+            processData: false, // Не обрабатываем файлы (Don't process the files)
+            contentType: false, // Так jQuery скажет серверу что это строковой запрос
+            success: function (respond, textStatus, jqXHR) {
+
+                // Если все ОК
+
+                if (typeof respond.error === 'undefined') {
+                    // Файлы успешно загружены, делаем что нибудь здесь
+
+                    // выведем пути к загруженным файлам в блок '.ajax-respond'
+
+                    var file_path = respond.file;
+                    var html = '';
+                    $(file_path, function (key, val) {
+                        html += val + '<br />';
+                    })
+                    console.log('ОТВЕТ сервера: ' + respond.success);
+                }
+                else {
+                    console.log('ОШИБКИ ОТВЕТА сервера: ' + respond.error);
+                }
+            },
+            error: function (jqXHR, textStatus, errorThrown) {
+                console.log('ОШИБКИ AJAX запроса: ' + textStatus);
+            }
+        });
+
+        if (name != '' && email != '' && description != '') {
+            $.ajax({
                 type: 'GET',
-                url: '/pytex/sendmail/quote-mail.php?name='+name+'&email='+email+'&location='+location+'&phone='+phone+'&projecttype='+projectType+'&budget='+budget+'&file='+file+'&description='+description,
+                url: '/pytex/sendmail/quote-mail.php?name=' + name + '&email=' + email + '&location=' + location + '&phone=' + phone + '&projecttype=' + projectType + '&budget=' + budget + '&file=' + file + '&description=' + description,
                 cache: false,
-                success: function(data) {
+                success: function (data) {
                     alert(data);
                 }
             });
-        };
+        }
+        ;
         console.log(name + '\n' + email + '\n' + location + '\n' + phone + '\n' + projectType + '\n' + budget + '\n' + file + '\n' + description);
     });
 });

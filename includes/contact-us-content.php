@@ -338,7 +338,7 @@
                                     <div class="form-group">
                                         <label for="quote-file" class="control-label">Attach file ( project brief, references etc.)</label>
                                         <span class="tm-file-wrapper">
-                                            <input type="file" class="form-control" id="quote-file" />
+                                            <input type="file" class="form-control" id="quote-file" accept="*" />
                                         </span>
                                         <div>browse</div>
                                         <span id="quote-file-value">No file chosen</span>
