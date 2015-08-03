@@ -170,31 +170,10 @@ $(document).ready(function () {
             type: 'POST',
             data: data,
             cache: false,
-            dataType: 'json',
             processData: false, // Не обрабатываем файлы (Don't process the files)
             contentType: false, // Так jQuery скажет серверу что это строковой запрос
-            success: function (respond, textStatus, jqXHR) {
-
-                // Если все ОК
-
-                if (typeof respond.error === 'undefined') {
-                    // Файлы успешно загружены, делаем что нибудь здесь
-
-                    // выведем пути к загруженным файлам в блок '.ajax-respond'
-
-                    var file_path = respond.file;
-                    var html = '';
-                    $(file_path, function (key, val) {
-                        html += val + '<br />';
-                    })
-                    console.log('ОТВЕТ сервера: ' + respond.success);
-                }
-                else {
-                    console.log('ОШИБКИ ОТВЕТА сервера: ' + respond.error);
-                }
-            },
-            error: function (jqXHR, textStatus, errorThrown) {
-                console.log('ОШИБКИ AJAX запроса: ' + textStatus);
+            success: function (respond) {
+                alert(respond);
             }
         });
 
