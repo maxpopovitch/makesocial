@@ -11,7 +11,7 @@ if (!is_dir($uploaddir))
     mkdir($uploaddir, 0777);
 
 if (move_uploaded_file($_FILES['quote-file']['tmp_name'], $uploaddir . basename($_FILES['quote-file']['name']))) {
-    $files = realpath($uploaddir . $_FILES['quote-file']['name']);
+    $file = realpath($uploaddir . $_FILES['quote-file']['name']);
 }
 echo $file;
 ?>
