@@ -48,7 +48,7 @@ $message_part = "\r\n--$boundary\r\n";
 $message_part .= "Content-Type: application/octet-stream; name=\"$filename\"\r\n";
 $message_part .= "Content-Transfer-Encoding: base64\r\n";
 $message_part .= "Content-Disposition: attachment; filename=\"$filename\"\r\n";
-$message_part .= \r\n;
+$message_part .= "\r\n";
 $message_part .= chunk_split(base64_encode($file));
 $message_part .= "\r\n--$boundary--\r\n";
 // второй частью прикрепляем файл, можно прикрепить два и более файла
