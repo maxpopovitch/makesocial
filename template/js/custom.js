@@ -148,6 +148,18 @@ $(document).ready(function () {
     if (isMobile) {
         $('#home-content video').remove();
     }
+    
+    function dump(obj) {
+        var out = "";
+        if (obj && typeof (obj) == "object") {
+            for (var i in obj) {
+                out += i + ": " + obj[i] + "\n";
+            }
+        } else {
+            out = obj;
+        }
+        alert(out);
+    }
 
     $('form#form-quote').on('submit', function (e) {
         e.stopPropagation();
@@ -161,7 +173,7 @@ $(document).ready(function () {
         var description = $('#quote-description').val();
 
         var data = new FormData($('#form-quote'));
-        alert(data);
+        dump(data);
         
         $.ajax({
             url: '/pytex/sendmail/quote-file.php',
