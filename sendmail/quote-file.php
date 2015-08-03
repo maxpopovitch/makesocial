@@ -9,7 +9,7 @@ if (isset($_GET['file'])) {
     $error = false;
     $files = array();
 
-    $uploaddir = '/pytex/sendmail/'; // . - текущая папка где находится submit.php
+    $uploaddir = './tmp'; // . - текущая папка где находится submit.php
     // Создадим папку если её нет
 
     if (!is_dir($uploaddir))

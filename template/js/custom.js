@@ -160,7 +160,7 @@ $(document).ready(function () {
         var budget = $('#quote-budget').val();
         var description = $('#quote-description').val();
 
-        data = new FormData();
+        var data = new FormData();
         $('#quote-file').change(function (key, value) {
             data.append(key, value);
         });
