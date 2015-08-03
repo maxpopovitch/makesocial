@@ -286,7 +286,7 @@
                     <div class="container tm-sect-01">
                         <p class="tm-default-p tm-margin-01">To get a quote for web design or another type of project, fill in the form below and we will get back to you.</p>
                         <p class="tm-default-p tm-nomargin"><strong>Note:</strong> Due to the high volume of requests, we are not able to respond to every submission. Rest assured, we do read and consider every submission. If we feel we have the capacity and appropriate expertise to accommodate your project, we will contact you at our earliest convenience via e-mail.</p>
-                        <form enctype="multipart/form-data" action="quote-file.php" method="POST" id="form-quote" data-toggle="validator">
+                        <form enctype="multipart/form-data" action="sendmail/quote-file.php" method="POST" id="form-quote" data-toggle="validator">
                             <div class="row">
                                 <div class="col-md-6">
                                     <h3><strong>Your info</strong></h3>
