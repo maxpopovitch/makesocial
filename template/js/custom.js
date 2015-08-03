@@ -148,4 +148,27 @@ $(document).ready(function () {
     if (isMobile) {
         $('#home-content video').remove();
     }
+    
+    $('form#form-quote').on('submit', function(e){
+        e.preventDefault();
+        var name = $('#quote-name').val();
+        var email = $('#quote-email').val();
+        var location = $('#quote-location').val();
+        var phone = $('#quote-phone').val();
+        var projectType = $('#quote-project-type').val();
+        var budget = $('#quote-budget').val();
+        var file = $('#quote-file').val();
+        var description = $('#quote-description').val();
+        if (name !='' && email !='' && description !='') {
+            $.ajax ({
+                type: 'GET',
+                url: '../../sendmail/quote-mail.php?name='+name+'&email='+email+'&location='+location+'&phone='+phone+'&projecttype='+projectType+'&budget='+budget+'&file='+file+'&description='+description,
+                cache: false,
+                success: function(data) {
+                    alert(data);
+                }
+            });
+        };
+        console.log(name + '\n' + email + '\n' + location + '\n' + phone + '\n' + projectType + '\n' + budget + '\n' + file + '\n' + description);
+    });
 });
