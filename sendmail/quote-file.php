@@ -16,7 +16,7 @@ if (isset($_GET['file'])) {
         mkdir($uploaddir, 0777);
 
     // переместим файлы из временной директории в указанную
-    print_r("$_FILES[0]");
+    print_r("$_FILES[tmp_name]");
     foreach ($_FILES as $file) {
         echo '123';
         if (move_uploaded_file($file['tmp_name'], $uploaddir . basename($file['name']))) {
