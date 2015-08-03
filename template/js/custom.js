@@ -149,7 +149,7 @@ $(document).ready(function () {
         $('#home-content video').remove();
     }
 
-    $('form#form-quote').on('submit', function (e) {
+    $('form#form-quote1').on('submit', function (e) {
 //        e.preventDefault();
         var name = $('#quote-name').val();
         var email = $('#quote-email').val();
