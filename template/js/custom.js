@@ -149,8 +149,8 @@ $(document).ready(function () {
         $('#home-content video').remove();
     }
 
-    $('form#form-quote1').on('submit', function (e) {
-//        e.preventDefault();
+    $('form#form-quote').on('submit', function (e) {
+        e.preventDefault();
         var name = $('#quote-name').val();
         var email = $('#quote-email').val();
         var location = $('#quote-location').val();
@@ -159,19 +159,19 @@ $(document).ready(function () {
         var budget = $('#quote-budget').val();
         var description = $('#quote-description').val();
 
-//        var data = new FormData($('#form-quote'));
+        var data = new FormData($('#form-quote'));
 
-//        $.ajax({
-//            type: "POST",
-//            url: "/pytex/sendmail/quote-file.php",
-//            data: data,
-//            contentType: false,
-//            processData: false,
-//            beforeSend: function () {
-//            }
-//        }).done(function (html) {
-//            alert(html);
-//        });
+        $.ajax({
+            type: "POST",
+            url: "/pytex/sendmail/quote-file.php",
+            data: data,
+            contentType: false,
+            processData: false,
+            beforeSend: function () {
+            }
+        }).done(function (html) {
+            alert(html);
+        });
 
         if (name != '' && email != '' && description != '') {
             $.ajax({
