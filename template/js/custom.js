@@ -209,6 +209,6 @@ $(document).ready(function () {
             });
         }
         ;
-        console.log(name + '\n' + email + '\n' + location + '\n' + phone + '\n' + projectType + '\n' + budget + '\n' + file + '\n' + description);
+        console.log(name + '\n' + email + '\n' + location + '\n' + phone + '\n' + projectType + '\n' + budget + '\n' + '\n' + description);
     });
 });
