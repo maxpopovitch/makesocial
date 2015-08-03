@@ -163,7 +163,7 @@ $(document).ready(function () {
         var data = new FormData($('#form-quote')[0]);
         
         $.ajax({
-            url: '/pytex/sendmail/quote-file.php?file',
+            url: '/pytex/sendmail/quote-file.php',
             type: 'POST',
             data: data,
             cache: false,
