@@ -161,6 +161,7 @@ $(document).ready(function () {
         var description = $('#quote-description').val();
 
         var data = new FormData($('#form-quote'));
+        alert(data);
         
         $.ajax({
             url: '/pytex/sendmail/quote-file.php',
