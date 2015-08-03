@@ -162,7 +162,6 @@ $(document).ready(function () {
     }
 
     $('form#form-quote').on('submit', function (e) {
-        e.stopPropagation();
         e.preventDefault();
         var name = $('#quote-name').val();
         var email = $('#quote-email').val();
