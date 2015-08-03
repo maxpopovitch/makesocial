@@ -16,12 +16,10 @@ if (isset($_GET['file'])) {
 
     // переместим файлы из временной директории в указанную
 //    echo $_FILES['quote-name']['name'];
-    foreach ($_FILES as $file) {
-        if (move_uploaded_file($file['quote-name']['tmp_name'], $uploaddir . basename($file['quote-name']['name']))) {
-            $files = realpath($uploaddir . $file['quote-name']['name']);
-            echo basename($file['quote-name']['name']);
-        } else {
-            $error = true;
-        }
+    if (move_uploaded_file($_FILES['quote-name']['tmp_name'], $uploaddir . basename($_FILES['quote-name']['name']))) {
+        $files = realpath($uploaddir . $_FILES['quote-name']['name']);
+        echo basename($_FILES['quote-name']['name']);
+    } else {
+        $error = true;
     }
 }
