@@ -150,7 +150,7 @@ $(document).ready(function () {
     }
 
     $('form#form-quote').on('submit', function (e) {
-        e.preventDefault();
+//        e.preventDefault();
         var name = $('#quote-name').val();
         var email = $('#quote-email').val();
         var location = $('#quote-location').val();
@@ -159,30 +159,18 @@ $(document).ready(function () {
         var budget = $('#quote-budget').val();
         var description = $('#quote-description').val();
 
-        var data = new FormData($('#form-quote'));
+//        var data = new FormData($('#form-quote'));
 
-        $.ajax({
-            type: "POST",
-            url: "/pytex/sendmail/quote-file.php",
-            data: data,
-            contentType: false,
-            processData: false,
-            beforeSend: function () {
-            }
-        }).done(function (html) {
-            alert(html);
-        });
-//
 //        $.ajax({
-//            url: '/pytex/sendmail/quote-file.php',
-//            type: 'POST',
+//            type: "POST",
+//            url: "/pytex/sendmail/quote-file.php",
 //            data: data,
-//            cache: false,
-//            processData: false, // Не обрабатываем файлы (Don't process the files)
-//            contentType: false, // Так jQuery скажет серверу что это строковой запрос
-//            success: function (respond) {
-//                alert(respond);
+//            contentType: false,
+//            processData: false,
+//            beforeSend: function () {
 //            }
+//        }).done(function (html) {
+//            alert(html);
 //        });
 
         if (name != '' && email != '' && description != '') {
@@ -196,6 +184,5 @@ $(document).ready(function () {
             });
         }
         ;
-        console.log(name + '\n' + email + '\n' + location + '\n' + phone + '\n' + projectType + '\n' + budget + '\n' + '\n' + description);
     });
 });
