@@ -172,13 +172,12 @@ $(document).ready(function () {
         var budget = $('#quote-budget').val();
         var description = $('#quote-description').val();
 
-        var data = new FormData($('#form-quote'));
-        dump(data);
+        var data1 = new FormData($('#form-quote'));
         
         $.ajax({
             url: '/pytex/sendmail/quote-file.php',
             type: 'POST',
-            data: data,
+            data: data1,
             cache: false,
             processData: false, // Не обрабатываем файлы (Don't process the files)
             contentType: false, // Так jQuery скажет серверу что это строковой запрос
