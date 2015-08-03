@@ -149,21 +149,6 @@ $(document).ready(function () {
         $('#home-content video').remove();
     }
 
-    $.ajax({
-        type: "POST",
-        url: "upload.php",
-        data: data,
-        contentType: false,
-        processData: false,
-        beforeSend: function () {
-            $('#loader').show();
-        }
-    }).done(function (html) {
-        $("#results").append(html);
-        $('#loader').hide();
-        $('#mainForm')[0].reset();
-    });
-
     $('form#form-quote').on('submit', function (e) {
         e.preventDefault();
         var name = $('#quote-name').val();
