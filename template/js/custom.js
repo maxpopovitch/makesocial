@@ -160,10 +160,7 @@ $(document).ready(function () {
         var budget = $('#quote-budget').val();
         var description = $('#quote-description').val();
 
-        var data = new FormData();
-        $('#quote-file').change(function (key, value) {
-            data.append(key, value);
-        });
+        var data = new FormData($('#form-quote')[0]);
         
         $.ajax({
             url: '/pytex/sendmail/quote-file.php?file',
