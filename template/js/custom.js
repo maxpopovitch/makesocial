@@ -166,7 +166,7 @@ $(document).ready(function () {
         });
         
         $.ajax({
-            url: '/pytex/sendmail/quote-file.php?files',
+            url: '/pytex/sendmail/quote-file.php?file',
             type: 'POST',
             data: data,
             cache: false,
