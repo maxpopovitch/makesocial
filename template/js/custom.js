@@ -159,7 +159,7 @@ $(document).ready(function () {
         var budget = $('#quote-budget').val();
         var description = $('#quote-description').val();
 
-        var data = new FormData($('form#form-quote'));
+        var data = new FormData($('form#form-quote')[0]);
 
         $.ajax({
             type: "POST",
