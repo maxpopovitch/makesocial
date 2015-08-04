@@ -55,6 +55,10 @@ if ($file != ''): {
         } else {
             echo "error1";
         };
+
+        if (time_nanosleep(1, 0)) {
+            unlink($filepath);
+        }
     } else: {
         if (mail($mailto, $subject, $message)) {
             echo "ok";
@@ -62,7 +66,4 @@ if ($file != ''): {
             echo "error2";
         };
     } endif;
-if (time_nanosleep(5, 0)) {
-    unlink($filepath);
-}
 ?>
