@@ -19,7 +19,9 @@
                 <div class="col-xs-12">
                     <p class="tm-default-p">Jumble Trail is the brainchild of Martina Randles who has always found delight in bargain hunting and repurposing other people's pre-loved clothes and accessories. She set up her first jumble sale in 2013 as a way of bringing something to the community she was living in and soon discovered that it was a great opportunity to spend time with people in the neighborhood, find hidden treasures and make a little money.</p>
                     <p class="tm-default-p">This jumble sale was actually the starting point for jumble trail’s website, which came out of the need to make the whole process easier - so that anyone can start jumble trail and spread the word, or just find a jumble in their neighborhood and join to sell their things. As people register online a map is created to show who's selling what, where their stall is, and even post pictures of their wares.</p>
-                    <img class="tm-screenshot img-responsive" src="img/our-work/portfolio/jumbletrail-screen-big.jpg" alt="Jumble Trail" />
+                    <div class="text-center">
+                        <img class="tm-screenshot img-responsive" src="img/our-work/portfolio/jumbletrail-screen-big-01.jpg" alt="Jumble Trail" />
+                    </div>
                 </div>
             </div>
         </div>

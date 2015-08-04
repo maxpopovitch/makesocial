@@ -18,7 +18,9 @@
             <div class="row">
                 <div class="col-xs-12">
                     <p class="tm-default-p">Super Coucou approached EtonDigital to create a single complete, reliable booking platform for travel combined with a social network. Travelers will be able to join or create a group trip, making the trip cheaper per traveler. Every user will have a portfolio in which they will have all their travel documents, attach their flight ticket to a purchased package which will be transparently transferred directly to the local operator at that destination. The platform should encourage users to travel more, learn and accept other cultures, become more proactive, and to care more about the Earth.</p>
-                    <img class="tm-screenshot img-responsive" src="img/our-work/portfolio/supercoucou-screen-big.jpg" alt="Super Coucou" />
+                    <div class="text-center">
+                        <img class="tm-screenshot img-responsive" src="img/our-work/portfolio/supercoucou-screen-big-01.jpg" alt="Super Coucou" />
+                    </div>
                 </div>
             </div>
         </div>

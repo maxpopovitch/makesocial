@@ -18,7 +18,9 @@
             <div class="row">
                 <div class="col-xs-12">
                     <p class="tm-default-p">Coinaphoto approached EtonDigital to create a platform that sees photography in a new light, beyond the simple trend of sharing digital photographs, and more as a home for both amateurs and professionals where they are rewarded for their creative work.</p>
-                    <img class="tm-screenshot img-responsive" src="img/our-work/portfolio/coinaphoto-screen-big.jpg" alt="Coinaphoto" />
+                    <div class="text-center">
+                        <img class="tm-screenshot img-responsive" src="img/our-work/portfolio/coinaphoto-screen-big-01.jpg" alt="Coinaphoto" />
+                    </div>
                 </div>
             </div>
         </div>

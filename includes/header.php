@@ -6,7 +6,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,700,300,400' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="bower_components/loaders.css/loaders.min.css">
         <link rel="stylesheet" href="template/css/style.css">
         <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
     </head>

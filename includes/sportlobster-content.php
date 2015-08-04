@@ -19,7 +19,9 @@
                 <div class="col-xs-12">
                     <p class="tm-default-p">The idea of Sportlobster has been to provide everything a sports fan needs, all in one place. It aims to help fans keep up with the information blitz from the world of sport. So rather than having to visit multiple sites or apps to get your daily sporting fix, Sportlobster consolidates and customizes the experience to your sport preferences.</p>
                     <p class="tm-default-p">The team came to us with initial wireframes and we held a two day workshop in our offices where we went through every single functionality and user story before we actually started turning this idea into a reality.</p>
-                    <img class="tm-screenshot img-responsive" src="img/our-work/portfolio/sportlobster-screen-big.jpg" alt="Sportlobster" />
+                    <div class="text-center">
+                        <img class="tm-screenshot img-responsive" src="img/our-work/portfolio/sportlobster-screen-big-01.jpg" alt="Sportlobster" />
+                    </div>
                 </div>
             </div>
         </div>

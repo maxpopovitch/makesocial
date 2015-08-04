@@ -19,7 +19,9 @@
                 <div class="col-xs-12">
                     <p class="tm-default-p">Procurious approached EtonDigital to create a global online network and knowledge hub for young procurement professionals with the aim of enticing them to connect, engage and learn, oversee professional awards and networking events, and offer an effective platform to sell and deliver online trainings.</p>
                     <p class="tm-default-p">The core feature of the website is the networking function, which operates in the same way as a LinkedIn style website. Users must be able to message each other and connect with one another, share articles they’ve read, have a profile with contact details and CV, and join groups and other discussion sections.</p>
-                    <img class="tm-screenshot img-responsive" src="img/our-work/portfolio/procuriuos-screen-big.jpg" alt="Procuriuos" />
+                    <div class="text-center">
+                        <img class="tm-screenshot img-responsive" src="img/our-work/portfolio/procurious-screen-big-01.jpg" alt="Procuriuos" />
+                    </div>
                 </div>
             </div>
         </div>

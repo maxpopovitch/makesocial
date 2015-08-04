@@ -21,7 +21,10 @@
                     <p class="tm-default-p">We delivered an entire network of websites with a coherent appearance and centralised content management system.</p>
                     <p class="tm-default-p">Visitors are able to experience Nissan vehicles via interactive and well-structured pages, find details about current offers, download specification and brochures, compare features and prices for all models, and enjoy galleries with photos and videos.</p>
                     <p class="tm-default-p">Finally, we envisioned, designed and built a whole set of user-friendly tools for Test drive booking, scheduling Services, calculating Running Costs and comparing old vehicles to the new Nissan models. All these tools are there to help visitors make well informed decisions and manage their finances.</p>
-                    <img class="tm-screenshot img-responsive" src="img/our-work/portfolio/nissan-screen-big.jpg" alt="Nissan Irenald" />
+                    <div class="text-center">
+                        <img class="tm-screenshot img-responsive" src="img/our-work/portfolio/nissan-screen-big-01.jpg" alt="Nissan Irenald" />
+                        <img class="tm-screenshot img-responsive" src="img/our-work/portfolio/nissan-screen-big-02.jpg" alt="Nissan Irenald" />
+                    </div>
                 </div>
             </div>
         </div>
