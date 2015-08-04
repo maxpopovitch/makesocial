@@ -409,9 +409,15 @@
             </div>
         </div>
     </div>
-    <div id="message-sent">
+    <div id="alert-success">
         <div class="alert alert-success alert-dismissible" role="alert">
             <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <strong>Warning!</strong> Better check yourself, you're not looking too good.
+            <strong>Thank you!<br/></strong>Message sent.
+        </div>
+    </div>
+    <div id="alert-error">
+        <div class="alert alert-danger alert-dismissible" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <strong>Error!<br/></strong>Message not sent.
         </div>
     </div>
