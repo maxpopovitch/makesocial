@@ -55,7 +55,12 @@ $message_part .= "\r\n--$boundary--\r\n";
 
 $multipart .= $message_part;
 
-mail($to, $subject, $multipart, $mailheaders);
+if (mail($to, $subject, $multipart, $mailheaders)) {
+    echo "ok";
+} else {
+    echo "error";
+};
+
 // отправляем письмо 
 //удаляем файлы через 60 сек.
 //if (time_nanosleep(5, 0)) {
