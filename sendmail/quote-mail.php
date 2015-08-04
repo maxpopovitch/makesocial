@@ -30,7 +30,7 @@ $mailheaders .= "Reply-To: $user_email\r\n";
 $multipart = "--$boundary\r\n";
 $multipart .= "Content-Type: text/html; charset=windows-1251\r\n";
 $multipart .= "Content-Transfer-Encoding: base64\r\n";
-$multipart .= \r\n;
+$multipart .= "\r\n";
 $multipart .= chunk_split(base64_encode(iconv("utf8", "windows-1251", $message)));
 // первая часть само сообщение
 // Закачиваем файл 
