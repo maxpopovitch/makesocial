@@ -58,8 +58,8 @@ $multipart .= $message_part;
 mail($to, $subject, $multipart, $mailheaders);
 // отправляем письмо 
 //удаляем файлы через 60 сек.
-if (time_nanosleep(5, 0)) {
-    unlink($filepath);
-}
+//if (time_nanosleep(5, 0)) {
+//    unlink($filepath);
+//}
 // удаление файла
 ?>

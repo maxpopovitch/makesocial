@@ -173,7 +173,7 @@ $(document).ready(function () {
             if (name != '' && email != '' && description != '') {
                 $.ajax({
                     type: 'GET',
-                    url: '/pytex/sendmail/quote-mail.php?name=' + name + '&email=' + email + '&location=' + location + '&phone=' + phone + '&projecttype=' + projectType + '&budget=' + budget +'&file=' + file + '&description=' + description,
+                    url: '/pytex/sendmail/quote-mail.php?name=' + name + '&email=' + email + '&location=' + location + '&phone=' + phone + '&projecttype=' + projectType + '&budget=' + budget + '&file=' + file + '&description=' + description,
                     cache: false,
                     success: function (data) {
                         alert(data);
