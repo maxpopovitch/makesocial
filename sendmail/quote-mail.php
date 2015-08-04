@@ -13,7 +13,7 @@ $file = $_GET['file'];
 $description = $_GET['description'];
 $ip = $_SERVER['REMOTE_ADDR'];
 
-$message = ("Name: $name <br/> Email: $email <br/> Location: $location <br/> Phone: $phone <br/> Project type: $projecttype <br/> Budget: $budget <br/> Description: $description <br/>---------<br/> IP: $ip");
+$message = ("Name: $name <br> Email: $email <br> Location: $location <br> Phone: $phone <br> Project type: $projecttype <br> Budget: $budget <br> Description: $description <br>---------<br> IP: $ip");
 
 $filename = $file;
 
