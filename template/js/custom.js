@@ -177,7 +177,7 @@ $(document).ready(function () {
                     cache: false,
                     success: function (data) {
                         alert(data);
-                        $("#alert-success").fadeIn();
+                        $("#alert-success").show();
                     }
                 });
             }
