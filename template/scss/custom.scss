@@ -2203,6 +2203,22 @@ Write custom rules here ONLY!
     }
 }
 
+.tm-a-transition {
+    @include prefix((transition: $nav-transition));
+
+    &:hover {
+        @include prefix((transition: $nav-transition));
+    }
+}
+
+.tm-defaul-ul {
+    font-family: $font-family-description;
+    font-size: 17px;
+    line-height: 1.5;
+    padding: 0 0 0 20px;
+    margin: 0 0 18px;
+}
+
 footer {
     padding: $padding-01 0;
     background-color: darken($info-color, 5);

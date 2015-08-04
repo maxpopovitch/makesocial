@@ -1,4 +1,4 @@
 RewriteEngine On
 RewriteBase /
 
-RewriteRule ^(why-us|meet-us|social-networking-design-development|web-design-and-development|mobile-application-development|prototyping|corporate-identity-and-brand-design|strategic-planning-services|search-engine-optimization|copywriting|our-process|our-work|nissan-ireland|procurious|supercoucou|jumbletrail|sportlobster|coinaphoto|contact-us)$ index.php?page=$1 [L]
+RewriteRule ^(why-us|meet-us|social-networking-design-development|web-design-and-development|mobile-application-development|prototyping|corporate-identity-and-brand-design|strategic-planning-services|search-engine-optimization|copywriting|our-process|our-work|nissan-ireland|procurious|supercoucou|jumbletrail|sportlobster|coinaphoto|contact-us|terms-and-conditions|privacy-policy)$ index.php?page=$1 [L]

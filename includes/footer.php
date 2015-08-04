@@ -72,8 +72,8 @@
                 <div>
                     <div class="tm-copyright"><strong>&copy; 2015 Etondigital</strong></div>
                     <nav class="tm-footer-nav">
-                        <a href="#"><strong>Terms and Conditions</strong></a>
-                        <a href="#"><strong>Privacy Policy</strong></a>
+                        <a href="terms-and-conditions"><strong>Terms and Conditions</strong></a>
+                        <a href="privacy-policy"><strong>Privacy Policy</strong></a>
                     </nav>
                 </div>
 

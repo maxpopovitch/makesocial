@@ -24,6 +24,8 @@ $pages = array(
     'sportlobster',
     'coinaphoto',
     'contact-us',
+    'terms-and-conditions',
+    'privacy-policy'
 );
 
 if (isset($_GET['page'])) {
