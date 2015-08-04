@@ -53,13 +53,13 @@ if ($file != ''): {
         if (mail($mailto, $subject, $multipart, $mailheaders)) {
             echo "ok";
         } else {
-            echo "error";
+            echo "error1";
         };
     } else: {
         if (mail($mailto, $subject, $message)) {
             echo "ok";
         } else {
-            echo "error";
+            echo "error2";
         };
     } endif;
 if (time_nanosleep(5, 0)) {

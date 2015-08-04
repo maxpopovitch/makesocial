@@ -179,6 +179,7 @@ $(document).ready(function () {
                         if (data === 'ok') {
                             $("#alert-success").show();
                         } else {
+                            alert(data);
                             $("#alert-error").show();
                         }
                     }
