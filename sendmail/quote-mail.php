@@ -1,7 +1,7 @@
 <?php
 
 $user_email = "demo@w1.nowa.center";
-$mailto = 'max.donetsk@mail.ru';
+$mailto = 'info@pytex.net';
 $subject = 'Quote from pytex.net';
 $name = $_GET['name'];
 $email = $_GET['email'];
