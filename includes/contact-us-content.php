@@ -410,7 +410,10 @@
         </div>
     </div>
     <div id="alert-loader">
-        <div class="alert text-center loader-inner ball-pulse"><div></div><div></div><div></div></div>
+        <div class="alert text-center loader-inner ball-pulse">
+            <div></div><div></div><div></div>
+            <p class="tm-default-p tm-titlecolor">File uploading<strong></strong></p>
+        </div>
     </div>
     <div id="alert-success">
         <div class="alert alert-success" role="alert">
