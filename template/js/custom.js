@@ -202,33 +202,21 @@ $(document).ready(function () {
         var website = $('#message-website').val();
         var message = $('#message-message').val();
 
-        var data = new FormData($('form#form-message')[0]);
-
-        $.ajax({
-            type: "POST",
-            url: "/pytex/sendmail/message-mail.php",
-            data: data,
-            contentType: false,
-            processData: false,
-            beforeSend: function () {
-            }
-        }).done(function () {
-            if (name != '' && email != '' && message != '') {
-                $.ajax({
-                    type: 'GET',
-                    url: '/pytex/sendmail/message-mail.php?name=' + name + '&email=' + email + '&phone=' + phone + '&website=' + website + '&message=' + message,
-                    cache: false,
-                    success: function (data) {
-                        $('#alert-loader').hide();
-                        if (data === 'ok') {
-                            $("#alert-success").show();
-                        } else {
-                            $("#alert-error").show();
-                        }
+        if (name != '' && email != '' && message != '') {
+            $.ajax({
+                type: 'GET',
+                url: '/pytex/sendmail/message-mail.php?name=' + name + '&email=' + email + '&phone=' + phone + '&website=' + website + '&message=' + message,
+                cache: false,
+                success: function (data) {
+                    $('#alert-loader').hide();
+                    if (data === 'ok') {
+                        $("#alert-success").show();
+                    } else {
+                        $("#alert-error").show();
                     }
-                });
-            }
-        });
+                }
+            });
+        }
     });
 
     $('.alert button.close').click(function () {
