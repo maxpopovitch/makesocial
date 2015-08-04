@@ -1,10 +1,10 @@
 <?php
 
+$user_email = "demo@w1.nowa.center";
 $mailto = 'max.donetsk@mail.ru';
 $subject = 'Quote from pytex.net';
 $name = $_GET['name'];
 $email = $_GET['email'];
-$user_email = "demo@w1.nowa.center";
 $location = $_GET['location'];
 $phone = $_GET['phone'];
 $projecttype = $_GET['projecttype'];
@@ -67,7 +67,7 @@ if ($file != ''): {
         if (mail($mailto, $subject, $message, $mailheaders)) {
             echo "ok";
         } else {
-            echo "error2";
+            echo "error";
         };
     } endif;
 ?>

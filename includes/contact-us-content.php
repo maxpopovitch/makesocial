@@ -362,7 +362,7 @@
                 </div>
                 <div role="tabpanel" class="tab-pane fade" id="message">
                     <div class="container tm-sect-01">
-                        <form id="form-message" data-toggle="validator">
+                        <form action="sendmail/message-mail.php" id="form-message" data-toggle="validator">
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">

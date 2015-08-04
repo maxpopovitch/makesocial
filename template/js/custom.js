@@ -160,13 +160,13 @@ $(document).ready(function () {
         var description = $('#quote-description').val();
 
         var data = new FormData($('form#form-quote')[0]);
-        
-        
+
+
         var file = $('#quote-file').val();
         if (file != '') {
             $('#alert-loader').show();
         }
-        
+
         $.ajax({
             type: "POST",
             url: "/pytex/sendmail/quote-file.php",
@@ -180,6 +180,43 @@ $(document).ready(function () {
                 $.ajax({
                     type: 'GET',
                     url: '/pytex/sendmail/quote-mail.php?name=' + name + '&email=' + email + '&location=' + location + '&phone=' + phone + '&projecttype=' + projectType + '&budget=' + budget + '&file=' + file + '&description=' + description,
+                    cache: false,
+                    success: function (data) {
+                        $('#alert-loader').hide();
+                        if (data === 'ok') {
+                            $("#alert-success").show();
+                        } else {
+                            $("#alert-error").show();
+                        }
+                    }
+                });
+            }
+        });
+    });
+
+    $('form#form-message').on('submit', function (e) {
+        e.preventDefault();
+        var name = $('#message-name').val();
+        var email = $('#message-email').val();
+        var phone = $('#message-phone').val();
+        var website = $('#message-website').val();
+        var message = $('#message-message').val();
+
+        var data = new FormData($('form#form-message')[0]);
+
+        $.ajax({
+            type: "POST",
+            url: "/pytex/sendmail/quote-message.php",
+            data: data,
+            contentType: false,
+            processData: false,
+            beforeSend: function () {
+            }
+        }).done(function () {
+            if (name != '' && email != '' && message != '') {
+                $.ajax({
+                    type: 'GET',
+                    url: '/pytex/sendmail/message-mail.php?name=' + name + '&email=' + email + '&phone=' + phone + '&website=' + website + '&message=' + message,
                     cache: false,
                     success: function (data) {
                         $('#alert-loader').hide();
