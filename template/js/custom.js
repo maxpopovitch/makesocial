@@ -160,7 +160,13 @@ $(document).ready(function () {
         var description = $('#quote-description').val();
 
         var data = new FormData($('form#form-quote')[0]);
-
+        
+        
+        var file = $('#quote-file').val();
+        if (file != '') {
+            $('#alert-loader').show();
+        }
+        
         $.ajax({
             type: "POST",
             url: "/pytex/sendmail/quote-file.php",
@@ -176,6 +182,7 @@ $(document).ready(function () {
                     url: '/pytex/sendmail/quote-mail.php?name=' + name + '&email=' + email + '&location=' + location + '&phone=' + phone + '&projecttype=' + projectType + '&budget=' + budget + '&file=' + file + '&description=' + description,
                     cache: false,
                     success: function (data) {
+                        $('#alert-loader').hide();
                         if (data === 'ok') {
                             $("#alert-success").show();
                         } else {

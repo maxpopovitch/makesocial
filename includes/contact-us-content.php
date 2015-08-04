@@ -409,6 +409,9 @@
             </div>
         </div>
     </div>
+    <div id="alert-loader">
+        <div class="alert text-center loader-inner ball-pulse"><div></div><div></div><div></div></div>
+    </div>
     <div id="alert-success">
         <div class="alert alert-success" role="alert">
             <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
