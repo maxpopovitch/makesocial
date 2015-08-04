@@ -36,7 +36,7 @@ $multipart .= chunk_split(base64_encode(iconv("utf8", "windows-1251", $message))
 // Закачиваем файл 
 $fp = fopen($filepath, "r");
 if (!$fp) {
-    print "Не удается открыть файл22";
+    print "Не удается открыть файл $filepath";
     exit();
 }
 $file = fread($fp, filesize($filepath));
