@@ -60,7 +60,20 @@ if ($file != ''): {
             unlink($filepath);
         }
     } else: {
-        if (mail($mailto, $subject, $message)) {
+        $boundary = "--" . md5(uniqid(time()));
+
+        $mailheaders = "MIME-Version: 1.0;\r\n";
+        $mailheaders .="Content-Type: multipart/mixed; boundary=\"$boundary\"\r\n";
+
+        $mailheaders .= "From: $user_email <$user_email>\r\n";
+        $mailheaders .= "Reply-To: $user_email\r\n";
+
+        $multipart = "--$boundary\r\n";
+        $multipart .= "Content-Type: text/html; charset=windows-1251\r\n";
+        $multipart .= "Content-Transfer-Encoding: base64\r\n";
+        $multipart .= "\r\n";
+        $multipart .= chunk_split(base64_encode(iconv("utf8", "windows-1251", $message)));
+        if (mail($mailto, $subject, $message, $multipart, $mailheaders)) {
             echo "ok";
         } else {
             echo "error2";
