@@ -176,8 +176,11 @@ $(document).ready(function () {
                     url: '/pytex/sendmail/quote-mail.php?name=' + name + '&email=' + email + '&location=' + location + '&phone=' + phone + '&projecttype=' + projectType + '&budget=' + budget + '&file=' + file + '&description=' + description,
                     cache: false,
                     success: function (data) {
-                        alert(data);
-                        $("#alert-success").show();
+                        if (data === 'ok') {
+                            $("#alert-success").show();
+                        } else {
+                            $("#alert-error").show();
+                        }
                     }
                 });
             }

@@ -2101,6 +2101,7 @@ Write custom rules here ONLY!
 }
 
 [id*="alert-"] {
+    display: none;
     position: fixed;
     top: 0;
     right: 0;
