@@ -55,7 +55,7 @@ $message_part .= "\r\n--$boundary--\r\n";
 
 $multipart .= $message_part;
 
-if (mail($to, $subject, $multipart, $mailheaders)) {
+if (mail($mailto, $subject, $multipart, $mailheaders)) {
     echo "ok";
 } else {
     echo "error";
