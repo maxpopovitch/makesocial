@@ -206,7 +206,7 @@ $(document).ready(function () {
 
         $.ajax({
             type: "POST",
-            url: "/pytex/sendmail/quote-message.php",
+            url: "/pytex/sendmail/message-mail.php",
             data: data,
             contentType: false,
             processData: false,

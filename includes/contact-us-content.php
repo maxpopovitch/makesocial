@@ -383,7 +383,7 @@
                                     </div>
                                     <div class="form-group">
                                         <label for="message-website" class="control-label">Website</label>
-                                        <input type="url" class="form-control" id="message-website" placeholder="Enter your website" />
+                                        <input type="text" class="form-control" id="message-website" placeholder="Enter your website" />
                                     </div>
                                 </div>
                             </div>
