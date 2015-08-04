@@ -1916,11 +1916,11 @@ Write custom rules here ONLY!
                 @include prefix((transition: $nav-transition));
             }
 
+            &.tm-skype:hover {background: #00AFF0}
             &.tm-facebook:hover {background: #3B5998}
             &.tm-twitter:hover {background: #55ACEE}
             &.tm-linkedin:hover {background: #1F89BE}
             &.tm-google:hover {background: #DD4B39}
-            &.tm-instagram:hover {background: #3F729B}
 
             svg {
                 width: 25px;
