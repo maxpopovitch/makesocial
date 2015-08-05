@@ -2219,6 +2219,45 @@ Write custom rules here ONLY!
     margin: 0 0 18px;
 }
 
+html.tm-errorpage {
+    .navbar {
+        background-color: $default-color;
+    }
+}
+
+#errorpage {
+    > section {
+        padding-top: $padding-03;
+        padding-bottom: $padding-03;
+
+        @media (min-width: $screen-md-min) {
+            padding-top: $padding-06;
+            padding-bottom: $padding-06;
+        }
+
+        img {
+            display: inline-block;
+        }
+
+        a {
+            @include prefix((transition: $nav-transition));
+            color: darken($info-color, 10);
+            display: inline-block;
+
+            &:hover, &:focus {
+                @include prefix((transition: $nav-transition));
+                color: $default-color;
+                text-decoration: none;
+            }
+        }
+
+
+        img, h2, p, a {
+            margin-bottom: 36px;
+        }
+    }
+}
+
 footer {
     padding: $padding-01 0;
     background-color: darken($info-color, 5);
