@@ -1888,16 +1888,6 @@ Write custom rules here ONLY!
             width: 16.66666%;
         }
 
-        &:nth-of-type(1) {
-            display: none;
-            font-size: 18px;
-            text-transform: uppercase;
-
-            @media (min-width: $screen-md-min) {
-                display: table-cell;
-            }
-        }
-
         &:not(:nth-of-type(1)) {
             border-left: 1px solid rgba($title-color, 0.1);
         }
