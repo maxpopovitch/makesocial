@@ -24,9 +24,10 @@
                             <hr class="tm-hr-02" />
                         </div>
                         <p class="text-center tm-text-line-13 tm-titlecolor tm-nomargin">
-                            Donbass Palace<br />
-                            80, Artyoma Street<br />
-                            Donetsk, 83001, Ukraine<br />
+                            Waterfront Plaza<br />
+                            1750 Montgomery Street, 1st Floor<br />
+                            San Francisco, California, 94111<br />
+                            United States<br />
                             Tel: +1 877 677 5758<br />
                             info@pytex.net
                         </p>
@@ -40,9 +41,11 @@
                             <hr class="tm-hr-02" />
                         </div>
                         <p class="text-center tm-text-line-13 tm-titlecolor tm-nomargin">
-                            Donbass Palace<br />
-                            80, Artyoma Street<br />
-                            Donetsk, 83001, Ukraine<br />
+                            70 West Madison St.<br />
+                            Three First National Plaza<br />
+                            Suite 1400<br />
+                            Chicago, Illinois, 60602-4270<br />
+                            United States<br />
                             Tel: +1 877 677 5758<br />
                             info@pytex.net
                         </p>
@@ -56,9 +59,8 @@
                             <hr class="tm-hr-02" />
                         </div>
                         <p class="text-center tm-text-line-13 tm-titlecolor tm-nomargin">
-                            Donbass Palace<br />
-                            W 39th St,<br />
-                            NY 10018,
+                            140 Broadway<br />
+                            Manhattan, New York, 10005<br />
                             United States<br />
                             Tel: +1 877 677 5758<br />
                             info@pytex.net
@@ -73,10 +75,11 @@
                             <hr class="tm-hr-02" />
                         </div>
                         <p class="text-center tm-text-line-13 tm-titlecolor tm-nomargin">
-                            Donbass Palace<br />
-                            W 39th St,<br />
-                            NY 10018,
-                            United States<br />
+                            Islington Station<br />
+                            3250 Bloor Street West<br />
+                            East Tower, Suite 600<br />
+                            Toronto, Ontario, M8X 2X9<br />
+                            Canada<br />
                             Tel: +1 877 677 5758<br />
                             info@pytex.net
                         </p>
@@ -90,10 +93,11 @@
                             <hr class="tm-hr-02" />
                         </div>
                         <p class="text-center tm-text-line-13 tm-titlecolor tm-nomargin">
-                            Donbass Palace<br />
-                            W 39th St,<br />
-                            NY 10018,
-                            United States<br />
+                            Australia Square Plaza<br />
+                            Level 4,5 &12, Plaza Building<br />
+                            Australia Square, 95 Pitt Street<br />
+                            Sydney, NSW 2000<br />
+                            Australia<br />
                             Tel: +1 877 677 5758<br />
                             info@pytex.net
                         </p>
@@ -107,10 +111,11 @@
                             <hr class="tm-hr-02" />
                         </div>
                         <p class="text-center tm-text-line-13 tm-titlecolor tm-nomargin">
-                            Donbass Palace<br />
-                            W 39th St,<br />
-                            NY 10018,
-                            United States<br />
+                            Strand<br />
+                            Golden Cross House, 8<br />
+                            Duncannon Street,<br />
+                            London, WC2N 4JF<br />
+                            United Kingdom<br />
                             Tel: +1 877 677 5758<br />
                             info@pytex.net
                         </p>
@@ -124,10 +129,9 @@
                             <hr class="tm-hr-02" />
                         </div>
                         <p class="text-center tm-text-line-13 tm-titlecolor tm-nomargin">
-                            Donbass Palace<br />
-                            W 39th St,<br />
-                            NY 10018,
-                            United States<br />
+                            15, Valova str.<br />
+                            Lviv, 79008<br />
+                            Ukraine<br />
                             Tel: +1 877 677 5758<br />
                             info@pytex.net
                         </p>
@@ -141,8 +145,9 @@
                             <hr class="tm-hr-02" />
                         </div>
                         <p class="text-center tm-text-line-13 tm-titlecolor tm-nomargin">
-                            272a, Skhidna str.,<br />
-                            Sambir, 81400, Ukraine<br />
+                            272a, Skhidna str.<br />
+                            Sambir, 81400<br />
+                            Ukraine<br />
                             Tel: +1 877 677 5758<br />
                             info@pytex.net
                         </p>
@@ -156,8 +161,9 @@
                             <hr class="tm-hr-02" />
                         </div>
                         <p class="text-center tm-text-line-13 tm-titlecolor tm-nomargin">
-                            279a, Skhidna str.,<br />
-                            Sambir, 00000, Ukraine<br />
+                            116a, Italyanskaya str.,<br />
+                            Mariupol, 87515<br />
+                            Ukraine<br />
                             Tel: +1 877 677 5758<br />
                             info@pytex.net
                         </p>
@@ -171,8 +177,9 @@
                             <hr class="tm-hr-02" />
                         </div>
                         <p class="text-center tm-text-line-13 tm-titlecolor tm-nomargin">
-                            279a, Skhidna str.,<br />
-                            Sambir, 00000, Ukraine<br />
+                            Rynek 1<br />
+                            37-700 Przemysl<br />
+                            Poland<br />
                             Tel: +1 877 677 5758<br />
                             info@pytex.net
                         </p>
@@ -186,8 +193,11 @@
                             <hr class="tm-hr-02" />
                         </div>
                         <p class="text-center tm-text-line-13 tm-titlecolor tm-nomargin">
-                            279a, Skhidna str.,<br />
-                            Sambir, 00000, Ukraine<br />
+                            12/F., Times Plaza Building<br />
+                            United Nations Avenue<br />
+                            corner Taft Avenue<br />
+                            Ermita, Manila<br />
+                            Philippines<br />
                             Tel: +1 877 677 5758<br />
                             info@pytex.net
                         </p>
@@ -201,8 +211,10 @@
                             <hr class="tm-hr-02" />
                         </div>
                         <p class="text-center tm-text-line-13 tm-titlecolor tm-nomargin">
-                            279a, Skhidna str.,<br />
-                            Sambir, 00000, Ukraine<br />
+                            11 Floor, Apple One - Equicom Tower<br />
+                            Mindanao Avenue cor. Biliran St.<br />
+                            Cebu City, 6000<br />
+                            Philippines<br />
                             Tel: +1 877 677 5758<br />
                             info@pytex.net
                         </p>
