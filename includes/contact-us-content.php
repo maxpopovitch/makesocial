@@ -27,8 +27,8 @@
                             Donbass Palace<br />
                             80, Artyoma Street<br />
                             Donetsk, 83001, Ukraine<br />
-                            Tel: +38 062 343 43 3<br />
-                            contact@etondigital.com
+                            Tel: +1 877 677 5758<br />
+                            info@pytex.net
                         </p>
                     </div>
                 </li>
@@ -43,8 +43,8 @@
                             Donbass Palace<br />
                             80, Artyoma Street<br />
                             Donetsk, 83001, Ukraine<br />
-                            Tel: +38 062 343 43 3<br />
-                            contact@etondigital.com
+                            Tel: +1 877 677 5758<br />
+                            info@pytex.net
                         </p>
                     </div>
                 </li>
@@ -60,8 +60,8 @@
                             W 39th St,<br />
                             NY 10018,
                             United States<br />
-                            Tel: +38 062 343 43 3<br />
-                            contact@etondigital.com
+                            Tel: +1 877 677 5758<br />
+                            info@pytex.net
                         </p>
                     </div>
                 </li>
@@ -77,8 +77,8 @@
                             W 39th St,<br />
                             NY 10018,
                             United States<br />
-                            Tel: +38 062 343 43 3<br />
-                            contact@etondigital.com
+                            Tel: +1 877 677 5758<br />
+                            info@pytex.net
                         </p>
                     </div>
                 </li>
@@ -94,8 +94,8 @@
                             W 39th St,<br />
                             NY 10018,
                             United States<br />
-                            Tel: +38 062 343 43 3<br />
-                            contact@etondigital.com
+                            Tel: +1 877 677 5758<br />
+                            info@pytex.net
                         </p>
                     </div>
                 </li>
@@ -111,8 +111,8 @@
                             W 39th St,<br />
                             NY 10018,
                             United States<br />
-                            Tel: +38 062 343 43 3<br />
-                            contact@etondigital.com
+                            Tel: +1 877 677 5758<br />
+                            info@pytex.net
                         </p>
                     </div>
                 </li>
@@ -128,8 +128,8 @@
                             W 39th St,<br />
                             NY 10018,
                             United States<br />
-                            Tel: +38 062 343 43 3<br />
-                            contact@etondigital.com
+                            Tel: +1 877 677 5758<br />
+                            info@pytex.net
                         </p>
                     </div>
                 </li>
@@ -141,10 +141,10 @@
                             <hr class="tm-hr-02" />
                         </div>
                         <p class="text-center tm-text-line-13 tm-titlecolor tm-nomargin">
-                            279a, Skhidna str.,<br />
-                            Sambir, 00000, Ukraine<br />
-                            Tel: +38 062 343 43 3<br />
-                            contact@etondigital.com
+                            272a, Skhidna str.,<br />
+                            Sambir, 81400, Ukraine<br />
+                            Tel: +1 877 677 5758<br />
+                            info@pytex.net
                         </p>
                     </div>
                 </li>
@@ -158,8 +158,8 @@
                         <p class="text-center tm-text-line-13 tm-titlecolor tm-nomargin">
                             279a, Skhidna str.,<br />
                             Sambir, 00000, Ukraine<br />
-                            Tel: +38 062 343 43 3<br />
-                            contact@etondigital.com
+                            Tel: +1 877 677 5758<br />
+                            info@pytex.net
                         </p>
                     </div>
                 </li>
@@ -173,8 +173,8 @@
                         <p class="text-center tm-text-line-13 tm-titlecolor tm-nomargin">
                             279a, Skhidna str.,<br />
                             Sambir, 00000, Ukraine<br />
-                            Tel: +38 062 343 43 3<br />
-                            contact@etondigital.com
+                            Tel: +1 877 677 5758<br />
+                            info@pytex.net
                         </p>
                     </div>
                 </li>
@@ -188,8 +188,8 @@
                         <p class="text-center tm-text-line-13 tm-titlecolor tm-nomargin">
                             279a, Skhidna str.,<br />
                             Sambir, 00000, Ukraine<br />
-                            Tel: +38 062 343 43 3<br />
-                            contact@etondigital.com
+                            Tel: +1 877 677 5758<br />
+                            info@pytex.net
                         </p>
                     </div>
                 </li>
@@ -203,8 +203,8 @@
                         <p class="text-center tm-text-line-13 tm-titlecolor tm-nomargin">
                             279a, Skhidna str.,<br />
                             Sambir, 00000, Ukraine<br />
-                            Tel: +38 062 343 43 3<br />
-                            contact@etondigital.com
+                            Tel: +1 877 677 5758<br />
+                            info@pytex.net
                         </p>
                     </div>
                 </li>
