@@ -1,7 +1,7 @@
 <div id="nissan-ireland-content" class="tm-nissan-ireland-container"></div>
 <header class="container">
     <div class="tm-title-04 text-center">
-        <img class="img-responsive" src="img/our-work/portfolio/nissan-logo.svg" />
+        <img class="img-responsive" src="img/our-work/portfolio/nissan/nissan-logo.svg" />
         <p>Nissan Ireland has a multitude of websites that provide a rich set of presentations, tools and communication methods to future and existing Nissan owners. The platform is built to be available on all devices, ranging from desktops to laptops to tablets and phones, but also to provide the content management team with a powerful and easy to use system.</p>
     </div>
 </header>
@@ -21,8 +21,8 @@
                     <p class="tm-default-p">Visitors are able to experience Nissan vehicles via interactive and well-structured pages, find details about current offers, download specification and brochures, compare features and prices for all models, and enjoy galleries with photos and videos.</p>
                     <p class="tm-default-p">Finally, we envisioned, designed and built a whole set of user-friendly tools for Test drive booking, scheduling Services, calculating Running Costs and comparing old vehicles to the new Nissan models. All these tools are there to help visitors make well informed decisions and manage their finances.</p>
                     <div class="text-center">
-                        <img class="tm-screenshot img-responsive" src="img/our-work/portfolio/nissan-screen-big-01.jpg" alt="Nissan Irenald" />
-                        <img class="tm-screenshot img-responsive" src="img/our-work/portfolio/nissan-screen-big-02.jpg" alt="Nissan Irenald" />
+                        <img class="tm-screenshot img-responsive" src="img/our-work/portfolio/nissan/nissan-screen-big-01.jpg" alt="Nissan Irenald" />
+                        <img class="tm-screenshot img-responsive" src="img/our-work/portfolio/nissan/nissan-screen-big-02.jpg" alt="Nissan Irenald" />
                     </div>
                 </div>
             </div>

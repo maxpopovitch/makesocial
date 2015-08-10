@@ -1,7 +1,7 @@
 <div id="coinaphoto-content" class="tm-coinaphoto-container"></div>
 <header class="container">
     <div class="tm-title-04 text-center">
-        <img class="img-responsive" src="img/our-work/portfolio/coinaphoto-logo.svg" />
+        <img class="img-responsive" src="img/our-work/portfolio/coinaphoto/coinaphoto-logo.svg" />
         <p>Coinaphoto is a unique platform that allows users to earn some cash while uploading their photos and communicating with other people who have similar interests throughout the world. The network was created for those who are passionate about good photography, and enjoy this art form, and those who are communicating through photography.</p>
     </div>
 </header>
@@ -18,7 +18,7 @@
                 <div class="col-xs-12">
                     <p class="tm-default-p">Coinaphoto approached EtonDigital to create a platform that sees photography in a new light, beyond the simple trend of sharing digital photographs, and more as a home for both amateurs and professionals where they are rewarded for their creative work.</p>
                     <div class="text-center">
-                        <img class="tm-screenshot img-responsive" src="img/our-work/portfolio/coinaphoto-screen-big-01.jpg" alt="Coinaphoto" />
+                        <img class="tm-screenshot img-responsive" src="img/our-work/portfolio/coinaphoto/coinaphoto-screen-big-01.jpg" alt="Coinaphoto" />
                     </div>
                 </div>
             </div>

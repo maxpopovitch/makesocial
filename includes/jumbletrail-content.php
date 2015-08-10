@@ -1,7 +1,7 @@
 <div id="jumbletrail-content" class="tm-jumbletrail-container"></div>
 <header class="container">
     <div class="tm-title-04 text-center">
-        <img class="img-responsive" src="img/our-work/portfolio/jumbletrail-logo.svg" />
+        <img class="img-responsive" src="img/our-work/portfolio/jumbletrail/jumbletrail-logo.svg" />
         <p>Ever wanted to take part or just visit a local jumble or car boot sale but struggled to find one near you or even just find one anywhere? Then we suggest you jump on board the Jumble Trail, a website helping communities come together to set up stalls outside their houses to sell bric-a-brac, toys, vintage clothes, cakes or anything at all.</p>
     </div>
 </header>
@@ -19,7 +19,7 @@
                     <p class="tm-default-p">Jumble Trail is the brainchild of Martina Randles who has always found delight in bargain hunting and repurposing other people's pre-loved clothes and accessories. She set up her first jumble sale in 2013 as a way of bringing something to the community she was living in and soon discovered that it was a great opportunity to spend time with people in the neighborhood, find hidden treasures and make a little money.</p>
                     <p class="tm-default-p">This jumble sale was actually the starting point for jumble trail’s website, which came out of the need to make the whole process easier - so that anyone can start jumble trail and spread the word, or just find a jumble in their neighborhood and join to sell their things. As people register online a map is created to show who's selling what, where their stall is, and even post pictures of their wares.</p>
                     <div class="text-center">
-                        <img class="tm-screenshot img-responsive" src="img/our-work/portfolio/jumbletrail-screen-big-01.jpg" alt="Jumble Trail" />
+                        <img class="tm-screenshot img-responsive" src="img/our-work/portfolio/jumbletrail/jumbletrail-screen-big-01.jpg" alt="Jumble Trail" />
                     </div>
                 </div>
             </div>
