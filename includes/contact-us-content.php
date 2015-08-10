@@ -29,7 +29,7 @@
                             San Francisco, California, 94111<br />
                             United States<br />
                             Tel: +1 877 677 5758<br />
-                            info@pytex.net
+                            <a href="mailto:info@pytex.net"><strong>info@pytex.net</strong></a>
                         </p>
                     </div>
                 </li>
@@ -41,13 +41,12 @@
                             <hr class="tm-hr-02" />
                         </div>
                         <p class="text-center tm-text-line-13 tm-titlecolor tm-nomargin">
-                            70 West Madison St.<br />
-                            Three First National Plaza<br />
-                            Suite 1400<br />
-                            Chicago, Illinois, 60602-4270<br />
+                            Two Prudential Plaza<br />
+                            180 North Stetson Ave. 3500<br />
+                            Chicago, IL 60601<br />
                             United States<br />
                             Tel: +1 877 677 5758<br />
-                            info@pytex.net
+                            <a href="mailto:info@pytex.net"><strong>info@pytex.net</strong></a>
                         </p>
                     </div>
                 </li>
@@ -63,7 +62,7 @@
                             Manhattan, New York, 10005<br />
                             United States<br />
                             Tel: +1 877 677 5758<br />
-                            info@pytex.net
+                            <a href="mailto:info@pytex.net"><strong>info@pytex.net</strong></a>
                         </p>
                     </div>
                 </li>
@@ -81,7 +80,7 @@
                             Toronto, Ontario, M8X 2X9<br />
                             Canada<br />
                             Tel: +1 877 677 5758<br />
-                            info@pytex.net
+                            <a href="mailto:info@pytex.net"><strong>info@pytex.net</strong></a>
                         </p>
                     </div>
                 </li>
@@ -99,7 +98,7 @@
                             Sydney, NSW 2000<br />
                             Australia<br />
                             Tel: +1 877 677 5758<br />
-                            info@pytex.net
+                            <a href="mailto:info@pytex.net"><strong>info@pytex.net</strong></a>
                         </p>
                     </div>
                 </li>
@@ -117,7 +116,7 @@
                             London, WC2N 4JF<br />
                             United Kingdom<br />
                             Tel: +1 877 677 5758<br />
-                            info@pytex.net
+                            <a href="mailto:info@pytex.net"><strong>info@pytex.net</strong></a>
                         </p>
                     </div>
                 </li>
@@ -133,7 +132,7 @@
                             Lviv, 79008<br />
                             Ukraine<br />
                             Tel: +1 877 677 5758<br />
-                            info@pytex.net
+                            <a href="mailto:info@pytex.net"><strong>info@pytex.net</strong></a>
                         </p>
                     </div>
                 </li>
@@ -145,11 +144,12 @@
                             <hr class="tm-hr-02" />
                         </div>
                         <p class="text-center tm-text-line-13 tm-titlecolor tm-nomargin">
-                            272a, Skhidna str.<br />
+                            Rynok 4<br />
+                            Office 22<br />
                             Sambir, 81400<br />
                             Ukraine<br />
                             Tel: +1 877 677 5758<br />
-                            info@pytex.net
+                            <a href="mailto:info@pytex.net"><strong>info@pytex.net</strong></a>
                         </p>
                     </div>
                 </li>
@@ -165,7 +165,7 @@
                             Mariupol, 87515<br />
                             Ukraine<br />
                             Tel: +1 877 677 5758<br />
-                            info@pytex.net
+                            <a href="mailto:info@pytex.net"><strong>info@pytex.net</strong></a>
                         </p>
                     </div>
                 </li>
@@ -181,7 +181,7 @@
                             37-700 Przemysl<br />
                             Poland<br />
                             Tel: +1 877 677 5758<br />
-                            info@pytex.net
+                            <a href="mailto:info@pytex.net"><strong>info@pytex.net</strong></a>
                         </p>
                     </div>
                 </li>
@@ -199,7 +199,7 @@
                             Ermita, Manila<br />
                             Philippines<br />
                             Tel: +1 877 677 5758<br />
-                            info@pytex.net
+                            <a href="mailto:info@pytex.net"><strong>info@pytex.net</strong></a>
                         </p>
                     </div>
                 </li>
@@ -216,7 +216,7 @@
                             Cebu City, 6000<br />
                             Philippines<br />
                             Tel: +1 877 677 5758<br />
-                            info@pytex.net
+                            <a href="mailto:info@pytex.net"><strong>info@pytex.net</strong></a>
                         </p>
                     </div>
                 </li>
@@ -273,8 +273,8 @@
                 <li role="presentation" class="active">
                     <a class="clearfix" href="#quote" aria-controls="quote" role="tab" data-toggle="tab">
                         <div class="pull-left">
-                            <svg class="tm-envelope" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1024 1024">
-                            <path d="M896 307.2h-819.2c-42.347 0-76.8 34.453-76.8 76.8v460.8c0 42.349 34.453 76.8 76.8 76.8h819.2c42.349 0 76.8-34.451 76.8-76.8v-460.8c0-42.347-34.451-76.8-76.8-76.8zM896 358.4c1.514 0 2.99 0.158 4.434 0.411l-385.632 257.090c-14.862 9.907-41.938 9.907-56.802 0l-385.634-257.090c1.443-0.253 2.92-0.411 4.434-0.411h819.2zM896 870.4h-819.2c-14.115 0-25.6-11.485-25.6-25.6v-438.566l378.4 252.267c15.925 10.618 36.363 15.925 56.8 15.925s40.877-5.307 56.802-15.925l378.398-252.267v438.566c0 14.115-11.485 25.6-25.6 25.6z"></path>
+                            <svg class="tm-bow-tie" preserveAspectRatio="xMinYMin meet" viewBox="0 0 20 20">
+                            <path d="M18.426 6.846c-0.394-0.703-1.29-1.021-2.039-0.724l-4.53 1.793c-0.622-0.568-1.45-0.914-2.357-0.914s-1.734 0.347-2.357 0.914l-4.53-1.793c-0.749-0.297-1.645 0.022-2.039 0.724-0.059 0.105-0.574 1.097-0.574 3.654s0.516 3.549 0.574 3.654c0.295 0.525 0.869 0.835 1.453 0.835 0.198 0 0.397-0.036 0.587-0.111l4.53-1.793c0.622 0.568 1.45 0.914 2.357 0.914s1.734-0.347 2.357-0.914l4.53 1.793c0.19 0.075 0.389 0.111 0.587 0.111 0.584-0 1.158-0.31 1.453-0.835 0.059-0.105 0.574-1.097 0.574-3.654s-0.516-3.549-0.574-3.654zM2.246 13.948c-0.277 0.11-0.649-0.021-0.797-0.28-0.023-0.046-0.449-0.93-0.449-3.169s0.426-3.123 0.449-3.169c0.148-0.259 0.52-0.389 0.797-0.28l4.237 1.677c-0.226 0.383-0.381 0.813-0.447 1.272h-1.536c-0.276 0-0.5 0.224-0.5 0.5s0.224 0.5 0.5 0.5h1.536c0.066 0.458 0.221 0.888 0.447 1.272l-4.237 1.677zM9.5 13c-1.378 0-2.5-1.122-2.5-2.5s1.122-2.5 2.5-2.5 2.5 1.122 2.5 2.5-1.122 2.5-2.5 2.5zM17.551 13.669c-0.148 0.259-0.52 0.389-0.797 0.28l-4.237-1.677c0.226-0.383 0.381-0.813 0.447-1.272h1.536c0.276 0 0.5-0.224 0.5-0.5s-0.224-0.5-0.5-0.5h-1.536c-0.066-0.458-0.221-0.888-0.447-1.272l4.237-1.677c0.277-0.11 0.649 0.021 0.797 0.28 0.023 0.046 0.449 0.93 0.449 3.169s-0.426 3.123-0.449 3.169z" />
                             </svg>
                         </div>
                         <div class="pull-left">
@@ -286,8 +286,8 @@
                 <li role="presentation">
                     <a class="clearfix" href="#message" aria-controls="message" role="tab" data-toggle="tab">
                         <div class="pull-left">
-                            <svg class="tm-envelope" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1024 1024">
-                            <path d="M896 307.2h-819.2c-42.347 0-76.8 34.453-76.8 76.8v460.8c0 42.349 34.453 76.8 76.8 76.8h819.2c42.349 0 76.8-34.451 76.8-76.8v-460.8c0-42.347-34.451-76.8-76.8-76.8zM896 358.4c1.514 0 2.99 0.158 4.434 0.411l-385.632 257.090c-14.862 9.907-41.938 9.907-56.802 0l-385.634-257.090c1.443-0.253 2.92-0.411 4.434-0.411h819.2zM896 870.4h-819.2c-14.115 0-25.6-11.485-25.6-25.6v-438.566l378.4 252.267c15.925 10.618 36.363 15.925 56.8 15.925s40.877-5.307 56.802-15.925l378.398-252.267v438.566c0 14.115-11.485 25.6-25.6 25.6z"></path>
+                            <svg class="tm-paperplane" preserveAspectRatio="xMinYMin meet" viewBox="0 0 20 20">
+                            <path d="M19.833 1.127c-0.144-0.129-0.349-0.163-0.527-0.088l-19 8c-0.192 0.081-0.314 0.272-0.306 0.48s0.144 0.389 0.342 0.455l5.658 1.886v5.64c0 0.212 0.133 0.4 0.333 0.471 0.055 0.019 0.111 0.029 0.167 0.029 0.148 0 0.291-0.066 0.388-0.185l2.763-3.401 4.497 4.441c0.095 0.094 0.221 0.144 0.351 0.144 0.042 0 0.084-0.005 0.125-0.016 0.17-0.044 0.305-0.174 0.355-0.343l5-17c0.055-0.185-0.003-0.385-0.147-0.514zM16.13 3.461l-9.724 7.48-4.488-1.496 14.212-5.984zM7 11.746l9.415-7.242-7.194 8.854c-0 0-0 0.001-0.001 0.001l-2.22 2.733v-4.346zM14.256 17.557l-3.972-3.922 8.033-9.887-4.061 13.808z" />
                             </svg>
                         </div>
                         <div class="pull-left">

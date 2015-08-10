@@ -1869,6 +1869,16 @@ Write custom rules here ONLY!
             top: 100%;
             left: 0;
         }
+
+        a {
+            color: $title-color;
+            text-decoration: underline;
+
+            &:hover, &:focus {
+                color: $title-color;
+                text-decoration: underline;
+            }
+        }
     }
 }
 
@@ -1977,6 +1987,9 @@ Write custom rules here ONLY!
 
                 svg {
                     fill: $nav-primary-color;
+                    width: 50px;
+                    height: 50px;
+                    margin-top: -5px;
                 }
 
                 > div {
@@ -2059,12 +2072,6 @@ Write custom rules here ONLY!
         @media (min-width: $screen-sm-min) {
             font-size: 17px;
         }
-    }
-
-    .tm-envelope {
-        width: 50px;
-        height: 50px;
-        margin-top: -5px;
     }
 }
 
