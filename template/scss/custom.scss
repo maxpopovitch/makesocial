@@ -143,6 +143,20 @@ Write custom rules here ONLY!
     background-image: url("../../img/our-work/portfolio/procurious/procurious-title-bg.jpg");
 }
 
+.tm-procurious-brief-bg {
+    background-image: url("../../img/our-work/portfolio/procurious/procurious-brief-bg.jpg");
+    background-size: cover;
+}
+
+.tm-procurious-discovery-bg {
+    background-image: url("../../img/our-work/portfolio/procurious/procurious-discovery-bg.svg");
+    background-color: #D9E2EB;
+
+    img {
+        margin-top: 30px;
+    }
+}
+
 .tm-supercoucou-container {
     @include portfolio;
     @include background-size-cover;
@@ -165,6 +179,15 @@ Write custom rules here ONLY!
     @include portfolio;
     @include background-size-cover;
     background-image: url("../../img/our-work/portfolio/coinaphoto/coinaphoto-title-bg.jpg");
+}
+
+.tm-brief-content {
+    padding-top: $padding-05;
+    padding-bottom: $padding-05;
+
+    @media (min-width: $screen-md-min) {
+        padding-bottom: $title-padding-sm;
+    }
 }
 
 .tm-overlay-01 {
@@ -476,16 +499,16 @@ Write custom rules here ONLY!
 }
 
 .tm-bg-01 {
-    background: $secondary-background;
+    background-color: $secondary-background;
 }
 
 
 .tm-bg-02 {
-    background: rgba(lighten($primary-background, 15), 0.75);
+    background-color: rgba(lighten($primary-background, 15), 0.75);
 }
 
 .tm-bg-03 {
-    background: $default-color;
+    background-color: $default-color;
 }
 
 .tm-hr-01 {
@@ -2144,11 +2167,14 @@ Write custom rules here ONLY!
     @include portfolio-content;
 }
 
-.tm-screenshot {
-    border: $subnav-border;
-    box-shadow: $subnav-box-shadow;
-    margin-bottom: 36px;
-    border-radius: 4px;
+.tm-brief-screenshot {
+    padding-left: 90px;
+
+    img {
+        border: $subnav-border;
+        box-shadow: $subnav-box-shadow;
+        position: absolute;
+    }
 }
 
 .tm-technologies {
