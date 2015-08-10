@@ -3,7 +3,6 @@
     <div class="tm-title-04 text-center">
         <img class="img-responsive" src="img/our-work/portfolio/procurious-logo.svg" />
         <p>Procurious is a business network and eLearning platform aimed at procurement and supply chain professionals, where members can access the latest news and advice; build their personal brand and advance their career; develop their skills through online training; contribute to relevant discussions and expand their network to truly global proportions.</p>
-        <a href="http://www.procurious.com" target="_blank">www.procurious.com</a>
     </div>
 </header>
 </div>

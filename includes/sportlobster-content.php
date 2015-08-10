@@ -3,7 +3,6 @@
     <div class="tm-title-04 text-center">
         <img class="img-responsive" src="img/our-work/portfolio/sportlobster-logo.svg" />
         <p>Social network completely dedicated to sport fans. They can follow sports, teams and individuals, write articles, view live standings and results, generate online events and invite friends to participate, make predictions and engage in many more activities specially tailored for sport fans.</p>
-        <a href="http://www.sportlobster.com" target="_blank">www.sportlobster.com</a>
     </div>
 </header>
 </div>

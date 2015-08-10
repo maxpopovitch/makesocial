@@ -2122,62 +2122,26 @@ Write custom rules here ONLY!
 
 #nissan-ireland-content {
     @include portfolio-content;
-
-    + header {
-        a {
-            color: #C81344;
-        }
-    }
 }
 
 #procurious-content {
     @include portfolio-content;
-
-    + header {
-        a {
-            color: #9EE034;
-        }
-    }
 }
 
 #supercoucou-content {
     @include portfolio-content;
-
-    + header {
-        a {
-            color: #FDC200;
-        }
-    }
 }
 
 #jumbletrail-content {
     @include portfolio-content;
-
-    + header {
-        a {
-            color: #DA2D51;
-        }
-    }
 }
 
 #sportlobster-content {
     @include portfolio-content;
-
-    + header {
-        a {
-            color: #4198CA;
-        }
-    }
 }
 
 #coinaphoto-content {
     @include portfolio-content;
-
-    + header {
-        a {
-            color: #FEBC11;
-        }
-    }
 }
 
 .tm-screenshot {

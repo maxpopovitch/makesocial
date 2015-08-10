@@ -3,7 +3,6 @@
     <div class="tm-title-04 text-center">
         <img class="img-responsive" src="img/our-work/portfolio/jumbletrail-logo.svg" />
         <p>Ever wanted to take part or just visit a local jumble or car boot sale but struggled to find one near you or even just find one anywhere? Then we suggest you jump on board the Jumble Trail, a website helping communities come together to set up stalls outside their houses to sell bric-a-brac, toys, vintage clothes, cakes or anything at all.</p>
-        <a href="http://jumbletrail.com" target="_blank">jumbletrail.com</a>
     </div>
 </header>
 </div>

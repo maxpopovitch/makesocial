@@ -3,7 +3,6 @@
     <div class="tm-title-04 text-center">
         <img class="img-responsive" src="img/our-work/portfolio/nissan-logo.svg" />
         <p>Nissan Ireland has a multitude of websites that provide a rich set of presentations, tools and communication methods to future and existing Nissan owners. The platform is built to be available on all devices, ranging from desktops to laptops to tablets and phones, but also to provide the content management team with a powerful and easy to use system.</p>
-        <a href="http://www.nissan.ie" target="_blank">www.nissan.ie</a>
     </div>
 </header>
 </div>

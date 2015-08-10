@@ -3,7 +3,6 @@
     <div class="tm-title-04 text-center">
         <img class="img-responsive" src="img/our-work/portfolio/coinaphoto-logo.svg" />
         <p>Coinaphoto is a unique platform that allows users to earn some cash while uploading their photos and communicating with other people who have similar interests throughout the world. The network was created for those who are passionate about good photography, and enjoy this art form, and those who are communicating through photography.</p>
-        <a href="http://coinaphoto.com" target="_blank">coinaphoto.com</a>
     </div>
 </header>
 </div>
