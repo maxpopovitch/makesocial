@@ -23,7 +23,7 @@
             </div>
         </div>
     </div>
-    <div class=" tm-sect-01 tm-procurious-discovery-bg">
+    <div class="tm-sect-01 tm-procurious-discovery-bg">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
@@ -38,7 +38,7 @@
             </div>
         </div>
     </div>
-    <div class=" tm-sect-01 tm-bg-01">
+    <div class="tm-sect-03" style="background-color: #F6F6F6;">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
@@ -53,8 +53,8 @@
             </div>
         </div>
         <div class="tm-container-wide">
-            <div class="text-center">
-                <img class="img-responsive visible-md-inline-block visible-lg-inline-block" src="img/our-work/portfolio/procurious/procurious-screen-big-03.png" alt="Procuriuos" />
+            <div class="visible-md visible-lg" style="position: relative; background-image: url('img/our-work/portfolio/procurious/procurious-screen-big-03.png'); padding-top: 510px;">
+                <img style="position: absolute; bottom: -25px; left: 255px;" src="img/our-work/portfolio/procurious/procurious-img-01.png" alt="Procuriuos" />
             </div>
         </div>
     </div>
