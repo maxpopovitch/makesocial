@@ -53,8 +53,38 @@
             </div>
         </div>
         <div class="tm-container-wide">
-            <div class="visible-md visible-lg" style="position: relative; background-image: url('img/our-work/portfolio/procurious/procurious-screen-big-03.png'); padding-top: 510px;">
-                <img style="position: absolute; bottom: -25px; left: 255px;" src="img/our-work/portfolio/procurious/procurious-img-01.png" alt="Procuriuos" />
+            <div class="visible-md visible-lg tm-procurious-sitemap-bg">
+                <div class="tm-procurious-sitemap-zoom"></div>
+            </div>
+        </div>
+    </div>
+    <div class="tm-sect-01 tm-procurious-wireframe-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h3 class="text-center text-uppercase"><strong>Wireframing user interface</strong></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <p class="tm-default-p">We explored individual content elements and how they'll come together to form the actual screens users interact with. By creating wireframes first, we got a sense of the user experience and were able to spot potential usability problems early. Since wireframes lack UI style, it’s easier to focus on functionality and place a priority on content, making it easier and quicker to make adjustments at an early stage.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contatiner visible-md visible-lg">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="text-center text-muted">
+                    <em>Drag to see how the magic happens</em>
+                    <div class="tm-procurious-wireframe-layout">
+                        <div></div>
+                        <svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 250 250">
+                        <circle cx="125" cy="125" r="125" />
+                        <path d="M 88.21875 85.65625 L 29.0625 124.15625 L 87 162.65625 L 83.75 140.53125 L 110.75 140.53125 L 140.25 140.53125 L 167.25 140.53125 L 163.96875 162.65625 L 221.90625 124.15625 L 162.78125 85.65625 L 167.21875 107.78125 L 140.25 107.78125 L 110.75 107.78125 L 83.78125 107.78125 L 88.21875 85.65625 z " />
+                        </svg>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

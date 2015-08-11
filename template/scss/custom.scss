@@ -157,6 +157,60 @@ Write custom rules here ONLY!
     }
 }
 
+.tm-procurious-sitemap-bg {
+    position: relative;
+    background-image: url("../../img/our-work/portfolio/procurious/procurious-screen-big-03.png");
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    padding-top: 500px;
+
+}
+
+.tm-procurious-sitemap-zoom {
+    position: absolute;
+    background-image: url("../../img/our-work/portfolio/procurious/procurious-img-01.png");
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 356px;
+    bottom: -25px;
+}
+
+.tm-procurious-wireframe-bg {
+    background-image: url("../../img/our-work/portfolio/procurious/procurious-wireframe-bg.svg");
+}
+
+.tm-procurious-wireframe-layout {
+    background-image: url("../../img/our-work/portfolio/procurious/procurious-wireframe-01.jpg");
+    position: relative;
+    margin: 30px auto 0;
+    width: 898px;
+    height: 577px;
+
+    > div {
+        background-image: url("../../img/our-work/portfolio/procurious/procurious-wireframe-02.jpg");
+        position: absolute;
+        width: 898px;
+        height: 577px;
+        z-index: 1;
+    }
+
+    svg {
+        width: 50px;
+        height: 50px;
+        position: relative;
+        z-index: 2;
+
+        circle {
+            fill: #9EE034;
+        }
+
+        path {
+            fill: #FFF;
+        }
+    }
+}
+
 .tm-supercoucou-container {
     @include portfolio;
     @include background-size-cover;
