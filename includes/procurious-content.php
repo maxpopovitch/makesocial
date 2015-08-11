@@ -58,31 +58,74 @@
             </div>
         </div>
     </div>
-    <div class="tm-sect-01 tm-procurious-wireframe-bg">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-                    <h3 class="text-center text-uppercase"><strong>Wireframing user interface</strong></h3>
+    <div class="tm-procurious-wireframe-bg">
+        <div class="tm-sect-01">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h3 class="text-center text-uppercase"><strong>Wireframing user interface</strong></h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <p class="tm-default-p">We explored individual content elements and how they'll come together to form the actual screens users interact with. By creating wireframes first, we got a sense of the user experience and were able to spot potential usability problems early. Since wireframes lack UI style, it’s easier to focus on functionality and place a priority on content, making it easier and quicker to make adjustments at an early stage.</p>
+                    </div>
                 </div>
             </div>
+        </div>
+        <div class="container visible-md visible-lg">
             <div class="row">
                 <div class="col-xs-12">
-                    <p class="tm-default-p">We explored individual content elements and how they'll come together to form the actual screens users interact with. By creating wireframes first, we got a sense of the user experience and were able to spot potential usability problems early. Since wireframes lack UI style, it’s easier to focus on functionality and place a priority on content, making it easier and quicker to make adjustments at an early stage.</p>
+                    <div class="text-center text-muted">
+                        <em>Drag to see how the magic happens</em>
+                        <div>
+                            <div class="tm-procurious-wireframe-layout tm-overflow-hidden">
+                                <div></div>
+                                <svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 250 250">
+                                <circle cx="125" cy="125" r="125" />
+                                <path d="M 88.21875 85.65625 L 29.0625 124.15625 L 87 162.65625 L 83.75 140.53125 L 110.75 140.53125 L 140.25 140.53125 L 167.25 140.53125 L 163.96875 162.65625 L 221.90625 124.15625 L 162.78125 85.65625 L 167.21875 107.78125 L 140.25 107.78125 L 110.75 107.78125 L 83.78125 107.78125 L 88.21875 85.65625 z " />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="contatiner visible-md visible-lg">
-        <div class="row">
-            <div class="col-xs-12">
-                <div class="text-center text-muted">
-                    <em>Drag to see how the magic happens</em>
-                    <div class="tm-procurious-wireframe-layout">
-                        <div></div>
-                        <svg preserveAspectRatio="xMinYMin meet" viewBox="0 0 250 250">
-                        <circle cx="125" cy="125" r="125" />
-                        <path d="M 88.21875 85.65625 L 29.0625 124.15625 L 87 162.65625 L 83.75 140.53125 L 110.75 140.53125 L 140.25 140.53125 L 167.25 140.53125 L 163.96875 162.65625 L 221.90625 124.15625 L 162.78125 85.65625 L 167.21875 107.78125 L 140.25 107.78125 L 110.75 107.78125 L 83.78125 107.78125 L 88.21875 85.65625 z " />
-                        </svg>
+    <div class="tm-procurious-design-bg tm-overflow-hidden">
+        <div class="tm-procurious-design-img visible-md visible-lg"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-push-3">
+                    <h2 class="text-center"><strong>Design</strong></h2>
+                    <p class="tm-default-p">Following client’s brand identity guidelines we carefully crafted an aesthetic that creates cohesive branding while directing a user's eye towards the important parts of the screen. We created a clean and simple UI ensuring that every detail is intuitive without sacrificing functionality and ease of use.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="background-color: #272727">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 tm-sect-03 tm-procurious-responsive-img visible-md visible-lg">
+                    <img src="img/our-work/portfolio/procurious/procurious-responsive-img.png" alt="Procurious" />
+                </div>
+                <div class="col-md-5 tm-sect-01">
+                    <div class="tm-procurious-responsive-description">
+                        <h2 class="tm-titlecolor"><strong>Responsive design</strong></h2>
+                        <p class="tm-default-p tm-titlecolor">In order to reach the widest possible audience, it was critical that our design works in a huge number of user scenarios. Our multi-column layout with fluid grids and images scales from large screens down to small mobile sizes by stacking columns vertically.</p>
+                        <hr />
+                        <div>
+                            <img src="img/icon-desktop.svg" alt="Desctop" />
+                            <span class="text-uppercase tm-titlecolor"><strong>Desktop</strong></span>
+                        </div>
+                        <div>
+                            <img src="img/icon-tablet.svg" alt="Tablet" />
+                            <span class="text-uppercase tm-titlecolor"><strong>Tablet</strong></span>
+                        </div>
+                        <div>
+                            <img src="img/icon-mobile.svg" alt="Mobile" />
+                            <span class="text-uppercase tm-titlecolor"><strong>Mobile</strong></span>
+                        </div>
                     </div>
                 </div>
             </div>

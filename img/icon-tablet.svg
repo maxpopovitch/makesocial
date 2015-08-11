@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="30px" viewBox="0 0 24 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>icon--tablet</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <path d="M21.8531642,0 L2.14683584,0 C0.962964429,0 0,0.90609727 0,2.02050304 L0,27.979944 C0,29.0934557 0.96248936,30 2.14683584,30 L21.8531642,30 C23.0365605,30 24,29.0939027 24,27.979944 L24,2.02005603 C24,0.906544284 23.0365605,0 21.8531642,0 L21.8531642,0 Z M22,27.097816 C22,27.5954997 21.6595972,28 21.2412226,28 L2.75922295,28 C2.34084833,28 2,27.5954997 2,27.097816 L2,24 L22,24 L22,27.097816 L22,27.097816 Z M22,22.952381 L2,22.952381 L2,2.69893194 C2,2.31359703 2.34040278,2 2.75922295,2 L21.2412226,2 C21.6595972,2 22,2.31359703 22,2.69893194 L22,22.952381 L22,22.952381 Z M12,27 C12.5522847,27 13,26.5522847 13,26 C13,25.4477153 12.5522847,25 12,25 C11.4477153,25 11,25.4477153 11,26 C11,26.5522847 11.4477153,27 12,27 Z" id="icon--tablet" fill="#85A1B3" sketch:type="MSShapeGroup"></path>
+    </g>
+</svg>

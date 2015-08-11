@@ -183,9 +183,10 @@ Write custom rules here ONLY!
 .tm-procurious-wireframe-layout {
     background-image: url("../../img/our-work/portfolio/procurious/procurious-wireframe-01.jpg");
     position: relative;
-    margin: 30px auto 0;
+    margin: 10px auto -5px;
     width: 898px;
     height: 577px;
+    display: inline-block;
 
     > div {
         background-image: url("../../img/our-work/portfolio/procurious/procurious-wireframe-02.jpg");
@@ -198,7 +199,9 @@ Write custom rules here ONLY!
     svg {
         width: 50px;
         height: 50px;
-        position: relative;
+        position: absolute;
+        left: 50%;
+        top: 50%;
         z-index: 2;
 
         circle {
@@ -207,6 +210,65 @@ Write custom rules here ONLY!
 
         path {
             fill: #FFF;
+        }
+    }
+}
+
+.tm-procurious-design-bg {
+    background-image: url("../../img/our-work/portfolio/procurious/procurious-design-bg.jpg");
+    background-size: cover;
+    padding-top: $padding-05;
+    padding-bottom: $padding-05;
+    position: relative;
+
+    @media (min-width: $screen-md-min) {
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+
+    .tm-procurious-design-img {
+        @include overlay;
+        background-image: url("../../img/our-work/portfolio/procurious/procurious-design-img.png");
+        background-repeat: no-repeat;
+        background-position: 50% 100%;
+    }
+}
+
+.tm-procurious-responsive-img {
+    img {
+        margin-left: -386px;
+    }
+}
+
+.tm-procurious-responsive-description {
+
+    h2 {
+        font-size: 40px;
+
+        @media (min-width: $screen-md-min) {
+            font-size: 46px;
+        }
+    }
+
+    hr {
+        border-top: 1px solid rgba(255,255,255,0.1);
+        
+        @media (min-width: $screen-md-min) {
+            margin-top: 150px;
+        }
+    }
+
+    > div {
+        display: inline-block;
+        margin-right: 15px;
+
+        img {
+            margin-right: 5px;
+        }
+
+        span {
+            font-family: $font-family-title;
+            font-size: 16px;
         }
     }
 }
@@ -1259,14 +1321,14 @@ Write custom rules here ONLY!
             }
         }
     }
+}
 
-    .tm-offset-right {
-        margin-right: -400px;
-    }
+.tm-offset-right {
+    margin-right: -400px;
+}
 
-    .tm-offset-left {
-        margin-left: -400px;
-    }
+.tm-offset-left {
+    margin-left: -400px;
 }
 
 [class*="tm-why-us-text"] {
