@@ -316,6 +316,28 @@ Write custom rules here ONLY!
     background-image: url("../../img/our-work/portfolio/supercoucou/supercoucou-title-bg.jpg");
 }
 
+.tm-supercoucou-brief-bg {
+    background-image: url("../../img/our-work/portfolio/supercoucou/supercoucou-brief-bg.svg");
+    background-size: cover;
+
+    .tm-brief-content {
+        padding-top: $padding-05;
+        padding-bottom: $padding-05;
+
+        @media (min-width: $screen-md-min) {
+            padding-bottom: $title-padding-sm;
+        }
+    }
+}
+
+.tm-supercoucou-discovery-bg {
+    background-image: url("../../img/our-work/portfolio/supercoucou/supercoucou-discovery-bg.png");
+
+    img {
+        margin-top: 30px;
+    }
+}
+
 .tm-jumbletrail-container {
     @include portfolio;
     @include background-size-cover;

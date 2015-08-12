@@ -16,10 +16,10 @@
             <div class="col-md-6">
                 <p class="tm-titlecolor">
                     <strong>Pytex Corp.</strong><br/>
-                    Registered in the United States under no: 46-4345847<br/>
+                    Registered in the United States<br/>
                     Two Prudential Plaza,<br/>
                     180 North Stetson Ave., Suite 3500,<br/>
-                    Chicago, IL 60601, United States
+                    Chicago, IL 60601
                 </p>
             </div>
             <div class="col-md-6 text-md-right">
