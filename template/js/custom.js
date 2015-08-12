@@ -220,8 +220,9 @@ $(document).ready(function () {
     })(jQuery);
     //meet-us page teammates randomizing
     $('ul.tm-team li').shuffle();
+    
     //wireframe behavior
-    var wireframe = $('.tm-procurious-wireframe-layout');
+    var wireframe = $('[class*="-wireframe-layout"]');
     wireframe
             .mouseover(function () {
                 $(this).on('mousemove', function (e) {
