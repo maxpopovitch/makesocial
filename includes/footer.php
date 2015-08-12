@@ -13,25 +13,16 @@
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-6">
                 <p class="tm-titlecolor">
-                    <strong>EtonDigital Ltd.</strong><br/>
-                    Registered in England and Wales under no: 05483387<br/>
-                    VAT Registration Number: 881 1423 35<br/>
-                    Crown House, 72 Hammersmith Road,<br/>
-                    London W14 8TH, United Kingdom
+                    <strong>Pytex Corp.</strong><br/>
+                    Registered in the United States under no: 46-4345847<br/>
+                    Two Prudential Plaza,<br/>
+                    180 North Stetson Ave., Suite 3500,<br/>
+                    Chicago, IL 60601, United States
                 </p>
             </div>
-            <div class="col-md-3">
-                <p class="tm-titlecolor">
-                    <strong>Eton Digital DOO</strong><br/>
-                    Registration Number: 20480424<br/>
-                    PIB: 105876353<br/>
-                    Školska 3,<br/>
-                    Novi Sad, Serbia
-                </p>
-            </div>
-            <div class="col-md-5 text-md-right">
+            <div class="col-md-6 text-md-right">
                 <ul class="tm-social list-unstyled clearfix">
                     <li>
                         <a href="skype:pytex-brian?call">
@@ -77,7 +68,7 @@
                     </li>
                 </ul>
                 <div>
-                    <div class="tm-copyright"><strong>&copy; 2015 Etondigital</strong></div>
+                    <div class="tm-copyright"><strong>&copy; 2015 Pytex Corp.</strong></div>
                     <nav class="tm-footer-nav">
                         <a href="terms-and-conditions"><strong>Terms and Conditions</strong></a>
                         <a href="privacy-policy"><strong>Privacy Policy</strong></a>
