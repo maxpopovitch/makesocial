@@ -137,6 +137,51 @@ Write custom rules here ONLY!
     background-image: url("../../img/our-work/portfolio/nissan/nissan-title-bg.jpg");
 }
 
+.tm-nissan-brief-bg {
+
+    .tm-brief-content {
+        padding-top: $padding-05;
+        padding-bottom: $padding-05;
+
+        @media (min-width: $screen-md-min) {
+            padding-bottom: 0;
+        }
+    }
+}
+
+.tm-nissan-discovery-bg {
+    background-image: url("../../img/our-work/portfolio/nissan/nissan-discovery-bg.jpg");
+
+    img {
+        margin-top: 30px;
+    }
+}
+
+.tm-nissan-sitemap-bg {
+    position: relative;
+    background-image: url("../../img/our-work/portfolio/nissan/nissan-screen-big-03.png");
+    background-position: 50% 30px;
+    background-repeat: no-repeat;
+    padding-top: 830px;
+}
+
+.tm-nissan-wireframe-layout {
+    background-image: url("../../img/our-work/portfolio/nissan/nissan-wireframe-01.jpg");
+    position: relative;
+    margin: 10px auto -5px;
+    width: 898px;
+    height: 577px;
+    display: inline-block;
+
+    > div {
+        background-image: url("../../img/our-work/portfolio/nissan/nissan-wireframe-02.jpg");
+        position: absolute;
+        width: 898px;
+        height: 577px;
+        z-index: 1;
+    }
+}
+
 .tm-procurious-container {
     @include portfolio;
     @include background-size-cover;
@@ -146,6 +191,15 @@ Write custom rules here ONLY!
 .tm-procurious-brief-bg {
     background-image: url("../../img/our-work/portfolio/procurious/procurious-brief-bg.jpg");
     background-size: cover;
+
+    .tm-brief-content {
+        padding-top: $padding-05;
+        padding-bottom: $padding-05;
+
+        @media (min-width: $screen-md-min) {
+            padding-bottom: $title-padding-sm;
+        }
+    }
 }
 
 .tm-procurious-discovery-bg {
@@ -194,23 +248,6 @@ Write custom rules here ONLY!
         width: 898px;
         height: 577px;
         z-index: 1;
-    }
-
-    svg {
-        width: 50px;
-        height: 50px;
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        z-index: 2;
-
-        circle {
-            fill: #9EE034;
-        }
-
-        path {
-            fill: #FFF;
-        }
     }
 }
 
@@ -297,12 +334,22 @@ Write custom rules here ONLY!
     background-image: url("../../img/our-work/portfolio/coinaphoto/coinaphoto-title-bg.jpg");
 }
 
-.tm-brief-content {
-    padding-top: $padding-05;
-    padding-bottom: $padding-05;
+[class*="wireframe-layout"] {
+    svg {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        z-index: 2;
 
-    @media (min-width: $screen-md-min) {
-        padding-bottom: $title-padding-sm;
+        circle {
+            fill: #9EE034;
+        }
+
+        path {
+            fill: #FFF;
+        }
     }
 }
 

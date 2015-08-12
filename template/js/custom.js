@@ -220,9 +220,10 @@ $(document).ready(function () {
     })(jQuery);
     //meet-us page teammates randomizing
     $('ul.tm-team li').shuffle();
-    
+
     //wireframe behavior
     var wireframe = $('[class*="-wireframe-layout"]');
+    var svgHalfWidth = wireframe.find('svg').width() / 2;
     wireframe
             .mouseover(function () {
                 $(this).on('mousemove', function (e) {
@@ -238,7 +239,6 @@ $(document).ready(function () {
                         top: mouseY
                     });
 
-
                     $(this).find('div').css('width', mouseX + svgHalfWidth);
                 });
             })
@@ -246,4 +246,5 @@ $(document).ready(function () {
             .mouseleave(function () {
                 $(this).off('mousemove');
             });
+    wireframe.find('div').css('width', wireframe.width() / 2 + svgHalfWidth);
 });
