@@ -2,8 +2,8 @@
 <div class="tm-overlay-02"></div>
 <header class="container">
     <div class="tm-title-03">
-        <h1 class="text-capitalize"><strong>How can we help you</strong></h1>
-        <h4>to make your business grow on the web?</h4>
+        <h1 class="text-capitalize"><strong>Walk With Us</strong></h1>
+        <h4>So we can grow together on the web</h4>
     </div>
 </header>
 </div>
