@@ -5,7 +5,7 @@ $includes_system_path = 'includes/';
 $include_page = 'home';
 $pages = array(
     'home',
-    'why-us',
+    'exclusively-us',
     'meet-us',
     'social-networking-design-development',
     'web-design-and-development',
