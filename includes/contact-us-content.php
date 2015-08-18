@@ -347,7 +347,7 @@
                                             <option value="Choose">Choose</option>
                                             <option value="Under $10k">Under $10k</option>
                                             <option value="£10k - $50k">$10k &ndash; $50k</option>
-                                            <option value="£50k - £100k">£50k &ndash; $100k</option>
+                                            <option value="£50k - £100k">$50k &ndash; $100k</option>
                                             <option value="Above $100k">Above $100k</option>
                                         </select>
                                     </div>
