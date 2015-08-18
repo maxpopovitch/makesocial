@@ -23,7 +23,7 @@
                 </li>
                 <li class="tm-dark" style="background-image: url('img/our-work/portfolio/procurious/procurious-bg.jpg')">
                     <a href="procurious">
-                        <p class="tm-nomargin text-uppercase">#Social Network &nbsp; #Symfony &nbsp; #Responsive &nbsp; #eLearning &nbsp;</p>
+                        <p class="tm-nomargin text-uppercase">#Social Network &nbsp; #Symfony &nbsp; #Responsive &nbsp; #eLearning</p>
                         <h3 class="tm-text-line-normal" style="color: #9EE034">Procurious</h3>
                         <span>Social network and eLearning platform for procurement professionals</span>
                         <div class="text-center">
@@ -68,6 +68,26 @@
                         <span>Platform that connects people passionate about photography and allows them to earn some cash while uploading their photos.</span>
                         <div class="text-center">
                             <img class="img-responsive" src="img/our-work/portfolio/coinaphoto/coinaphoto-screen.png" alt="Sportlobster" />
+                        </div>
+                    </a>
+                </li>
+                <li class="tm-light" style="background-image: url('img/our-work/portfolio/nowa/nowa-bg.jpg')">
+                    <a href="nowa">
+                        <p class="tm-nomargin text-uppercase">#Social newtwork &nbsp; #Yii &nbsp; #Responsive</p>
+                        <h3 class="tm-text-line-normal" style="color: #589DDE">NOWA®</h3>
+                        <span>Ukrainian social network</span>
+                        <div class="text-center">
+                            <img class="img-responsive" src="img/our-work/portfolio/nowa/nowa-screen.jpg" alt="NOWA®" />
+                        </div>
+                    </a>
+                </li>
+                <li class="tm-dark" style="background-image: url('img/our-work/portfolio/nowa-career/nowa-career-bg.jpg')">
+                    <a href="nowa-career">
+                        <p class="tm-nomargin text-uppercase">#Corporate website &nbsp; #Python &nbsp; #Responsive</p>
+                        <h3 class="tm-text-line-normal" style="color: #FFED00">Nowa Career</h3>
+                        <span>Corporate site of Nowa social network for hiring professionals</span>
+                        <div class="text-center">
+                            <img class="img-responsive" src="img/our-work/portfolio/nowa-career/nowa-career-screen.jpg" alt="Nowa Career" />
                         </div>
                     </a>
                 </li>
