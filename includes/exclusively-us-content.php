@@ -73,7 +73,7 @@
                         </svg>
                         <div class="tm-descr">
                             <h4 class="text-uppercase"><strong>Innovation</strong></h4>
-                            <p>We strive to innovate around us and stream line our processes to yield the best results every time we have the chance. We innovate in our offices and we love exploring innovation in all its forms. </p>
+                            <p>Innovation is all around us and stream line our processes to yield the best results every time we have the chance. We innovate in our offices and we love exploring in all its forms.</p>
                         </div>
                     </div>
                 </li>
@@ -106,13 +106,13 @@
                 <li>
                     <div class="tm-wrapper">
                         <span class="h4"><strong>05.</strong></span>
-                        <h3>Communication<br/><br/></h3>
+                        <h3>Connected<br/><br/></h3>
                         <svg class="tm-icon tm-heart" preserveAspectRatio="xMinYMin meet" viewBox="0 0 20 20">
                         <path d="M17.19,4.155c-1.672-1.534-4.383-1.534-6.055,0L10,5.197L8.864,4.155c-1.672-1.534-4.382-1.534-6.054,0  c-1.881,1.727-1.881,4.52,0,6.246L10,17l7.19-6.599C19.07,8.675,19.07,5.881,17.19,4.155z"/>
                         </svg>
                         <div class="tm-descr">
-                            <h4 class="text-uppercase"><strong>Communication</strong></h4>
-                            <p>Over communication is key. We love to know what everyone else knows and to make that information available to everyone. Our company Newsletters are always a great way to have everyone on the same page.</p>
+                            <h4 class="text-uppercase"><strong>Connected</strong></h4>
+                            <p>Over communication is key. We love sharing information and making it available throughout our company. Our company Newsletters always keeps everyone on the same page.</p>
                         </div>
                     </div>
                 </li>
@@ -151,7 +151,7 @@
                 <div class="row">
                     <div class="col-md-6 tm-sect-01 tm-why-us-text-04">
                         <h3 class="tm-infocolor"><strong>Our Employees are everything.</strong></h3>
-                        <p>We focus on this daily. We excel at making our workplace our home. bringing everyone together for the greater good of projects and everyday activities is something we invest a lot of time in.</p>
+                        <p>We focus on this daily. We excel at making our workplace our home. bringing everyone together for the greater good of projects and everyday activities is something we invest a lot of time in. We also do family lunches with everyone in all our offices prepared by that day by one of our staff members mothers. It sounds funny, but we swear it’s the truth.</p>
                     </div>
                     <div class="col-md-5 col-md-push-1 hidden-xs hidden-sm">
                         <div class="tm-why-us-img-04 tm-offset-right"></div>
@@ -163,7 +163,7 @@
             <div class="row">
                 <div class="col-md-6 tm-sect-01 tm-why-us-text-05">
                     <h3 class="tm-infocolor"><strong>We encourage freedom to work.</strong></h3>
-                    <p>We know having the 9 - 5 routine is important, but we also feel like freedom to work how one is most comfortable and productive trumps any social stigmas that might exist. We not only cater to working outside the box, but also bringing the box to the fold and experimenting to see if it leads more accomplishments.</p>
+                    <p>We know having the 9 &ndash; 5 routine is important, but we also feel like freedom to work how one is most comfortable and productive trumps any social stigmas that might exist. We not only cater to working outside the box, but also bringing the box to the fold and experimenting to see if it leads more accomplishments. Thus, fostering an experimental attitude to rise above the norm and to play with a new norm. </p>
                 </div>
                 <div class="col-md-5 col-md-push-1 hidden-xs hidden-sm">
                     <div class="tm-why-us-img-05 tm-offset-right"></div>
@@ -174,7 +174,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 tm-sect-01 tm-why-us-text-06">
-                        <h3 class="tm-infocolor"><strong>We enjoy team building activities.</strong></h3>
+                        <h3 class="tm-infocolor"><strong>We promote cross-functional teams.</strong></h3>
                         <p>A fully functional team can be achieved only in a healthy corporate culture, and team building activities are a valuable part of that culture, whether it's a football match, a bowling competition, a travel or a play-day for our employees' children. Members of our team have become friends and even though we have offices in different cities, we make sure they spend enough time together to get to know each other, share ideas and solutions, and have fun.</p>
                     </div>
                     <div class="col-md-5 col-md-push-1 hidden-xs hidden-sm">
