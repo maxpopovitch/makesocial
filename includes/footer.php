@@ -2,9 +2,9 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4 col-md-push-4">
-                <h3 class="tm-titlecolor tm-text-line-normal tm-nomargin text-uppercase"><strong>Tell us what you envision</strong></h3>
-                <p class="tm-titlecolor tm-text-line-normal">and together we'll make it reality!</p>
-                <a href="contact-us#quote" class="tm-cta">Just need some info</a>
+                <h3 class="tm-titlecolor tm-text-line-normal tm-nomargin text-uppercase"><strong>Got a cool project?</strong></h3>
+                <p class="tm-titlecolor tm-text-line-normal">Let us help you build and launch it.</p>
+                <a href="contact-us#quote" class="tm-cta">Fill out a questionnaire to get started</a>
             </div>
         </div>
     </div>
