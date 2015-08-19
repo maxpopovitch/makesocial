@@ -13,8 +13,8 @@
             <div class="container tm-bg-01">
                 <div class="row">
                     <div class="col-md-7 tm-sect-04 tm-why-us-text-01">
-                        <h3><strong>The EtonDigital approach</strong></h3>
-                        <p>Our approach is to combine our understanding of user behavior with a commitment to meeting the business goals of our clients. We are proactive in our aftercare service and will alert our customers of any malicious behavior that we find. Our staff is diverse and talented in all aspects of website technology and marketing, including content creation. We love what we do and it shows in the solutions we produce.</p>
+                        <h3><strong>Human Centered approach</strong></h3>
+                        <p>We are changing to Human Centered Approach. With a human centered approach to design we achieve something that most companies just can't, we achieve a balance between Business viable, People desirable, and Technically feasible. By combining all three of these ideas we come to innovation. We become inspired by the idea and then we implement a strategy for the best course of action. Together we achieve what no process alone can, because we start with the <span class="text-uppercase">user</span> in mind. On the surface we are all <span class="text-uppercase">users</span>. This fact alone creates our center and focus during all deliverables and milestones in the project. We strive to redefine the <span class="text-uppercase">user</span> experience.</p>
                     </div>
                     <div class="col-md-5 hidden-xs hidden-sm">
                         <div class="tm-why-us-img-01 tm-offset-right"></div>
