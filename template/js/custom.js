@@ -7,7 +7,7 @@ var heightEqualizing = function () {
             element6 = $('.tm-want-to-see-more .tm-cell-block-01'),
             element7 = $('.our-clients ul li div span'),
             element8 = $('#quote-message a'),
-            element9 = $('.tm-values li>div'),
+            element9 = $('.tm-values li > div'),
             i,
             j,
             item,
