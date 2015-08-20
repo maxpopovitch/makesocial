@@ -2,8 +2,8 @@
 <div class="tm-overlay-03 tm-our-work-bg"></div>
 <header class="container">
     <div class="tm-sect-06">
-        <h1><strong>Let our work speak for itself.</strong></h1>
-        <h4>Dive in!</h4>
+        <h1><strong>Revolving Portfolio for Recently Finished Projects.</strong></h1>
+        <h4>Your project can be featured here.</h4>
     </div>
 </header>
 </div>
@@ -11,6 +11,26 @@
     <div class="tm-bg-01">
         <div class="tm-container-wide tm-margin-auto tm-nopadding">
             <ul class="tm-our-work list-unstyled clearfix">
+                <li class="tm-light" style="background-image: url('img/our-work/portfolio/nowa/nowa-bg.jpg')">
+                    <a href="nowa">
+                        <p class="tm-nomargin text-uppercase">#Social newtwork &nbsp; #Yii &nbsp; #Responsive</p>
+                        <h3 class="tm-text-line-normal" style="color: #589DDE">NOWA®</h3>
+                        <span>Ukrainian social network</span>
+                        <div class="text-center">
+                            <img class="img-responsive" src="img/our-work/portfolio/nowa/nowa-screen.jpg" alt="NOWA®" />
+                        </div>
+                    </a>
+                </li>
+                <li class="tm-dark" style="background-image: url('img/our-work/portfolio/nowa-career/nowa-career-bg.jpg')">
+                    <a href="nowa-career">
+                        <p class="tm-nomargin text-uppercase">#Corporate website &nbsp; #Python &nbsp; #Responsive</p>
+                        <h3 class="tm-text-line-normal" style="color: #FFED00">Nowa Career</h3>
+                        <span>Corporate site of Nowa social network for hiring professionals</span>
+                        <div class="text-center">
+                            <img class="img-responsive" src="img/our-work/portfolio/nowa-career/nowa-career-screen.jpg" alt="Nowa Career" />
+                        </div>
+                    </a>
+                </li>
                 <li class="tm-light" style="background-image: url('img/our-work/portfolio/nissan/nissan-bg.jpg')">
                     <a href="nissan-ireland">
                         <p class="tm-nomargin text-uppercase">#Corporate Website &nbsp; #Drupal &nbsp; #Responsive &nbsp; #RIA</p>
@@ -68,26 +88,6 @@
                         <span>Platform that connects people passionate about photography and allows them to earn some cash while uploading their photos.</span>
                         <div class="text-center">
                             <img class="img-responsive" src="img/our-work/portfolio/coinaphoto/coinaphoto-screen.png" alt="Sportlobster" />
-                        </div>
-                    </a>
-                </li>
-                <li class="tm-light" style="background-image: url('img/our-work/portfolio/nowa/nowa-bg.jpg')">
-                    <a href="nowa">
-                        <p class="tm-nomargin text-uppercase">#Social newtwork &nbsp; #Yii &nbsp; #Responsive</p>
-                        <h3 class="tm-text-line-normal" style="color: #589DDE">NOWA®</h3>
-                        <span>Ukrainian social network</span>
-                        <div class="text-center">
-                            <img class="img-responsive" src="img/our-work/portfolio/nowa/nowa-screen.jpg" alt="NOWA®" />
-                        </div>
-                    </a>
-                </li>
-                <li class="tm-dark" style="background-image: url('img/our-work/portfolio/nowa-career/nowa-career-bg.jpg')">
-                    <a href="nowa-career">
-                        <p class="tm-nomargin text-uppercase">#Corporate website &nbsp; #Python &nbsp; #Responsive</p>
-                        <h3 class="tm-text-line-normal" style="color: #FFED00">Nowa Career</h3>
-                        <span>Corporate site of Nowa social network for hiring professionals</span>
-                        <div class="text-center">
-                            <img class="img-responsive" src="img/our-work/portfolio/nowa-career/nowa-career-screen.jpg" alt="Nowa Career" />
                         </div>
                     </a>
                 </li>
