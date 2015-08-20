@@ -3,8 +3,8 @@
 <div class="tm-overlay-04 tm-services-bg"></div>
 <header class="container">
     <div class="tm-sect-06">
-        <h1><strong>What we do</strong></h1>
-        <h4>Services tailored to your needs</h4>
+        <h1><strong>This Is Where Our Passions Exist</strong></h1>
+        <h4>and visions are brought to life</h4>
     </div>
 </header>
 </div>

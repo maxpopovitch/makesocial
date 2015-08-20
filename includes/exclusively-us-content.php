@@ -13,7 +13,7 @@
             <div class="container tm-bg-01">
                 <div class="row">
                     <div class="col-md-7 tm-sect-04 tm-why-us-text-01">
-                        <h3><strong>Human Centered approach</strong></h3>
+                        <h3><strong>Human Centered Approach</strong></h3>
                         <p>With a human centered approach to design we achieve something that most companies just can't, we achieve a balance between Business viable, People desirable, and Technically feasible. By combining all three of these ideas we come to innovation. We become inspired by the idea and then we implement a strategy for the best course of action. Together we achieve what no process alone can, because we start with the <span class="text-uppercase">user</span> in mind. On the surface we are all <span class="text-uppercase">users</span>. This fact alone creates our center and focus during all deliverables and milestones in the project. We strive to redefine the <span class="text-uppercase">user</span> experience.</p>
                     </div>
                     <div class="col-md-5 hidden-xs hidden-sm">
@@ -40,7 +40,7 @@
                     <div class="tm-why-us-img-02 tm-offset-left"></div>
                 </div>
                 <div class="col-md-7 tm-sect-04 tm-why-us-text-02">
-                    <h3><strong>Human responsibility</strong></h3>
+                    <h3><strong>Human Responsibility</strong></h3>
                     <p>We make it our duty to be leaders of efficiency, clarity, and an  all around human example. We are all people we make mistakes and we are constantly learning to be better and everybody deserves to be treated as such. Respect is important to us. We treat every situation will calm and collected transparency. Synergy is extremely important to us.</p>
                 </div>
             </div>
@@ -150,7 +150,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 tm-sect-01 tm-why-us-text-04">
-                        <h3 class="tm-infocolor"><strong>Our Employees are everything.</strong></h3>
+                        <h3 class="tm-infocolor"><strong>Our employees are everything.</strong></h3>
                         <p>We focus on this daily. We excel at making our workplace our home. bringing everyone together for the greater good of projects and everyday activities is something we invest a lot of time in. We also do family lunches with everyone in all our offices prepared by that day by one of our staff members mothers. It sounds funny, but we swear it’s the truth.</p>
                     </div>
                     <div class="col-md-5 col-md-push-1 hidden-xs hidden-sm">
@@ -163,7 +163,7 @@
             <div class="row">
                 <div class="col-md-6 tm-sect-01 tm-why-us-text-05">
                     <h3 class="tm-infocolor"><strong>We encourage freedom to work.</strong></h3>
-                    <p>We know having the 9 &ndash; 5 routine is important, but we also feel like freedom to work how one is most comfortable and productive trumps any social stigmas that might exist. We not only cater to working outside the box, but also bringing the box to the fold and experimenting to see if it leads more accomplishments. Thus, fostering an experimental attitude to rise above the norm and to play with a new norm. </p>
+                    <p>We know having the 9 &ndash; 5 routine is important, but we also feel like freedom to work how one is most comfortable and productive trumps any social stigmas that might exist. We not only cater to working outside the box, but also bringing the box to the fold and experimenting to see if it leads more accomplishments. Thus, fostering an experimental attitude to rise above the norm to play with a new set of rules.</p>
                 </div>
                 <div class="col-md-5 col-md-push-1 hidden-xs hidden-sm">
                     <div class="tm-why-us-img-05 tm-offset-right"></div>
@@ -175,7 +175,7 @@
                 <div class="row">
                     <div class="col-md-6 tm-sect-01 tm-why-us-text-06">
                         <h3 class="tm-infocolor"><strong>We promote cross-functional teams.</strong></h3>
-                        <p>A fully functional team can be achieved only in a healthy corporate culture, and team building activities are a valuable part of that culture, whether it's a football match, a bowling competition, a travel or a play-day for our employees' children. Members of our team have become friends and even though we have offices in different cities, we make sure they spend enough time together to get to know each other, share ideas and solutions, and have fun.</p>
+                        <p>Things come up everyday and we at Pytex have found that the best way to tackle these problems is to harness the power of cross-functional teams. We bring Project Managers, Developers, Quality Assurance, Organizational Design teams and just about any other employee around to figure out problems from departments in versatile sessions where we build on the ideas of others and let our thoughts flow in an open environment with no wrong answers. After our cross-pollination of ideas we create helpful solutions.</p>
                     </div>
                     <div class="col-md-5 col-md-push-1 hidden-xs hidden-sm">
                         <div class="tm-why-us-img-06 tm-offset-right"></div>

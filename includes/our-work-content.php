@@ -2,8 +2,8 @@
 <div class="tm-overlay-03 tm-our-work-bg"></div>
 <header class="container">
     <div class="tm-sect-06">
-        <h1><strong>Case Studies</strong></h1>
-        <h4>Take a look at how our projects were crafted</h4>
+        <h1><strong>Let our work speak for itself.</strong></h1>
+        <h4>Dive in!</h4>
     </div>
 </header>
 </div>
@@ -99,8 +99,8 @@
             <div class="col-md-6">
                 <div class="tm-cell-block-01">
                     <div class="tm-cell">
-                        <h2 class="text-uppercase tm-text-line-normal tm-nomargin"><strong>Want to see more?</strong></h2>
-                        <p class="h5 tm-description tm-text-line-normal">Check out some of these websites we’ve done over the past years.</p>
+                        <h2 class="text-uppercase tm-text-line-normal tm-nomargin"><strong>Delve Deeper into the Rabbit Hole.</strong></h2>
+                        <p class="h5 tm-description tm-text-line-normal">Our work over the past years.</p>
                     </div>
                 </div>
             </div>
@@ -266,8 +266,8 @@
         <div class="tm-container-wide tm-nopadding our-clients">
             <div class="row tm-sect-01 tm-nomargin">
                 <div class="col-md-4">
-                    <h3 class="text-uppercase"><strong>Our clients</strong></h3>
-                    <p class="h5 tm-description tm-text-line-15">These brands trusted us and together we moved boundaries with every project.</p>
+                    <h3 class="text-uppercase"><strong>Satisfied Clients</strong></h3>
+                    <p class="h5 tm-description tm-text-line-15">Through our processes we took original ideas and together created finished pieces of art.</p>
                     <hr class="tm-hr-03" />
                 </div>
                 <div class="col-md-8">

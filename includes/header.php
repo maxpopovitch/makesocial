@@ -30,7 +30,7 @@
                             <li><a href="our-process">methodology</a></li>
                             <li><a href="our-work">portfolio</a></li>
                             <li><a href="contact-us">contact us</a></li>
-                            <li><a href="contact-us#quote">free quote</a></li>
+                            <li><a href="contact-us#quote">quick quote</a></li>
                         </ul>
                     </div>
                 </div>
