@@ -7,7 +7,7 @@
 <div class="tm-overlay-01"></div>
 <header class="container">
     <h1 class="tm-title-01">
-        <strong>Real Artists Ship.</strong>
+        <strong>We are the Geeks that<br />Geekout on Web Development</strong>
     </h1>
 </header>
 </div>
