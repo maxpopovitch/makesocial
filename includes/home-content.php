@@ -7,8 +7,7 @@
 <div class="tm-overlay-01"></div>
 <header class="container">
     <h1 class="tm-title-01">
-        <strong>We design and develop<br/>
-            innovative digital solutions.</strong>
+        <strong>Real Artists Ship.</strong>
     </h1>
 </header>
 </div>
