@@ -15,8 +15,8 @@
 <main>
     <section class="tm-sect-01 tm-bg-01">
         <div class="container">
-            <h2 class="text-center text-uppercase tm-nomargin tm-text-line-normal"><strong>What we do.</strong></h2>
-            <p class="h5 text-center tm-description tm-subtitle">Services tailored to your needs.</p>
+            <h2 class="text-center text-uppercase tm-nomargin tm-text-line-normal"><strong>This is where our passions exist.</strong></h2>
+            <p class="h5 text-center tm-description tm-subtitle">Visions are brought to life</p>
             <hr class="tm-hr-01" />
             <ul class="tm-whatwedo list-unstyled clearfix">
                 <li>
@@ -153,9 +153,9 @@
     </section>
     <section class="tm-sect-03">
         <div class="container">
-            <h3 class="text-center text-uppercase tm-nomargin tm-text-line-normal"><strong>Our case studies</strong></h3>
+            <h3 class="text-center text-uppercase tm-nomargin tm-text-line-normal"><strong>Let our work speak for itself.</strong></h3>
             <hr class="tm-hr-02" />
-            <p class="h5 text-center tm-description tm-subtitle">We are proud of our projects. Take a look at what we’ve done so far. And how.</p>
+            <p class="h5 text-center tm-description tm-subtitle">Dive in!</p>
         </div>
         <div class="tm-bg-01">
             <div class="tm-container-wide tm-margin-auto tm-nopadding">

@@ -25,10 +25,10 @@
                     <div class="collapse navbar-collapse" id="navbar">
                         <ul class="nav navbar-nav">
                             <li><a href="exclusively-us">exclusively us</a></li>
-                            <li><a href="meet-us">meet us</a></li>
-                            <li><a href="social-networking-design-development">services</a></li>
-                            <li><a href="our-process">our process</a></li>
-                            <li><a href="our-work">our work</a></li>
+                            <li><a href="meet-us">our team</a></li>
+                            <li><a href="social-networking-design-development">design thinking</a></li>
+                            <li><a href="our-process">methodology</a></li>
+                            <li><a href="our-work">portfolio</a></li>
                             <li><a href="contact-us">contact us</a></li>
                             <li><a href="contact-us#quote">free quote</a></li>
                         </ul>
