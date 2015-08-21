@@ -697,6 +697,10 @@ Write custom rules here ONLY!
     background-color: $default-color;
 }
 
+.tm-bg-04 {
+    background-color: $tetriary-background;
+}
+
 .tm-hr-01 {
     @include hr;
     margin: $padding-03 auto ($padding-03 - $padding-02);
