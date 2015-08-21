@@ -11,7 +11,7 @@
     <section class="tm-bg-01 tm-sect-01">
         <div class="container">
             <h3 class="tm-margin-01 tm-text-line-normal"><strong>It all starts with a solid foundation.</strong></h3>
-            <p class="tm-default-p tm-margin-01">Our process is built on top of a 12-years-strong infrastructure, on top of our rock-solid relationships with our team members, some of whom have been with us for over a decade. Only then, a well-defined methodology makes a difference.</p>
+            <p class="tm-default-p tm-margin-01">Our process is built on top of a decades-strong infrastructure, which includes rock-solid relationships with our team members, some of whom have been with us for over a decade. Only then can a well-defined methodology make a difference.</p>
         </div>
     </section>
     <section class="tm-bg-01">
@@ -32,8 +32,8 @@
                     <img src="img/our-process/our-process-discovery.svg" alt="Discovery and request analysis" />
                 </div>
                 <div class="tm-cell">
-                    <h3 class="text-uppercase tm-text-line-13"><strong>Discovery: requirements elicitation</strong></h3>
-                    <p class="tm-default-p tm-margin-01 tm-text-line-15">It all begins with the Discovery Phase. We initiate an intensive, one to two weeks discovery sprint organised to help our team grasp the core components of the business, gain industry specific knowledge and most importantly understand your technical requirements precisely and completely. Here you work with your PYTEX Business Analyst, Project Manager and a dedicated Software Architect. At some point within this phase, we add the UI expert, UX expert, and your future lead developer to attend discovery workshops, but all team members can be included as well, if the project requires full involvement of all team members from early discovery sessions. This workshop can be held in our sales offices in Chicago, New York, San Francisco, Toronto, London, Sydney or our development centers in Lviv, Sambir, Warsaw or Manila.</p>
+                    <h3 class="text-uppercase tm-text-line-13"><strong>Discovery requirements elicitation?</strong></h3>
+                    <p class="tm-default-p tm-margin-01 tm-text-line-15">It all begins with the Discovery Phase. We initiate an intensive, one to two weeks, discovery sprint organized to help our team grasp the core components of the business, gain industry specific knowledge, and most importantly understand your technical requirements precisely and completely. Here you work with your PYTEX Business Analyst, Project Manager and a dedicated Software Architect. At some point within this phase, we add the UI expert, UX expert, and your future Lead developer to attend discovery workshops, but all team members can be included as well, if the project requires full involvement of all team members from early discovery sessions. This workshop can be held in our sales offices in Chicago, New York, San Francisco, Toronto, London, or Sydney, or our development centers in Lviv, Sambir, Warsaw or Manila.</p>
                 </div>
             </div>
             <div class="row">
@@ -75,7 +75,7 @@
                             <img src="img/our-process/our-process-user-stories.svg" alt="User stories" />
                         </div>
                         <div class="tm-cell">
-                            <p class="tm-default-p tm-infocolor tm-nomargin tm-text-line-13"><strong>User Story format:</strong></p>
+                            <p class="tm-default-p tm-infocolor tm-nomargin tm-text-line-13"><strong>User Story Format:</strong></p>
                             <p class="tm-default-p tm-margin-01 tm-text-line-13">As a [who] I want to [what] so that [why].</p>
                             <p class="tm-default-p tm-infocolor tm-nomargin tm-text-line-13"><strong>User Story Example:</strong></p>
                             <p class="tm-default-p tm-nomargin tm-text-line-13">As a visitor-user I want to be able to post videos so I can share them with friends and friends of friends.</p>
@@ -92,7 +92,7 @@
                         </div>
                         <div class="tm-cell">
                             <h3 class="text-uppercase tm-text-line-normal tm-margin-01 tm-overflow-hidden"><strong><span>Backlog</span></strong></h3>
-                            <p class="tm-default-p tm-margin-01 tm-text-line-15">Once we have the backlog of user stories, the team estimates the complexity of each user story. Here the Product Owner and the Team define User Story details: goal, process, expectations, description, acceptance criteria, etc.</p>
+                            <p class="tm-default-p tm-margin-01 tm-text-line-15">Once we have the backlog of user stories, the team estimates the complexity of each user story. Here the Product Owner and the Team define user story details: goal, process, expectations, description, acceptance criteria, etc.</p>
                         </div>
                     </div>
                     <div class="tm-cell-block-01">
@@ -123,7 +123,7 @@
                     <h3 class="text-uppercase tm-text-line-normal tm-margin-01 tm-overflow-hidden">
                         <strong><span>Sprint: <br/>repeat X times</span></strong>
                     </h3>
-                    <p class="tm-default-p tm-text-line-15 tm-nomargin">The proper SCRUM process is executed in a number of iterations called Sprints. Each sprint is started by a sprint planning meeting (SPM) in order to determine a sprint backlog - a list of the tasks to be performed during the sprint, and specific goals to be attained by the end of the sprint.</p>
+                    <p class="tm-default-p tm-text-line-15 tm-nomargin">The proper SCRUM process is executed in a number of iterations called Sprints. Each sprint is started by a Sprint Planning Meeting (SPM) in order to determine a sprint backlog - a list of the tasks to be performed during the sprint, and specific goals to be attained by the end of the sprint.</p>
                     <hr class="tm-hr-05 hidden-md hidden-lg"/>
                 </div>
                 <div class="col-md-6 tm-block-03 tm-titlecolor">
@@ -157,7 +157,7 @@
                         <div class="tm-cell">
                             <h3 class="text-uppercase tm-text-line-normal tm-margin-01 tm-overflow-hidden"><strong><span>Sprint review</span></strong></h3>
                             <p class="tm-default-p tm-margin-01 tm-text-line-15">Inspect and improve <strong class="text-uppercase">the product.</strong></p>
-                            <p class="tm-default-p tm-margin-01 tm-text-line-15">This is the time for the team to brag, and demonstrate the work done within the iteration, get immediate feedback from project stakeholders and the Product Owner. This is the time to celebrate the team's accomplishments.</p>
+                            <p class="tm-default-p tm-margin-01 tm-text-line-15">This is the time for the team to demonstrate the work done within the iteration, get immediate feedback from project stakeholders and the Product Owner, and celebrate the team's accomplishments.</p>
                         </div>
                     </div>
                     <hr class="tm-hr-02 hidden-md hidden-lg"/>
@@ -168,7 +168,7 @@
                         <strong><span>Sprint retrospective</span></strong>
                     </h3>
                     <p class="tm-default-p tm-margin-01 tm-text-line-15">Here we inspect and improve <strong class="text-uppercase">the process.</strong></p>
-                    <p class="tm-default-p tm-text-line-15 tm-nomargin">During the SA meeting, the team has an opportunity to openly express their thoughts on the sprint cycle. We discuss what went well and what can be improved in the following sprint. The things we learn during the Sprint Assessment meeting provide valuable information for continuous optimisation of our processes.</p>
+                    <p class="tm-default-p tm-text-line-15 tm-nomargin">During the Sprint Assessment (SA) meeting, the team has an opportunity to openly express their thoughts on the sprint cycle. We discuss what went well and what can be improved in the following sprint. The things we learn during the Sprint Assessment meeting provide valuable information for continuous optimization of our processes.</p>
                 </div>
             </div>
             <div class="row tm-sect-03">
@@ -177,7 +177,7 @@
                     <h3 class="text-uppercase tm-text-line-normal tm-margin-01 tm-overflow-hidden">
                         <strong><span>Product increment</span></strong>
                     </h3>
-                    <p class="tm-default-p tm-text-line-15 tm-nomargin">Every sprint must deliver a shippable product component, even in its basic form, even as a first basic iteration, the component must be usable and shippable.</p>
+                    <p class="tm-default-p tm-text-line-15 tm-nomargin">Every sprint must deliver a usable and shippable product component, even as a basic first iteration.</p>
                     <hr class="tm-hr-02 hidden-md hidden-lg"/>
                 </div>
                 <div class="col-md-6 tm-block-02 tm-responsive">

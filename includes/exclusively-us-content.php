@@ -14,7 +14,7 @@
                 <div class="row">
                     <div class="col-md-7 tm-sect-04 tm-why-us-text-01">
                         <h3><strong>Human Centered Approach</strong></h3>
-                        <p>With a human centered approach to design we achieve something that most companies just can't, we achieve a balance between Business viable, People desirable, and Technically feasible. By combining all three of these ideas we come to innovation. We become inspired by the idea and then we implement a strategy for the best course of action. Together we achieve what no process alone can, because we start with the <span class="text-uppercase">user</span> in mind. On the surface we are all <span class="text-uppercase">users</span>. This fact alone creates our center and focus during all deliverables and milestones in the project. We strive to redefine the <span class="text-uppercase">user</span> experience.</p>
+                        <p>With a human centered approach to design we achieve something that most companies just can't: we achieve a balance between Business viability, People desirability, and Technical feasibility that fosters innovation. By combining all three of these ideas we come to innovation. We become inspired by an idea and then we implement a strategy for the best course of action. Together we achieve what no process alone can. We start with the user in mind, because we are all users on the surface. Knowing this keeps our team focused during all aspects of the project as we strive to redefine the user experience.</p>
                     </div>
                     <div class="col-md-5 hidden-xs hidden-sm">
                         <div class="tm-why-us-img-01 tm-offset-right"></div>
@@ -48,7 +48,7 @@
     </section>
     <section class="tm-sect-01 tm-bg-01">
         <div class="container">
-            <h2 class="text-center text-uppercase tm-nomargin tm-text-line-normal"><strong>What makes us tick</strong></h2>
+            <h2 class="text-center text-uppercase tm-nomargin tm-text-line-normal"><strong>What makes us work</strong></h2>
             <hr class="tm-hr-02" />
             <ul class="tm-values tm-nomargin list-unstyled clearfix">
                 <li>
@@ -60,7 +60,7 @@
                         </svg>
                         <div class="tm-descr">
                             <h4 class="text-uppercase"><strong>Inspiration</strong></h4>
-                            <p>Everybody loves to feel inspired. We challenge ourselves everyday. We attempt to achieving the unachievable by working and experimenting with new ideas.</p>
+                            <p>Everybody loves to feel inspired. We challenge ourselves everyday. We attempt to achieve the unachievable by working and experimenting with new ideas.</p>
                         </div>
                     </div>
                 </li>
@@ -73,7 +73,7 @@
                         </svg>
                         <div class="tm-descr">
                             <h4 class="text-uppercase"><strong>Innovation</strong></h4>
-                            <p>Innovation is all around us and stream line our processes to yield the best results every time we have the chance. We innovate in our offices and we love exploring in all its forms.</p>
+                            <p>Innovation is all around us and stream lines our processes to yield the best results every time. We innovate in our offices as we love exploring new ways of doing things.</p>
                         </div>
                     </div>
                 </li>
@@ -86,7 +86,7 @@
                         </svg>
                         <div class="tm-descr">
                             <h4 class="text-uppercase"><strong>Respect</strong></h4>
-                            <p>Without this you have nothing. We pride ourselves on the respect we share for our counterparts in the office. Because a happy office is contagious to positive productivity.</p>
+                            <p>Without respect you have nothing. We pride ourselves on the respect we share for our counterparts in the office. Because a happy office promotes positive productivity.</p>
                         </div>
                     </div>
                 </li>
@@ -99,7 +99,7 @@
                         </svg>
                         <div class="tm-descr">
                             <h4 class="text-uppercase"><strong>Community</strong></h4>
-                            <p>We don’t sit in cubicles, we work in open offices. Our project managers are right next to our developers along with our sales teams. All right on the ground.</p>
+                            <p>We don’t sit in cubicles, we work in open offices. Our project managers are side by side to our developers who are side by side with our sales teams.</p>
                         </div>
                     </div>
                 </li>
@@ -112,7 +112,7 @@
                         </svg>
                         <div class="tm-descr">
                             <h4 class="text-uppercase"><strong>Connected</strong></h4>
-                            <p>Over communication is key. We love sharing information and making it available throughout our company. Our company Newsletters always keeps everyone on the same page.</p>
+                            <p>Over Communication is key. We love sharing information and making it available throughout our company. Our weekly company newsletters keeps everyone on the same page.</p>
                         </div>
                     </div>
                 </li>
@@ -125,7 +125,7 @@
                         </svg>
                         <div class="tm-descr">
                             <h4 class="text-uppercase"><strong>Synergy</strong></h4>
-                            <p>The flow that we feel through our connections is a necessity. In the world of programming this can be lost in the routing. We strive to hold onto it.</p>
+                            <p>The flow that we feel through our connections is important, so we strive to hold on to it throughout the project.</p>
                         </div>
                     </div>
                 </li>
@@ -138,7 +138,7 @@
                 <div class="col-md-6 tm-sect-01 tm-why-us-text-03">
                     <h2 class="text-uppercase tm-text-line-normal tm-nomargin"><strong>We are<br/>Pytex people</strong></h2>
                     <hr class="tm-hr-03" />
-                    <p class="tm-text-line-normal">It all starts with the foundation and for us that means the most proactive and talented people that fit into our company culture.</p>
+                    <p class="tm-text-line-normal">It all starts with heart this is the foundation for us that means building the most proactive and talented team to add to our company culture.</p>
                     <p><strong>Here's what sets us apart:</strong></p>
                 </div>
                 <div class="col-md-5 col-md-push-1 hidden-xs hidden-sm">
@@ -151,7 +151,7 @@
                 <div class="row">
                     <div class="col-md-6 tm-sect-01 tm-why-us-text-04">
                         <h3 class="tm-infocolor"><strong>Our employees are everything.</strong></h3>
-                        <p>We focus on this daily. We excel at making our workplace our home. bringing everyone together for the greater good of projects and everyday activities is something we invest a lot of time in. We also do family lunches with everyone in all our offices prepared by that day by one of our staff members mothers. It sounds funny, but we swear it’s the truth.</p>
+                        <p>We focus on this daily as we excel at making our workplace our home. Bringing everyone together for the greater good of projects and everyday activities is something we invest a lot of time in. We even do family lunches in our Sambir office, prepared by one of our staff members' mother. It sounds funny, but we swear it’s the truth.</p>
                     </div>
                     <div class="col-md-5 col-md-push-1 hidden-xs hidden-sm">
                         <div class="tm-why-us-img-04 tm-offset-right"></div>
@@ -163,7 +163,7 @@
             <div class="row">
                 <div class="col-md-6 tm-sect-01 tm-why-us-text-05">
                     <h3 class="tm-infocolor"><strong>We encourage freedom to work.</strong></h3>
-                    <p>We know having the 9 &ndash; 5 routine is important, but we also feel like freedom to work how one is most comfortable and productive trumps any social stigmas that might exist. We not only cater to working outside the box, but also bringing the box to the fold and experimenting to see if it leads more accomplishments. Thus, fostering an experimental attitude to rise above the norm to play with a new set of rules.</p>
+                    <p>We allow for the freedom of our employees to work how one is most comfortable and productive. We not only cater to working outside the box, but also bringing the box to the fold and experimenting to see if it leads to more accomplishments. Thus, fostering an experimental attitude to rise above one's normal way of thinking.</p>
                 </div>
                 <div class="col-md-5 col-md-push-1 hidden-xs hidden-sm">
                     <div class="tm-why-us-img-05 tm-offset-right"></div>
@@ -175,7 +175,7 @@
                 <div class="row">
                     <div class="col-md-6 tm-sect-01 tm-why-us-text-06">
                         <h3 class="tm-infocolor"><strong>We promote cross-functional teams.</strong></h3>
-                        <p>Things come up everyday and we at Pytex have found that the best way to tackle these problems is to harness the power of cross-functional teams. We bring Project Managers, Developers, Quality Assurance, Organizational Design teams and just about any other employee around to figure out problems from departments in versatile sessions where we build on the ideas of others and let our thoughts flow in an open environment with no wrong answers. After our cross-pollination of ideas we create helpful solutions.</p>
+                        <p>New issues arrive everyday and we at Pytex have found that the best way to tackle these issues is to harness the power of cross-functional teams. We bring together Project Managers, Developers, Quality Assurance, and Organizational Design teams to figure out the issues in versatile sessions where we build on the ideas of others and let our thoughts flow in an open environment with no wrong answers. After our cross-pollination of ideas we create helpful solutions.</p>
                     </div>
                     <div class="col-md-5 col-md-push-1 hidden-xs hidden-sm">
                         <div class="tm-why-us-img-06 tm-offset-right"></div>
