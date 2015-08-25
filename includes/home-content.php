@@ -150,7 +150,7 @@
             </div>
         </div>
     </section>
-    <section class="tm-sect-03">
+<!--    <section class="tm-sect-03">
         <div class="container">
             <h3 class="text-center text-uppercase tm-nomargin tm-text-line-normal"><strong>Let our work speak for itself.</strong></h3>
             <hr class="tm-hr-02" />
@@ -205,4 +205,4 @@
     </section>
     <div class="tm-accent-01 text-center">
         <a href="our-work" class="tm-cta">view all case studies</a>
-    </div>
+    </div>-->
