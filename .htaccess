@@ -3,5 +3,5 @@ RewriteBase /
 ErrorDocument 403 /error.php
 ErrorDocument 404 /error.php
 
-RewriteRule ^(exclusively-us|meet-us|social-networking-design-development|web-design-and-development|mobile-application-development|prototyping|corporate-identity-and-brand-design|strategic-planning-services|search-engine-optimization|copywriting|our-process|our-work|nissan-ireland|procurious|supercoucou|jumbletrail|sportlobster|coinaphoto|contact-us|terms-and-conditions|privacy-policy)$ index.php?page=$1 [L]
+RewriteRule ^(exclusively-us|meet-us|social-networking-design-development|web-design-and-development|web-development|mobile-application-development|responsive-and-mobile|webrtc-development|ecommerce-development|elearning-platforms-development|bluetooth-low-energy-and-ibeacon|crm-and-erp-integration|prototyping|corporate-identity-and-brand-design|strategic-planning-services|search-engine-optimization|copywriting|api-3rd-party-integration|quality-assurance-and-user-acceptance-testing|analytics-and-support|our-process|our-work|nissan-ireland|procurious|supercoucou|jumbletrail|sportlobster|coinaphoto|contact-us|terms-and-conditions|privacy-policy)$ index.php?page=$1 [L]
 RewriteRule ^(403|404)$ error.php?page=$1 [L]

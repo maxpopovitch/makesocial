@@ -279,6 +279,97 @@ Example: @include nav-tabs-a;
 }
 
 /*
+Mixin for subnavigation menu.
+Example: @include subnav;
+*/
+@mixin subnav {
+    box-shadow: $subnav-box-shadow;
+    position: relative;
+    z-index: 1;
+
+    [class*="container"] {
+        @media (max-width: $screen-md-max) {
+            width: 100%;
+        }
+    }
+
+    li {
+        &:not(:last-of-type) {
+            @media (max-width: $screen-sm-max) {
+                border-bottom: $subnav-border;
+            }
+        }
+
+        @media (min-width: $screen-md-min) {
+            border-left: $subnav-border;
+            border-right: $subnav-border;
+            margin: 10px -5px 10px 0;
+            border-bottom: 0;
+            display: inline-block;
+        }
+
+        a {
+            @include prefix((transition: $nav-transition));
+            font-family: $font-family-title;
+            color: $default-color;
+            position: relative;
+            padding: 8px 0;
+            display: block;
+            text-transform: uppercase;
+            font-size: 14px;
+            font-weight: 700;
+
+            &:hover, &:focus, &.tm-active {
+                color: $info-color;
+                text-decoration: none;
+
+                .tm-icon {
+                    fill: $info-color;
+                }
+            }
+
+            @media (min-width: $screen-md-min) {
+                height: 100px;
+                display: table-cell;
+                vertical-align: bottom;
+                text-align: center;
+                padding: 10px 22px;
+            }
+
+            @media (min-width: $screen-lg-min) {
+                padding: 10px 33px;
+            }
+
+            &.tm-active:after {
+                @media (min-width: $screen-md-min) {
+                    @include prefix((transform: translateX(-50%)));
+                    @include prefix((filter: drop-shadow($subnav-box-shadow)));
+                    @include triangle;
+                    left: 50%;
+                    bottom: -32px;
+                }
+            }
+
+            .tm-icon {
+                @include prefix((transition: $nav-transition));
+                @include prefix((transform: translateX(-50%)));
+                fill: $default-color;
+                position: absolute;
+                left: 50%;
+                top: 12px;
+                width: 40px;
+                width: 40px;
+                display: none;
+
+                @media (min-width: $screen-md-min) {
+                    display: initial;
+                }
+            }
+        }
+    }
+}
+
+/*
 Mixin for triangle after active menu item.
 Example: @include triangle;
 */

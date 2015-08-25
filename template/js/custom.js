@@ -73,17 +73,32 @@ $(document).ready(function () {
     $('#meet-us-content').closest('body').find('a[href="meet-us"]').addClass(active);
     $('#our-process-content').closest('body').find('a[href="our-process"]').addClass(active);
     $('[id*="services"]:not([id*="methodology"])').closest('body').find('ul.nav.navbar-nav').find('a[href="social-networking-design-development"]').addClass(active);
+    $('[id*="what-you-get"]').closest('body').find('ul.nav.navbar-nav').find('a[href="strategic-planning-services"]').addClass(active);
     $('#our-work-content').closest('body').find('a[href="our-work"]').addClass(active);
     $('#contact-us-content').closest('body').find('a[href="contact-us"]').addClass(active);
-    //adding classes for navigation submenu
+
+    //adding classes for services navigation submenu
     $('#services-social-content').closest('body').find('a[href="social-networking-design-development"]').addClass(active);
-    $('#services-web-content').closest('body').find('a[href="web-design-and-development"]').addClass(active);
+    $('#services-web-content').closest('body').find('a[href="web-development"]').addClass(active);
     $('#services-mobile-content').closest('body').find('a[href="mobile-application-development"]').addClass(active);
-    $('#services-prototyping-content').closest('body').find('a[href="prototyping"]').addClass(active);
-    $('#services-branding-content').closest('body').find('a[href="corporate-identity-and-brand-design"]').addClass(active);
-    $('#services-strategy-and-planning-content').closest('body').find('a[href="strategic-planning-services"]').addClass(active);
-    $('#services-seo-content').closest('body').find('a[href="search-engine-optimization"]').addClass(active);
-    $('#services-copywriting-content').closest('body').find('a[href="copywriting"]').addClass(active);
+    $('#services-webrtc-content').closest('body').find('a[href="webrtc-development"]').addClass(active);
+    $('#services-ecommerce-content').closest('body').find('a[href="ecommerce-development"]').addClass(active);
+    $('#services-elearning-content').closest('body').find('a[href="elearning-platforms-development"]').addClass(active);
+    $('#services-ibeacon-content').closest('body').find('a[href="bluetooth-low-energy-and-ibeacon"]').addClass(active);
+    $('#services-crm-erp-content').closest('body').find('a[href="crm-and-erp-integration"]').addClass(active);
+
+    //adding classes for what you get navigation submenu
+    $('#what-you-get-strategy-and-planning-content').closest('body').find('a[href="strategic-planning-services"]').addClass(active);
+    $('#what-you-get-prototyping-content').closest('body').find('a[href="prototyping"]').addClass(active);
+    $('#what-you-get-branding-content').closest('body').find('a[href="corporate-identity-and-brand-design"]').addClass(active);
+    $('#what-you-get-copywriting-content').closest('body').find('a[href="copywriting"]').addClass(active);
+    $('#what-you-get-seo-content').closest('body').find('a[href="search-engine-optimization"]').addClass(active);
+    $('#what-you-get-web-content').closest('body').find('a[href="web-design-and-development"]').addClass(active);
+    $('#what-you-get-mobile-content').closest('body').find('a[href="responsive-and-mobile"]').addClass(active);
+    $('#what-you-get-api-content').closest('body').find('a[href="api-3rd-party-integration"]').addClass(active);
+    $('#what-you-get-qa-content').closest('body').find('a[href="quality-assurance-and-user-acceptance-testing"]').addClass(active);
+    $('#what-you-get-support-content').closest('body').find('a[href="analytics-and-support"]').addClass(active);
+
     //adding classes for our work portfolio links
     $('#nissan-ireland-content').closest('body').find('a[href="our-work"]').addClass(active);
     $('#procurious-content').closest('body').find('a[href="our-work"]').addClass(active);

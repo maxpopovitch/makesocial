@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>PYTEX Pyton Technology Experts</title>
+        <title>PYTEX | Web Development Consultancy</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -26,7 +26,8 @@
                         <ul class="nav navbar-nav">
                             <li><a href="exclusively-us">exclusively us</a></li>
                             <!--<li><a href="meet-us">our team</a></li>-->
-                            <li><a href="social-networking-design-development">design thinking</a></li>
+                            <li><a href="social-networking-design-development">services</a></li>
+                            <li><a href="strategic-planning-services">what you get</a></li>
                             <li><a href="our-process">methodology</a></li>
                             <!--<li><a href="our-work">portfolio</a></li>-->
                             <li><a href="contact-us">contact us</a></li>

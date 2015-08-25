@@ -6,8 +6,8 @@ require_once($includes_system_path . 'services-header.php');
     <div class="container tm-sect-01">
         <div class="col-md-5">
             <h1 class="h2 text-uppercase tm-text-line-normal tm-nomargin"><strong>Social Networks Development</strong></h1>
-            <hr class="tm-hr-04"/>
-            <img class="img-responsive" src="img/services/social-networking-design-development.svg" alt="Social Networking Design Development" />
+            <hr class="tm-hr-04">
+            <img class="img-responsive" src="img/services/social-networking-design-development.svg" alt="Social Networking Design Development">
         </div>
         <div class="col-md-7">
             <p><strong>If you're looking to build the next facebook, or a micro-social network for your industry, we're just the right team for you.</strong></p>

@@ -1,8 +1,8 @@
 <?php
-require_once($includes_system_path . 'services-header.php');
+require_once($includes_system_path . 'what-you-get-header.php');
 ?>
 
-<main id="services-strategy-and-planning-content" class="tm-bg-01">
+<main id="what-you-get-strategy-and-planning-content" class="tm-bg-01">
     <div class="container tm-sect-01">
         <div class="col-md-5">
             <h1 class="h2 text-uppercase tm-text-line-normal tm-nomargin"><strong>Strategy Development and Planning</strong></h1>
