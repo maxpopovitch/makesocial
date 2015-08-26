@@ -14,16 +14,16 @@
                 <li>
                     <div class="tm-front-block">
                         <div>
-                            <img src="img/meet-us/Andriy-Ivashchuk.jpg" alt="Andriy Ivashchuk" />
+                            <img src="img/meet-us/Andriy-Ivashchuk.jpg" alt="Andrew Ivashchuk" />
                         </div>
                         <div>
-                            <h5>Andriy Ivashchuk</h5>
+                            <h5>Andrew Ivashchuk</h5>
                             <p>Front-end Developer</p>
                         </div>
                     </div>
                     <div class="tm-overlay-block"></div>
                     <div class="tm-back-block">
-                        <h5>Andriy Ivashchuk</h5>
+                        <h5>Andrew Ivashchuk</h5>
                         <p>Front-end Developer</p>
                         <p>He loves going to the gym and watching sports, but not just that, he's a huge movie fan who enjoys TV shows as well.</p>
                         <a href="#" target="_blank">
@@ -61,16 +61,16 @@
                 <li>
                     <div class="tm-front-block">
                         <div>
-                            <img src="img/meet-us/Andriy-Vynarchyk.jpg" alt="Andriy Vynarchyk" />
+                            <img src="img/meet-us/Andriy-Vynarchyk.jpg" alt="Andrew Vynarchyk" />
                         </div>
                         <div>
-                            <h5>Andriy Vynarchyk</h5>
+                            <h5>Andrew Vynarchyk</h5>
                             <p>Front-end Developer</p>
                         </div>
                     </div>
                     <div class="tm-overlay-block"></div>
                     <div class="tm-back-block">
-                        <h5>Andriy Vynarchyk</h5>
+                        <h5>Andrew Vynarchyk</h5>
                         <p>Front-end Developer</p>
                         <p>He loves going to the gym and watching sports, but not just that, he's a huge movie fan who enjoys TV shows as well.</p>
                         <a href="#" target="_blank">
@@ -155,16 +155,16 @@
                 <li>
                     <div class="tm-front-block">
                         <div>
-                            <img src="img/meet-us/Maksym-Popovych.jpg" alt="Maksym Popovych" />
+                            <img src="img/meet-us/Maksym-Popovych.jpg" alt="Max Popovych" />
                         </div>
                         <div>
-                            <h5>Maksym Popovych</h5>
+                            <h5>Max Popovych</h5>
                             <p>Front-end Developer</p>
                         </div>
                     </div>
                     <div class="tm-overlay-block"></div>
                     <div class="tm-back-block">
-                        <h5>Maksym Popovych</h5>
+                        <h5>Max Popovych</h5>
                         <p>Front-end Developer</p>
                         <p>He loves going to the gym and watching sports, but not just that, he's a huge movie fan who enjoys TV shows as well.</p>
                         <a href="#" target="_blank">
@@ -202,16 +202,16 @@
                 <li>
                     <div class="tm-front-block">
                         <div>
-                            <img src="img/meet-us/Mariya-Shchygel.jpg" alt="Mariya Shchygel" />
+                            <img src="img/meet-us/Mariya-Shchygel.jpg" alt="Mary Shchygel" />
                         </div>
                         <div>
-                            <h5>Mariya Shchygel</h5>
+                            <h5>Mary Shchygel</h5>
                             <p>Front-end Developer</p>
                         </div>
                     </div>
                     <div class="tm-overlay-block"></div>
                     <div class="tm-back-block">
-                        <h5>Mariya Shchygel</h5>
+                        <h5>Mary Shchygel</h5>
                         <p>Front-end Developer</p>
                         <p>He loves going to the gym and watching sports, but not just that, he's a huge movie fan who enjoys TV shows as well.</p>
                         <a href="#" target="_blank">
@@ -249,16 +249,16 @@
                 <li>
                     <div class="tm-front-block">
                         <div>
-                            <img src="img/meet-us/Mykhailo-Karhut.jpg" alt="Mykhailo Karhut" />
+                            <img src="img/meet-us/Mykhailo-Karhut.jpg" alt="Michael Karhut" />
                         </div>
                         <div>
-                            <h5>Mykhailo Karhut</h5>
+                            <h5>Michael Karhut</h5>
                             <p>Front-end Developer</p>
                         </div>
                     </div>
                     <div class="tm-overlay-block"></div>
                     <div class="tm-back-block">
-                        <h5>Mykhailo Karhut</h5>
+                        <h5>Michael Karhut</h5>
                         <p>Front-end Developer</p>
                         <p>He loves going to the gym and watching sports, but not just that, he's a huge movie fan who enjoys TV shows as well.</p>
                         <a href="#" target="_blank">
@@ -484,16 +484,16 @@
                 <li>
                     <div class="tm-front-block">
                         <div>
-                            <img src="img/meet-us/Yulia-Dnistrian.jpg" alt="Yulia Dnistrian" />
+                            <img src="img/meet-us/Yulia-Dnistrian.jpg" alt="Julia Dnistrian" />
                         </div>
                         <div>
-                            <h5>Yulia Dnistrian</h5>
+                            <h5>Julia Dnistrian</h5>
                             <p>Front-end Developer</p>
                         </div>
                     </div>
                     <div class="tm-overlay-block"></div>
                     <div class="tm-back-block">
-                        <h5>Yulia Dnistrian</h5>
+                        <h5>Julia Dnistrian</h5>
                         <p>Front-end Developer</p>
                         <p>He loves going to the gym and watching sports, but not just that, he's a huge movie fan who enjoys TV shows as well.</p>
                         <a href="#" target="_blank">

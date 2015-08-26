@@ -7,7 +7,7 @@ require_once($includes_system_path . 'services-header.php');
         <div class="col-md-5">
             <h1 class="h2 text-uppercase tm-text-line-normal tm-nomargin"><strong>Web Development</strong></h1>
             <hr class="tm-hr-04">
-            <img class="img-responsive" src="img/services/web-design-and-development" alt="Web Development">
+            <img class="img-responsive" src="img/services/web-design-and-development.svg" alt="Web Development">
         </div>
         <div class="col-md-7">
             <p><strong>Our absolute strength is back-end web development and programming.</strong></p>
