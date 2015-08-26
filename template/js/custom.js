@@ -164,7 +164,7 @@ $(document).ready(function () {
 
         $.ajax({
             type: "POST",
-            url: "/pytex/sendmail/quote-file.php",
+            url: "/sendmail/quote-file.php",
             data: data,
             contentType: false,
             processData: false,
@@ -174,7 +174,7 @@ $(document).ready(function () {
             if (name != '' && email != '' && description != '') {
                 $.ajax({
                     type: 'GET',
-                    url: '/pytex/sendmail/quote-mail.php?name=' + name + '&email=' + email + '&location=' + location + '&phone=' + phone + '&projecttype=' + projectType + '&budget=' + budget + '&file=' + file + '&description=' + description,
+                    url: '/sendmail/quote-mail.php?name=' + name + '&email=' + email + '&location=' + location + '&phone=' + phone + '&projecttype=' + projectType + '&budget=' + budget + '&file=' + file + '&description=' + description,
                     cache: false,
                     success: function (data) {
                         $('#alert-loader').hide();
@@ -198,7 +198,7 @@ $(document).ready(function () {
         if (name != '' && email != '' && message != '') {
             $.ajax({
                 type: 'GET',
-                url: '/pytex/sendmail/message-mail.php?name=' + name + '&email=' + email + '&phone=' + phone + '&website=' + website + '&message=' + message,
+                url: '/sendmail/message-mail.php?name=' + name + '&email=' + email + '&phone=' + phone + '&website=' + website + '&message=' + message,
                 cache: false,
                 success: function (data) {
                     $('#alert-loader').hide();
