@@ -5,8 +5,6 @@ $includes_system_path = 'includes/';
 $include_page = 'home';
 $pages = array(
     'home',
-    'exclusively-us',
-    'meet-us',
     'social-networking-design-development',
     'web-design-and-development',
     'web-development',
@@ -15,8 +13,6 @@ $pages = array(
     'prototyping',
     'webrtc-development',
     'ecommerce-development',
-    'elearning-platforms-development',
-    'bluetooth-low-energy-and-ibeacon',
     'crm-and-erp-integration',
     'corporate-identity-and-brand-design',
     'strategic-planning-services',

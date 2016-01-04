@@ -47,30 +47,12 @@ var heightEqualizing = function () {
             });
         }
     })();
-    for (var position = 1; position <= 6; position++) {
-        whyUsImgHeight(position);
-    }
-
-    var meetHeight = $('.tm-meet-us-text').outerHeight();
-    $('[class*="tm-meet-us-img"]').css('height', meetHeight);
-    function whyUsImgHeight(position) {
-        var whyTextSelector = '.tm-why-us-text-' + appendZero(position);
-        var whyImgSelector = '.tm-why-us-img-' + appendZero(position);
-        var outerHeight = $(whyTextSelector).outerHeight();
-        $(whyImgSelector).css('height', outerHeight);
-    }
-
-    function appendZero(number) {
-        return number > 10 ? number : '0' + number;
-    }
 };
 $(window).load(heightEqualizing);
 $(window).resize(heightEqualizing);
 $(document).ready(function () {
     var active = 'tm-active';
     //adding classes for main navigation menu
-    $('#why-us-content').closest('body').find('a[href="exclusively-us"]').addClass(active);
-    $('#meet-us-content').closest('body').find('a[href="meet-us"]').addClass(active);
     $('#our-process-content').closest('body').find('a[href="our-process"]').addClass(active);
     $('[id*="services"]:not([id*="methodology"])').closest('body').find('ul.nav.navbar-nav').find('a[href="social-networking-design-development"]').addClass(active);
     $('[id*="what-you-get"]').closest('body').find('ul.nav.navbar-nav').find('a[href="strategic-planning-services"]').addClass(active);
@@ -83,8 +65,6 @@ $(document).ready(function () {
     $('#services-mobile-content').closest('body').find('a[href="mobile-application-development"]').addClass(active);
     $('#services-webrtc-content').closest('body').find('a[href="webrtc-development"]').addClass(active);
     $('#services-ecommerce-content').closest('body').find('a[href="ecommerce-development"]').addClass(active);
-    $('#services-elearning-content').closest('body').find('a[href="elearning-platforms-development"]').addClass(active);
-    $('#services-ibeacon-content').closest('body').find('a[href="bluetooth-low-energy-and-ibeacon"]').addClass(active);
     $('#services-crm-erp-content').closest('body').find('a[href="crm-and-erp-integration"]').addClass(active);
 
     //adding classes for what you get navigation submenu
@@ -99,13 +79,6 @@ $(document).ready(function () {
     $('#what-you-get-qa-content').closest('body').find('a[href="quality-assurance-and-user-acceptance-testing"]').addClass(active);
     $('#what-you-get-support-content').closest('body').find('a[href="analytics-and-support"]').addClass(active);
 
-    //adding classes for our work portfolio links
-    $('#nissan-ireland-content').closest('body').find('a[href="our-work"]').addClass(active);
-    $('#procurious-content').closest('body').find('a[href="our-work"]').addClass(active);
-    $('#supercoucou-content').closest('body').find('a[href="our-work"]').addClass(active);
-    $('#jumbletrail-content').closest('body').find('a[href="our-work"]').addClass(active);
-    $('#sportlobster-content').closest('body').find('a[href="our-work"]').addClass(active);
-    $('#coinaphoto-content').closest('body').find('a[href="our-work"]').addClass(active);
     //rearranging default hrefs with search engine optimized
     $('a[href="services"]').click(function () {
         window.location.href = "social-networking-design-development";
@@ -214,52 +187,4 @@ $(document).ready(function () {
     $('.alert button.close').click(function () {
         $(this).closest($('[id*="alert-"]')).hide();
     });
-    //shuffle method
-    (function ($) {
-        $.fn.shuffle = function () {
-            var allElems = this.get(),
-                    getRandom = function (max) {
-                        return Math.floor(Math.random() * max);
-                    },
-                    shuffled = $.map(allElems, function () {
-                        var random = getRandom(allElems.length),
-                                randEl = $(allElems[random]).clone(true)[0];
-                        allElems.splice(random, 1);
-                        return randEl;
-                    });
-            this.each(function (i) {
-                $(this).replaceWith($(shuffled[i]));
-            });
-            return $(shuffled);
-        };
-    })(jQuery);
-    //meet-us page teammates randomizing
-    $('ul.tm-team li').shuffle();
-
-    //wireframe behavior
-    var wireframe = $('[class*="-wireframe-layout"]');
-    var svgHalfWidth = wireframe.find('svg').width() / 2;
-    wireframe
-            .mouseover(function () {
-                $(this).on('mousemove', function (e) {
-                    var svgHalfWidth = $(this).find('svg').width() / 2;
-                    var svgHalfHeight = $(this).find('svg').height() / 2;
-                    var mouseX = 0;
-                    var mouseY = 0;
-                    mouseX = e.pageX - $(this).offset().left - svgHalfWidth;
-                    mouseY = e.pageY - $(this).offset().top - svgHalfHeight;
-
-                    $(this).find('svg').css({
-                        left: mouseX,
-                        top: mouseY
-                    });
-
-                    $(this).find('div').css('width', mouseX + svgHalfWidth);
-                });
-            })
-
-            .mouseleave(function () {
-                $(this).off('mousemove');
-            });
-    wireframe.find('div').css('width', wireframe.width() / 2 + svgHalfWidth);
 });

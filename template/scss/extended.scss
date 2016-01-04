@@ -42,13 +42,13 @@ h6, .h6 {font-size: 1rem;}
     }
 
     .navbar-brand {
-        margin: 16px 0 0;
+        margin: 22px 0 0;
         padding: 0;
         line-height: normal;
         height: auto;
 
         @media (min-width: $screen-md-min) {
-            margin: 19px 0;
+            margin: 25px 0;
         }
 
         > img {
