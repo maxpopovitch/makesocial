@@ -1,8 +1,8 @@
 <?php
 
-$user_email = "demo@w1.nowa.center";
-$mailto = 'info@pytex.net';
-$subject = 'Quote from pytex.net';
+$user_email = "info@makesocial.net";
+$mailto = 'info@makesocial.net';
+$subject = 'Quote from makesocial.net';
 $name = $_GET['name'];
 $email = $_GET['email'];
 $location = $_GET['location'];

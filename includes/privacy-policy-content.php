@@ -19,7 +19,7 @@
                         <li>please call us to discuss</li>
                     </ul>
                     <h3 class="tm-margin-01 tm-text-line-normal"><strong>Who we are</strong></h3>
-                    <p class="tm-default-p tm-margin-01 tm-text-line-15">This website is operated by <strong>MakeSocial</strong>. You can reach us via email at <a class="tm-a-transition" href="mailto:info@pytex.net?subject=Privacy%20Policy">info@pytex.net</a></p>
+                    <p class="tm-default-p tm-margin-01 tm-text-line-15">This website is operated by <strong>MakeSocial</strong>. You can reach us via email at <a class="tm-a-transition" href="mailto:info@makesocial.net?subject=Privacy%20Policy">info@makesocial.net</a></p>
                     <h3 class="tm-margin-01 tm-text-line-normal"><strong>What we know about you</strong></h3>
                     <p class="tm-default-p tm-margin-01 tm-text-line-15">When you visit our website, our Web server automatically records some general information about your visit, but does not recognise or record any individual information about you. We cannot identify you personally unless you give us personal information voluntarily.</p>
                     <p class="tm-default-p tm-margin-01 tm-text-line-15">The information we record and use for statistical purposes is:</p>
