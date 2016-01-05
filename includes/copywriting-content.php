@@ -11,7 +11,7 @@ require_once($includes_system_path . 'what-you-get-header.php');
         </div>
         <div class="col-md-7">
             <p class="tm-increased tm-colored"><strong>Content is King.</strong></p>
-            <p>Many businesses make the mistake of giving a copywriter's job to a random person. People spend a lot of money building and improving their online presence and then spoil it all with poor copy. We here at PYTEX take great pride in delivering the whole package: clever strategy, great design and efficient development, and we find that many digital solutions on the web lack good copy.</p>
+            <p>Many businesses make the mistake of giving a copywriter's job to a random person. People spend a lot of money building and improving their online presence and then spoil it all with poor copy. We here at MakeSocial take great pride in delivering the whole package: clever strategy, great design and efficient development, and we find that many digital solutions on the web lack good copy.</p>
             <p class="tm-increased tm-colored"><strong>We Will:</strong></p>
             <ol>
                 <li>Research your target audience: what type of tone they like, what questions they want answered</li>

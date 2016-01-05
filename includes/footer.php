@@ -16,7 +16,7 @@
             <div class="col-md-6"></div>
             <div class="col-md-6 text-md-right">
                 <div>
-                    <div class="tm-copyright"><strong>&copy; 2015 Pytex Corp.</strong></div>
+                    <div class="tm-copyright"><strong>&copy; 2015 MakeSocial.net</strong></div>
                     <nav class="tm-footer-nav">
                         <a href="terms-and-conditions"><strong>Terms and Conditions</strong></a>
                         <a href="privacy-policy"><strong>Privacy Policy</strong></a>

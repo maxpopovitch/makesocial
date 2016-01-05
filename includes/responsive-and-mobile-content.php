@@ -15,6 +15,6 @@ require_once($includes_system_path . 'what-you-get-header.php');
             <p class="tm-increased tm-colored"><strong>Apps are just a few sprints away.</strong></p>
             <p>Because of the API development approach described above, and with the help of PhoneGap, once we have built your web product, we can build your apps in a matter of a few sprints (2 &ndash; 4 weeks), both for iOS and Android, and all the other platforms if you require, even Wii and PS. We build it once, and with a slight adjustment, deploy to all these environments with a click.</p>
             <p class="tm-increased tm-colored"><strong>Native Apps</strong></p>
-            <p>In case framework app development isn't enough and you need some more juice from your users' devices, we can do it also! <strong>3D, BLE, iBeacon, we've done it all. </strong>We love Bluetooth so much, we have to bring up iBeacon protocol every time we talk Apps with our new clients.</p>
+            <p>In case framework app development isn't enough and you need some more juice from your users' devices, we can do it also!</p>
         </div>
     </div>

@@ -65,7 +65,6 @@ $(document).ready(function () {
     $('#services-mobile-content').closest('body').find('a[href="mobile-application-development"]').addClass(active);
     $('#services-webrtc-content').closest('body').find('a[href="webrtc-development"]').addClass(active);
     $('#services-ecommerce-content').closest('body').find('a[href="ecommerce-development"]').addClass(active);
-    $('#services-crm-erp-content').closest('body').find('a[href="crm-and-erp-integration"]').addClass(active);
 
     //adding classes for what you get navigation submenu
     $('#what-you-get-strategy-and-planning-content').closest('body').find('a[href="strategic-planning-services"]').addClass(active);
@@ -76,7 +75,6 @@ $(document).ready(function () {
     $('#what-you-get-web-content').closest('body').find('a[href="web-design-and-development"]').addClass(active);
     $('#what-you-get-mobile-content').closest('body').find('a[href="responsive-and-mobile"]').addClass(active);
     $('#what-you-get-api-content').closest('body').find('a[href="api-3rd-party-integration"]').addClass(active);
-    $('#what-you-get-qa-content').closest('body').find('a[href="quality-assurance-and-user-acceptance-testing"]').addClass(active);
     $('#what-you-get-support-content').closest('body').find('a[href="analytics-and-support"]').addClass(active);
 
     //rearranging default hrefs with search engine optimized

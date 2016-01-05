@@ -21,7 +21,7 @@ require_once($includes_system_path . 'what-you-get-header.php');
                 What makes them buy from you or use your product?<br/>
                 What do they expect of your brand?
             </p>
-            <p>At PYTEX we believe that successful brand design is about promoting business strengths and all of the above questions help us to develop the look, feel and messages behind your corporate identity so that we can start to build and communicate your brand. We assemble the gathered data, learn from it and develop a conceptual, strategised approach. The conceptualization and sketching will be based upon your strengths and unique selling points.</p>
+            <p>At MakeSocial we believe that successful brand design is about promoting business strengths and all of the above questions help us to develop the look, feel and messages behind your corporate identity so that we can start to build and communicate your brand. We assemble the gathered data, learn from it and develop a conceptual, strategised approach. The conceptualization and sketching will be based upon your strengths and unique selling points.</p>
             <p><strong>Talk to us if you’d like to find out how our corporate identity design and brand consultancy can help you develop a strong business.</strong></p>
         </div>
     </div>

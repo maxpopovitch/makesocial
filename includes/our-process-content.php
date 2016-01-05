@@ -16,7 +16,7 @@
                 </div>
                 <div class="tm-cell">
                     <h3 class="text-uppercase tm-text-line-13"><strong>Discovery: requirements elicitation</strong></h3>
-                    <p class="tm-default-p tm-margin-01 tm-text-line-15">It all begins with the Discovery Phase. We initiate an intensive, one to two weeks, discovery sprint organized to help our team grasp the core components of the business, gain industry specific knowledge, and most importantly understand your technical requirements precisely and completely. Here you work with your PYTEX Business Analyst, Project Manager and a dedicated Software Architect. At some point within this phase, we add the UI expert, UX expert, and your future Lead developer to attend discovery workshops, but all team members can be included as well, if the project requires full involvement of all team members from early discovery sessions. This workshop can be held in our sales offices in Chicago, New York, San Francisco, Toronto, London, or Sydney, or our development centers in Lviv, Sambir, Warsaw or Manila.</p>
+                    <p class="tm-default-p tm-margin-01 tm-text-line-15">It all begins with the Discovery Phase. We initiate an intensive, one to two weeks, discovery sprint organized to help our team grasp the core components of the business, gain industry specific knowledge, and most importantly understand your technical requirements precisely and completely. Here you work with your PYTEX Business Analyst, Project Manager and a dedicated Software Architect. At some point within this phase, we add the UI expert, UX expert, and your future Lead developer to attend discovery workshops, but all team members can be included as well, if the project requires full involvement of all team members from early discovery sessions.</p>
                 </div>
             </div>
             <div class="row">
@@ -59,7 +59,7 @@
                         </div>
                         <div class="tm-cell">
                             <p class="tm-default-p tm-infocolor tm-nomargin tm-text-line-13"><strong>User Story Format:</strong></p>
-                            <p class="tm-default-p tm-margin-01 tm-text-line-13">As a [who] I want to [what] so that [why].</p>
+                            <p class="tm-default-p tm-margin-01 tm-text-line-13">As a [role] I want to [task] so that [goal].</p>
                             <p class="tm-default-p tm-infocolor tm-nomargin tm-text-line-13"><strong>User Story Example:</strong></p>
                             <p class="tm-default-p tm-nomargin tm-text-line-13">As a visitor-user I want to be able to post videos so I can share them with friends and friends of friends.</p>
                         </div>
@@ -94,7 +94,7 @@
                     <h3 class="text-uppercase tm-text-line-normal tm-margin-01 tm-overflow-hidden">
                         <strong><span>Sprint planning</span></strong>
                     </h3>
-                    <p class="tm-default-p tm-text-line-15 tm-nomargin">Before every sprint, a Sprint Planning Meeting (SPM) is held. Here, the Product Owner prioritizes by importance all User Stories previously defined and estimated in the Backlog Refinement meetings. Based on their previous experience and estimated effort for each user story, the team agrees on the number of user stories that they can commit to completing in each sprint. Pivotal Tracker also programmatically suggests the number of stories to be delivered per week, based on previous weeks' velocity data.</p>
+                    <p class="tm-default-p tm-text-line-15 tm-nomargin">Before every sprint, a Sprint Planning Meeting (SPM) is held. Here, the Product Owner prioritizes by importance all User Stories previously defined and estimated in the Backlog Refinement meetings. Based on their previous experience and estimated effort for each user story, the team agrees on the number of user stories that they can commit to completing in each sprint.</p>
                 </div>
             </div>
         </div>

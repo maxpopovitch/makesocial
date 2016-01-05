@@ -13,7 +13,7 @@ require_once($includes_system_path . 'what-you-get-header.php');
             <p class="tm-increased tm-colored"><strong>Once we launch your product we don't say “whooooh, we're done”... We say “Let the Journey Begin!”</strong></p>
             <p>Once your product is launched, there is still a lot of room and sometimes necessity to collaborate further.</p>
             <p>We will gladly help you with analytics, marketing, management, and any other post-launch tasks your project will require after launch.</p>
-            <p class="tm-increased tm-colored"><strong>At PYTEX we enjoy watching our projects grow.</strong></p>
+            <p class="tm-increased tm-colored"><strong>At MakeSocial we enjoy watching our projects grow.</strong></p>
             <p>That growth requires careful nurturing and regular support. We are responsible parents to our projects and are always there to help resolve an issue, answer a question, or add a quick fix.</p>
             <p class="tm-increased tm-colored"><strong>How quickly will we respond to your users?</strong></p>
             <p>That is up to you, the Product Owner. However, we aspire to respond to the users of our product within a matter of a sprint. We would love to extend your product immediately after your userbase suggests a new feature or a viable suggestion. We understand that this is what makes successful web startups nowadays.</p>
