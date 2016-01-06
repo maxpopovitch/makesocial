@@ -1,5 +1,7 @@
 <?php
 
+
+
 $user_email = "info@makesocial.net";
 $mailto = 'info@makesocial.net';
 $subject = 'Quote from makesocial.net';
@@ -28,10 +30,11 @@ if ($file != ''): {
         $mailheaders .= "Reply-To: $user_email\r\n";
 
         $multipart = "--$boundary\r\n";
-        $multipart .= "Content-Type: text/html; charset=windows-1251\r\n";
+        $multipart .= "Content-Type: text/html; charset=UTF-8\r\n";
         $multipart .= "Content-Transfer-Encoding: base64\r\n";
         $multipart .= "\r\n";
-        $multipart .= chunk_split(base64_encode(iconv("utf8", "windows-1251", $message)));
+        $multipart .= chunk_split(base64_encode($message));
+
         $fp = fopen($filepath, "r");
         if (!$fp) {
             print "Cannot open file $filepath";
@@ -51,7 +54,11 @@ if ($file != ''): {
         $multipart .= $message_part;
 
         if (mail($mailto, $subject, $multipart, $mailheaders)) {
-            echo "ok";
+            $rett = array(
+                'rr' => 1
+            );
+            $rett = json_encode($rett);
+            echo $rett;
         } else {
             echo "error1";
         };
@@ -65,9 +72,14 @@ if ($file != ''): {
         $mailheaders .= "From: $user_email <$user_email>\r\n";
 
         if (mail($mailto, $subject, $message, $mailheaders)) {
-            echo "ok";
+            $rett = array(
+                'rr' => 1
+            );
+            $rett = json_encode($rett);
+            echo $rett;
         } else {
             echo "error";
         };
     } endif;
 ?>
+

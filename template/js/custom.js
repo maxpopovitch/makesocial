@@ -147,9 +147,10 @@ $(document).ready(function () {
                     type: 'GET',
                     url: '/sendmail/quote-mail.php?name=' + name + '&email=' + email + '&location=' + location + '&phone=' + phone + '&projecttype=' + projectType + '&budget=' + budget + '&file=' + file + '&description=' + description,
                     cache: false,
+                    dataType: 'JSON',
                     success: function (data) {
                         $('#alert-loader').hide();
-                        if (data === 'ok') {
+                        if (data['rr'] == '1') {
                             $("#alert-success").show();
                         } else {
                             $("#alert-error").show();
