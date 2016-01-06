@@ -175,7 +175,7 @@
     <div id="alert-success">
         <div class="alert alert-success" role="alert">
             <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <strong>Thank you for reaching out to us here at Pytex.<br/></strong>Your message has been sent.
+            <strong>Thank you for reaching out to us here at MakeSocial.<br/></strong>Your message has been sent.
         </div>
     </div>
     <div id="alert-error">
