@@ -241,22 +241,28 @@ Write custom rules here ONLY!
 
 .navbar {
     button.navbar-toggle {
-        .tm-menu {
-            font-family: "Glyphicons Halflings";
-        }
         &.collapsed {
-            .tm-menu {
-                &:before {
-                    content: "\e236";
-                }
+            .tm-menu-collapsed {
+                display: inline-block;
+            }
+            .tm-menu-not-collapsed {
+                display: none;
             }
         }
+
         &:not(.collapsed) {
-            .tm-menu {
-                &:before {
-                    content: "\e014";
-                }
+            .tm-menu-collapsed {
+                display: none;
             }
+            .tm-menu-not-collapsed {
+                display: inline-block;
+            }
+        }
+
+        svg {
+            fill: $nav-primary-color;
+            width: 40px;
+            height: 40px;
         }
     }
 }
