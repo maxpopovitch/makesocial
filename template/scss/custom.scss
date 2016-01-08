@@ -1608,9 +1608,8 @@ footer {
             @include prefix((transition: $nav-transition));
             font-family: $font-family-description;
             color: $title-color;
-            font-size: 13px;
             display: block;
-            padding: 5px 0 0;
+            padding: 10px 0 0;
 
             &:hover, &:focus {
                 color: $title-color;
