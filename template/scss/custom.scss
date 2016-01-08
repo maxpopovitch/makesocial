@@ -504,9 +504,14 @@ Write custom rules here ONLY!
                     fill: $title-color;
                 }
 
-                span {
+                .tm-readmore {
                     @include prefix((transition: $nav-transition));
                     color: $title-color;
+
+                    .tm-readmore-symbol {
+                        @include prefix((transition: $nav-transition));
+                        stroke: $title-color;
+                    }
                 }
             }
 
@@ -527,7 +532,7 @@ Write custom rules here ONLY!
                 margin: 0 0 45px;
             }
 
-            span {
+            .tm-readmore {
                 @include prefix((transition: $nav-transition));
                 color: darken($info-color, 11.5);
                 font-family: $font-family-description;
@@ -535,14 +540,20 @@ Write custom rules here ONLY!
                 position: absolute;
                 bottom: $padding-01;
 
-                &:after {
-                    font-family: "Glyphicons Halflings";
-                    content: "\e080";
-                    position: absolute;
+                span {
+                    font-weight: 700;
+                }
+
+                .tm-readmore-symbol {
+                    @include prefix((transition: $nav-transition));
+                    stroke: darken($info-color, 11.5);
+                    stroke-width: 2px;
+                    width: 11px;
+                    position: relative;
                     top: 1px;
-                    right: -20px;
                 }
             }
+
         }
 
         &:nth-of-type(odd) a {

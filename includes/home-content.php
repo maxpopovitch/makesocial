@@ -25,7 +25,12 @@
                         </svg>
                         <h5 class="text-uppercase"><strong>Social networks</strong></h5>
                         <p class="tm-description">Building custom social networks and online communities</p>
-                        <span class="tm-readmore"><strong>read more</strong></span>
+                        <div class="tm-readmore">
+                            <span>read more</span>
+                            <svg class="tm-readmore-symbol" version="1.1"  preserveAspectRatio="xMinYMin meet" viewBox="0 0 20 20">
+                                <path d="M5 20c-0.128 0-0.256-0.049-0.354-0.146-0.195-0.195-0.195-0.512 0-0.707l8.646-8.646-8.646-8.646c-0.195-0.195-0.195-0.512 0-0.707s0.512-0.195 0.707 0l9 9c0.195 0.195 0.195 0.512 0 0.707l-9 9c-0.098 0.098-0.226 0.146-0.354 0.146z"></path>
+                            </svg>
+                        </div>
                     </a>
                 </li>
                 <li>
@@ -37,7 +42,12 @@
                         </svg>
                         <h5 class="text-uppercase"><strong>Mobile</strong></h5>
                         <p class="tm-description">Developing and designing cutting-edge apps for iPhone, iPad and Android devices</p>
-                        <span class="tm-readmore"><strong>read more</strong></span>
+                        <div class="tm-readmore">
+                            <span>read more</span>
+                            <svg class="tm-readmore-symbol" version="1.1"  preserveAspectRatio="xMinYMin meet" viewBox="0 0 20 20">
+                                <path d="M5 20c-0.128 0-0.256-0.049-0.354-0.146-0.195-0.195-0.195-0.512 0-0.707l8.646-8.646-8.646-8.646c-0.195-0.195-0.195-0.512 0-0.707s0.512-0.195 0.707 0l9 9c0.195 0.195 0.195 0.512 0 0.707l-9 9c-0.098 0.098-0.226 0.146-0.354 0.146z"></path>
+                            </svg>
+                        </div>
                     </a>
                 </li>
                 <li>
@@ -47,7 +57,12 @@
                         </svg>
                         <h5 class="text-uppercase"><strong>Web</strong></h5>
                         <p class="tm-description">Web design and development for businesses looking to develop a new brand or rebrand a successful company</p>
-                        <span class="tm-readmore"><strong>read more</strong></span>
+                        <div class="tm-readmore">
+                            <span>read more</span>
+                            <svg class="tm-readmore-symbol" version="1.1"  preserveAspectRatio="xMinYMin meet" viewBox="0 0 20 20">
+                                <path d="M5 20c-0.128 0-0.256-0.049-0.354-0.146-0.195-0.195-0.195-0.512 0-0.707l8.646-8.646-8.646-8.646c-0.195-0.195-0.195-0.512 0-0.707s0.512-0.195 0.707 0l9 9c0.195 0.195 0.195 0.512 0 0.707l-9 9c-0.098 0.098-0.226 0.146-0.354 0.146z"></path>
+                            </svg>
+                        </div>
                     </a>
                 </li>
                 <li>
@@ -61,7 +76,12 @@
                         </svg>
                         <h5 class="text-uppercase"><strong>SEO</strong></h5>
                         <p class="tm-description">Increase visibility within the search results to deliver high quality, targeted traffic to your website</p>
-                        <span class="tm-readmore"><strong>read more</strong></span>
+                        <div class="tm-readmore">
+                            <span>read more</span>
+                            <svg class="tm-readmore-symbol" version="1.1"  preserveAspectRatio="xMinYMin meet" viewBox="0 0 20 20">
+                                <path d="M5 20c-0.128 0-0.256-0.049-0.354-0.146-0.195-0.195-0.195-0.512 0-0.707l8.646-8.646-8.646-8.646c-0.195-0.195-0.195-0.512 0-0.707s0.512-0.195 0.707 0l9 9c0.195 0.195 0.195 0.512 0 0.707l-9 9c-0.098 0.098-0.226 0.146-0.354 0.146z"></path>
+                            </svg>
+                        </div>
                     </a>
                 </li>
                 <li>
@@ -72,7 +92,12 @@
                         </svg>
                         <h5 class="text-uppercase"><strong>Prototyping</strong></h5>
                         <p class="tm-description">Creating wireframes and clickable prototypes which illustrate features, content and interactions</p>
-                        <span class="tm-readmore"><strong>read more</strong></span>
+                        <div class="tm-readmore">
+                            <span>read more</span>
+                            <svg class="tm-readmore-symbol" version="1.1"  preserveAspectRatio="xMinYMin meet" viewBox="0 0 20 20">
+                                <path d="M5 20c-0.128 0-0.256-0.049-0.354-0.146-0.195-0.195-0.195-0.512 0-0.707l8.646-8.646-8.646-8.646c-0.195-0.195-0.195-0.512 0-0.707s0.512-0.195 0.707 0l9 9c0.195 0.195 0.195 0.512 0 0.707l-9 9c-0.098 0.098-0.226 0.146-0.354 0.146z"></path>
+                            </svg>
+                        </div>
                     </a>
                 </li>
                 <li>
@@ -83,7 +108,12 @@
                         </svg>
                         <h5 class="text-uppercase"><strong>Branding</strong></h5>
                         <p class="tm-description">Creating corporate identity including logos, stationery and on-going brand implementation</p>
-                        <span class="tm-readmore"><strong>read more</strong></span>
+                        <div class="tm-readmore">
+                            <span>read more</span>
+                            <svg class="tm-readmore-symbol" version="1.1"  preserveAspectRatio="xMinYMin meet" viewBox="0 0 20 20">
+                                <path d="M5 20c-0.128 0-0.256-0.049-0.354-0.146-0.195-0.195-0.195-0.512 0-0.707l8.646-8.646-8.646-8.646c-0.195-0.195-0.195-0.512 0-0.707s0.512-0.195 0.707 0l9 9c0.195 0.195 0.195 0.512 0 0.707l-9 9c-0.098 0.098-0.226 0.146-0.354 0.146z"></path>
+                            </svg>
+                        </div>
                     </a>
                 </li>
                 <li>
@@ -93,7 +123,12 @@
                         </svg>
                         <h5 class="text-uppercase"><strong>Copywriting</strong></h5>
                         <p class="tm-description">We create valuable content to both improve your rankings and keep visitors coming back</p>
-                        <span class="tm-readmore"><strong>read more</strong></span>
+                        <div class="tm-readmore">
+                            <span>read more</span>
+                            <svg class="tm-readmore-symbol" version="1.1"  preserveAspectRatio="xMinYMin meet" viewBox="0 0 20 20">
+                                <path d="M5 20c-0.128 0-0.256-0.049-0.354-0.146-0.195-0.195-0.195-0.512 0-0.707l8.646-8.646-8.646-8.646c-0.195-0.195-0.195-0.512 0-0.707s0.512-0.195 0.707 0l9 9c0.195 0.195 0.195 0.512 0 0.707l-9 9c-0.098 0.098-0.226 0.146-0.354 0.146z"></path>
+                            </svg>
+                        </div>
                     </a>
                 </li>
                 <li>
@@ -107,7 +142,12 @@
                         </svg>
                         <h5 class="text-uppercase"><strong>Concept & strategy</strong></h5>
                         <p class="tm-description">Taking a concept from idea to fully formed live project</p>
-                        <span class="tm-readmore"><strong>read more</strong></span>
+                        <div class="tm-readmore">
+                            <span>read more</span>
+                            <svg class="tm-readmore-symbol" version="1.1"  preserveAspectRatio="xMinYMin meet" viewBox="0 0 20 20">
+                                <path d="M5 20c-0.128 0-0.256-0.049-0.354-0.146-0.195-0.195-0.195-0.512 0-0.707l8.646-8.646-8.646-8.646c-0.195-0.195-0.195-0.512 0-0.707s0.512-0.195 0.707 0l9 9c0.195 0.195 0.195 0.512 0 0.707l-9 9c-0.098 0.098-0.226 0.146-0.354 0.146z"></path>
+                            </svg>
+                        </div>
                     </a>
                 </li>
             </ul>
@@ -150,59 +190,3 @@
             </div>
         </div>
     </section>
-<!--    <section class="tm-sect-03">
-        <div class="container">
-            <h3 class="text-center text-uppercase tm-nomargin tm-text-line-normal"><strong>Let our work speak for itself.</strong></h3>
-            <hr class="tm-hr-02" />
-            <p class="h5 text-center tm-description tm-subtitle">Dive in!</p>
-        </div>
-        <div class="tm-bg-01">
-            <div class="tm-container-wide tm-margin-auto tm-nopadding">
-                <ul class="tm-casestudies list-unstyled clearfix">
-                    <li class="tm-light" style="background-image: url('img/our-work/portfolio/nissan/nissan-bg.jpg')">
-                        <a href="nissan-ireland">
-                            <p class="tm-nomargin text-uppercase">#Corporate Website &nbsp; #Drupal &nbsp; #Responsive &nbsp; #RIA</p>
-                            <h3 class="tm-text-line-normal" style="color: #C81344">Nissan Ireland</h3>
-                            <span>Official website of Nissan Ireland</span>
-                            <div class="text-center">
-                                <img class="img-responsive" src="img/our-work/portfolio/nissan/nissan-screen.jpg" alt="Nissan Ireland" />
-                            </div>
-                        </a>
-                    </li>
-                    <li class="tm-dark" style="background-image: url('img/our-work/portfolio/procurious/procurious-bg.jpg')">
-                        <a href="procurious">
-                            <p class="tm-nomargin text-uppercase">#Social Network &nbsp; #Symfony &nbsp; #Responsive &nbsp; #eLearning &nbsp;</p>
-                            <h3 class="tm-text-line-normal" style="color: #9EE034">Procurious</h3>
-                            <span>Social network and eLearning platform for procurement professionals</span>
-                            <div class="text-center">
-                                <img class="img-responsive" src="img/our-work/portfolio/procurious/procurious-screen.jpg" alt="Procurious" />
-                            </div>
-                        </a>
-                    </li>
-                    <li class="tm-dark" style="background-image: url('img/our-work/portfolio/supercoucou/supercoucou-bg.jpg')">
-                        <a href="supercoucou">
-                            <p class="tm-nomargin text-uppercase">#Corporate Website &nbsp; #Drupal &nbsp; #Responsive &nbsp; #RIA</p>
-                            <h3 class="tm-text-line-normal" style="color: #FDC200">Super Coucou</h3>
-                            <span>Fully automated travel platform made to simplify the booking process for both users and suppliers.  It provides all from booking to sharing content and collaborating with friends.</span>
-                            <div class="text-center">
-                                <img class="img-responsive" src="img/our-work/portfolio/supercoucou/supercoucou-screen.jpg" alt="Super Coucou" />
-                            </div>
-                        </a>
-                    </li>
-                    <li class="tm-light" style="background-image: url('img/our-work/portfolio/jumbletrail/jumbletrail-bg.jpg')">
-                        <a href="jumbletrail">
-                            <p class="tm-nomargin text-uppercase">#Social Network &nbsp; #Symfony &nbsp; #RIA</p>
-                            <h3 class="tm-text-line-normal" style="color: #C81344">Jumble Trail</h3>
-                            <span>Online platform for organizing and finding jumble sales in your neighboorhood.</span>
-                            <div class="text-center">
-                                <img class="img-responsive" src="img/our-work/portfolio/jumbletrail/jumbletrail-screen.jpg" alt="Jumble Trail" />
-                            </div>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <div class="tm-accent-01 text-center">
-        <a href="our-work" class="tm-cta">view all case studies</a>
-    </div>-->
