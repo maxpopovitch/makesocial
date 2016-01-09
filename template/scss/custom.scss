@@ -1460,30 +1460,6 @@ Write custom rules here ONLY!
     }
 }
 
-#nissan-ireland-content {
-    @include portfolio-content;
-}
-
-#procurious-content {
-    @include portfolio-content;
-}
-
-#supercoucou-content {
-    @include portfolio-content;
-}
-
-#jumbletrail-content {
-    @include portfolio-content;
-}
-
-#sportlobster-content {
-    @include portfolio-content;
-}
-
-#coinaphoto-content {
-    @include portfolio-content;
-}
-
 .tm-brief-screenshot {
     padding-left: 90px;
 
@@ -1608,7 +1584,7 @@ footer {
             font-family: $font-family-description;
             color: $title-color;
             display: block;
-            padding: 10px 0 0;
+            padding: 15px 0 0;
 
             &:hover, &:focus {
                 color: $title-color;
@@ -1617,7 +1593,7 @@ footer {
 
             @media (min-width: $screen-md-min) {
                 display: initial;
-                padding: 0 0 0 10px;
+                padding: 0 0 0 15px;
             }
         }
     }
