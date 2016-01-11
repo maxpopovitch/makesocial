@@ -31,6 +31,7 @@
 
                     <div class="collapse navbar-collapse" id="navbar">
                         <ul class="nav navbar-nav">
+                            <li><a href="/demo" target="_blank">demo</a></li>
                             <li><a href="social-networking-design-development">services</a></li>
                             <li><a href="strategic-planning-services">what you get</a></li>
                             <li><a href="our-process">methodology</a></li>
