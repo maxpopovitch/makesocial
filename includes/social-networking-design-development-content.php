@@ -13,7 +13,7 @@ require_once($includes_system_path . 'services-header.php');
             <p><strong>If you're looking to build the next facebook, or a micro-social network for your industry, we're just the right team for you.</strong></p>
             <p class="tm-increased tm-colored"><strong>What do you get?</strong></p>
             <p><strong>A social network</strong> solution that is entirely and genuinely yours: custom look and feel, custom functionality, custom layout, and pretty much everything custom.</p>
-            <p><strong>A team,</strong> which not only understands how to design, build and deploy social networks, elearning platforms, marketplaces, and pretty much anything social in nature, but also can help you grow, support, market and even raise VC for your project. We have done it time and time again and now offer a lot more than just technical and project management expertise to our valuable clients.</p>
+            <p><strong>A team</strong>, which not only understands how to design, build and deploy social networks, elearning platforms, marketplaces, and pretty much anything social in nature, but will continue to support and grow your application. We focus on building continued relationships with our clients.</p>
             <p><strong>Full ownership</strong> of your intellectual property, which you have full control over at every step of the way, every sprint, every iteration, every phase. While it remains yours, we value your IP as we would our own.</p>
         </div>
     </div>
